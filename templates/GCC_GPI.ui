@@ -66,22 +66,6 @@
      <enum>Qt::Horizontal</enum>
     </property>
    </widget>
-   <widget class="Line" name="line_vert">
-    <property name="geometry">
-     <rect>
-      <x>100</x>
-      <y>70</y>
-      <width>30</width>
-      <height>51</height>
-     </rect>
-    </property>
-    <property name="lineWidth">
-     <number>2</number>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Vertical</enum>
-    </property>
-   </widget>
    <widget class="RoughGauge" name="GPI">
     <property name="geometry">
      <rect>
@@ -98,7 +82,6 @@
      <string>ca://${GPI}</string>
     </property>
    </widget>
-   <zorder>line_vert</zorder>
    <zorder>line_1</zorder>
    <zorder>GCC</zorder>
    <zorder>GPI</zorder>
