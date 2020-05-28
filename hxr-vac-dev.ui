@@ -367,6 +367,9 @@ IonPump[state=&quot;FAULT&quot;] #icon {
          <height>700</height>
         </size>
        </property>
+       <property name="lineWidth">
+        <number>2</number>
+       </property>
        <property name="sizeAdjustPolicy">
         <enum>QAbstractScrollArea::AdjustToContents</enum>
        </property>
@@ -376,7 +379,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
        <widget class="QWidget" name="scrollAreaWidgetContents">
         <property name="geometry">
          <rect>
-          <x>0</x>
+          <x>-586</x>
           <y>0</y>
           <width>5100</width>
           <height>585</height>
@@ -432,6 +435,9 @@ IonPump[state=&quot;FAULT&quot;] #icon {
            <height>75</height>
           </rect>
          </property>
+         <property name="lineWidth">
+          <number>2</number>
+         </property>
          <property name="orientation">
           <enum>Qt::Vertical</enum>
          </property>
@@ -464,6 +470,9 @@ IonPump[state=&quot;FAULT&quot;] #icon {
            <height>20</height>
           </rect>
          </property>
+         <property name="lineWidth">
+          <number>2</number>
+         </property>
          <property name="orientation">
           <enum>Qt::Horizontal</enum>
          </property>
@@ -472,10 +481,13 @@ IonPump[state=&quot;FAULT&quot;] #icon {
          <property name="geometry">
           <rect>
            <x>310</x>
-           <y>370</y>
+           <y>350</y>
            <width>41</width>
            <height>20</height>
           </rect>
+         </property>
+         <property name="lineWidth">
+          <number>2</number>
          </property>
          <property name="orientation">
           <enum>Qt::Horizontal</enum>
@@ -489,6 +501,9 @@ IonPump[state=&quot;FAULT&quot;] #icon {
            <width>20</width>
            <height>51</height>
           </rect>
+         </property>
+         <property name="lineWidth">
+          <number>2</number>
          </property>
          <property name="orientation">
           <enum>Qt::Vertical</enum>
@@ -516,11 +531,14 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <widget class="Line" name="line_7">
          <property name="geometry">
           <rect>
-           <x>140</x>
+           <x>190</x>
            <y>400</y>
            <width>30</width>
            <height>15</height>
           </rect>
+         </property>
+         <property name="lineWidth">
+          <number>2</number>
          </property>
          <property name="orientation">
           <enum>Qt::Vertical</enum>
@@ -529,10 +547,10 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <widget class="IonPump" name="RTDSL0_PIP_01">
          <property name="geometry">
           <rect>
-           <x>100</x>
-           <y>405</y>
-           <width>101</width>
-           <height>151</height>
+           <x>180</x>
+           <y>410</y>
+           <width>60</width>
+           <height>150</height>
           </rect>
          </property>
          <property name="toolTip">
@@ -548,17 +566,20 @@ IonPump[state=&quot;FAULT&quot;] #icon {
           <string>ca://RTDSL0:PIP:01</string>
          </property>
          <property name="controlButtonHorizontal" stdset="0">
-          <bool>true</bool>
+          <bool>false</bool>
          </property>
         </widget>
         <widget class="Line" name="line_8">
          <property name="geometry">
           <rect>
-           <x>240</x>
+           <x>270</x>
            <y>400</y>
            <width>20</width>
            <height>15</height>
           </rect>
+         </property>
+         <property name="lineWidth">
+          <number>2</number>
          </property>
          <property name="orientation">
           <enum>Qt::Vertical</enum>
@@ -567,10 +588,10 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <widget class="IonPump" name="RTDSL0_PIP_02">
          <property name="geometry">
           <rect>
-           <x>200</x>
-           <y>405</y>
-           <width>101</width>
-           <height>151</height>
+           <x>250</x>
+           <y>410</y>
+           <width>60</width>
+           <height>150</height>
           </rect>
          </property>
          <property name="toolTip">
@@ -580,7 +601,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
           <string>ca://RTDSL0:PIP:02</string>
          </property>
          <property name="controlButtonHorizontal" stdset="0">
-          <bool>true</bool>
+          <bool>false</bool>
          </property>
         </widget>
         <widget class="Line" name="line_9">
@@ -592,6 +613,9 @@ IonPump[state=&quot;FAULT&quot;] #icon {
            <height>15</height>
           </rect>
          </property>
+         <property name="lineWidth">
+          <number>2</number>
+         </property>
          <property name="orientation">
           <enum>Qt::Vertical</enum>
          </property>
@@ -599,10 +623,10 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <widget class="IonPump" name="RTDSL0_PIP_03">
          <property name="geometry">
           <rect>
-           <x>300</x>
-           <y>405</y>
-           <width>101</width>
-           <height>151</height>
+           <x>320</x>
+           <y>410</y>
+           <width>60</width>
+           <height>150</height>
           </rect>
          </property>
          <property name="toolTip">
@@ -615,17 +639,20 @@ IonPump[state=&quot;FAULT&quot;] #icon {
           <string>ca://RTDSL0:PIP:03</string>
          </property>
          <property name="controlButtonHorizontal" stdset="0">
-          <bool>true</bool>
+          <bool>false</bool>
          </property>
         </widget>
         <widget class="Line" name="line_12">
          <property name="geometry">
           <rect>
-           <x>540</x>
+           <x>480</x>
            <y>400</y>
            <width>20</width>
            <height>15</height>
           </rect>
+         </property>
+         <property name="lineWidth">
+          <number>2</number>
          </property>
          <property name="orientation">
           <enum>Qt::Vertical</enum>
@@ -634,10 +661,10 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <widget class="IonPump" name="RTDSL0_PIP_04">
          <property name="geometry">
           <rect>
-           <x>400</x>
-           <y>405</y>
-           <width>101</width>
-           <height>151</height>
+           <x>390</x>
+           <y>410</y>
+           <width>60</width>
+           <height>150</height>
           </rect>
          </property>
          <property name="toolTip">
@@ -647,17 +674,20 @@ IonPump[state=&quot;FAULT&quot;] #icon {
           <string>ca://RTDSL0:PIP:04</string>
          </property>
          <property name="controlButtonHorizontal" stdset="0">
-          <bool>true</bool>
+          <bool>false</bool>
          </property>
         </widget>
         <widget class="Line" name="line_13">
          <property name="geometry">
           <rect>
-           <x>440</x>
+           <x>410</x>
            <y>400</y>
            <width>20</width>
            <height>15</height>
           </rect>
+         </property>
+         <property name="lineWidth">
+          <number>2</number>
          </property>
          <property name="orientation">
           <enum>Qt::Vertical</enum>
@@ -666,10 +696,10 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <widget class="IonPump" name="RTDSL0_PIP_05">
          <property name="geometry">
           <rect>
-           <x>500</x>
-           <y>405</y>
-           <width>101</width>
-           <height>151</height>
+           <x>460</x>
+           <y>410</y>
+           <width>60</width>
+           <height>150</height>
           </rect>
          </property>
          <property name="toolTip">
@@ -682,14 +712,14 @@ IonPump[state=&quot;FAULT&quot;] #icon {
           <string>ca://RTDSL0:PIP:05</string>
          </property>
          <property name="controlButtonHorizontal" stdset="0">
-          <bool>true</bool>
+          <bool>false</bool>
          </property>
         </widget>
         <widget class="RGA" name="RTDSL0_RGA_01">
          <property name="geometry">
           <rect>
            <x>300</x>
-           <y>360</y>
+           <y>340</y>
            <width>40</width>
            <height>40</height>
           </rect>
@@ -720,10 +750,10 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <widget class="IonPump" name="IM1L0_XTES_PIP_01">
          <property name="geometry">
           <rect>
-           <x>680</x>
+           <x>710</x>
            <y>410</y>
-           <width>111</width>
-           <height>111</height>
+           <width>60</width>
+           <height>150</height>
           </rect>
          </property>
          <property name="toolTip">
@@ -734,6 +764,9 @@ IonPump[state=&quot;FAULT&quot;] #icon {
          </property>
          <property name="channelsPrefix" stdset="0">
           <string>ca://IM1L0:XTES:PIP:01</string>
+         </property>
+         <property name="controlButtonHorizontal" stdset="0">
+          <bool>false</bool>
          </property>
         </widget>
         <widget class="Line" name="line_14">
@@ -752,10 +785,10 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <widget class="IonPump" name="TV2L0_PIP_01">
          <property name="geometry">
           <rect>
-           <x>830</x>
+           <x>850</x>
            <y>410</y>
-           <width>111</width>
-           <height>111</height>
+           <width>60</width>
+           <height>150</height>
           </rect>
          </property>
          <property name="toolTip">
@@ -766,6 +799,9 @@ IonPump[state=&quot;FAULT&quot;] #icon {
          </property>
          <property name="channelsPrefix" stdset="0">
           <string>ca://TV2L0:PIP:01</string>
+         </property>
+         <property name="controlButtonHorizontal" stdset="0">
+          <bool>false</bool>
          </property>
         </widget>
         <widget class="Line" name="line_4">
@@ -816,10 +852,10 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <widget class="IonPump" name="TV2L0_PIP_02">
          <property name="geometry">
           <rect>
-           <x>960</x>
+           <x>980</x>
            <y>410</y>
-           <width>111</width>
-           <height>111</height>
+           <width>60</width>
+           <height>150</height>
           </rect>
          </property>
          <property name="toolTip">
@@ -831,6 +867,9 @@ IonPump[state=&quot;FAULT&quot;] #icon {
          <property name="channelsPrefix" stdset="0">
           <string>ca://TV2L0:PIP:02</string>
          </property>
+         <property name="controlButtonHorizontal" stdset="0">
+          <bool>false</bool>
+         </property>
         </widget>
         <widget class="Line" name="line_31">
          <property name="geometry">
@@ -840,6 +879,9 @@ IonPump[state=&quot;FAULT&quot;] #icon {
            <width>20</width>
            <height>150</height>
           </rect>
+         </property>
+         <property name="lineWidth">
+          <number>2</number>
          </property>
          <property name="orientation">
           <enum>Qt::Vertical</enum>
@@ -955,10 +997,10 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <widget class="IonPump" name="TV2L0_PIP_03">
          <property name="geometry">
           <rect>
-           <x>1150</x>
+           <x>1180</x>
            <y>410</y>
-           <width>111</width>
-           <height>111</height>
+           <width>60</width>
+           <height>150</height>
           </rect>
          </property>
          <property name="toolTip">
@@ -969,6 +1011,9 @@ IonPump[state=&quot;FAULT&quot;] #icon {
          </property>
          <property name="channelsPrefix" stdset="0">
           <string>ca://TV2L0:PIP:03</string>
+         </property>
+         <property name="controlButtonHorizontal" stdset="0">
+          <bool>false</bool>
          </property>
         </widget>
         <widget class="PneumaticValve" name="TV2L0_VGC_02">
@@ -1032,10 +1077,10 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <widget class="IonPump" name="AT2L0_SOLID_PIN_01">
          <property name="geometry">
           <rect>
-           <x>1760</x>
-           <y>405</y>
-           <width>111</width>
-           <height>111</height>
+           <x>1790</x>
+           <y>410</y>
+           <width>60</width>
+           <height>150</height>
           </rect>
          </property>
          <property name="toolTip">
@@ -1046,6 +1091,9 @@ IonPump[state=&quot;FAULT&quot;] #icon {
          </property>
          <property name="channelsPrefix" stdset="0">
           <string>ca://AT2L0:SOLID:PIN:01</string>
+         </property>
+         <property name="controlButtonHorizontal" stdset="0">
+          <bool>false</bool>
          </property>
         </widget>
         <widget class="PneumaticValve" name="PC1L0_XTES_VGC_01">
@@ -1096,10 +1144,10 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <widget class="IonPump" name="SP1L0_KMONO_PIP_01">
          <property name="geometry">
           <rect>
-           <x>2235</x>
-           <y>405</y>
-           <width>111</width>
-           <height>111</height>
+           <x>2260</x>
+           <y>410</y>
+           <width>60</width>
+           <height>150</height>
           </rect>
          </property>
          <property name="toolTip">
@@ -1110,6 +1158,9 @@ IonPump[state=&quot;FAULT&quot;] #icon {
          </property>
          <property name="channelsPrefix" stdset="0">
           <string>ca://SP1L0:KMONO:PIP:01</string>
+         </property>
+         <property name="controlButtonHorizontal" stdset="0">
+          <bool>false</bool>
          </property>
         </widget>
         <widget class="Line" name="line_36">
@@ -1199,10 +1250,10 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <widget class="IonPump" name="IonPump_12">
          <property name="geometry">
           <rect>
-           <x>2825</x>
-           <y>405</y>
-           <width>111</width>
-           <height>111</height>
+           <x>2850</x>
+           <y>410</y>
+           <width>60</width>
+           <height>150</height>
           </rect>
          </property>
          <property name="toolTip">
@@ -1213,6 +1264,9 @@ IonPump[state=&quot;FAULT&quot;] #icon {
          </property>
          <property name="channelsPrefix" stdset="0">
           <string>ca://MR1L0:HOMS:PIP:01</string>
+         </property>
+         <property name="controlButtonHorizontal" stdset="0">
+          <bool>false</bool>
          </property>
         </widget>
         <widget class="PneumaticValve" name="BT2L0_PLEG_VGC_01">
@@ -1263,10 +1317,10 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <widget class="IonPump" name="BT2L0_PLEG_PIP_01">
          <property name="geometry">
           <rect>
-           <x>3145</x>
-           <y>405</y>
-           <width>111</width>
-           <height>111</height>
+           <x>3170</x>
+           <y>410</y>
+           <width>60</width>
+           <height>150</height>
           </rect>
          </property>
          <property name="toolTip">
@@ -1277,6 +1331,9 @@ IonPump[state=&quot;FAULT&quot;] #icon {
          </property>
          <property name="channelsPrefix" stdset="0">
           <string>ca://BT2L0:PLEG:PIP:01</string>
+         </property>
+         <property name="controlButtonHorizontal" stdset="0">
+          <bool>false</bool>
          </property>
         </widget>
         <widget class="PneumaticValve" name="MR2L0_HOMS_VGC_01">
@@ -1314,10 +1371,10 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <widget class="IonPump" name="MR2L0_HOMS_PIP_01">
          <property name="geometry">
           <rect>
-           <x>3530</x>
-           <y>400</y>
-           <width>111</width>
-           <height>111</height>
+           <x>3550</x>
+           <y>410</y>
+           <width>60</width>
+           <height>150</height>
           </rect>
          </property>
          <property name="toolTip">
@@ -1334,6 +1391,9 @@ IonPump[state=&quot;FAULT&quot;] #icon {
          </property>
          <property name="showStatusTooltip" stdset="0">
           <bool>true</bool>
+         </property>
+         <property name="controlButtonHorizontal" stdset="0">
+          <bool>false</bool>
          </property>
         </widget>
         <widget class="Line" name="line_88">
@@ -1372,7 +1432,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
          <property name="geometry">
           <rect>
            <x>3725</x>
-           <y>310</y>
+           <y>305</y>
            <width>111</width>
            <height>81</height>
           </rect>
@@ -1403,10 +1463,10 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <widget class="IonPump" name="TV3L0_PIP_01">
          <property name="geometry">
           <rect>
-           <x>3765</x>
-           <y>400</y>
-           <width>111</width>
-           <height>111</height>
+           <x>3790</x>
+           <y>410</y>
+           <width>60</width>
+           <height>150</height>
           </rect>
          </property>
          <property name="toolTip">
@@ -1417,6 +1477,9 @@ IonPump[state=&quot;FAULT&quot;] #icon {
          </property>
          <property name="channelsPrefix" stdset="0">
           <string>ca://TV3L0:PIP:01</string>
+         </property>
+         <property name="controlButtonHorizontal" stdset="0">
+          <bool>false</bool>
          </property>
         </widget>
         <widget class="Line" name="line_91">
@@ -1435,10 +1498,10 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <widget class="IonPump" name="ST1L0_XTES_PIP_01">
          <property name="geometry">
           <rect>
-           <x>4180</x>
-           <y>400</y>
-           <width>111</width>
-           <height>111</height>
+           <x>4200</x>
+           <y>410</y>
+           <width>60</width>
+           <height>150</height>
           </rect>
          </property>
          <property name="toolTip">
@@ -1449,6 +1512,9 @@ IonPump[state=&quot;FAULT&quot;] #icon {
          </property>
          <property name="channelsPrefix" stdset="0">
           <string>ca://ST1L0:XTES:PIP:01</string>
+         </property>
+         <property name="controlButtonHorizontal" stdset="0">
+          <bool>false</bool>
          </property>
         </widget>
         <widget class="Line" name="line_92">
@@ -1549,7 +1615,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
          <property name="geometry">
           <rect>
            <x>2490</x>
-           <y>255</y>
+           <y>305</y>
            <width>111</width>
            <height>82</height>
           </rect>
@@ -1558,7 +1624,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
           <string/>
          </property>
          <property name="controlsLocation" stdset="0">
-          <enum>PCDSSymbolBase::Top</enum>
+          <enum>PCDSSymbolBase::Bottom</enum>
          </property>
          <property name="channelsPrefix" stdset="0">
           <string>ca://PA1L0:VFS:01</string>
@@ -1580,10 +1646,10 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <widget class="IonPump" name="SL1L0_POWER_PIN_01">
          <property name="geometry">
           <rect>
-           <x>1390</x>
-           <y>405</y>
-           <width>111</width>
-           <height>111</height>
+           <x>1420</x>
+           <y>410</y>
+           <width>60</width>
+           <height>150</height>
           </rect>
          </property>
          <property name="toolTip">
@@ -1594,6 +1660,9 @@ IonPump[state=&quot;FAULT&quot;] #icon {
          </property>
          <property name="channelsPrefix" stdset="0">
           <string>ca://SL1L0:POWER:PIN:01</string>
+         </property>
+         <property name="controlButtonHorizontal" stdset="0">
+          <bool>false</bool>
          </property>
         </widget>
         <widget class="PyDMShellCommand" name="AT1L0_GAS">
@@ -1625,7 +1694,7 @@ EM2L0-GEM</string>
         <widget class="IonPump" name="PA1L0_PIN_1">
          <property name="geometry">
           <rect>
-           <x>2380</x>
+           <x>2390</x>
            <y>305</y>
            <width>111</width>
            <height>111</height>
@@ -1641,8 +1710,8 @@ EM2L0-GEM</string>
         <widget class="ColdCathodeGauge" name="TV2L0_GFS_02">
          <property name="geometry">
           <rect>
-           <x>1035</x>
-           <y>30</y>
+           <x>1030</x>
+           <y>60</y>
            <width>111</width>
            <height>111</height>
           </rect>
@@ -1693,19 +1762,6 @@ EM2L0-GEM</string>
          </property>
          <property name="orientation">
           <enum>Qt::Horizontal</enum>
-         </property>
-        </widget>
-        <widget class="Line" name="line_40">
-         <property name="geometry">
-          <rect>
-           <x>2990</x>
-           <y>55</y>
-           <width>20</width>
-           <height>51</height>
-          </rect>
-         </property>
-         <property name="orientation">
-          <enum>Qt::Vertical</enum>
          </property>
         </widget>
         <widget class="Line" name="line_83">
@@ -3049,10 +3105,10 @@ EM2L0-GEM</string>
         <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay">
          <property name="geometry">
           <rect>
-           <x>180</x>
-           <y>140</y>
-           <width>161</width>
-           <height>131</height>
+           <x>165</x>
+           <y>160</y>
+           <width>174</width>
+           <height>125</height>
           </rect>
          </property>
          <property name="toolTip">
@@ -3071,14 +3127,14 @@ EM2L0-GEM</string>
           <string>{&quot;GCC&quot;: &quot;TV1L0:GCC:01&quot; , &quot;GPI&quot;: &quot;TV1L0:GPI:01&quot;}</string>
          </property>
          <property name="filename" stdset="0">
-          <string>./GCC_GPI.ui</string>
+          <string>vacuumscreens/templates/GCC_GPI.ui</string>
          </property>
         </widget>
         <widget class="QLabel" name="label">
          <property name="geometry">
           <rect>
            <x>160</x>
-           <y>290</y>
+           <y>286</y>
            <width>101</width>
            <height>20</height>
           </rect>
@@ -3091,7 +3147,7 @@ EM2L0-GEM</string>
          <property name="geometry">
           <rect>
            <x>454</x>
-           <y>290</y>
+           <y>330</y>
            <width>131</width>
            <height>20</height>
           </rect>
@@ -3104,7 +3160,7 @@ EM2L0-GEM</string>
          <property name="geometry">
           <rect>
            <x>900</x>
-           <y>290</y>
+           <y>286</y>
            <width>111</width>
            <height>20</height>
           </rect>
@@ -3117,7 +3173,7 @@ EM2L0-GEM</string>
          <property name="geometry">
           <rect>
            <x>270</x>
-           <y>340</y>
+           <y>377</y>
            <width>101</width>
            <height>20</height>
           </rect>
@@ -3129,8 +3185,8 @@ EM2L0-GEM</string>
         <widget class="QLabel" name="label_5">
          <property name="geometry">
           <rect>
-           <x>140</x>
-           <y>434</y>
+           <x>190</x>
+           <y>440</y>
            <width>41</width>
            <height>16</height>
           </rect>
@@ -3142,8 +3198,8 @@ EM2L0-GEM</string>
         <widget class="QLabel" name="label_6">
          <property name="geometry">
           <rect>
-           <x>440</x>
-           <y>435</y>
+           <x>400</x>
+           <y>440</y>
            <width>41</width>
            <height>16</height>
           </rect>
@@ -3156,7 +3212,7 @@ EM2L0-GEM</string>
          <property name="geometry">
           <rect>
            <x>330</x>
-           <y>435</y>
+           <y>440</y>
            <width>41</width>
            <height>16</height>
           </rect>
@@ -3168,8 +3224,8 @@ EM2L0-GEM</string>
         <widget class="QLabel" name="label_8">
          <property name="geometry">
           <rect>
-           <x>530</x>
-           <y>435</y>
+           <x>470</x>
+           <y>440</y>
            <width>41</width>
            <height>16</height>
           </rect>
@@ -3181,8 +3237,8 @@ EM2L0-GEM</string>
         <widget class="QLabel" name="label_9">
          <property name="geometry">
           <rect>
-           <x>240</x>
-           <y>435</y>
+           <x>260</x>
+           <y>440</y>
            <width>41</width>
            <height>16</height>
           </rect>
@@ -3194,10 +3250,10 @@ EM2L0-GEM</string>
         <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_2">
          <property name="geometry">
           <rect>
-           <x>780</x>
-           <y>140</y>
-           <width>151</width>
-           <height>131</height>
+           <x>770</x>
+           <y>160</y>
+           <width>174</width>
+           <height>125</height>
           </rect>
          </property>
          <property name="toolTip">
@@ -3213,16 +3269,16 @@ EM2L0-GEM</string>
           <string>{&quot;GCC&quot;: &quot;TV2L0:GCC:01&quot; , &quot;GPI&quot;: &quot;TV2L0:GPI:01&quot;}</string>
          </property>
          <property name="filename" stdset="0">
-          <string>GCC_GPI.ui</string>
+          <string>vacuumscreens/templates/GCC_GPI.ui</string>
          </property>
         </widget>
         <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_3">
          <property name="geometry">
           <rect>
-           <x>1100</x>
-           <y>140</y>
-           <width>151</width>
-           <height>131</height>
+           <x>1110</x>
+           <y>160</y>
+           <width>174</width>
+           <height>125</height>
           </rect>
          </property>
          <property name="toolTip">
@@ -3235,16 +3291,16 @@ EM2L0-GEM</string>
           <string>{&quot;GCC&quot;: &quot;TV2L0:GCC:02&quot; , &quot;GPI&quot;: &quot;TV2L0:GPI:02&quot;}</string>
          </property>
          <property name="filename" stdset="0">
-          <string>GCC_GPI.ui</string>
+          <string>vacuumscreens/templates/GCC_GPI.ui</string>
          </property>
         </widget>
         <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_4">
          <property name="geometry">
           <rect>
            <x>1350</x>
-           <y>140</y>
-           <width>151</width>
-           <height>131</height>
+           <y>160</y>
+           <width>174</width>
+           <height>125</height>
           </rect>
          </property>
          <property name="toolTip">
@@ -3257,16 +3313,16 @@ EM2L0-GEM</string>
           <string>{&quot;GCC&quot;: &quot;SL1L0:POWER:GCC:01&quot; , &quot;GPI&quot;: &quot;SL1L0:POWER:GPI:01&quot;}</string>
          </property>
          <property name="filename" stdset="0">
-          <string>GCC_GPI.ui</string>
+          <string>vacuumscreens/templates/GCC_GPI.ui</string>
          </property>
         </widget>
         <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_5">
          <property name="geometry">
           <rect>
            <x>1710</x>
-           <y>140</y>
-           <width>151</width>
-           <height>131</height>
+           <y>160</y>
+           <width>174</width>
+           <height>125</height>
           </rect>
          </property>
          <property name="toolTip">
@@ -3279,16 +3335,16 @@ EM2L0-GEM</string>
           <string>{&quot;GCC&quot;: &quot;AT2L0:SOLID:GCC:01&quot; , &quot;GPI&quot;: &quot;AT2L0:SOLID:GPI:01&quot;}</string>
          </property>
          <property name="filename" stdset="0">
-          <string>GCC_GPI.ui</string>
+          <string>vacuumscreens/templates/GCC_GPI.ui</string>
          </property>
         </widget>
         <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_6">
          <property name="geometry">
           <rect>
-           <x>2190</x>
-           <y>140</y>
-           <width>151</width>
-           <height>131</height>
+           <x>2180</x>
+           <y>160</y>
+           <width>174</width>
+           <height>125</height>
           </rect>
          </property>
          <property name="toolTip">
@@ -3301,16 +3357,16 @@ EM2L0-GEM</string>
           <string>{&quot;GCC&quot;: &quot;SP1L0:KMONO:GCC:01&quot; , &quot;GPI&quot;: &quot;SP1L0:KMONO:GPI:01&quot;}</string>
          </property>
          <property name="filename" stdset="0">
-          <string>GCC_GPI.ui</string>
+          <string>vacuumscreens/templates/GCC_GPI.ui</string>
          </property>
         </widget>
         <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_7">
          <property name="geometry">
           <rect>
            <x>2580</x>
-           <y>140</y>
-           <width>151</width>
-           <height>131</height>
+           <y>160</y>
+           <width>174</width>
+           <height>125</height>
           </rect>
          </property>
          <property name="toolTip">
@@ -3323,16 +3379,16 @@ EM2L0-GEM</string>
           <string>{&quot;GCC&quot;: &quot;PA1L0:GCC:01&quot; , &quot;GPI&quot;: &quot;PA1L0:GPI:01&quot;}</string>
          </property>
          <property name="filename" stdset="0">
-          <string>GCC_GPI.ui</string>
+          <string>vacuumscreens/templates/GCC_GPI.ui</string>
          </property>
         </widget>
         <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_8">
          <property name="geometry">
           <rect>
            <x>2780</x>
-           <y>140</y>
-           <width>151</width>
-           <height>131</height>
+           <y>160</y>
+           <width>174</width>
+           <height>125</height>
           </rect>
          </property>
          <property name="toolTip">
@@ -3345,16 +3401,16 @@ EM2L0-GEM</string>
           <string>{&quot;GCC&quot;: &quot;MR1L0:HOMS:GCC:01&quot; , &quot;GPI&quot;: &quot;MR1L0:HOMS:GPI:01&quot;}</string>
          </property>
          <property name="filename" stdset="0">
-          <string>GCC_GPI.ui</string>
+          <string>vacuumscreens/templates/GCC_GPI.ui</string>
          </property>
         </widget>
         <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_9">
          <property name="geometry">
           <rect>
-           <x>2890</x>
-           <y>-30</y>
-           <width>151</width>
-           <height>131</height>
+           <x>2887</x>
+           <y>-26</y>
+           <width>174</width>
+           <height>125</height>
           </rect>
          </property>
          <property name="toolTip">
@@ -3370,16 +3426,16 @@ EM2L0-GEM</string>
           <string>{&quot;GCC&quot;: &quot;MR1L1:TXI:GCC:01&quot; , &quot;GPI&quot;: &quot;MR1L1:TXI:GPI:01&quot;}</string>
          </property>
          <property name="filename" stdset="0">
-          <string>GCC_GPI.ui</string>
+          <string>vacuumscreens/templates/GCC_GPI.ui</string>
          </property>
         </widget>
         <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_10">
          <property name="geometry">
           <rect>
-           <x>3100</x>
-           <y>140</y>
-           <width>151</width>
-           <height>131</height>
+           <x>3090</x>
+           <y>160</y>
+           <width>174</width>
+           <height>125</height>
           </rect>
          </property>
          <property name="toolTip">
@@ -3392,16 +3448,16 @@ EM2L0-GEM</string>
           <string>{&quot;GCC&quot;: &quot;BT2L0:PLEG:GCC:01&quot; , &quot;GPI&quot;: &quot;BT2L0:PLEG:GPI:01&quot;}</string>
          </property>
          <property name="filename" stdset="0">
-          <string>GCC_GPI.ui</string>
+          <string>vacuumscreens/templates/GCC_GPI.ui</string>
          </property>
         </widget>
         <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_11">
          <property name="geometry">
           <rect>
-           <x>3480</x>
-           <y>120</y>
-           <width>151</width>
-           <height>131</height>
+           <x>3470</x>
+           <y>160</y>
+           <width>174</width>
+           <height>125</height>
           </rect>
          </property>
          <property name="toolTip">
@@ -3414,16 +3470,16 @@ EM2L0-GEM</string>
           <string>{&quot;GCC&quot;: &quot;MR2L0:HOMS:GCC:01&quot; , &quot;GPI&quot;: &quot;MR2L0:HOMS:GPI:01&quot;}</string>
          </property>
          <property name="filename" stdset="0">
-          <string>GCC_GPI.ui</string>
+          <string>vacuumscreens/templates/GCC_GPI.ui</string>
          </property>
         </widget>
         <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_12">
          <property name="geometry">
           <rect>
-           <x>4130</x>
-           <y>140</y>
-           <width>151</width>
-           <height>131</height>
+           <x>4120</x>
+           <y>160</y>
+           <width>174</width>
+           <height>125</height>
           </rect>
          </property>
          <property name="toolTip">
@@ -3436,7 +3492,7 @@ EM2L0-GEM</string>
           <string>{&quot;GCC&quot;: &quot;ST1L0:XTES:GCC:01&quot; , &quot;GPI&quot;: &quot;ST1L0:XTES:GPI:01&quot;}</string>
          </property>
          <property name="filename" stdset="0">
-          <string>GCC_GPI.ui</string>
+          <string>vacuumscreens/templates/GCC_GPI.ui</string>
          </property>
         </widget>
         <widget class="QLabel" name="label_19">
@@ -3455,7 +3511,7 @@ EM2L0-GEM</string>
         <widget class="QLabel" name="label_20">
          <property name="geometry">
           <rect>
-           <x>820</x>
+           <x>840</x>
            <y>440</y>
            <width>81</width>
            <height>16</height>
@@ -3482,7 +3538,7 @@ EM2L0-GEM</string>
          <property name="geometry">
           <rect>
            <x>1130</x>
-           <y>430</y>
+           <y>440</y>
            <width>111</width>
            <height>16</height>
           </rect>
@@ -3494,8 +3550,8 @@ EM2L0-GEM</string>
         <widget class="QLabel" name="label_23">
          <property name="geometry">
           <rect>
-           <x>990</x>
-           <y>140</y>
+           <x>1027</x>
+           <y>170</y>
            <width>121</width>
            <height>20</height>
           </rect>
@@ -3508,7 +3564,7 @@ EM2L0-GEM</string>
          <property name="geometry">
           <rect>
            <x>1320</x>
-           <y>400</y>
+           <y>286</y>
            <width>101</width>
            <height>16</height>
           </rect>
@@ -3521,7 +3577,7 @@ EM2L0-GEM</string>
          <property name="geometry">
           <rect>
            <x>1390</x>
-           <y>520</y>
+           <y>440</y>
            <width>141</width>
            <height>16</height>
           </rect>
@@ -3534,7 +3590,7 @@ EM2L0-GEM</string>
          <property name="geometry">
           <rect>
            <x>1470</x>
-           <y>330</y>
+           <y>286</y>
            <width>141</width>
            <height>16</height>
           </rect>
@@ -3547,7 +3603,7 @@ EM2L0-GEM</string>
          <property name="geometry">
           <rect>
            <x>1670</x>
-           <y>400</y>
+           <y>286</y>
            <width>131</width>
            <height>16</height>
           </rect>
@@ -3560,7 +3616,7 @@ EM2L0-GEM</string>
          <property name="geometry">
           <rect>
            <x>1820</x>
-           <y>350</y>
+           <y>286</y>
            <width>131</width>
            <height>16</height>
           </rect>
@@ -3573,7 +3629,7 @@ EM2L0-GEM</string>
          <property name="geometry">
           <rect>
            <x>1750</x>
-           <y>520</y>
+           <y>440</y>
            <width>131</width>
            <height>16</height>
           </rect>
@@ -3586,7 +3642,7 @@ EM2L0-GEM</string>
          <property name="geometry">
           <rect>
            <x>2220</x>
-           <y>520</y>
+           <y>440</y>
            <width>141</width>
            <height>16</height>
           </rect>
@@ -3598,8 +3654,8 @@ EM2L0-GEM</string>
         <widget class="QLabel" name="label_61">
          <property name="geometry">
           <rect>
-           <x>2330</x>
-           <y>300</y>
+           <x>2340</x>
+           <y>240</y>
            <width>91</width>
            <height>20</height>
           </rect>
@@ -3612,7 +3668,7 @@ EM2L0-GEM</string>
          <property name="geometry">
           <rect>
            <x>2410</x>
-           <y>340</y>
+           <y>290</y>
            <width>111</width>
            <height>16</height>
           </rect>
@@ -3625,7 +3681,7 @@ EM2L0-GEM</string>
          <property name="geometry">
           <rect>
            <x>2510</x>
-           <y>350</y>
+           <y>286</y>
            <width>91</width>
            <height>20</height>
           </rect>
@@ -3638,7 +3694,7 @@ EM2L0-GEM</string>
          <property name="geometry">
           <rect>
            <x>3020</x>
-           <y>330</y>
+           <y>286</y>
            <width>141</width>
            <height>16</height>
           </rect>
@@ -3676,8 +3732,8 @@ EM2L0-GEM</string>
         <widget class="QLabel" name="label_14">
          <property name="geometry">
           <rect>
-           <x>2730</x>
-           <y>330</y>
+           <x>2710</x>
+           <y>286</y>
            <width>141</width>
            <height>20</height>
           </rect>
@@ -3690,7 +3746,7 @@ EM2L0-GEM</string>
          <property name="geometry">
           <rect>
            <x>2810</x>
-           <y>430</y>
+           <y>440</y>
            <width>151</width>
            <height>16</height>
           </rect>
@@ -3703,7 +3759,7 @@ EM2L0-GEM</string>
          <property name="geometry">
           <rect>
            <x>3410</x>
-           <y>330</y>
+           <y>286</y>
            <width>131</width>
            <height>16</height>
           </rect>
@@ -3716,7 +3772,7 @@ EM2L0-GEM</string>
          <property name="geometry">
           <rect>
            <x>3370</x>
-           <y>115</y>
+           <y>70</y>
            <width>101</width>
            <height>16</height>
           </rect>
@@ -3728,8 +3784,8 @@ EM2L0-GEM</string>
         <widget class="QLabel" name="label_18">
          <property name="geometry">
           <rect>
-           <x>3600</x>
-           <y>330</y>
+           <x>3590</x>
+           <y>286</y>
            <width>151</width>
            <height>20</height>
           </rect>
@@ -3742,7 +3798,7 @@ EM2L0-GEM</string>
          <property name="geometry">
           <rect>
            <x>3520</x>
-           <y>430</y>
+           <y>440</y>
            <width>151</width>
            <height>16</height>
           </rect>
@@ -3755,7 +3811,7 @@ EM2L0-GEM</string>
          <property name="geometry">
           <rect>
            <x>3750</x>
-           <y>430</y>
+           <y>440</y>
            <width>121</width>
            <height>16</height>
           </rect>
@@ -3767,10 +3823,10 @@ EM2L0-GEM</string>
         <widget class="QLabel" name="label_41">
          <property name="geometry">
           <rect>
-           <x>3730</x>
-           <y>340</y>
+           <x>3740</x>
+           <y>286</y>
            <width>111</width>
-           <height>31</height>
+           <height>20</height>
           </rect>
          </property>
          <property name="text">
@@ -3784,7 +3840,7 @@ EM2L0-GEM</string>
          <property name="geometry">
           <rect>
            <x>3730</x>
-           <y>114</y>
+           <y>70</y>
            <width>131</width>
            <height>16</height>
           </rect>
@@ -3797,7 +3853,7 @@ EM2L0-GEM</string>
          <property name="geometry">
           <rect>
            <x>4170</x>
-           <y>430</y>
+           <y>440</y>
            <width>131</width>
            <height>16</height>
           </rect>
@@ -4113,7 +4169,6 @@ EM2L0-GEM</string>
         <zorder>PA1L0</zorder>
         <zorder>line_34</zorder>
         <zorder>line_83</zorder>
-        <zorder>line_40</zorder>
         <zorder>line_22</zorder>
         <zorder>line_92</zorder>
         <zorder>line_91</zorder>
