@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>561</width>
+    <height>468</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">PneumaticValve #icon [alarmSeverity=&quot;0&quot;]{
+    qproperty-penStyle: &quot;QT::SolidLine&quot;;
+    qproperty-penColor: black;
+    qproperty-penWidth: 2;
+ 
+}
+PneumaticValve[interlocked=&quot;true&quot;] #icon{
+    border: 2px solid black;
+    qproperty-penWidth: 2;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+}
+PneumaticValve[interlocked=&quot;false&quot;] #icon{
+    border: 2px solid black;
+    qproperty-penWidth: 2;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+}
+
+PneumaticValve[state=&quot;OPEN&quot;] #icon {
+     qproperty-penStyle: &quot;QT::SolidLine&quot;;
+    qproperty-penColor: black;
+    qproperty-penWidth: 2;
+    qproperty-brush: #00FF00;
+}
+PneumaticValve[state=&quot;MOVING&quot;] #icon {
+    qproperty-penStyle: &quot;QT::SolidLine&quot;;
+    qproperty-penColor: black;
+    qproperty-penWidth: 2;
+    qproperty-brush: yellow;
+}
+PneumaticValve[state=&quot;CLOSED&quot;] #icon {
+    qproperty-penStyle: &quot;QT::SolidLine&quot;;
+    qproperty-penColor: gray;
+    qproperty-penWidth: 2;
+    qproperty-brush: black;
+}
+PneumaticValve[state=&quot;INVALID&quot;] #icon {
+    qproperty-penStyle: &quot;QT::SolidLine&quot;;
+    qproperty-penColor: black;
+    qproperty-penWidth: 2;
+    qproperty-brush: red;
+}
+PneumaticValve[error=&quot;Vented&quot;] #icon {
+       qproperty-penStyle: &quot;QT::SolidLine&quot;;
+}
+PneumaticValve[error=&quot;Lost_Vacuum&quot;] #icon {
+    qproperty-penStyle: &quot;Qt::DotLine&quot;;
+    qproperty-penColor: black;
+    qproperty-penWidth: 2;
+   qproperty-interlockBrush: red;
+}
+PneumaticValve[error=&quot;Ext Fault&quot;] #icon {
+    qproperty-penStyle: &quot;QT::SolidLine&quot;;
+    qproperty-penColor: black;
+    qproperty-penWidth: 2;
+   qproperty-interlockBrush: red;
+}</string>
+  </property>
+  <widget class="PneumaticValve" name="PneumaticValve">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>80</y>
+     <width>121</width>
+     <height>82</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="channelsPrefix" stdset="0">
+    <string>ca://vgcDemoPv</string>
+   </property>
+  </widget>
+  <widget class="PyDMEnumButton" name="PyDMEnumButton">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>190</y>
+     <width>161</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="channel" stdset="0">
+    <string>ca://vgcDemoPv:OPN_OK_RBV</string>
+   </property>
+  </widget>
+  <widget class="PyDMEnumButton" name="PyDMEnumButton_2">
+   <property name="geometry">
+    <rect>
+     <x>237</x>
+     <y>190</y>
+     <width>121</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="channel" stdset="0">
+    <string>ca://vgcDemoPv:POS_STATE_RBV</string>
+   </property>
+  </widget>
+  <widget class="PyDMEnumButton" name="PyDMEnumButton_3">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>190</y>
+     <width>141</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="channel" stdset="0">
+    <string>ca://vgcDemoPv:STATE_RBV</string>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>PyDMEnumButton</class>
+   <extends>QWidget</extends>
+   <header>pydm.widgets.enum_button</header>
+  </customwidget>
+  <customwidget>
+   <class>PCDSSymbolBase</class>
+   <extends>QWidget</extends>
+   <header>pcdswidgets.vacuum.base</header>
+  </customwidget>
+  <customwidget>
+   <class>PneumaticValve</class>
+   <extends>PCDSSymbolBase</extends>
+   <header>pcdswidgets.vacuum.valves</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
