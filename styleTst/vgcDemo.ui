@@ -36,7 +36,12 @@ PneumaticValve[interlocked=&quot;false&quot;] #icon{
     border-bottom-left-radius: 9px;
     border-bottom-right-radius: 9px;
 }
-
+PneumaticValve[interlocked=&quot;true&quot;] #icon {
+    qproperty-interlockBrush: black;
+}
+PneumaticValve[interlocked=&quot;false&quot;] #icon{
+    qproperty-interlockBrush: #00FF00;
+}
 PneumaticValve[state=&quot;OPEN&quot;] #icon {
      qproperty-penStyle: &quot;QT::SolidLine&quot;;
     qproperty-penColor: black;
