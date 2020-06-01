@@ -18,7 +18,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>201</width>
+     <width>191</width>
      <height>131</height>
     </rect>
    </property>
@@ -58,7 +58,7 @@
      <rect>
       <x>85</x>
       <y>62</y>
-      <width>93</width>
+      <width>72</width>
       <height>16</height>
      </rect>
     </property>
@@ -69,7 +69,7 @@
    <widget class="RoughGauge" name="GPI">
     <property name="geometry">
      <rect>
-      <x>130</x>
+      <x>120</x>
       <y>47</y>
       <width>71</width>
       <height>50</height>
