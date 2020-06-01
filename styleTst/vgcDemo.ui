@@ -29,12 +29,9 @@ PneumaticValve[interlocked=&quot;true&quot;] #icon{
     border-bottom-right-radius: 9px;
 }
 PneumaticValve[interlocked=&quot;false&quot;] #icon{
-    border: 2px solid black;
+    border: 0px;
     qproperty-penWidth: 2;
-    border-top-left-radius: 9px;
-    border-top-right-radius: 9px;
-    border-bottom-left-radius: 9px;
-    border-bottom-right-radius: 9px;
+    qproperty-brush: #00FF00;
 }
 PneumaticValve[interlocked=&quot;true&quot;] #icon {
     qproperty-interlockBrush: black;
@@ -85,7 +82,7 @@ PneumaticValve[error=&quot;Ext Fault&quot;] #icon {
   <widget class="PneumaticValve" name="PneumaticValve">
    <property name="geometry">
     <rect>
-     <x>60</x>
+     <x>220</x>
      <y>80</y>
      <width>121</width>
      <height>82</height>
@@ -105,7 +102,7 @@ PneumaticValve[error=&quot;Ext Fault&quot;] #icon {
    <property name="geometry">
     <rect>
      <x>30</x>
-     <y>190</y>
+     <y>170</y>
      <width>161</width>
      <height>161</height>
     </rect>
@@ -120,7 +117,7 @@ PneumaticValve[error=&quot;Ext Fault&quot;] #icon {
   <widget class="PyDMEnumButton" name="PyDMEnumButton_2">
    <property name="geometry">
     <rect>
-     <x>237</x>
+     <x>230</x>
      <y>190</y>
      <width>121</width>
      <height>161</height>
@@ -137,8 +134,8 @@ PneumaticValve[error=&quot;Ext Fault&quot;] #icon {
    <property name="geometry">
     <rect>
      <x>380</x>
-     <y>190</y>
-     <width>141</width>
+     <y>200</y>
+     <width>161</width>
      <height>171</height>
     </rect>
    </property>
@@ -147,6 +144,32 @@ PneumaticValve[error=&quot;Ext Fault&quot;] #icon {
    </property>
    <property name="channel" stdset="0">
     <string>ca://vgcDemoPv:STATE_RBV</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>190</y>
+     <width>64</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>True</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>250</y>
+     <width>64</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>False</string>
    </property>
   </widget>
  </widget>
