@@ -1,0 +1,8 @@
+#!/bin/bash
+#This script is run from lfe-console and launches all hxr screens.
+
+source /reg/g/pcds/pyps/conda/dev_conda
+
+#check on proper path to use (hard code reg/g/... or relitive
+pydm ../hxr-vac-dev.ui &
+pydm ../styleTst/vgcDemo.ui &
