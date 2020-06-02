@@ -19,7 +19,7 @@
      <x>0</x>
      <y>0</y>
      <width>191</width>
-     <height>131</height>
+     <height>141</height>
     </rect>
    </property>
    <property name="frameShape">
@@ -37,7 +37,7 @@
       <x>7</x>
       <y>14</y>
       <width>100</width>
-      <height>111</height>
+      <height>121</height>
      </rect>
     </property>
     <property name="toolTip">
