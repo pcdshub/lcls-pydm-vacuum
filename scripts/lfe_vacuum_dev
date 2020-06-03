@@ -3,6 +3,36 @@
 
 source /reg/g/pcds/pyps/conda/dev_conda
 
+basePath="/reg/g/pcds/epics-dev/screens/pydm/vacuumscreens/screens/"
+screens="
+hxr-vac-dev.ui
+"
+
+for screen in $screens; do
+    path="$basePath/$screen"
+    #Generate age of file.
+    oldTime=1000 #time in seconds before file is "old"
+    curTime=$(date +%s)
+    fileTime=$(stat -c %Y $path)
+    fileAge=$(expr $curTime - $fileTime)
+    #If file is older than oldTime, warn and ask if you want to continue
+    if [ $fileAge -lt $oldTime ]; then
+        echo $screen is $fileAge seconds old. It may be under construction. Open anyway? y/n
+	read answer
+        if [ $answer == "y" ]; then
+	    echo opening "$screen"
+            pydm $path&
+        else
+            echo skipping
+        fi
+    else
+        echo opening $screen
+        pydm $path&
+    fi
+done
+
+#source /reg/g/pcds/pyps/conda/dev_conda
+
 #check on proper path to use (hard code reg/g/... or relitive
-pydm ../hxr-vac-dev.ui &
-pydm ../styleTst/vgcDemo.ui &
+
+#pydm /reg/g/pcds/epics-dev/screens/pydm/vacuumscreens/screens/hxr-vac-dev.ui&
