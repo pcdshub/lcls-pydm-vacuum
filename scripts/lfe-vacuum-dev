@@ -12,7 +12,6 @@ sxrVac.ui
 for screen in $screens; do
     path="$basePath/$screen"
     #Generate age of file.
-    oldTime=10000000 #time in seconds before file is "old"
     curTime=$(date +%s)
     fileTime=$(stat -c %Y $path)
     fileAge=$(expr $curTime - $fileTime)
@@ -26,5 +25,5 @@ for screen in $screens; do
         continue
     fi
     echo opening $screen
-    pydm $path&
+    pydm $path 1>/dev/null 2>/dev/null&
 done
