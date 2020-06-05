@@ -6,39 +6,20 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>290</width>
-    <height>321</height>
+    <width>239</width>
+    <height>458</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Form</string>
   </property>
-  <widget class="RoughGauge" name="RoughGauge">
-   <property name="geometry">
-    <rect>
-     <x>200</x>
-     <y>30</y>
-     <width>70</width>
-     <height>71</height>
-    </rect>
-   </property>
-   <property name="toolTip">
-    <string/>
-   </property>
-   <property name="controlsLocation" stdset="0">
-    <enum>PCDSSymbolBase::Top</enum>
-   </property>
-   <property name="channelsPrefix" stdset="0">
-    <string>ca://${GPI}</string>
-   </property>
-  </widget>
   <widget class="IonPump" name="IonPump">
    <property name="geometry">
     <rect>
-     <x>71</x>
-     <y>202</y>
-     <width>180</width>
-     <height>99</height>
+     <x>90</x>
+     <y>297</y>
+     <width>60</width>
+     <height>150</height>
     </rect>
    </property>
    <property name="toolTip">
@@ -47,97 +28,62 @@
    <property name="channelsPrefix" stdset="0">
     <string>ca://${PIP}</string>
    </property>
-  </widget>
-  <widget class="ColdCathodeGauge" name="ColdCathodeGauge">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>180</width>
-     <height>99</height>
-    </rect>
-   </property>
-   <property name="toolTip">
-    <string/>
-   </property>
-   <property name="controlsLocation" stdset="0">
-    <enum>PCDSSymbolBase::Top</enum>
-   </property>
-   <property name="channelsPrefix" stdset="0">
-    <string>ca://${GCC}</string>
-   </property>
-  </widget>
-  <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle">
-   <property name="geometry">
-    <rect>
-     <x>60</x>
-     <y>130</y>
-     <width>200</width>
-     <height>40</height>
-    </rect>
-   </property>
-   <property name="toolTip">
-    <string/>
-   </property>
-   <property name="brush" stdset="0">
-    <brush brushstyle="NoBrush">
-     <color alpha="255">
-      <red>0</red>
-      <green>0</green>
-      <blue>0</blue>
-     </color>
-    </brush>
-   </property>
-   <property name="penStyle" stdset="0">
-    <enum>Qt::SolidLine</enum>
-   </property>
-  </widget>
-  <widget class="Line" name="line">
-   <property name="geometry">
-    <rect>
-     <x>88</x>
-     <y>99</y>
-     <width>3</width>
-     <height>33</height>
-    </rect>
-   </property>
-   <property name="orientation">
-    <enum>Qt::Vertical</enum>
-   </property>
-  </widget>
-  <widget class="Line" name="line_2">
-   <property name="geometry">
-    <rect>
-     <x>234</x>
-     <y>97</y>
-     <width>3</width>
-     <height>33</height>
-    </rect>
-   </property>
-   <property name="orientation">
-    <enum>Qt::Vertical</enum>
+   <property name="controlButtonHorizontal" stdset="0">
+    <bool>false</bool>
    </property>
   </widget>
   <widget class="Line" name="line_3">
    <property name="geometry">
     <rect>
-     <x>160</x>
-     <y>170</y>
+     <x>120</x>
+     <y>190</y>
      <width>3</width>
-     <height>33</height>
+     <height>120</height>
     </rect>
    </property>
    <property name="orientation">
     <enum>Qt::Vertical</enum>
    </property>
   </widget>
-  <widget class="PyDMLabel" name="PyDMLabel_5">
+  <widget class="QFrame" name="frame">
    <property name="geometry">
     <rect>
-     <x>110</x>
-     <y>140</y>
-     <width>281</width>
-     <height>21</height>
+     <x>0</x>
+     <y>7</y>
+     <width>191</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::NoFrame</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <property name="lineWidth">
+    <number>0</number>
+   </property>
+  </widget>
+  <widget class="Line" name="line_4">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>60</y>
+     <width>3</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="ND1H">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>150</y>
+     <width>180</width>
+     <height>40</height>
     </rect>
    </property>
    <property name="font">
@@ -147,24 +93,56 @@
      <bold>true</bold>
     </font>
    </property>
-   <property name="toolTip">
-    <string/>
+   <property name="autoFillBackground">
+    <bool>true</bool>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Box</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Plain</enum>
    </property>
    <property name="text">
     <string>MIRROR</string>
    </property>
+   <property name="alignment">
+    <set>Qt::AlignHCenter|Qt::AlignTop</set>
+   </property>
   </widget>
+  <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_11">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>-10</y>
+     <width>200</width>
+     <height>140</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="lineWidth">
+    <number>0</number>
+   </property>
+   <property name="macros" stdset="0">
+    <string/>
+   </property>
+   <property name="filename" stdset="0">
+    <string>vacuumscreens/templates/GCC_GPI.ui</string>
+   </property>
+  </widget>
+  <zorder>line_3</zorder>
+  <zorder>IonPump</zorder>
+  <zorder>frame</zorder>
+  <zorder>line_4</zorder>
+  <zorder>ND1H</zorder>
+  <zorder>PyDMEmbeddedDisplay_11</zorder>
  </widget>
  <customwidgets>
   <customwidget>
-   <class>PyDMLabel</class>
-   <extends>QLabel</extends>
-   <header>pydm.widgets.label</header>
-  </customwidget>
-  <customwidget>
-   <class>PyDMDrawingRectangle</class>
-   <extends>QWidget</extends>
-   <header>pydm.widgets.drawing</header>
+   <class>PyDMEmbeddedDisplay</class>
+   <extends>QFrame</extends>
+   <header>pydm.widgets.embedded_display</header>
   </customwidget>
   <customwidget>
    <class>PCDSSymbolBase</class>
@@ -175,16 +153,6 @@
    <class>IonPump</class>
    <extends>PCDSSymbolBase</extends>
    <header>pcdswidgets.vacuum.pumps</header>
-  </customwidget>
-  <customwidget>
-   <class>RoughGauge</class>
-   <extends>PCDSSymbolBase</extends>
-   <header>pcdswidgets.vacuum.gauges</header>
-  </customwidget>
-  <customwidget>
-   <class>ColdCathodeGauge</class>
-   <extends>PCDSSymbolBase</extends>
-   <header>pcdswidgets.vacuum.gauges</header>
   </customwidget>
  </customwidgets>
  <resources/>
