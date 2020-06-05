@@ -361,12 +361,6 @@ IonPump[state=&quot;FAULT&quot;] #icon {
          <height>0</height>
         </size>
        </property>
-       <property name="maximumSize">
-        <size>
-         <width>4200</width>
-         <height>700</height>
-        </size>
-       </property>
        <property name="lineWidth">
         <number>2</number>
        </property>
@@ -379,7 +373,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
        <widget class="QWidget" name="scrollAreaWidgetContents">
         <property name="geometry">
          <rect>
-          <x>-3471</x>
+          <x>-1079</x>
           <y>0</y>
           <width>5100</width>
           <height>700</height>
@@ -1593,35 +1587,6 @@ EM2L0-GEM</string>
           <bool>false</bool>
          </property>
         </widget>
-        <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle">
-         <property name="geometry">
-          <rect>
-           <x>30</x>
-           <y>30</y>
-           <width>111</width>
-           <height>21</height>
-          </rect>
-         </property>
-         <property name="toolTip">
-          <string/>
-         </property>
-        </widget>
-        <widget class="PyDMDrawingTriangle" name="PyDMDrawingTriangle">
-         <property name="geometry">
-          <rect>
-           <x>110</x>
-           <y>10</y>
-           <width>61</width>
-           <height>61</height>
-          </rect>
-         </property>
-         <property name="toolTip">
-          <string/>
-         </property>
-         <property name="rotation" stdset="0">
-          <double>225.000000000000000</double>
-         </property>
-        </widget>
         <widget class="PyDMShellCommand" name="H1Button">
          <property name="geometry">
           <rect>
@@ -1639,7 +1604,7 @@ EM2L0-GEM</string>
          </property>
          <property name="icon">
           <iconset theme="None">
-           <normaloff>../../../../../../../neh/home/adpai/.designer/backup</normaloff>../../../../../../../neh/home/adpai/.designer/backup</iconset>
+           <normaloff>../../../../../../../../../neh/home/adpai/.designer/backup</normaloff>../../../../../../../../../neh/home/adpai/.designer/backup</iconset>
          </property>
          <property name="command" stdset="0">
           <string>pydm /reg/g/pcds/epics-dev/sabbah01/screens/pydmstuff/HXRVacuum2/hxr-vac-dev2.ui</string>
@@ -1662,7 +1627,7 @@ EM2L0-GEM</string>
          </property>
          <property name="icon">
           <iconset theme="None">
-           <normaloff>../../../../../../../neh/home/adpai/.designer/backup</normaloff>../../../../../../../neh/home/adpai/.designer/backup</iconset>
+           <normaloff>../../../../../../../../../neh/home/adpai/.designer/backup</normaloff>../../../../../../../../../neh/home/adpai/.designer/backup</iconset>
          </property>
          <property name="command" stdset="0">
           <string/>
@@ -3639,306 +3604,6 @@ EM2L0-GEM</string>
           <string>ST1L0-XTES-PIP-01</string>
          </property>
         </widget>
-        <widget class="PyDMDrawingTriangle" name="PyDMDrawingTriangle_2">
-         <property name="geometry">
-          <rect>
-           <x>1560</x>
-           <y>10</y>
-           <width>61</width>
-           <height>61</height>
-          </rect>
-         </property>
-         <property name="toolTip">
-          <string/>
-         </property>
-         <property name="rotation" stdset="0">
-          <double>225.000000000000000</double>
-         </property>
-        </widget>
-        <widget class="QLabel" name="label_47">
-         <property name="geometry">
-          <rect>
-           <x>1520</x>
-           <y>80</y>
-           <width>59</width>
-           <height>15</height>
-          </rect>
-         </property>
-         <property name="font">
-          <font>
-           <pointsize>12</pointsize>
-          </font>
-         </property>
-         <property name="text">
-          <string>HXR</string>
-         </property>
-        </widget>
-        <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_2">
-         <property name="geometry">
-          <rect>
-           <x>1480</x>
-           <y>30</y>
-           <width>111</width>
-           <height>21</height>
-          </rect>
-         </property>
-         <property name="toolTip">
-          <string/>
-         </property>
-        </widget>
-        <widget class="PyDMLabel" name="PyDMLabel_44">
-         <property name="geometry">
-          <rect>
-           <x>1510</x>
-           <y>50</y>
-           <width>71</width>
-           <height>31</height>
-          </rect>
-         </property>
-         <property name="font">
-          <font>
-           <pointsize>14</pointsize>
-           <weight>75</weight>
-           <bold>true</bold>
-          </font>
-         </property>
-         <property name="toolTip">
-          <string/>
-         </property>
-         <property name="text">
-          <string>Beam</string>
-         </property>
-         <property name="textFormat">
-          <enum>Qt::PlainText</enum>
-         </property>
-         <property name="scaledContents">
-          <bool>false</bool>
-         </property>
-         <property name="displayFormat" stdset="0">
-          <enum>PyDMLabel::Default</enum>
-         </property>
-        </widget>
-        <widget class="PyDMLabel" name="PyDMLabel_45">
-         <property name="geometry">
-          <rect>
-           <x>30</x>
-           <y>50</y>
-           <width>71</width>
-           <height>31</height>
-          </rect>
-         </property>
-         <property name="font">
-          <font>
-           <pointsize>14</pointsize>
-           <weight>75</weight>
-           <bold>true</bold>
-          </font>
-         </property>
-         <property name="toolTip">
-          <string/>
-         </property>
-         <property name="text">
-          <string>Beam</string>
-         </property>
-         <property name="textFormat">
-          <enum>Qt::PlainText</enum>
-         </property>
-         <property name="scaledContents">
-          <bool>false</bool>
-         </property>
-         <property name="displayFormat" stdset="0">
-          <enum>PyDMLabel::Default</enum>
-         </property>
-        </widget>
-        <widget class="QLabel" name="label_48">
-         <property name="geometry">
-          <rect>
-           <x>40</x>
-           <y>80</y>
-           <width>59</width>
-           <height>15</height>
-          </rect>
-         </property>
-         <property name="font">
-          <font>
-           <pointsize>12</pointsize>
-          </font>
-         </property>
-         <property name="text">
-          <string>HXR</string>
-         </property>
-        </widget>
-        <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_3">
-         <property name="geometry">
-          <rect>
-           <x>0</x>
-           <y>30</y>
-           <width>111</width>
-           <height>21</height>
-          </rect>
-         </property>
-         <property name="toolTip">
-          <string/>
-         </property>
-        </widget>
-        <widget class="PyDMDrawingTriangle" name="PyDMDrawingTriangle_4">
-         <property name="geometry">
-          <rect>
-           <x>3180</x>
-           <y>10</y>
-           <width>61</width>
-           <height>61</height>
-          </rect>
-         </property>
-         <property name="toolTip">
-          <string/>
-         </property>
-         <property name="rotation" stdset="0">
-          <double>225.000000000000000</double>
-         </property>
-        </widget>
-        <widget class="PyDMLabel" name="PyDMLabel_46">
-         <property name="geometry">
-          <rect>
-           <x>3130</x>
-           <y>50</y>
-           <width>71</width>
-           <height>31</height>
-          </rect>
-         </property>
-         <property name="font">
-          <font>
-           <pointsize>14</pointsize>
-           <weight>75</weight>
-           <bold>true</bold>
-          </font>
-         </property>
-         <property name="toolTip">
-          <string/>
-         </property>
-         <property name="text">
-          <string>Beam</string>
-         </property>
-         <property name="textFormat">
-          <enum>Qt::PlainText</enum>
-         </property>
-         <property name="scaledContents">
-          <bool>false</bool>
-         </property>
-         <property name="displayFormat" stdset="0">
-          <enum>PyDMLabel::Default</enum>
-         </property>
-        </widget>
-        <widget class="QLabel" name="label_49">
-         <property name="geometry">
-          <rect>
-           <x>3140</x>
-           <y>80</y>
-           <width>59</width>
-           <height>15</height>
-          </rect>
-         </property>
-         <property name="font">
-          <font>
-           <pointsize>12</pointsize>
-          </font>
-         </property>
-         <property name="text">
-          <string>HXR</string>
-         </property>
-        </widget>
-        <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_4">
-         <property name="geometry">
-          <rect>
-           <x>3100</x>
-           <y>30</y>
-           <width>111</width>
-           <height>21</height>
-          </rect>
-         </property>
-         <property name="toolTip">
-          <string/>
-         </property>
-        </widget>
-        <widget class="PyDMDrawingTriangle" name="PyDMDrawingTriangle_5">
-         <property name="geometry">
-          <rect>
-           <x>4430</x>
-           <y>10</y>
-           <width>61</width>
-           <height>61</height>
-          </rect>
-         </property>
-         <property name="toolTip">
-          <string/>
-         </property>
-         <property name="rotation" stdset="0">
-          <double>225.000000000000000</double>
-         </property>
-        </widget>
-        <widget class="PyDMLabel" name="PyDMLabel_47">
-         <property name="geometry">
-          <rect>
-           <x>4380</x>
-           <y>50</y>
-           <width>71</width>
-           <height>31</height>
-          </rect>
-         </property>
-         <property name="font">
-          <font>
-           <pointsize>14</pointsize>
-           <weight>75</weight>
-           <bold>true</bold>
-          </font>
-         </property>
-         <property name="toolTip">
-          <string/>
-         </property>
-         <property name="text">
-          <string>Beam</string>
-         </property>
-         <property name="textFormat">
-          <enum>Qt::PlainText</enum>
-         </property>
-         <property name="scaledContents">
-          <bool>false</bool>
-         </property>
-         <property name="displayFormat" stdset="0">
-          <enum>PyDMLabel::Default</enum>
-         </property>
-        </widget>
-        <widget class="QLabel" name="label_50">
-         <property name="geometry">
-          <rect>
-           <x>4390</x>
-           <y>80</y>
-           <width>59</width>
-           <height>15</height>
-          </rect>
-         </property>
-         <property name="font">
-          <font>
-           <pointsize>12</pointsize>
-          </font>
-         </property>
-         <property name="text">
-          <string>HXR</string>
-         </property>
-        </widget>
-        <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_5">
-         <property name="geometry">
-          <rect>
-           <x>4350</x>
-           <y>30</y>
-           <width>111</width>
-           <height>21</height>
-          </rect>
-         </property>
-         <property name="toolTip">
-          <string/>
-         </property>
-        </widget>
         <widget class="Line" name="line_21">
          <property name="geometry">
           <rect>
@@ -4307,6 +3972,82 @@ EM2L0-GEM</string>
           <enum>Qt::Vertical</enum>
          </property>
         </widget>
+        <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_13">
+         <property name="geometry">
+          <rect>
+           <x>3100</x>
+           <y>-10</y>
+           <width>151</width>
+           <height>100</height>
+          </rect>
+         </property>
+         <property name="toolTip">
+          <string/>
+         </property>
+         <property name="lineWidth">
+          <number>0</number>
+         </property>
+         <property name="filename" stdset="0">
+          <string>vacuumscreens/templates/hxrArrow.ui</string>
+         </property>
+        </widget>
+        <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_14">
+         <property name="geometry">
+          <rect>
+           <x>4310</x>
+           <y>-10</y>
+           <width>151</width>
+           <height>100</height>
+          </rect>
+         </property>
+         <property name="toolTip">
+          <string/>
+         </property>
+         <property name="lineWidth">
+          <number>0</number>
+         </property>
+         <property name="filename" stdset="0">
+          <string>vacuumscreens/templates/hxrArrow.ui</string>
+         </property>
+        </widget>
+        <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_15">
+         <property name="geometry">
+          <rect>
+           <x>1750</x>
+           <y>-10</y>
+           <width>151</width>
+           <height>100</height>
+          </rect>
+         </property>
+         <property name="toolTip">
+          <string/>
+         </property>
+         <property name="lineWidth">
+          <number>0</number>
+         </property>
+         <property name="filename" stdset="0">
+          <string>vacuumscreens/templates/hxrArrow.ui</string>
+         </property>
+        </widget>
+        <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_16">
+         <property name="geometry">
+          <rect>
+           <x>50</x>
+           <y>-10</y>
+           <width>151</width>
+           <height>100</height>
+          </rect>
+         </property>
+         <property name="toolTip">
+          <string/>
+         </property>
+         <property name="lineWidth">
+          <number>0</number>
+         </property>
+         <property name="filename" stdset="0">
+          <string>vacuumscreens/templates/hxrArrow.ui</string>
+         </property>
+        </widget>
         <zorder>line_83</zorder>
         <zorder>line_46</zorder>
         <zorder>line_45</zorder>
@@ -4389,8 +4130,6 @@ EM2L0-GEM</string>
         <zorder>MR1L1_TXI_PIP_01</zorder>
         <zorder>TV1L1_VGC_2</zorder>
         <zorder>PC2L1_L2SI_VGC_01</zorder>
-        <zorder>PyDMDrawingRectangle</zorder>
-        <zorder>PyDMDrawingTriangle</zorder>
         <zorder>H1Button</zorder>
         <zorder>UndulatorButton</zorder>
         <zorder>RTDSL0_YAGXRAY</zorder>
@@ -4490,21 +4229,10 @@ EM2L0-GEM</string>
         <zorder>label_41</zorder>
         <zorder>label_44</zorder>
         <zorder>label_45</zorder>
-        <zorder>PyDMDrawingTriangle_2</zorder>
-        <zorder>label_47</zorder>
-        <zorder>PyDMDrawingRectangle_2</zorder>
-        <zorder>PyDMLabel_44</zorder>
-        <zorder>PyDMLabel_45</zorder>
-        <zorder>label_48</zorder>
-        <zorder>PyDMDrawingRectangle_3</zorder>
-        <zorder>PyDMDrawingTriangle_4</zorder>
-        <zorder>PyDMLabel_46</zorder>
-        <zorder>label_49</zorder>
-        <zorder>PyDMDrawingRectangle_4</zorder>
-        <zorder>PyDMDrawingTriangle_5</zorder>
-        <zorder>PyDMLabel_47</zorder>
-        <zorder>label_50</zorder>
-        <zorder>PyDMDrawingRectangle_5</zorder>
+        <zorder>PyDMEmbeddedDisplay_13</zorder>
+        <zorder>PyDMEmbeddedDisplay_14</zorder>
+        <zorder>PyDMEmbeddedDisplay_15</zorder>
+        <zorder>PyDMEmbeddedDisplay_16</zorder>
        </widget>
       </widget>
      </item>
@@ -4517,16 +4245,6 @@ EM2L0-GEM</string>
    <class>PyDMLabel</class>
    <extends>QLabel</extends>
    <header>pydm.widgets.label</header>
-  </customwidget>
-  <customwidget>
-   <class>PyDMDrawingRectangle</class>
-   <extends>QWidget</extends>
-   <header>pydm.widgets.drawing</header>
-  </customwidget>
-  <customwidget>
-   <class>PyDMDrawingTriangle</class>
-   <extends>QWidget</extends>
-   <header>pydm.widgets.drawing</header>
   </customwidget>
   <customwidget>
    <class>PyDMEmbeddedDisplay</class>
