@@ -93,7 +93,7 @@
     <string/>
    </property>
    <property name="channelsPrefix" stdset="0">
-    <string>ca://${PIP}</string>
+    <string>ca://${PIP2}</string>
    </property>
    <property name="controlButtonHorizontal" stdset="0">
     <bool>false</bool>
@@ -112,7 +112,7 @@
     <string/>
    </property>
    <property name="channelsPrefix" stdset="0">
-    <string>ca://${PIP}</string>
+    <string>ca://${PIP1}</string>
    </property>
    <property name="controlButtonHorizontal" stdset="0">
     <bool>false</bool>
