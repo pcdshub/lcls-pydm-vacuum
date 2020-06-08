@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1567</width>
-    <height>769</height>
+    <height>852</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -373,7 +373,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
        <widget class="QWidget" name="scrollAreaWidgetContents">
         <property name="geometry">
          <rect>
-          <x>-1079</x>
+          <x>-1670</x>
           <y>0</y>
           <width>5100</width>
           <height>700</height>
@@ -1604,7 +1604,7 @@ EM2L0-GEM</string>
          </property>
          <property name="icon">
           <iconset theme="None">
-           <normaloff>../../../../../../../../../neh/home/adpai/.designer/backup</normaloff>../../../../../../../../../neh/home/adpai/.designer/backup</iconset>
+           <normaloff>../../../../../../../../../../../neh/home/adpai/.designer/backup</normaloff>../../../../../../../../../../../neh/home/adpai/.designer/backup</iconset>
          </property>
          <property name="command" stdset="0">
           <string>pydm /reg/g/pcds/epics-dev/sabbah01/screens/pydmstuff/HXRVacuum2/hxr-vac-dev2.ui</string>
@@ -1627,7 +1627,7 @@ EM2L0-GEM</string>
          </property>
          <property name="icon">
           <iconset theme="None">
-           <normaloff>../../../../../../../../../neh/home/adpai/.designer/backup</normaloff>../../../../../../../../../neh/home/adpai/.designer/backup</iconset>
+           <normaloff>../../../../../../../../../../../neh/home/adpai/.designer/backup</normaloff>../../../../../../../../../../../neh/home/adpai/.designer/backup</iconset>
          </property>
          <property name="command" stdset="0">
           <string/>
