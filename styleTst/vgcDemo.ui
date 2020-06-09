@@ -14,11 +14,11 @@
    <string>Form</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">PneumaticValve #icon [alarmSeverity=&quot;0&quot;]{
+   <string notr="true">PneumaticValve #icon {
     qproperty-penStyle: &quot;QT::SolidLine&quot;;
     qproperty-penColor: black;
     qproperty-penWidth: 2;
- 
+    qproperty-interlockBrush: #00FF00;
 }
 PneumaticValve[interlocked=&quot;true&quot;] #icon{
     border: 2px solid black;
@@ -32,12 +32,6 @@ PneumaticValve[interlocked=&quot;false&quot;] #icon{
     border: 0px;
     qproperty-penWidth: 2;
     qproperty-brush: #00FF00;
-}
-PneumaticValve[interlocked=&quot;true&quot;] #icon {
-    qproperty-interlockBrush: black;
-}
-PneumaticValve[interlocked=&quot;false&quot;] #icon{
-    qproperty-interlockBrush: #00FF00;
 }
 PneumaticValve[state=&quot;OPEN&quot;] #icon {
      qproperty-penStyle: &quot;QT::SolidLine&quot;;
