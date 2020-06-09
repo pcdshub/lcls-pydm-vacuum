@@ -334,7 +334,34 @@ ScrollPump[error=&quot;true&quot;] #icon {
     qproperty-centerBrush: red;
 }
 
-
+IonPump[interlocked=&quot;true&quot;] #icon {
+    qproperty-penColor: black;
+    qproperty-brush: #00FF00;
+}
+IonPump[interlocked=&quot;false&quot;] #icon{
+    border: 0px;
+}
+IonPump[error=&quot;true&quot;] #icon {
+    qproperty-penStyle: &quot;Qt::DotLine&quot;;
+    qproperty-penWidth: 2;
+    qproperty-brush: red;
+}
+IonPump[state=&quot;RUNNING&quot;] #icon {
+    qproperty-penColor: black;
+    qproperty-brush: #00FF00;
+}
+IonPump[state=&quot;STARTING&quot;] #icon {
+    qproperty-penColor: black;
+    qproperty-brush: yellow;
+}
+IonPump[state=&quot;STOPPED&quot;] #icon {
+    qproperty-penColor: black;
+    qproperty-brush: gray;
+}
+IonPump[state=&quot;FAULT&quot;] #icon {
+    qproperty-penColor: black;
+    qproperty-brush: red;
+}
 
 
 
@@ -385,10 +412,10 @@ ControlOnlyValveNC[state=&quot;Close&quot;] #icon {
       </property>
       <property name="geometry">
        <rect>
-        <x>0</x>
+        <x>-1562</x>
         <y>0</y>
         <width>3100</width>
-        <height>770</height>
+        <height>780</height>
        </rect>
       </property>
       <widget class="PneumaticValve" name="PneumaticValve">
@@ -1093,10 +1120,10 @@ ControlOnlyValveNC[state=&quot;Close&quot;] #icon {
       <widget class="Line" name="line_22">
        <property name="geometry">
         <rect>
-         <x>2244</x>
-         <y>430</y>
+         <x>2220</x>
+         <y>422</y>
          <width>3</width>
-         <height>270</height>
+         <height>278</height>
         </rect>
        </property>
        <property name="frameShadow">
@@ -1112,9 +1139,9 @@ ControlOnlyValveNC[state=&quot;Close&quot;] #icon {
       <widget class="Line" name="line_23">
        <property name="geometry">
         <rect>
-         <x>2245</x>
+         <x>2220</x>
          <y>700</y>
-         <width>605</width>
+         <width>635</width>
          <height>3</height>
         </rect>
        </property>
@@ -1823,8 +1850,8 @@ ControlOnlyValveNC[state=&quot;Close&quot;] #icon {
        <property name="geometry">
         <rect>
          <x>2260</x>
-         <y>610</y>
-         <width>141</width>
+         <y>660</y>
+         <width>111</width>
          <height>17</height>
         </rect>
        </property>
@@ -2189,31 +2216,6 @@ ControlOnlyValveNC[state=&quot;Close&quot;] #icon {
         <string>NOT CURRENTLY INSTALLED</string>
        </property>
       </widget>
-      <widget class="QLabel" name="RTDSL0_YAGXRAY_6">
-       <property name="geometry">
-        <rect>
-         <x>2220</x>
-         <y>410</y>
-         <width>71</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="autoFillBackground">
-        <bool>true</bool>
-       </property>
-       <property name="frameShape">
-        <enum>QFrame::Box</enum>
-       </property>
-       <property name="text">
-        <string>BTM2K0</string>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-       </property>
-       <property name="wordWrap">
-        <bool>true</bool>
-       </property>
-      </widget>
       <widget class="QLabel" name="label_31">
        <property name="geometry">
         <rect>
@@ -2567,7 +2569,6 @@ ControlOnlyValveNC[state=&quot;Close&quot;] #icon {
       <zorder>PyDMDrawingRectangle_2</zorder>
       <zorder>label_29</zorder>
       <zorder>label_30</zorder>
-      <zorder>RTDSL0_YAGXRAY_6</zorder>
       <zorder>label_31</zorder>
       <zorder>label_32</zorder>
       <zorder>PyDMDrawingRectangle_3</zorder>
