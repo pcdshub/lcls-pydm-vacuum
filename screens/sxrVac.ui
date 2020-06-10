@@ -2469,6 +2469,90 @@ ControlOnlyValveNC[state=&quot;Close&quot;] #icon {
         <string>TV3K0</string>
        </property>
       </widget>
+      <widget class="QLabel" name="label_11">
+       <property name="geometry">
+        <rect>
+         <x>2840</x>
+         <y>750</y>
+         <width>241</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>&lt;-- Check this box to disable interlocks</string>
+       </property>
+      </widget>
+      <widget class="PyDMByteIndicator" name="PyDMByteIndicator">
+       <property name="geometry">
+        <rect>
+         <x>2810</x>
+         <y>720</y>
+         <width>221</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="rules" stdset="0">
+        <string>[]</string>
+       </property>
+       <property name="alarmSensitiveContent" stdset="0">
+        <bool>true</bool>
+       </property>
+       <property name="channel" stdset="0">
+        <string>ca://RTDSK0:KFEVAC:SYSOVERRIDE_RBV</string>
+       </property>
+       <property name="onColor" stdset="0">
+        <color>
+         <red>255</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </property>
+       <property name="offColor" stdset="0">
+        <color>
+         <red>0</red>
+         <green>255</green>
+         <blue>0</blue>
+        </color>
+       </property>
+       <property name="showLabels" stdset="0">
+        <bool>true</bool>
+       </property>
+       <property name="labels" stdset="0">
+        <stringlist>
+         <string>Vacuum interlocks enabled</string>
+         <string>Vacuum Interlocks DISABLED</string>
+         <string></string>
+        </stringlist>
+       </property>
+      </widget>
+      <widget class="PyDMCheckbox" name="PyDMCheckbox">
+       <property name="geometry">
+        <rect>
+         <x>2820</x>
+         <y>750</y>
+         <width>14</width>
+         <height>15</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="checked">
+        <bool>false</bool>
+       </property>
+       <property name="alarmSensitiveContent" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="alarmSensitiveBorder" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="channel" stdset="0">
+        <string>ca://RTDSK0:KFEVAC:SYSOVERRIDE</string>
+       </property>
+      </widget>
       <zorder>line_15</zorder>
       <zorder>line_16</zorder>
       <zorder>line_23</zorder>
@@ -2582,6 +2666,9 @@ ControlOnlyValveNC[state=&quot;Close&quot;] #icon {
       <zorder>RTDSL0_YAGXRAY_17</zorder>
       <zorder>RTDSL0_YAGXRAY_18</zorder>
       <zorder>label_63</zorder>
+      <zorder>label_11</zorder>
+      <zorder>PyDMByteIndicator</zorder>
+      <zorder>PyDMCheckbox</zorder>
      </widget>
     </widget>
    </item>
@@ -2592,6 +2679,16 @@ ControlOnlyValveNC[state=&quot;Close&quot;] #icon {
    <class>PyDMLabel</class>
    <extends>QLabel</extends>
    <header>pydm.widgets.label</header>
+  </customwidget>
+  <customwidget>
+   <class>PyDMByteIndicator</class>
+   <extends>QWidget</extends>
+   <header>pydm.widgets.byte</header>
+  </customwidget>
+  <customwidget>
+   <class>PyDMCheckbox</class>
+   <extends>QCheckBox</extends>
+   <header>pydm.widgets.checkbox</header>
   </customwidget>
   <customwidget>
    <class>PyDMDrawingRectangle</class>
