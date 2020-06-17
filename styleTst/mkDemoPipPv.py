@@ -4,21 +4,17 @@ from caproto.server import pvproperty, PVGroup, ioc_arg_parser, run
 
 
 class RecordMockingIOC(PVGroup):
-    pos_state_enum_strings = ['OPEN', 'CLOSED', 'MOVING', 'INVALID']
+    state_enum_strings = ['STOPPED', 'STARTING', 'RUNNING', 'FAULT', 'STOPPING']
 
-    POS_STATE_RBV = pvproperty(value=0, enum_strings=pos_state_enum_strings, dtype=ChannelType.ENUM)
+    STATE_RBV = pvproperty(value=0, enum_strings=state_enum_strings, dtype=ChannelType.ENUM) 
+    
+    ilk_ok_rbv_enum_strings = ['NOT OK', 'OK']
 
-    state_enum_strings = ['Vented', 'At Vacuum', 'Differential Pressure', 'Lost Vacuum', 'Ext Fault']
-
-    STATE_RBV = pvproperty(value=0, enum_strings=state_enum_strings, dtype=ChannelType.ENUM)
-
-    opn_ok_rbv_enum_strings = ['OPN ILK NOT OK', 'OPN ILK OK']
-
-    OPN_OK_RBV = pvproperty(value=0, enum_strings=opn_ok_rbv_enum_strings, dtype=ChannelType.ENUM)
+    ILK_OK_RBV = pvproperty(value=0, enum_strings=ilk_ok_rbv_enum_strings, dtype=ChannelType.ENUM)
 
 if __name__ == '__main__':
     ioc_options, run_options = ioc_arg_parser(
-        default_prefix='vgcDemoPv:',
+        default_prefix='pipDemoPv:',
         desc='Run an IOC that mocks an enum pv.')
 
     # Instantiate the IOC, assigning a prefix for the PV names.

@@ -15,7 +15,7 @@
   </property>
   <property name="styleSheet">
    <string notr="true">PneumaticValve #icon {
-    qproperty-penStyle: &quot;QT::SolidLine&quot;;
+    qproperty-penStyle: &quot;Qt::SolidLine&quot;;
     qproperty-penColor: black;
     qproperty-penWidth: 2;
     qproperty-interlockBrush: #00FF00;
@@ -34,31 +34,31 @@ PneumaticValve[interlocked=&quot;false&quot;] #icon{
     qproperty-brush: #00FF00;
 }
 PneumaticValve[state=&quot;OPEN&quot;] #icon {
-     qproperty-penStyle: &quot;QT::SolidLine&quot;;
+     qproperty-penStyle: &quot;Qt::SolidLine&quot;;
     qproperty-penColor: black;
     qproperty-penWidth: 2;
     qproperty-brush: #00FF00;
 }
 PneumaticValve[state=&quot;MOVING&quot;] #icon {
-    qproperty-penStyle: &quot;QT::SolidLine&quot;;
+    qproperty-penStyle: &quot;Qt::SolidLine&quot;;
     qproperty-penColor: black;
     qproperty-penWidth: 2;
     qproperty-brush: yellow;
 }
 PneumaticValve[state=&quot;CLOSED&quot;] #icon {
-    qproperty-penStyle: &quot;QT::SolidLine&quot;;
+    qproperty-penStyle: &quot;Qt::SolidLine&quot;;
     qproperty-penColor: gray;
     qproperty-penWidth: 2;
     qproperty-brush: black;
 }
 PneumaticValve[state=&quot;INVALID&quot;] #icon {
-    qproperty-penStyle: &quot;QT::SolidLine&quot;;
+    qproperty-penStyle: &quot;Qt::SolidLine&quot;;
     qproperty-penColor: black;
     qproperty-penWidth: 2;
     qproperty-brush: red;
 }
 PneumaticValve[error=&quot;Vented&quot;] #icon {
-       qproperty-penStyle: &quot;QT::SolidLine&quot;;
+       qproperty-penStyle: &quot;Qt::SolidLine&quot;;
 }
 PneumaticValve[error=&quot;Lost Vacuum&quot;] #icon {
     qproperty-penStyle: &quot;Qt::DotLine&quot;;
@@ -67,7 +67,7 @@ PneumaticValve[error=&quot;Lost Vacuum&quot;] #icon {
    qproperty-interlockBrush: red;
 }
 PneumaticValve[error=&quot;Ext Fault&quot;] #icon {
-    qproperty-penStyle: &quot;QT::SolidLine&quot;;
+    qproperty-penStyle: &quot;Qt::SolidLine&quot;;
     qproperty-penColor: black;
     qproperty-penWidth: 2;
    qproperty-interlockBrush: red;
