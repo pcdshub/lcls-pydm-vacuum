@@ -311,15 +311,26 @@ ScrollPump[error=&quot;true&quot;] #icon {
     qproperty-penWidth: 2;
     qproperty-centerBrush: red;
 }
-IonPump[interlocked=&quot;true&quot;] #icon {
-    qproperty-penColor: black;
-    qproperty-brush: #00FF00;
+IonPump[interlocked=&quot;true&quot;] #icon{
+    border: 2px solid black;
+    qproperty-penWidth: 2;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
 }
 IonPump[interlocked=&quot;false&quot;] #icon{
     border: 0px;
+    qproperty-penWidth: 2;
+    qproperty-brush: #00FF00;
 }
-IonPump[error=&quot;true&quot;] #icon {
+IonPump[error=&quot;TRUE&quot;] #icon {
     qproperty-penStyle: &quot;Qt::DotLine&quot;;
+    qproperty-penWidth: 2;
+    qproperty-brush: red;
+}
+IonPump[error=&quot;FALSE&quot;] #icon {
+    qproperty-penStyle: &quot;Qt::SolidLine&quot;;
     qproperty-penWidth: 2;
     qproperty-brush: red;
 }
@@ -578,7 +589,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
            <x>520</x>
            <y>155</y>
            <width>20</width>
-           <height>110</height>
+           <height>120</height>
           </rect>
          </property>
          <property name="lineWidth">
@@ -586,28 +597,6 @@ IonPump[state=&quot;FAULT&quot;] #icon {
          </property>
          <property name="orientation">
           <enum>Qt::Vertical</enum>
-         </property>
-        </widget>
-        <widget class="QLabel" name="TV1L0_3">
-         <property name="geometry">
-          <rect>
-           <x>480</x>
-           <y>260</y>
-           <width>81</width>
-           <height>21</height>
-          </rect>
-         </property>
-         <property name="autoFillBackground">
-          <bool>true</bool>
-         </property>
-         <property name="frameShape">
-          <enum>QFrame::Box</enum>
-         </property>
-         <property name="frameShadow">
-          <enum>QFrame::Plain</enum>
-         </property>
-         <property name="text">
-          <string>TV1K1:PLEG</string>
          </property>
         </widget>
         <widget class="Line" name="line_8">
@@ -744,7 +733,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
           <rect>
            <x>10</x>
            <y>260</y>
-           <width>81</width>
+           <width>91</width>
            <height>21</height>
           </rect>
          </property>
@@ -758,39 +747,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
           <enum>QFrame::Plain</enum>
          </property>
          <property name="text">
-          <string>NOLAN PLC</string>
-         </property>
-        </widget>
-        <widget class="PyDMDrawingTriangle" name="PyDMDrawingTriangle">
-         <property name="geometry">
-          <rect>
-           <x>100</x>
-           <y>260</y>
-           <width>21</width>
-           <height>21</height>
-          </rect>
-         </property>
-         <property name="toolTip">
-          <string/>
-         </property>
-         <property name="rotation" stdset="0">
-          <double>45.000000000000000</double>
-         </property>
-        </widget>
-        <widget class="PyDMDrawingTriangle" name="PyDMDrawingTriangle_2">
-         <property name="geometry">
-          <rect>
-           <x>620</x>
-           <y>260</y>
-           <width>21</width>
-           <height>21</height>
-          </rect>
-         </property>
-         <property name="toolTip">
-          <string/>
-         </property>
-         <property name="rotation" stdset="0">
-          <double>-135.000000000000000</double>
+          <string>KFE VACUUM</string>
          </property>
         </widget>
         <widget class="QLabel" name="TV1L0_6">
@@ -983,6 +940,62 @@ IonPump[state=&quot;FAULT&quot;] #icon {
           <string>RGA:1</string>
          </property>
         </widget>
+        <widget class="QLabel" name="label_6">
+         <property name="geometry">
+          <rect>
+           <x>500</x>
+           <y>110</y>
+           <width>101</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>TV1K1:PLEG</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_7">
+         <property name="geometry">
+          <rect>
+           <x>480</x>
+           <y>423</y>
+           <width>111</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>TV1K1:PLEG:PIP:1</string>
+         </property>
+        </widget>
+        <zorder>line_7</zorder>
+        <zorder>line_4</zorder>
+        <zorder>line</zorder>
+        <zorder>label_2</zorder>
+        <zorder>PyDMEmbeddedDisplay_16</zorder>
+        <zorder>line_6</zorder>
+        <zorder>RTDSL0_PIP_2</zorder>
+        <zorder>line_3</zorder>
+        <zorder>TV1L0_2</zorder>
+        <zorder>IM1L0_XTES_VGC_2</zorder>
+        <zorder>RTDSL0_PIP_3</zorder>
+        <zorder>line_8</zorder>
+        <zorder>RTDSL0_PIP_4</zorder>
+        <zorder>line_9</zorder>
+        <zorder>PyDMEmbeddedDisplay_18</zorder>
+        <zorder>TV1L0_4</zorder>
+        <zorder>IM1L0_XTES_VGC_4</zorder>
+        <zorder>TV1L0_5</zorder>
+        <zorder>TV1L0_6</zorder>
+        <zorder>label_3</zorder>
+        <zorder>label_4</zorder>
+        <zorder>FastShutter</zorder>
+        <zorder>PyDMDrawingRectangle_2</zorder>
+        <zorder>label_33</zorder>
+        <zorder>PyDMEmbeddedDisplay_19</zorder>
+        <zorder>PyDMEmbeddedDisplay_20</zorder>
+        <zorder>RGA</zorder>
+        <zorder>label_5</zorder>
+        <zorder>label_6</zorder>
+        <zorder>label_7</zorder>
        </widget>
       </widget>
      </item>
@@ -993,11 +1006,6 @@ IonPump[state=&quot;FAULT&quot;] #icon {
  <customwidgets>
   <customwidget>
    <class>PyDMDrawingRectangle</class>
-   <extends>QWidget</extends>
-   <header>pydm.widgets.drawing</header>
-  </customwidget>
-  <customwidget>
-   <class>PyDMDrawingTriangle</class>
    <extends>QWidget</extends>
    <header>pydm.widgets.drawing</header>
   </customwidget>
