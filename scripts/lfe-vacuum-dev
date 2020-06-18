@@ -7,6 +7,7 @@ basePath="/reg/g/pcds/epics-dev/screens/pydm/vacuumscreens/screens/"
 screens="
 hxr-vac-dev.ui
 sxrVac.ui
+rixFeeVac.ui
 "
 
 for screen in $screens; do

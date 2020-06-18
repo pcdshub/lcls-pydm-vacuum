@@ -12,6 +12,11 @@ class RecordMockingIOC(PVGroup):
 
     ILK_OK_RBV = pvproperty(value=0, enum_strings=ilk_ok_rbv_enum_strings, dtype=ChannelType.ENUM)
 
+    error_rbv_enum_strings = ['TRUE', 'FALSE']
+
+    ERROR_RBV = pvproperty(value=0, enum_strings=error_rbv_enum_strings, dtype=ChannelType.ENUM)
+
+
 if __name__ == '__main__':
     ioc_options, run_options = ioc_arg_parser(
         default_prefix='pipDemoPv:',
