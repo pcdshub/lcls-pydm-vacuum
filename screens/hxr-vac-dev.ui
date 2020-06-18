@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1567</width>
+    <width>1370</width>
     <height>852</height>
    </rect>
   </property>
@@ -311,6 +311,11 @@ ScrollPump[error=&quot;true&quot;] #icon {
     qproperty-penWidth: 2;
     qproperty-centerBrush: red;
 }
+IonPump #pressure{
+    color: blue;
+	border: 1px solid black;
+	background-color : white;
+}
 IonPump[interlocked=&quot;true&quot;] #icon {
     qproperty-penColor: black;
     qproperty-brush: #00FF00;
@@ -373,7 +378,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
        <widget class="QWidget" name="scrollAreaWidgetContents">
         <property name="geometry">
          <rect>
-          <x>0</x>
+          <x>-618</x>
           <y>0</y>
           <width>5100</width>
           <height>700</height>
@@ -1606,31 +1611,13 @@ EM2L0-GEM</string>
           <iconset theme="None">
            <normaloff>../../../../../../../../../../../neh/home/adpai/.designer/backup</normaloff>../../../../../../../../../../../neh/home/adpai/.designer/backup</iconset>
          </property>
-         <property name="command" stdset="0">
-          <string>pydm /reg/g/pcds/epics-dev/sabbah01/screens/pydmstuff/HXRVacuum2/hxr-vac-dev2.ui</string>
-         </property>
-        </widget>
-        <widget class="PyDMShellCommand" name="UndulatorButton">
-         <property name="geometry">
-          <rect>
-           <x>30</x>
-           <y>320</y>
-           <width>111</width>
-           <height>24</height>
-          </rect>
-         </property>
-         <property name="toolTip">
-          <string/>
-         </property>
-         <property name="text">
-          <string>&lt; Undulator</string>
-         </property>
-         <property name="icon">
-          <iconset theme="None">
-           <normaloff>../../../../../../../../../../../neh/home/adpai/.designer/backup</normaloff>../../../../../../../../../../../neh/home/adpai/.designer/backup</iconset>
+         <property name="commands" stdset="0">
+          <stringlist>
+           <string>pydm vacuumscreens/screens/hxrH1_1H1_2Vac.ui</string>
+          </stringlist>
          </property>
          <property name="command" stdset="0">
-          <string/>
+          <string>pydm vacuumscreens/screens/hxrH1_1H1_2Vac.ui</string>
          </property>
         </widget>
         <widget class="QLabel" name="RTDSL0_YAGXRAY">
@@ -2916,7 +2903,7 @@ EM2L0-GEM</string>
          <property name="geometry">
           <rect>
            <x>190</x>
-           <y>490</y>
+           <y>488</y>
            <width>41</width>
            <height>16</height>
           </rect>
@@ -2929,7 +2916,7 @@ EM2L0-GEM</string>
          <property name="geometry">
           <rect>
            <x>400</x>
-           <y>490</y>
+           <y>488</y>
            <width>41</width>
            <height>16</height>
           </rect>
@@ -2942,7 +2929,7 @@ EM2L0-GEM</string>
          <property name="geometry">
           <rect>
            <x>330</x>
-           <y>490</y>
+           <y>488</y>
            <width>41</width>
            <height>16</height>
           </rect>
@@ -2955,7 +2942,7 @@ EM2L0-GEM</string>
          <property name="geometry">
           <rect>
            <x>470</x>
-           <y>490</y>
+           <y>488</y>
            <width>41</width>
            <height>16</height>
           </rect>
@@ -2968,7 +2955,7 @@ EM2L0-GEM</string>
          <property name="geometry">
           <rect>
            <x>260</x>
-           <y>490</y>
+           <y>488</y>
            <width>41</width>
            <height>16</height>
           </rect>
@@ -3229,7 +3216,7 @@ EM2L0-GEM</string>
          <property name="geometry">
           <rect>
            <x>670</x>
-           <y>490</y>
+           <y>488</y>
            <width>121</width>
            <height>16</height>
           </rect>
@@ -3242,7 +3229,7 @@ EM2L0-GEM</string>
          <property name="geometry">
           <rect>
            <x>840</x>
-           <y>490</y>
+           <y>488</y>
            <width>81</width>
            <height>16</height>
           </rect>
@@ -3254,8 +3241,8 @@ EM2L0-GEM</string>
         <widget class="QLabel" name="label_21">
          <property name="geometry">
           <rect>
-           <x>960</x>
-           <y>490</y>
+           <x>970</x>
+           <y>488</y>
            <width>111</width>
            <height>16</height>
           </rect>
@@ -3267,8 +3254,8 @@ EM2L0-GEM</string>
         <widget class="QLabel" name="label_22">
          <property name="geometry">
           <rect>
-           <x>1160</x>
-           <y>490</y>
+           <x>1170</x>
+           <y>488</y>
            <width>111</width>
            <height>16</height>
           </rect>
@@ -3307,7 +3294,7 @@ EM2L0-GEM</string>
          <property name="geometry">
           <rect>
            <x>1390</x>
-           <y>490</y>
+           <y>488</y>
            <width>141</width>
            <height>16</height>
           </rect>
@@ -3365,7 +3352,7 @@ EM2L0-GEM</string>
          <property name="geometry">
           <rect>
            <x>1750</x>
-           <y>490</y>
+           <y>488</y>
            <width>131</width>
            <height>16</height>
           </rect>
@@ -3378,7 +3365,7 @@ EM2L0-GEM</string>
          <property name="geometry">
           <rect>
            <x>2220</x>
-           <y>490</y>
+           <y>488</y>
            <width>151</width>
            <height>16</height>
           </rect>
@@ -3456,7 +3443,7 @@ EM2L0-GEM</string>
          <property name="geometry">
           <rect>
            <x>3140</x>
-           <y>490</y>
+           <y>488</y>
            <width>131</width>
            <height>16</height>
           </rect>
@@ -3485,7 +3472,7 @@ EM2L0-GEM</string>
          <property name="geometry">
           <rect>
            <x>2810</x>
-           <y>490</y>
+           <y>488</y>
            <width>151</width>
            <height>16</height>
           </rect>
@@ -3540,7 +3527,7 @@ EM2L0-GEM</string>
          <property name="geometry">
           <rect>
            <x>3520</x>
-           <y>490</y>
+           <y>488</y>
            <width>151</width>
            <height>16</height>
           </rect>
@@ -3553,7 +3540,7 @@ EM2L0-GEM</string>
          <property name="geometry">
           <rect>
            <x>3770</x>
-           <y>490</y>
+           <y>488</y>
            <width>121</width>
            <height>16</height>
           </rect>
@@ -3595,7 +3582,7 @@ EM2L0-GEM</string>
          <property name="geometry">
           <rect>
            <x>4170</x>
-           <y>490</y>
+           <y>488</y>
            <width>131</width>
            <height>16</height>
           </rect>
@@ -4048,6 +4035,28 @@ EM2L0-GEM</string>
           <string>vacuumscreens/templates/hxrArrow.ui</string>
          </property>
         </widget>
+        <widget class="QLabel" name="RTDSL0_2">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>320</y>
+           <width>111</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="autoFillBackground">
+          <bool>true</bool>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::Box</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Plain</enum>
+         </property>
+         <property name="text">
+          <string>&lt;-- UNDULATOR</string>
+         </property>
+        </widget>
         <zorder>line_83</zorder>
         <zorder>line_46</zorder>
         <zorder>line_45</zorder>
@@ -4131,7 +4140,6 @@ EM2L0-GEM</string>
         <zorder>TV1L1_VGC_2</zorder>
         <zorder>PC2L1_L2SI_VGC_01</zorder>
         <zorder>H1Button</zorder>
-        <zorder>UndulatorButton</zorder>
         <zorder>RTDSL0_YAGXRAY</zorder>
         <zorder>IM1L0_XTES</zorder>
         <zorder>PCPM2</zorder>
@@ -4233,6 +4241,7 @@ EM2L0-GEM</string>
         <zorder>PyDMEmbeddedDisplay_14</zorder>
         <zorder>PyDMEmbeddedDisplay_15</zorder>
         <zorder>PyDMEmbeddedDisplay_16</zorder>
+        <zorder>RTDSL0_2</zorder>
        </widget>
       </widget>
      </item>
