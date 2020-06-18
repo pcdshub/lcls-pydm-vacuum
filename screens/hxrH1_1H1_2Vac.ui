@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1475</width>
-    <height>717</height>
+    <width>1181</width>
+    <height>645</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -305,6 +305,11 @@ ScrollPump[error=&quot;true&quot;] #icon {
     qproperty-penWidth: 2;
     qproperty-centerBrush: red;
 }
+IonPump #pressure{
+    color: blue;
+    border: 1px solid black;
+    background-color : white;
+}
 IonPump[interlocked=&quot;true&quot;] #icon {
     qproperty-penColor: black;
     qproperty-brush: #00FF00;
@@ -367,10 +372,10 @@ IonPump[state=&quot;FAULT&quot;] #icon {
        <widget class="QWidget" name="scrollAreaWidgetContents">
         <property name="geometry">
          <rect>
-          <x>0</x>
+          <x>-91</x>
           <y>0</y>
-          <width>2350</width>
-          <height>800</height>
+          <width>1250</width>
+          <height>580</height>
          </rect>
         </property>
         <widget class="PneumaticValve" name="TV4L0_VGC_01">
@@ -564,7 +569,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <widget class="PneumaticValve" name="TV5L0_VGC_02">
          <property name="geometry">
           <rect>
-           <x>740</x>
+           <x>760</x>
            <y>260</y>
            <width>70</width>
            <height>130</height>
@@ -755,34 +760,11 @@ IonPump[state=&quot;FAULT&quot;] #icon {
           <string>pydm vacuumscreens/screens/hxr-vac-dev.ui</string>
          </property>
         </widget>
-        <widget class="PyDMShellCommand" name="PyDMShellCommand_2">
-         <property name="geometry">
-          <rect>
-           <x>1170</x>
-           <y>270</y>
-           <width>91</width>
-           <height>24</height>
-          </rect>
-         </property>
-         <property name="toolTip">
-          <string/>
-         </property>
-         <property name="text">
-          <string>XPP &gt;</string>
-         </property>
-         <property name="icon">
-          <iconset theme="None">
-           <normaloff>.</normaloff>.</iconset>
-         </property>
-         <property name="command" stdset="0">
-          <string>pydm /reg/g/pcds/epics-dev/sabbah01/pydmstuff/HXRVacuum/hxr-vac-dev_adpai.ui</string>
-         </property>
-        </widget>
         <widget class="IonPump" name="PA2L0_PIN_2">
          <property name="geometry">
           <rect>
            <x>1035</x>
-           <y>425</y>
+           <y>419</y>
            <width>60</width>
            <height>150</height>
           </rect>
@@ -791,7 +773,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
           <string/>
          </property>
          <property name="channelsPrefix" stdset="0">
-          <string>ca://TV5L0:PIP:03</string>
+          <string>ca://TV5L0:PIP:0</string>
          </property>
          <property name="controlButtonHorizontal" stdset="0">
           <bool>false</bool>
@@ -813,7 +795,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <widget class="ColdCathodeGauge" name="ColdCathodeGauge_2">
          <property name="geometry">
           <rect>
-           <x>843</x>
+           <x>845</x>
            <y>0</y>
            <width>100</width>
            <height>101</height>
@@ -934,7 +916,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <widget class="QLabel" name="label_8">
          <property name="geometry">
           <rect>
-           <x>730</x>
+           <x>750</x>
            <y>240</y>
            <width>101</width>
            <height>20</height>
@@ -1090,14 +1072,36 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <widget class="QLabel" name="label_20">
          <property name="geometry">
           <rect>
-           <x>1070</x>
-           <y>140</y>
+           <x>1050</x>
+           <y>136</y>
            <width>101</width>
            <height>20</height>
           </rect>
          </property>
          <property name="text">
           <string>TV5L0-GCC-03</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="TV1L0">
+         <property name="geometry">
+          <rect>
+           <x>1180</x>
+           <y>270</y>
+           <width>45</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="autoFillBackground">
+          <bool>true</bool>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::Box</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Plain</enum>
+         </property>
+         <property name="text">
+          <string>XPP &gt;</string>
          </property>
         </widget>
         <zorder>TV5L0_02</zorder>
@@ -1118,7 +1122,6 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <zorder>PyDMLabel_16</zorder>
         <zorder>PA2L0_PIN_01</zorder>
         <zorder>PyDMShellCommand</zorder>
-        <zorder>PyDMShellCommand_2</zorder>
         <zorder>PA2L0_PIN_2</zorder>
         <zorder>ColdCathodeGauge_2</zorder>
         <zorder>GCC</zorder>
@@ -1139,6 +1142,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <zorder>label_18</zorder>
         <zorder>label_19</zorder>
         <zorder>label_20</zorder>
+        <zorder>TV1L0</zorder>
        </widget>
       </widget>
      </item>
