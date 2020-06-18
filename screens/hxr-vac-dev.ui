@@ -373,7 +373,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
        <widget class="QWidget" name="scrollAreaWidgetContents">
         <property name="geometry">
          <rect>
-          <x>-1670</x>
+          <x>0</x>
           <y>0</y>
           <width>5100</width>
           <height>700</height>
@@ -3287,7 +3287,7 @@ EM2L0-GEM</string>
           </rect>
          </property>
          <property name="text">
-          <string>TV2TV2L0-GFS-01</string>
+          <string>TV2L0-GFS-01</string>
          </property>
         </widget>
         <widget class="QLabel" name="label_24">
