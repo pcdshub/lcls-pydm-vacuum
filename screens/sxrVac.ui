@@ -2501,7 +2501,7 @@ ControlOnlyValveNC[state=&quot;Close&quot;] #icon {
         <bool>true</bool>
        </property>
        <property name="channel" stdset="0">
-        <string>ca://RTDSK0:KFEVAC:SYSOVERRIDE_RBV</string>
+        <string>ca://PLC:KFE:VAC:K0:SYSOVERRIDE_RBV</string>
        </property>
        <property name="onColor" stdset="0">
         <color>
@@ -2550,7 +2550,7 @@ ControlOnlyValveNC[state=&quot;Close&quot;] #icon {
         <bool>false</bool>
        </property>
        <property name="channel" stdset="0">
-        <string>ca://RTDSK0:KFEVAC:SYSOVERRIDE</string>
+        <string>ca://PLC:KFE:VAC:K0:SYSOVERRIDE</string>
        </property>
       </widget>
       <zorder>line_15</zorder>
