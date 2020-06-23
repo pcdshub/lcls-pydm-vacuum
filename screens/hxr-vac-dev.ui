@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1370</width>
-    <height>852</height>
+    <width>1423</width>
+    <height>657</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -30,12 +30,12 @@ RoughGauge[state=&quot;On&quot;] #icon{
 }
 RoughGauge #pressure[alarmSeverity=&quot;0&quot;]{
     color: blue;
- /*border: 1px solid black;*/
+border: 1px solid black;
 background-color : white
 }
 ColdCathodeGauge #pressure{
     color: blue;
-/* border: 1px solid black;*/
+border: 1px solid black;
 background-color : white
 }
 ColdCathodeGauge[interlocked=&quot;true&quot;] #icon{
@@ -378,10 +378,10 @@ IonPump[state=&quot;FAULT&quot;] #icon {
        <widget class="QWidget" name="scrollAreaWidgetContents">
         <property name="geometry">
          <rect>
-          <x>-2413</x>
+          <x>0</x>
           <y>0</y>
-          <width>5100</width>
-          <height>700</height>
+          <width>3020</width>
+          <height>620</height>
          </rect>
         </property>
         <widget class="PneumaticValve" name="TV1L0_VGC_01">
@@ -409,7 +409,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <widget class="QLabel" name="RTDSL0">
          <property name="geometry">
           <rect>
-           <x>320</x>
+           <x>280</x>
            <y>325</y>
            <width>61</width>
            <height>21</height>
@@ -431,7 +431,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <widget class="Line" name="line_5">
          <property name="geometry">
           <rect>
-           <x>340</x>
+           <x>300</x>
            <y>335</y>
            <width>20</width>
            <height>121</height>
@@ -449,7 +449,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
           <rect>
            <x>160</x>
            <y>324</y>
-           <width>4366</width>
+           <width>2700</width>
            <height>20</height>
           </rect>
          </property>
@@ -466,7 +466,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <widget class="Line" name="line_3">
          <property name="geometry">
           <rect>
-           <x>210</x>
+           <x>170</x>
            <y>440</y>
            <width>282</width>
            <height>20</height>
@@ -482,7 +482,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <widget class="Line" name="line_10">
          <property name="geometry">
           <rect>
-           <x>310</x>
+           <x>270</x>
            <y>383</y>
            <width>41</width>
            <height>20</height>
@@ -498,7 +498,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <widget class="Line" name="line_2">
          <property name="geometry">
           <rect>
-           <x>270</x>
+           <x>230</x>
            <y>220</y>
            <width>20</width>
            <height>110</height>
@@ -514,7 +514,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <widget class="PneumaticValve" name="IM1L0_XTES_VGC_01">
          <property name="geometry">
           <rect>
-           <x>460</x>
+           <x>380</x>
            <y>315</y>
            <width>71</width>
            <height>131</height>
@@ -536,7 +536,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <widget class="Line" name="line_7">
          <property name="geometry">
           <rect>
-           <x>196</x>
+           <x>153</x>
            <y>450</y>
            <width>30</width>
            <height>15</height>
@@ -552,7 +552,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <widget class="IonPump" name="RTDSL0_PIP_01">
          <property name="geometry">
           <rect>
-           <x>180</x>
+           <x>140</x>
            <y>460</y>
            <width>60</width>
            <height>150</height>
@@ -577,7 +577,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <widget class="Line" name="line_8">
          <property name="geometry">
           <rect>
-           <x>270</x>
+           <x>230</x>
            <y>450</y>
            <width>20</width>
            <height>15</height>
@@ -593,7 +593,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <widget class="IonPump" name="RTDSL0_PIP_02">
          <property name="geometry">
           <rect>
-           <x>250</x>
+           <x>210</x>
            <y>460</y>
            <width>60</width>
            <height>150</height>
@@ -612,7 +612,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <widget class="Line" name="line_9">
          <property name="geometry">
           <rect>
-           <x>340</x>
+           <x>300</x>
            <y>450</y>
            <width>20</width>
            <height>15</height>
@@ -628,7 +628,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <widget class="IonPump" name="RTDSL0_PIP_03">
          <property name="geometry">
           <rect>
-           <x>320</x>
+           <x>280</x>
            <y>460</y>
            <width>60</width>
            <height>150</height>
@@ -650,7 +650,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <widget class="Line" name="line_12">
          <property name="geometry">
           <rect>
-           <x>480</x>
+           <x>440</x>
            <y>450</y>
            <width>20</width>
            <height>15</height>
@@ -666,7 +666,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <widget class="IonPump" name="RTDSL0_PIP_04">
          <property name="geometry">
           <rect>
-           <x>390</x>
+           <x>350</x>
            <y>460</y>
            <width>60</width>
            <height>150</height>
@@ -685,7 +685,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <widget class="Line" name="line_13">
          <property name="geometry">
           <rect>
-           <x>410</x>
+           <x>370</x>
            <y>450</y>
            <width>20</width>
            <height>15</height>
@@ -701,7 +701,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <widget class="IonPump" name="RTDSL0_PIP_05">
          <property name="geometry">
           <rect>
-           <x>460</x>
+           <x>420</x>
            <y>460</y>
            <width>60</width>
            <height>151</height>
@@ -723,7 +723,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <widget class="RGA" name="RTDSL0_RGA_01">
          <property name="geometry">
           <rect>
-           <x>300</x>
+           <x>260</x>
            <y>373</y>
            <width>40</width>
            <height>40</height>
@@ -742,7 +742,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <widget class="IonPump" name="IM1L0_XTES_PIP_01">
          <property name="geometry">
           <rect>
-           <x>700</x>
+           <x>500</x>
            <y>460</y>
            <width>60</width>
            <height>150</height>
@@ -764,7 +764,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <widget class="IonPump" name="TV2L0_PIP_01">
          <property name="geometry">
           <rect>
-           <x>850</x>
+           <x>580</x>
            <y>460</y>
            <width>60</width>
            <height>150</height>
@@ -786,7 +786,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <widget class="PneumaticValve" name="TV2L0_VGC_01">
          <property name="geometry">
           <rect>
-           <x>920</x>
+           <x>614</x>
            <y>315</y>
            <width>71</width>
            <height>131</height>
@@ -808,7 +808,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <widget class="IonPump" name="TV2L0_PIP_02">
          <property name="geometry">
           <rect>
-           <x>980</x>
+           <x>660</x>
            <y>460</y>
            <width>60</width>
            <height>150</height>
@@ -830,10 +830,10 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <widget class="Line" name="line_31">
          <property name="geometry">
           <rect>
-           <x>1080</x>
-           <y>170</y>
+           <x>790</x>
+           <y>110</y>
            <width>20</width>
-           <height>160</height>
+           <height>120</height>
           </rect>
          </property>
          <property name="lineWidth">
@@ -846,7 +846,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <widget class="Line" name="line_32">
          <property name="geometry">
           <rect>
-           <x>1260</x>
+           <x>840</x>
            <y>120</y>
            <width>100</width>
            <height>391</height>
@@ -862,72 +862,10 @@ IonPump[state=&quot;FAULT&quot;] #icon {
           <enum>Qt::Vertical</enum>
          </property>
         </widget>
-        <widget class="PyDMLabel" name="PyDMLabel_13">
-         <property name="geometry">
-          <rect>
-           <x>1270</x>
-           <y>125</y>
-           <width>67</width>
-           <height>51</height>
-          </rect>
-         </property>
-         <property name="font">
-          <font>
-           <weight>75</weight>
-           <bold>true</bold>
-          </font>
-         </property>
-         <property name="toolTip">
-          <string/>
-         </property>
-         <property name="text">
-          <string>EBD</string>
-         </property>
-         <property name="textFormat">
-          <enum>Qt::PlainText</enum>
-         </property>
-         <property name="scaledContents">
-          <bool>false</bool>
-         </property>
-         <property name="displayFormat" stdset="0">
-          <enum>PyDMLabel::Default</enum>
-         </property>
-        </widget>
-        <widget class="PyDMLabel" name="PyDMLabel_14">
-         <property name="geometry">
-          <rect>
-           <x>1310</x>
-           <y>125</y>
-           <width>67</width>
-           <height>51</height>
-          </rect>
-         </property>
-         <property name="font">
-          <font>
-           <weight>75</weight>
-           <bold>true</bold>
-          </font>
-         </property>
-         <property name="toolTip">
-          <string/>
-         </property>
-         <property name="text">
-          <string>FEE</string>
-         </property>
-         <property name="textFormat">
-          <enum>Qt::PlainText</enum>
-         </property>
-         <property name="scaledContents">
-          <bool>false</bool>
-         </property>
-         <property name="displayFormat" stdset="0">
-          <enum>PyDMLabel::Default</enum>
-         </property>
-        </widget>
         <widget class="IonPump" name="TV2L0_PIP_03">
          <property name="geometry">
           <rect>
-           <x>1180</x>
+           <x>810</x>
            <y>460</y>
            <width>60</width>
            <height>150</height>
@@ -949,7 +887,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <widget class="PneumaticValve" name="TV2L0_VGC_02">
          <property name="geometry">
           <rect>
-           <x>1325</x>
+           <x>900</x>
            <y>315</y>
            <width>70</width>
            <height>130</height>
@@ -971,7 +909,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <widget class="IonPump" name="AT2L0_SOLID_PIN_01">
          <property name="geometry">
           <rect>
-           <x>1790</x>
+           <x>1290</x>
            <y>460</y>
            <width>60</width>
            <height>150</height>
@@ -993,7 +931,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <widget class="PneumaticValve" name="PC1L0_XTES_VGC_01">
          <property name="geometry">
           <rect>
-           <x>1840</x>
+           <x>1360</x>
            <y>315</y>
            <width>70</width>
            <height>130</height>
@@ -1015,7 +953,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <widget class="IonPump" name="SP1L0_KMONO_PIP_01">
          <property name="geometry">
           <rect>
-           <x>2260</x>
+           <x>1475</x>
            <y>460</y>
            <width>60</width>
            <height>150</height>
@@ -1037,7 +975,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <widget class="RGA" name="PA1L0_RGA_01">
          <property name="geometry">
           <rect>
-           <x>2370</x>
+           <x>1565</x>
            <y>120</y>
            <width>40</width>
            <height>40</height>
@@ -1050,7 +988,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <widget class="PneumaticValve" name="MR1L0_HOMS_VGC_01">
          <property name="geometry">
           <rect>
-           <x>2715</x>
+           <x>1780</x>
            <y>315</y>
            <width>70</width>
            <height>130</height>
@@ -1072,7 +1010,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <widget class="Line" name="line_19">
          <property name="geometry">
           <rect>
-           <x>2870</x>
+           <x>1935</x>
            <y>335</y>
            <width>20</width>
            <height>130</height>
@@ -1088,7 +1026,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <widget class="IonPump" name="IonPump_12">
          <property name="geometry">
           <rect>
-           <x>2850</x>
+           <x>1915</x>
            <y>460</y>
            <width>60</width>
            <height>150</height>
@@ -1110,7 +1048,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <widget class="PneumaticValve" name="BT2L0_PLEG_VGC_01">
          <property name="geometry">
           <rect>
-           <x>3025</x>
+           <x>2080</x>
            <y>315</y>
            <width>70</width>
            <height>130</height>
@@ -1132,7 +1070,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <widget class="IonPump" name="BT2L0_PLEG_PIP_01">
          <property name="geometry">
           <rect>
-           <x>3170</x>
+           <x>2185</x>
            <y>460</y>
            <width>60</width>
            <height>150</height>
@@ -1154,10 +1092,10 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <widget class="PneumaticValve" name="MR2L0_HOMS_VGC_01">
          <property name="geometry">
           <rect>
-           <x>3400</x>
+           <x>2270</x>
            <y>315</y>
            <width>70</width>
-           <height>130</height>
+           <height>31</height>
           </rect>
          </property>
          <property name="toolTip">
@@ -1176,7 +1114,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <widget class="IonPump" name="MR2L0_HOMS_PIP_01">
          <property name="geometry">
           <rect>
-           <x>3550</x>
+           <x>2370</x>
            <y>460</y>
            <width>60</width>
            <height>150</height>
@@ -1204,7 +1142,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <widget class="PneumaticValve" name="MR2L0_HOMS_VGC_02">
          <property name="geometry">
           <rect>
-           <x>3625</x>
+           <x>2450</x>
            <y>315</y>
            <width>70</width>
            <height>130</height>
@@ -1226,10 +1164,10 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <widget class="FastShutter" name="TV3L0_VFS_01">
          <property name="geometry">
           <rect>
-           <x>3725</x>
+           <x>2530</x>
            <y>315</y>
-           <width>111</width>
-           <height>81</height>
+           <width>70</width>
+           <height>130</height>
           </rect>
          </property>
          <property name="toolTip">
@@ -1241,11 +1179,14 @@ IonPump[state=&quot;FAULT&quot;] #icon {
          <property name="channelsPrefix" stdset="0">
           <string>ca://TV3L0:VFS:01</string>
          </property>
+         <property name="controlButtonHorizontal" stdset="0">
+          <bool>false</bool>
+         </property>
         </widget>
         <widget class="IonPump" name="TV3L0_PIP_01">
          <property name="geometry">
           <rect>
-           <x>3790</x>
+           <x>2580</x>
            <y>460</y>
            <width>60</width>
            <height>150</height>
@@ -1267,7 +1208,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <widget class="IonPump" name="ST1L0_XTES_PIP_01">
          <property name="geometry">
           <rect>
-           <x>4200</x>
+           <x>2730</x>
            <y>460</y>
            <width>60</width>
            <height>150</height>
@@ -1289,7 +1230,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <widget class="Line" name="line_41">
          <property name="geometry">
           <rect>
-           <x>4480</x>
+           <x>2790</x>
            <y>45</y>
            <width>100</width>
            <height>481</height>
@@ -1305,75 +1246,13 @@ IonPump[state=&quot;FAULT&quot;] #icon {
           <enum>Qt::Vertical</enum>
          </property>
         </widget>
-        <widget class="PyDMLabel" name="PyDMLabel_29">
-         <property name="geometry">
-          <rect>
-           <x>4490</x>
-           <y>90</y>
-           <width>67</width>
-           <height>51</height>
-          </rect>
-         </property>
-         <property name="font">
-          <font>
-           <weight>75</weight>
-           <bold>true</bold>
-          </font>
-         </property>
-         <property name="toolTip">
-          <string/>
-         </property>
-         <property name="text">
-          <string>FEE</string>
-         </property>
-         <property name="textFormat">
-          <enum>Qt::PlainText</enum>
-         </property>
-         <property name="scaledContents">
-          <bool>false</bool>
-         </property>
-         <property name="displayFormat" stdset="0">
-          <enum>PyDMLabel::Default</enum>
-         </property>
-        </widget>
-        <widget class="PyDMLabel" name="PyDMLabel_30">
-         <property name="geometry">
-          <rect>
-           <x>4530</x>
-           <y>90</y>
-           <width>67</width>
-           <height>51</height>
-          </rect>
-         </property>
-         <property name="font">
-          <font>
-           <weight>75</weight>
-           <bold>true</bold>
-          </font>
-         </property>
-         <property name="toolTip">
-          <string/>
-         </property>
-         <property name="text">
-          <string>NEH</string>
-         </property>
-         <property name="textFormat">
-          <enum>Qt::PlainText</enum>
-         </property>
-         <property name="scaledContents">
-          <bool>false</bool>
-         </property>
-         <property name="displayFormat" stdset="0">
-          <enum>PyDMLabel::Default</enum>
-         </property>
-        </widget>
         <widget class="FastShutter" name="PA1L0_VFS_01">
          <property name="geometry">
           <rect>
-           <x>2490</x>
-           <y>315</y>
-           <width>111</width>
-           <height>82</height>
+           <x>1680</x>
+           <y>313</y>
+           <width>60</width>
+           <height>150</height>
           </rect>
          </property>
          <property name="toolTip">
@@ -1385,11 +1264,14 @@ IonPump[state=&quot;FAULT&quot;] #icon {
          <property name="channelsPrefix" stdset="0">
           <string>ca://PA1L0:VFS:01</string>
          </property>
+         <property name="controlButtonHorizontal" stdset="0">
+          <bool>false</bool>
+         </property>
         </widget>
         <widget class="IonPump" name="SL1L0_POWER_PIN_01">
          <property name="geometry">
           <rect>
-           <x>1420</x>
+           <x>980</x>
            <y>460</y>
            <width>60</width>
            <height>150</height>
@@ -1411,7 +1293,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <widget class="PyDMShellCommand" name="AT1L0_GAS">
          <property name="geometry">
           <rect>
-           <x>1590</x>
+           <x>1110</x>
            <y>320</y>
            <width>101</width>
            <height>31</height>
@@ -1437,10 +1319,10 @@ EM2L0-GEM</string>
         <widget class="IonPump" name="PA1L0_PIN_1">
          <property name="geometry">
           <rect>
-           <x>2390</x>
+           <x>1600</x>
            <y>315</y>
-           <width>111</width>
-           <height>111</height>
+           <width>60</width>
+           <height>150</height>
           </rect>
          </property>
          <property name="toolTip">
@@ -1449,13 +1331,16 @@ EM2L0-GEM</string>
          <property name="channelsPrefix" stdset="0">
           <string>ca://PA1L0:PIN:01</string>
          </property>
+         <property name="controlButtonHorizontal" stdset="0">
+          <bool>false</bool>
+         </property>
         </widget>
         <widget class="ColdCathodeGauge" name="TV2L0_GFS_02">
          <property name="geometry">
           <rect>
-           <x>1034</x>
-           <y>0</y>
-           <width>111</width>
+           <x>715</x>
+           <y>20</y>
+           <width>101</width>
            <height>151</height>
           </rect>
          </property>
@@ -1463,7 +1348,7 @@ EM2L0-GEM</string>
           <string/>
          </property>
          <property name="controlsLocation" stdset="0">
-          <enum>PCDSSymbolBase::Top</enum>
+          <enum>PCDSSymbolBase::Left</enum>
          </property>
          <property name="channelsPrefix" stdset="0">
           <string>ca://TV2L0:GFS:01</string>
@@ -1475,7 +1360,7 @@ EM2L0-GEM</string>
         <widget class="Line" name="line_39">
          <property name="geometry">
           <rect>
-           <x>2900</x>
+           <x>1965</x>
            <y>115</y>
            <width>100</width>
            <height>221</height>
@@ -1494,9 +1379,9 @@ EM2L0-GEM</string>
         <widget class="Line" name="line_20">
          <property name="geometry">
           <rect>
-           <x>2950</x>
+           <x>2015</x>
            <y>105</y>
-           <width>1521</width>
+           <width>845</width>
            <height>20</height>
           </rect>
          </property>
@@ -1513,7 +1398,7 @@ EM2L0-GEM</string>
         <widget class="Line" name="line_83">
          <property name="geometry">
           <rect>
-           <x>2980</x>
+           <x>2045</x>
            <y>120</y>
            <width>20</width>
            <height>30</height>
@@ -1529,7 +1414,7 @@ EM2L0-GEM</string>
         <widget class="IonPump" name="MR1L1_TXI_PIP_01">
          <property name="geometry">
           <rect>
-           <x>2960</x>
+           <x>2025</x>
            <y>140</y>
            <width>60</width>
            <height>150</height>
@@ -1551,7 +1436,7 @@ EM2L0-GEM</string>
         <widget class="PneumaticValve" name="TV1L1_VGC_2">
          <property name="geometry">
           <rect>
-           <x>3365</x>
+           <x>2490</x>
            <y>96</y>
            <width>70</width>
            <height>130</height>
@@ -1573,7 +1458,7 @@ EM2L0-GEM</string>
         <widget class="PneumaticValve" name="PC2L1_L2SI_VGC_01">
          <property name="geometry">
           <rect>
-           <x>3740</x>
+           <x>2565</x>
            <y>96</y>
            <width>70</width>
            <height>130</height>
@@ -1595,7 +1480,7 @@ EM2L0-GEM</string>
         <widget class="PyDMShellCommand" name="H1Button">
          <property name="geometry">
           <rect>
-           <x>4550</x>
+           <x>2890</x>
            <y>320</y>
            <width>111</width>
            <height>24</height>
@@ -1620,35 +1505,10 @@ EM2L0-GEM</string>
           <string>pydm vacuumscreens/screens/hxrH1_1H1_2Vac.ui</string>
          </property>
         </widget>
-        <widget class="QLabel" name="RTDSL0_YAGXRAY">
-         <property name="geometry">
-          <rect>
-           <x>380</x>
-           <y>325</y>
-           <width>71</width>
-           <height>30</height>
-          </rect>
-         </property>
-         <property name="autoFillBackground">
-          <bool>true</bool>
-         </property>
-         <property name="frameShape">
-          <enum>QFrame::Box</enum>
-         </property>
-         <property name="text">
-          <string>RTDSL0-YAGXRAY</string>
-         </property>
-         <property name="alignment">
-          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-         </property>
-         <property name="wordWrap">
-          <bool>true</bool>
-         </property>
-        </widget>
         <widget class="QLabel" name="IM1L0_XTES">
          <property name="geometry">
           <rect>
-           <x>580</x>
+           <x>500</x>
            <y>320</y>
            <width>51</width>
            <height>31</height>
@@ -1670,173 +1530,10 @@ EM2L0-GEM</string>
           <bool>true</bool>
          </property>
         </widget>
-        <widget class="QLabel" name="PCPM2">
-         <property name="geometry">
-          <rect>
-           <x>630</x>
-           <y>325</y>
-           <width>51</width>
-           <height>21</height>
-          </rect>
-         </property>
-         <property name="autoFillBackground">
-          <bool>true</bool>
-         </property>
-         <property name="frameShape">
-          <enum>QFrame::Box</enum>
-         </property>
-         <property name="text">
-          <string>PCPM2</string>
-         </property>
-         <property name="alignment">
-          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-         </property>
-         <property name="wordWrap">
-          <bool>true</bool>
-         </property>
-        </widget>
-        <widget class="QLabel" name="MBXPM1">
-         <property name="geometry">
-          <rect>
-           <x>738</x>
-           <y>325</y>
-           <width>61</width>
-           <height>21</height>
-          </rect>
-         </property>
-         <property name="autoFillBackground">
-          <bool>true</bool>
-         </property>
-         <property name="frameShape">
-          <enum>QFrame::Box</enum>
-         </property>
-         <property name="frameShadow">
-          <enum>QFrame::Plain</enum>
-         </property>
-         <property name="text">
-          <string>MBXPM1</string>
-         </property>
-        </widget>
-        <widget class="QLabel" name="MBXPM2">
-         <property name="geometry">
-          <rect>
-           <x>798</x>
-           <y>325</y>
-           <width>61</width>
-           <height>21</height>
-          </rect>
-         </property>
-         <property name="autoFillBackground">
-          <bool>true</bool>
-         </property>
-         <property name="frameShape">
-          <enum>QFrame::Box</enum>
-         </property>
-         <property name="frameShadow">
-          <enum>QFrame::Plain</enum>
-         </property>
-         <property name="text">
-          <string>MBXPM2</string>
-         </property>
-        </widget>
-        <widget class="QLabel" name="PCPM3">
-         <property name="geometry">
-          <rect>
-           <x>1020</x>
-           <y>325</y>
-           <width>51</width>
-           <height>21</height>
-          </rect>
-         </property>
-         <property name="autoFillBackground">
-          <bool>true</bool>
-         </property>
-         <property name="frameShape">
-          <enum>QFrame::Box</enum>
-         </property>
-         <property name="frameShadow">
-          <enum>QFrame::Plain</enum>
-         </property>
-         <property name="text">
-          <string>PCPM3</string>
-         </property>
-        </widget>
-        <widget class="QLabel" name="BTM3">
-         <property name="geometry">
-          <rect>
-           <x>1070</x>
-           <y>325</y>
-           <width>41</width>
-           <height>21</height>
-          </rect>
-         </property>
-         <property name="autoFillBackground">
-          <bool>true</bool>
-         </property>
-         <property name="frameShape">
-          <enum>QFrame::Box</enum>
-         </property>
-         <property name="frameShadow">
-          <enum>QFrame::Plain</enum>
-         </property>
-         <property name="text">
-          <string>BTM3</string>
-         </property>
-        </widget>
-        <widget class="QLabel" name="MBTMSFT">
-         <property name="geometry">
-          <rect>
-           <x>1220</x>
-           <y>320</y>
-           <width>46</width>
-           <height>31</height>
-          </rect>
-         </property>
-         <property name="autoFillBackground">
-          <bool>true</bool>
-         </property>
-         <property name="frameShape">
-          <enum>QFrame::Box</enum>
-         </property>
-         <property name="frameShadow">
-          <enum>QFrame::Plain</enum>
-         </property>
-         <property name="text">
-          <string>MBTM SFT</string>
-         </property>
-         <property name="wordWrap">
-          <bool>true</bool>
-         </property>
-        </widget>
-        <widget class="QLabel" name="BTMSFT">
-         <property name="geometry">
-          <rect>
-           <x>1265</x>
-           <y>320</y>
-           <width>36</width>
-           <height>31</height>
-          </rect>
-         </property>
-         <property name="autoFillBackground">
-          <bool>true</bool>
-         </property>
-         <property name="frameShape">
-          <enum>QFrame::Box</enum>
-         </property>
-         <property name="frameShadow">
-          <enum>QFrame::Plain</enum>
-         </property>
-         <property name="text">
-          <string>BTM SFT</string>
-         </property>
-         <property name="wordWrap">
-          <bool>true</bool>
-         </property>
-        </widget>
         <widget class="QLabel" name="SL1L0_POWER">
          <property name="geometry">
           <rect>
-           <x>1430</x>
+           <x>984</x>
            <y>325</y>
            <width>51</width>
            <height>31</height>
@@ -1861,7 +1558,7 @@ EM2L0-GEM</string>
         <widget class="QLabel" name="AT2L0_SOLID">
          <property name="geometry">
           <rect>
-           <x>1790</x>
+           <x>1294</x>
            <y>325</y>
            <width>51</width>
            <height>31</height>
@@ -1883,160 +1580,10 @@ EM2L0-GEM</string>
           <bool>true</bool>
          </property>
         </widget>
-        <widget class="QLabel" name="PC1L0_XTES">
-         <property name="geometry">
-          <rect>
-           <x>1910</x>
-           <y>320</y>
-           <width>51</width>
-           <height>31</height>
-          </rect>
-         </property>
-         <property name="autoFillBackground">
-          <bool>true</bool>
-         </property>
-         <property name="frameShape">
-          <enum>QFrame::Box</enum>
-         </property>
-         <property name="frameShadow">
-          <enum>QFrame::Plain</enum>
-         </property>
-         <property name="text">
-          <string>PC1L0-XTES</string>
-         </property>
-         <property name="wordWrap">
-          <bool>true</bool>
-         </property>
-        </widget>
-        <widget class="QLabel" name="BT1L0_XTES">
-         <property name="geometry">
-          <rect>
-           <x>1960</x>
-           <y>320</y>
-           <width>51</width>
-           <height>31</height>
-          </rect>
-         </property>
-         <property name="autoFillBackground">
-          <bool>true</bool>
-         </property>
-         <property name="frameShape">
-          <enum>QFrame::Box</enum>
-         </property>
-         <property name="frameShadow">
-          <enum>QFrame::Plain</enum>
-         </property>
-         <property name="text">
-          <string>BT1L0-XTES</string>
-         </property>
-         <property name="wordWrap">
-          <bool>true</bool>
-         </property>
-        </widget>
-        <widget class="QLabel" name="PF1L0_WFS">
-         <property name="geometry">
-          <rect>
-           <x>2060</x>
-           <y>320</y>
-           <width>51</width>
-           <height>31</height>
-          </rect>
-         </property>
-         <property name="autoFillBackground">
-          <bool>true</bool>
-         </property>
-         <property name="frameShape">
-          <enum>QFrame::Box</enum>
-         </property>
-         <property name="frameShadow">
-          <enum>QFrame::Plain</enum>
-         </property>
-         <property name="text">
-          <string>PF1L0-WFS</string>
-         </property>
-         <property name="wordWrap">
-          <bool>true</bool>
-         </property>
-        </widget>
-        <widget class="QLabel" name="BS1L0_XTES">
-         <property name="geometry">
-          <rect>
-           <x>2010</x>
-           <y>320</y>
-           <width>51</width>
-           <height>31</height>
-          </rect>
-         </property>
-         <property name="autoFillBackground">
-          <bool>true</bool>
-         </property>
-         <property name="frameShape">
-          <enum>QFrame::Box</enum>
-         </property>
-         <property name="frameShadow">
-          <enum>QFrame::Plain</enum>
-         </property>
-         <property name="text">
-          <string>BS1L0-XTES</string>
-         </property>
-         <property name="wordWrap">
-          <bool>true</bool>
-         </property>
-        </widget>
-        <widget class="QLabel" name="IM2L0_XTES">
-         <property name="geometry">
-          <rect>
-           <x>2110</x>
-           <y>320</y>
-           <width>51</width>
-           <height>31</height>
-          </rect>
-         </property>
-         <property name="autoFillBackground">
-          <bool>true</bool>
-         </property>
-         <property name="frameShape">
-          <enum>QFrame::Box</enum>
-         </property>
-         <property name="frameShadow">
-          <enum>QFrame::Plain</enum>
-         </property>
-         <property name="text">
-          <string>IM2L0-XTES</string>
-         </property>
-         <property name="wordWrap">
-          <bool>true</bool>
-         </property>
-        </widget>
-        <widget class="QLabel" name="SL2L0_POWER">
-         <property name="geometry">
-          <rect>
-           <x>2160</x>
-           <y>320</y>
-           <width>51</width>
-           <height>31</height>
-          </rect>
-         </property>
-         <property name="autoFillBackground">
-          <bool>true</bool>
-         </property>
-         <property name="frameShape">
-          <enum>QFrame::Box</enum>
-         </property>
-         <property name="frameShadow">
-          <enum>QFrame::Plain</enum>
-         </property>
-         <property name="text">
-          <string>SL2L0-POWER</string>
-         </property>
-         <property name="wordWrap">
-          <bool>true</bool>
-         </property>
-        </widget>
         <widget class="QLabel" name="SP1L0_KMONO">
          <property name="geometry">
           <rect>
-           <x>2240</x>
+           <x>1455</x>
            <y>325</y>
            <width>101</width>
            <height>21</height>
@@ -2055,32 +1602,10 @@ EM2L0-GEM</string>
           <string>SP1L0-KMONO</string>
          </property>
         </widget>
-        <widget class="QLabel" name="ND1H">
-         <property name="geometry">
-          <rect>
-           <x>2615</x>
-           <y>325</y>
-           <width>51</width>
-           <height>21</height>
-          </rect>
-         </property>
-         <property name="autoFillBackground">
-          <bool>true</bool>
-         </property>
-         <property name="frameShape">
-          <enum>QFrame::Box</enum>
-         </property>
-         <property name="frameShadow">
-          <enum>QFrame::Plain</enum>
-         </property>
-         <property name="text">
-          <string>ND1H</string>
-         </property>
-        </widget>
         <widget class="QLabel" name="MR1L0_HOMS">
          <property name="geometry">
           <rect>
-           <x>2835</x>
+           <x>1900</x>
            <y>325</y>
            <width>135</width>
            <height>21</height>
@@ -2105,7 +1630,7 @@ EM2L0-GEM</string>
         <widget class="QLabel" name="MR1L1_TXI">
          <property name="geometry">
           <rect>
-           <x>2960</x>
+           <x>2025</x>
            <y>105</y>
            <width>81</width>
            <height>21</height>
@@ -2127,8 +1652,8 @@ EM2L0-GEM</string>
         <widget class="QLabel" name="BT2L0_PLEG">
          <property name="geometry">
           <rect>
-           <x>3175</x>
-           <y>325</y>
+           <x>2190</x>
+           <y>320</y>
            <width>51</width>
            <height>31</height>
           </rect>
@@ -2149,185 +1674,10 @@ EM2L0-GEM</string>
           <bool>true</bool>
          </property>
         </widget>
-        <widget class="QLabel" name="label_26">
-         <property name="geometry">
-          <rect>
-           <x>3090</x>
-           <y>100</y>
-           <width>51</width>
-           <height>31</height>
-          </rect>
-         </property>
-         <property name="autoFillBackground">
-          <bool>true</bool>
-         </property>
-         <property name="frameShape">
-          <enum>QFrame::Box</enum>
-         </property>
-         <property name="frameShadow">
-          <enum>QFrame::Plain</enum>
-         </property>
-         <property name="text">
-          <string>IM1L1-PPM</string>
-         </property>
-         <property name="wordWrap">
-          <bool>true</bool>
-         </property>
-        </widget>
-        <widget class="QLabel" name="label_27">
-         <property name="geometry">
-          <rect>
-           <x>3140</x>
-           <y>100</y>
-           <width>51</width>
-           <height>31</height>
-          </rect>
-         </property>
-         <property name="autoFillBackground">
-          <bool>true</bool>
-         </property>
-         <property name="frameShape">
-          <enum>QFrame::Box</enum>
-         </property>
-         <property name="frameShadow">
-          <enum>QFrame::Plain</enum>
-         </property>
-         <property name="text">
-          <string>PC1L1-L2SI</string>
-         </property>
-         <property name="wordWrap">
-          <bool>true</bool>
-         </property>
-        </widget>
-        <widget class="QLabel" name="label_28">
-         <property name="geometry">
-          <rect>
-           <x>3190</x>
-           <y>100</y>
-           <width>51</width>
-           <height>31</height>
-          </rect>
-         </property>
-         <property name="autoFillBackground">
-          <bool>true</bool>
-         </property>
-         <property name="frameShape">
-          <enum>QFrame::Box</enum>
-         </property>
-         <property name="frameShadow">
-          <enum>QFrame::Plain</enum>
-         </property>
-         <property name="text">
-          <string>BT1L1-COMBO</string>
-         </property>
-         <property name="wordWrap">
-          <bool>true</bool>
-         </property>
-        </widget>
-        <widget class="QLabel" name="BS1L1_MINI">
-         <property name="geometry">
-          <rect>
-           <x>3240</x>
-           <y>100</y>
-           <width>51</width>
-           <height>31</height>
-          </rect>
-         </property>
-         <property name="autoFillBackground">
-          <bool>true</bool>
-         </property>
-         <property name="frameShape">
-          <enum>QFrame::Box</enum>
-         </property>
-         <property name="frameShadow">
-          <enum>QFrame::Plain</enum>
-         </property>
-         <property name="text">
-          <string>BS1L1-MINI</string>
-         </property>
-         <property name="wordWrap">
-          <bool>true</bool>
-         </property>
-        </widget>
-        <widget class="QLabel" name="label_30">
-         <property name="geometry">
-          <rect>
-           <x>3265</x>
-           <y>320</y>
-           <width>51</width>
-           <height>31</height>
-          </rect>
-         </property>
-         <property name="autoFillBackground">
-          <bool>true</bool>
-         </property>
-         <property name="frameShape">
-          <enum>QFrame::Box</enum>
-         </property>
-         <property name="frameShadow">
-          <enum>QFrame::Plain</enum>
-         </property>
-         <property name="text">
-          <string>IM3L0-PPM</string>
-         </property>
-         <property name="wordWrap">
-          <bool>true</bool>
-         </property>
-        </widget>
-        <widget class="QLabel" name="label_31">
-         <property name="geometry">
-          <rect>
-           <x>3315</x>
-           <y>320</y>
-           <width>51</width>
-           <height>31</height>
-          </rect>
-         </property>
-         <property name="autoFillBackground">
-          <bool>true</bool>
-         </property>
-         <property name="frameShape">
-          <enum>QFrame::Box</enum>
-         </property>
-         <property name="frameShadow">
-          <enum>QFrame::Plain</enum>
-         </property>
-         <property name="text">
-          <string>PC2L0-XTES</string>
-         </property>
-         <property name="wordWrap">
-          <bool>true</bool>
-         </property>
-        </widget>
-        <widget class="QLabel" name="label_32">
-         <property name="geometry">
-          <rect>
-           <x>3365</x>
-           <y>320</y>
-           <width>51</width>
-           <height>31</height>
-          </rect>
-         </property>
-         <property name="autoFillBackground">
-          <bool>true</bool>
-         </property>
-         <property name="frameShape">
-          <enum>QFrame::Box</enum>
-         </property>
-         <property name="frameShadow">
-          <enum>QFrame::Plain</enum>
-         </property>
-         <property name="text">
-          <string>BT3L0-L2SI</string>
-         </property>
-         <property name="wordWrap">
-          <bool>true</bool>
-         </property>
-        </widget>
         <widget class="QLabel" name="MR2L0_HOMS">
          <property name="geometry">
           <rect>
-           <x>3535</x>
+           <x>2355</x>
            <y>325</y>
            <width>91</width>
            <height>21</height>
@@ -2346,202 +1696,11 @@ EM2L0-GEM</string>
           <string>MR2L0-HOMS</string>
          </property>
         </widget>
-        <widget class="QLabel" name="label_34">
-         <property name="geometry">
-          <rect>
-           <x>3845</x>
-           <y>320</y>
-           <width>51</width>
-           <height>31</height>
-          </rect>
-         </property>
-         <property name="autoFillBackground">
-          <bool>true</bool>
-         </property>
-         <property name="frameShape">
-          <enum>QFrame::Box</enum>
-         </property>
-         <property name="frameShadow">
-          <enum>QFrame::Plain</enum>
-         </property>
-         <property name="text">
-          <string>PC3L0-XTES</string>
-         </property>
-         <property name="wordWrap">
-          <bool>true</bool>
-         </property>
-        </widget>
-        <widget class="QLabel" name="label_35">
-         <property name="geometry">
-          <rect>
-           <x>3895</x>
-           <y>320</y>
-           <width>51</width>
-           <height>31</height>
-          </rect>
-         </property>
-         <property name="autoFillBackground">
-          <bool>true</bool>
-         </property>
-         <property name="frameShape">
-          <enum>QFrame::Box</enum>
-         </property>
-         <property name="frameShadow">
-          <enum>QFrame::Plain</enum>
-         </property>
-         <property name="text">
-          <string>BT3L0-COMBO</string>
-         </property>
-         <property name="wordWrap">
-          <bool>true</bool>
-         </property>
-        </widget>
-        <widget class="QLabel" name="label_36">
-         <property name="geometry">
-          <rect>
-           <x>3945</x>
-           <y>320</y>
-           <width>51</width>
-           <height>31</height>
-          </rect>
-         </property>
-         <property name="autoFillBackground">
-          <bool>true</bool>
-         </property>
-         <property name="frameShape">
-          <enum>QFrame::Box</enum>
-         </property>
-         <property name="frameShadow">
-          <enum>QFrame::Plain</enum>
-         </property>
-         <property name="text">
-          <string>TP-LUSI</string>
-         </property>
-         <property name="wordWrap">
-          <bool>true</bool>
-         </property>
-        </widget>
-        <widget class="QLabel" name="label_37">
-         <property name="geometry">
-          <rect>
-           <x>3995</x>
-           <y>320</y>
-           <width>51</width>
-           <height>31</height>
-          </rect>
-         </property>
-         <property name="autoFillBackground">
-          <bool>true</bool>
-         </property>
-         <property name="frameShape">
-          <enum>QFrame::Box</enum>
-         </property>
-         <property name="frameShadow">
-          <enum>QFrame::Plain</enum>
-         </property>
-         <property name="text">
-          <string>BS3L0-LUSI</string>
-         </property>
-         <property name="wordWrap">
-          <bool>true</bool>
-         </property>
-        </widget>
-        <widget class="QLabel" name="label_38">
-         <property name="geometry">
-          <rect>
-           <x>4045</x>
-           <y>320</y>
-           <width>51</width>
-           <height>31</height>
-          </rect>
-         </property>
-         <property name="font">
-          <font>
-           <strikeout>true</strikeout>
-          </font>
-         </property>
-         <property name="toolTip">
-          <string extracomment="FUTURE"/>
-         </property>
-         <property name="autoFillBackground">
-          <bool>true</bool>
-         </property>
-         <property name="frameShape">
-          <enum>QFrame::Box</enum>
-         </property>
-         <property name="frameShadow">
-          <enum>QFrame::Plain</enum>
-         </property>
-         <property name="text">
-          <string>SL3L0-POWER</string>
-         </property>
-         <property name="wordWrap">
-          <bool>true</bool>
-         </property>
-        </widget>
-        <widget class="QLabel" name="label_39">
-         <property name="geometry">
-          <rect>
-           <x>4145</x>
-           <y>320</y>
-           <width>51</width>
-           <height>31</height>
-          </rect>
-         </property>
-         <property name="autoFillBackground">
-          <bool>true</bool>
-         </property>
-         <property name="frameShape">
-          <enum>QFrame::Box</enum>
-         </property>
-         <property name="frameShadow">
-          <enum>QFrame::Plain</enum>
-         </property>
-         <property name="text">
-          <string>IM4L0-XTES</string>
-         </property>
-         <property name="wordWrap">
-          <bool>true</bool>
-         </property>
-        </widget>
-        <widget class="QLabel" name="label_40">
-         <property name="geometry">
-          <rect>
-           <x>4095</x>
-           <y>320</y>
-           <width>51</width>
-           <height>31</height>
-          </rect>
-         </property>
-         <property name="font">
-          <font>
-           <strikeout>true</strikeout>
-          </font>
-         </property>
-         <property name="toolTip">
-          <string extracomment="FUTURE"/>
-         </property>
-         <property name="autoFillBackground">
-          <bool>true</bool>
-         </property>
-         <property name="frameShape">
-          <enum>QFrame::Box</enum>
-         </property>
-         <property name="frameShadow">
-          <enum>QFrame::Plain</enum>
-         </property>
-         <property name="text">
-          <string>EM3L0-IPM</string>
-         </property>
-         <property name="wordWrap">
-          <bool>true</bool>
-         </property>
-        </widget>
         <widget class="QLabel" name="ST1L0_XTES">
          <property name="geometry">
           <rect>
-           <x>4215</x>
-           <y>325</y>
+           <x>2735</x>
+           <y>319</y>
            <width>51</width>
            <height>31</height>
           </rect>
@@ -2562,223 +1721,10 @@ EM2L0-GEM</string>
           <bool>true</bool>
          </property>
         </widget>
-        <widget class="QLabel" name="label_42">
-         <property name="geometry">
-          <rect>
-           <x>4360</x>
-           <y>320</y>
-           <width>51</width>
-           <height>31</height>
-          </rect>
-         </property>
-         <property name="autoFillBackground">
-          <bool>true</bool>
-         </property>
-         <property name="frameShape">
-          <enum>QFrame::Box</enum>
-         </property>
-         <property name="frameShadow">
-          <enum>QFrame::Plain</enum>
-         </property>
-         <property name="text">
-          <string>PC4L0-XTES</string>
-         </property>
-         <property name="wordWrap">
-          <bool>true</bool>
-         </property>
-        </widget>
-        <widget class="QLabel" name="label_43">
-         <property name="geometry">
-          <rect>
-           <x>4410</x>
-           <y>320</y>
-           <width>51</width>
-           <height>31</height>
-          </rect>
-         </property>
-         <property name="autoFillBackground">
-          <bool>true</bool>
-         </property>
-         <property name="frameShape">
-          <enum>QFrame::Box</enum>
-         </property>
-         <property name="frameShadow">
-          <enum>QFrame::Plain</enum>
-         </property>
-         <property name="text">
-          <string>BT4L0-COMBO</string>
-         </property>
-         <property name="wordWrap">
-          <bool>true</bool>
-         </property>
-        </widget>
-        <widget class="QLabel" name="BS4L0_LUSI">
-         <property name="geometry">
-          <rect>
-           <x>4460</x>
-           <y>320</y>
-           <width>51</width>
-           <height>31</height>
-          </rect>
-         </property>
-         <property name="autoFillBackground">
-          <bool>true</bool>
-         </property>
-         <property name="frameShape">
-          <enum>QFrame::Box</enum>
-         </property>
-         <property name="frameShadow">
-          <enum>QFrame::Plain</enum>
-         </property>
-         <property name="text">
-          <string>BS4L0-LUSI</string>
-         </property>
-         <property name="wordWrap">
-          <bool>true</bool>
-         </property>
-        </widget>
-        <widget class="QLabel" name="ST2L0_PPS">
-         <property name="geometry">
-          <rect>
-           <x>4310</x>
-           <y>320</y>
-           <width>51</width>
-           <height>31</height>
-          </rect>
-         </property>
-         <property name="autoFillBackground">
-          <bool>true</bool>
-         </property>
-         <property name="frameShape">
-          <enum>QFrame::Box</enum>
-         </property>
-         <property name="frameShadow">
-          <enum>QFrame::Plain</enum>
-         </property>
-         <property name="text">
-          <string>ST2L0-PPS</string>
-         </property>
-         <property name="wordWrap">
-          <bool>true</bool>
-         </property>
-        </widget>
-        <widget class="QLabel" name="PA1L0">
-         <property name="geometry">
-          <rect>
-           <x>2370</x>
-           <y>335</y>
-           <width>366</width>
-           <height>20</height>
-          </rect>
-         </property>
-         <property name="autoFillBackground">
-          <bool>true</bool>
-         </property>
-         <property name="frameShape">
-          <enum>QFrame::Box</enum>
-         </property>
-         <property name="frameShadow">
-          <enum>QFrame::Plain</enum>
-         </property>
-         <property name="text">
-          <string>PA1L0</string>
-         </property>
-        </widget>
-        <widget class="QLabel" name="TV3L0">
-         <property name="geometry">
-          <rect>
-           <x>3795</x>
-           <y>320</y>
-           <width>51</width>
-           <height>31</height>
-          </rect>
-         </property>
-         <property name="autoFillBackground">
-          <bool>true</bool>
-         </property>
-         <property name="frameShape">
-          <enum>QFrame::Box</enum>
-         </property>
-         <property name="frameShadow">
-          <enum>QFrame::Plain</enum>
-         </property>
-         <property name="text">
-          <string>TV3L0</string>
-         </property>
-         <property name="wordWrap">
-          <bool>true</bool>
-         </property>
-        </widget>
-        <widget class="QLabel" name="TV1L0">
-         <property name="geometry">
-          <rect>
-           <x>256</x>
-           <y>325</y>
-           <width>45</width>
-           <height>21</height>
-          </rect>
-         </property>
-         <property name="autoFillBackground">
-          <bool>true</bool>
-         </property>
-         <property name="frameShape">
-          <enum>QFrame::Box</enum>
-         </property>
-         <property name="frameShadow">
-          <enum>QFrame::Plain</enum>
-         </property>
-         <property name="text">
-          <string>TV1L0</string>
-         </property>
-        </widget>
-        <widget class="QLabel" name="BTM2">
-         <property name="geometry">
-          <rect>
-           <x>680</x>
-           <y>325</y>
-           <width>41</width>
-           <height>21</height>
-          </rect>
-         </property>
-         <property name="autoFillBackground">
-          <bool>true</bool>
-         </property>
-         <property name="frameShape">
-          <enum>QFrame::Box</enum>
-         </property>
-         <property name="frameShadow">
-          <enum>QFrame::Plain</enum>
-         </property>
-         <property name="text">
-          <string>BTM2</string>
-         </property>
-        </widget>
-        <widget class="QLabel" name="TV2L0">
-         <property name="geometry">
-          <rect>
-           <x>860</x>
-           <y>325</y>
-           <width>45</width>
-           <height>21</height>
-          </rect>
-         </property>
-         <property name="autoFillBackground">
-          <bool>true</bool>
-         </property>
-         <property name="frameShape">
-          <enum>QFrame::Box</enum>
-         </property>
-         <property name="frameShadow">
-          <enum>QFrame::Plain</enum>
-         </property>
-         <property name="text">
-          <string>TV2L0</string>
-         </property>
-        </widget>
         <widget class="PneumaticValve" name="EM1L0_GEM_VGC_10">
          <property name="geometry">
           <rect>
-           <x>1500</x>
+           <x>1040</x>
            <y>315</y>
            <width>70</width>
            <height>130</height>
@@ -2800,7 +1746,7 @@ EM2L0-GEM</string>
         <widget class="PneumaticValve" name="EM1L0_GEM_VGC_70">
          <property name="geometry">
           <rect>
-           <x>1699</x>
+           <x>1215</x>
            <y>315</y>
            <width>70</width>
            <height>130</height>
@@ -2822,7 +1768,7 @@ EM2L0-GEM</string>
         <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay">
          <property name="geometry">
           <rect>
-           <x>160</x>
+           <x>120</x>
            <y>150</y>
            <width>200</width>
            <height>140</height>
@@ -2863,7 +1809,7 @@ EM2L0-GEM</string>
         <widget class="QLabel" name="label_2">
          <property name="geometry">
           <rect>
-           <x>430</x>
+           <x>360</x>
            <y>296</y>
            <width>131</width>
            <height>20</height>
@@ -2876,20 +1822,26 @@ EM2L0-GEM</string>
         <widget class="QLabel" name="label_3">
          <property name="geometry">
           <rect>
-           <x>900</x>
-           <y>296</y>
-           <width>111</width>
-           <height>20</height>
+           <x>610</x>
+           <y>291</y>
+           <width>81</width>
+           <height>23</height>
           </rect>
          </property>
          <property name="text">
           <string>TV2L0-VGC-01</string>
          </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+         <property name="wordWrap">
+          <bool>true</bool>
+         </property>
         </widget>
         <widget class="QLabel" name="label_4">
          <property name="geometry">
           <rect>
-           <x>260</x>
+           <x>220</x>
            <y>410</y>
            <width>111</width>
            <height>20</height>
@@ -2902,7 +1854,7 @@ EM2L0-GEM</string>
         <widget class="QLabel" name="label_5">
          <property name="geometry">
           <rect>
-           <x>190</x>
+           <x>150</x>
            <y>488</y>
            <width>41</width>
            <height>16</height>
@@ -2915,7 +1867,7 @@ EM2L0-GEM</string>
         <widget class="QLabel" name="label_6">
          <property name="geometry">
           <rect>
-           <x>400</x>
+           <x>360</x>
            <y>488</y>
            <width>41</width>
            <height>16</height>
@@ -2928,7 +1880,7 @@ EM2L0-GEM</string>
         <widget class="QLabel" name="label_7">
          <property name="geometry">
           <rect>
-           <x>330</x>
+           <x>290</x>
            <y>488</y>
            <width>41</width>
            <height>16</height>
@@ -2941,7 +1893,7 @@ EM2L0-GEM</string>
         <widget class="QLabel" name="label_8">
          <property name="geometry">
           <rect>
-           <x>470</x>
+           <x>430</x>
            <y>488</y>
            <width>41</width>
            <height>16</height>
@@ -2954,7 +1906,7 @@ EM2L0-GEM</string>
         <widget class="QLabel" name="label_9">
          <property name="geometry">
           <rect>
-           <x>260</x>
+           <x>220</x>
            <y>488</y>
            <width>41</width>
            <height>16</height>
@@ -2967,7 +1919,7 @@ EM2L0-GEM</string>
         <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_2">
          <property name="geometry">
           <rect>
-           <x>760</x>
+           <x>490</x>
            <y>150</y>
            <width>201</width>
            <height>140</height>
@@ -2992,7 +1944,7 @@ EM2L0-GEM</string>
         <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_3">
          <property name="geometry">
           <rect>
-           <x>1110</x>
+           <x>680</x>
            <y>150</y>
            <width>200</width>
            <height>140</height>
@@ -3014,7 +1966,7 @@ EM2L0-GEM</string>
         <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_4">
          <property name="geometry">
           <rect>
-           <x>1350</x>
+           <x>890</x>
            <y>150</y>
            <width>200</width>
            <height>140</height>
@@ -3036,7 +1988,7 @@ EM2L0-GEM</string>
         <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_5">
          <property name="geometry">
           <rect>
-           <x>1700</x>
+           <x>1200</x>
            <y>150</y>
            <width>200</width>
            <height>140</height>
@@ -3058,7 +2010,7 @@ EM2L0-GEM</string>
         <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_6">
          <property name="geometry">
           <rect>
-           <x>2170</x>
+           <x>1385</x>
            <y>150</y>
            <width>200</width>
            <height>140</height>
@@ -3080,7 +2032,7 @@ EM2L0-GEM</string>
         <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_7">
          <property name="geometry">
           <rect>
-           <x>2580</x>
+           <x>1635</x>
            <y>150</y>
            <width>200</width>
            <height>140</height>
@@ -3102,7 +2054,7 @@ EM2L0-GEM</string>
         <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_8">
          <property name="geometry">
           <rect>
-           <x>2760</x>
+           <x>1825</x>
            <y>150</y>
            <width>200</width>
            <height>140</height>
@@ -3124,7 +2076,7 @@ EM2L0-GEM</string>
         <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_9">
          <property name="geometry">
           <rect>
-           <x>2870</x>
+           <x>1935</x>
            <y>-10</y>
            <width>200</width>
            <height>140</height>
@@ -3149,7 +2101,7 @@ EM2L0-GEM</string>
         <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_10">
          <property name="geometry">
           <rect>
-           <x>3090</x>
+           <x>2095</x>
            <y>150</y>
            <width>200</width>
            <height>140</height>
@@ -3171,7 +2123,7 @@ EM2L0-GEM</string>
         <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_11">
          <property name="geometry">
           <rect>
-           <x>3470</x>
+           <x>2280</x>
            <y>150</y>
            <width>200</width>
            <height>140</height>
@@ -3193,7 +2145,7 @@ EM2L0-GEM</string>
         <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_12">
          <property name="geometry">
           <rect>
-           <x>4120</x>
+           <x>2640</x>
            <y>150</y>
            <width>200</width>
            <height>140</height>
@@ -3215,33 +2167,33 @@ EM2L0-GEM</string>
         <widget class="QLabel" name="label_19">
          <property name="geometry">
           <rect>
-           <x>670</x>
+           <x>510</x>
            <y>488</y>
-           <width>121</width>
+           <width>41</width>
            <height>16</height>
           </rect>
          </property>
          <property name="text">
-          <string>IM1L0-XTES-PIP-01</string>
+          <string>PIP-01</string>
          </property>
         </widget>
         <widget class="QLabel" name="label_20">
          <property name="geometry">
           <rect>
-           <x>840</x>
+           <x>570</x>
            <y>488</y>
            <width>81</width>
            <height>16</height>
           </rect>
          </property>
          <property name="text">
-          <string>TV2L0-PIP1</string>
+          <string>TV2L0-PIP-1</string>
          </property>
         </widget>
         <widget class="QLabel" name="label_21">
          <property name="geometry">
           <rect>
-           <x>970</x>
+           <x>650</x>
            <y>488</y>
            <width>111</width>
            <height>16</height>
@@ -3254,7 +2206,7 @@ EM2L0-GEM</string>
         <widget class="QLabel" name="label_22">
          <property name="geometry">
           <rect>
-           <x>1170</x>
+           <x>800</x>
            <y>488</y>
            <width>111</width>
            <height>16</height>
@@ -3267,8 +2219,8 @@ EM2L0-GEM</string>
         <widget class="QLabel" name="label_23">
          <property name="geometry">
           <rect>
-           <x>1030</x>
-           <y>150</y>
+           <x>760</x>
+           <y>60</y>
            <width>121</width>
            <height>20</height>
           </rect>
@@ -3280,7 +2232,7 @@ EM2L0-GEM</string>
         <widget class="QLabel" name="label_24">
          <property name="geometry">
           <rect>
-           <x>1320</x>
+           <x>900</x>
            <y>296</y>
            <width>101</width>
            <height>16</height>
@@ -3293,40 +2245,49 @@ EM2L0-GEM</string>
         <widget class="QLabel" name="label_25">
          <property name="geometry">
           <rect>
-           <x>1390</x>
+           <x>990</x>
            <y>488</y>
-           <width>141</width>
+           <width>41</width>
            <height>16</height>
           </rect>
          </property>
          <property name="text">
-          <string>SL1L0-POWER-PIN-01</string>
+          <string>PIN-01</string>
          </property>
         </widget>
         <widget class="QLabel" name="label_56">
          <property name="geometry">
           <rect>
-           <x>1480</x>
-           <y>296</y>
-           <width>141</width>
-           <height>16</height>
+           <x>1035</x>
+           <y>291</y>
+           <width>81</width>
+           <height>23</height>
           </rect>
          </property>
          <property name="text">
           <string>EM1L0-GEM-VGC-10</string>
          </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+         <property name="wordWrap">
+          <bool>true</bool>
+         </property>
         </widget>
         <widget class="QLabel" name="label_57">
          <property name="geometry">
           <rect>
-           <x>1710</x>
-           <y>280</y>
-           <width>131</width>
-           <height>31</height>
+           <x>1200</x>
+           <y>291</y>
+           <width>101</width>
+           <height>23</height>
           </rect>
          </property>
          <property name="text">
           <string>EM2L0-GEM-VGC-70</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
          </property>
          <property name="wordWrap">
           <bool>true</bool>
@@ -3335,14 +2296,17 @@ EM2L0-GEM</string>
         <widget class="QLabel" name="label_58">
          <property name="geometry">
           <rect>
-           <x>1850</x>
-           <y>280</y>
-           <width>131</width>
-           <height>31</height>
+           <x>1356</x>
+           <y>291</y>
+           <width>81</width>
+           <height>23</height>
           </rect>
          </property>
          <property name="text">
           <string>PC1L0-XTES-VGC-01</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
          </property>
          <property name="wordWrap">
           <bool>true</bool>
@@ -3351,20 +2315,20 @@ EM2L0-GEM</string>
         <widget class="QLabel" name="label_59">
          <property name="geometry">
           <rect>
-           <x>1750</x>
+           <x>1300</x>
            <y>488</y>
-           <width>131</width>
+           <width>41</width>
            <height>16</height>
           </rect>
          </property>
          <property name="text">
-          <string>AT2L0-SOLID-PIN-01</string>
+          <string>PIN-01</string>
          </property>
         </widget>
         <widget class="QLabel" name="label_60">
          <property name="geometry">
           <rect>
-           <x>2220</x>
+           <x>1435</x>
            <y>488</y>
            <width>151</width>
            <height>16</height>
@@ -3377,7 +2341,7 @@ EM2L0-GEM</string>
         <widget class="QLabel" name="label_61">
          <property name="geometry">
           <rect>
-           <x>2350</x>
+           <x>1545</x>
            <y>160</y>
            <width>91</width>
            <height>20</height>
@@ -3390,79 +2354,100 @@ EM2L0-GEM</string>
         <widget class="QLabel" name="label_62">
          <property name="geometry">
           <rect>
-           <x>2410</x>
-           <y>300</y>
-           <width>111</width>
-           <height>16</height>
+           <x>1600</x>
+           <y>291</y>
+           <width>61</width>
+           <height>23</height>
           </rect>
          </property>
          <property name="text">
           <string>PA1L0-PIN-01</string>
          </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+         <property name="wordWrap">
+          <bool>true</bool>
+         </property>
         </widget>
         <widget class="QLabel" name="label_10">
          <property name="geometry">
           <rect>
-           <x>2510</x>
-           <y>296</y>
-           <width>91</width>
-           <height>20</height>
+           <x>1670</x>
+           <y>291</y>
+           <width>81</width>
+           <height>23</height>
           </rect>
          </property>
          <property name="text">
           <string>PA1L0-VFS-01</string>
          </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+         <property name="wordWrap">
+          <bool>true</bool>
+         </property>
         </widget>
         <widget class="QLabel" name="label_11">
          <property name="geometry">
           <rect>
-           <x>3020</x>
-           <y>296</y>
-           <width>141</width>
-           <height>16</height>
+           <x>2070</x>
+           <y>291</y>
+           <width>101</width>
+           <height>23</height>
           </rect>
          </property>
          <property name="text">
           <string>BT2L0-PLEG-VGC-01</string>
          </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+         <property name="wordWrap">
+          <bool>true</bool>
+         </property>
         </widget>
         <widget class="QLabel" name="label_12">
          <property name="geometry">
           <rect>
-           <x>2960</x>
-           <y>170</y>
-           <width>111</width>
+           <x>2035</x>
+           <y>168</y>
+           <width>41</width>
            <height>16</height>
           </rect>
          </property>
          <property name="text">
-          <string>MR1L1-TXI-PIP-01</string>
+          <string>PIP-01</string>
          </property>
         </widget>
         <widget class="QLabel" name="label_13">
          <property name="geometry">
           <rect>
-           <x>3140</x>
+           <x>2195</x>
            <y>488</y>
-           <width>131</width>
+           <width>41</width>
            <height>16</height>
           </rect>
          </property>
          <property name="text">
-          <string>BT2L0-PLEG-PIP-01</string>
+          <string>PIP-01</string>
          </property>
         </widget>
         <widget class="QLabel" name="label_14">
          <property name="geometry">
           <rect>
-           <x>2730</x>
-           <y>285</y>
+           <x>1765</x>
+           <y>291</y>
            <width>111</width>
-           <height>31</height>
+           <height>23</height>
           </rect>
          </property>
          <property name="text">
           <string>MR1L0- HOMS-VGC-01</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
          </property>
          <property name="wordWrap">
           <bool>true</bool>
@@ -3471,7 +2456,7 @@ EM2L0-GEM</string>
         <widget class="QLabel" name="label_15">
          <property name="geometry">
           <rect>
-           <x>2810</x>
+           <x>1875</x>
            <y>488</y>
            <width>151</width>
            <height>16</height>
@@ -3484,40 +2469,55 @@ EM2L0-GEM</string>
         <widget class="QLabel" name="label_16">
          <property name="geometry">
           <rect>
-           <x>3410</x>
-           <y>296</y>
-           <width>131</width>
-           <height>16</height>
+           <x>2250</x>
+           <y>291</y>
+           <width>111</width>
+           <height>23</height>
           </rect>
          </property>
          <property name="text">
           <string>MR2L0-HOMS-VGC-01</string>
          </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+         <property name="wordWrap">
+          <bool>true</bool>
+         </property>
         </widget>
         <widget class="QLabel" name="label_17">
          <property name="geometry">
           <rect>
-           <x>3370</x>
-           <y>80</y>
-           <width>101</width>
-           <height>16</height>
+           <x>2495</x>
+           <y>67</y>
+           <width>61</width>
+           <height>23</height>
           </rect>
          </property>
          <property name="text">
           <string>TV1L1-VGC-01</string>
          </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+         <property name="wordWrap">
+          <bool>true</bool>
+         </property>
         </widget>
         <widget class="QLabel" name="label_18">
          <property name="geometry">
           <rect>
-           <x>3630</x>
-           <y>275</y>
-           <width>131</width>
-           <height>41</height>
+           <x>2440</x>
+           <y>291</y>
+           <width>91</width>
+           <height>23</height>
           </rect>
          </property>
          <property name="text">
           <string>MR2L0-HOMS-VGC-02</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
          </property>
          <property name="wordWrap">
           <bool>true</bool>
@@ -3526,20 +2526,20 @@ EM2L0-GEM</string>
         <widget class="QLabel" name="label_29">
          <property name="geometry">
           <rect>
-           <x>3520</x>
+           <x>2405</x>
            <y>488</y>
-           <width>151</width>
+           <width>41</width>
            <height>16</height>
           </rect>
          </property>
          <property name="text">
-          <string>MR2L0-HOMS-PIP-01</string>
+          <string>PIP-01</string>
          </property>
         </widget>
         <widget class="QLabel" name="label_33">
          <property name="geometry">
           <rect>
-           <x>3770</x>
+           <x>2560</x>
            <y>488</y>
            <width>121</width>
            <height>16</height>
@@ -3552,10 +2552,10 @@ EM2L0-GEM</string>
         <widget class="QLabel" name="label_41">
          <property name="geometry">
           <rect>
-           <x>3740</x>
-           <y>296</y>
-           <width>111</width>
-           <height>20</height>
+           <x>2540</x>
+           <y>291</y>
+           <width>71</width>
+           <height>23</height>
           </rect>
          </property>
          <property name="text">
@@ -3568,20 +2568,26 @@ EM2L0-GEM</string>
         <widget class="QLabel" name="label_44">
          <property name="geometry">
           <rect>
-           <x>3730</x>
-           <y>80</y>
-           <width>131</width>
-           <height>16</height>
+           <x>2560</x>
+           <y>67</y>
+           <width>81</width>
+           <height>23</height>
           </rect>
          </property>
          <property name="text">
           <string>PC2L1-L2SI-VGC-01</string>
          </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+         <property name="wordWrap">
+          <bool>true</bool>
+         </property>
         </widget>
         <widget class="QLabel" name="label_45">
          <property name="geometry">
           <rect>
-           <x>4170</x>
+           <x>2650</x>
            <y>488</y>
            <width>131</width>
            <height>16</height>
@@ -3594,10 +2600,10 @@ EM2L0-GEM</string>
         <widget class="Line" name="line_21">
          <property name="geometry">
           <rect>
-           <x>870</x>
+           <x>600</x>
            <y>220</y>
            <width>20</width>
-           <height>110</height>
+           <height>113</height>
           </rect>
          </property>
          <property name="lineWidth">
@@ -3610,7 +2616,7 @@ EM2L0-GEM</string>
         <widget class="Line" name="line_23">
          <property name="geometry">
           <rect>
-           <x>1220</x>
+           <x>790</x>
            <y>220</y>
            <width>20</width>
            <height>110</height>
@@ -3626,7 +2632,7 @@ EM2L0-GEM</string>
         <widget class="Line" name="line_26">
          <property name="geometry">
           <rect>
-           <x>720</x>
+           <x>520</x>
            <y>334</y>
            <width>20</width>
            <height>131</height>
@@ -3642,7 +2648,7 @@ EM2L0-GEM</string>
         <widget class="Line" name="line_27">
          <property name="geometry">
           <rect>
-           <x>1200</x>
+           <x>830</x>
            <y>334</y>
            <width>20</width>
            <height>131</height>
@@ -3658,7 +2664,7 @@ EM2L0-GEM</string>
         <widget class="Line" name="line_28">
          <property name="geometry">
           <rect>
-           <x>1000</x>
+           <x>680</x>
            <y>334</y>
            <width>20</width>
            <height>131</height>
@@ -3674,8 +2680,8 @@ EM2L0-GEM</string>
         <widget class="Line" name="line_29">
          <property name="geometry">
           <rect>
-           <x>870</x>
-           <y>340</y>
+           <x>600</x>
+           <y>333</y>
            <width>20</width>
            <height>131</height>
           </rect>
@@ -3690,7 +2696,7 @@ EM2L0-GEM</string>
         <widget class="Line" name="line_24">
          <property name="geometry">
           <rect>
-           <x>1810</x>
+           <x>1310</x>
            <y>220</y>
            <width>20</width>
            <height>110</height>
@@ -3706,7 +2712,7 @@ EM2L0-GEM</string>
         <widget class="Line" name="line_25">
          <property name="geometry">
           <rect>
-           <x>2280</x>
+           <x>1495</x>
            <y>220</y>
            <width>20</width>
            <height>110</height>
@@ -3722,7 +2728,7 @@ EM2L0-GEM</string>
         <widget class="Line" name="line_30">
          <property name="geometry">
           <rect>
-           <x>1460</x>
+           <x>1000</x>
            <y>220</y>
            <width>20</width>
            <height>110</height>
@@ -3738,7 +2744,7 @@ EM2L0-GEM</string>
         <widget class="Line" name="line_33">
          <property name="geometry">
           <rect>
-           <x>2380</x>
+           <x>1575</x>
            <y>175</y>
            <width>20</width>
            <height>159</height>
@@ -3754,7 +2760,7 @@ EM2L0-GEM</string>
         <widget class="Line" name="line_34">
          <property name="geometry">
           <rect>
-           <x>2280</x>
+           <x>1495</x>
            <y>340</y>
            <width>20</width>
            <height>131</height>
@@ -3770,7 +2776,7 @@ EM2L0-GEM</string>
         <widget class="Line" name="line_35">
          <property name="geometry">
           <rect>
-           <x>1810</x>
+           <x>1310</x>
            <y>350</y>
            <width>20</width>
            <height>131</height>
@@ -3786,7 +2792,7 @@ EM2L0-GEM</string>
         <widget class="Line" name="line_36">
          <property name="geometry">
           <rect>
-           <x>1440</x>
+           <x>1000</x>
            <y>350</y>
            <width>20</width>
            <height>131</height>
@@ -3802,10 +2808,10 @@ EM2L0-GEM</string>
         <widget class="Line" name="line_37">
          <property name="geometry">
           <rect>
-           <x>2690</x>
+           <x>1745</x>
            <y>220</y>
            <width>20</width>
-           <height>110</height>
+           <height>113</height>
           </rect>
          </property>
          <property name="lineWidth">
@@ -3818,7 +2824,7 @@ EM2L0-GEM</string>
         <widget class="Line" name="line_38">
          <property name="geometry">
           <rect>
-           <x>2870</x>
+           <x>1935</x>
            <y>220</y>
            <width>20</width>
            <height>110</height>
@@ -3834,7 +2840,7 @@ EM2L0-GEM</string>
         <widget class="Line" name="line_40">
          <property name="geometry">
           <rect>
-           <x>3200</x>
+           <x>2205</x>
            <y>220</y>
            <width>20</width>
            <height>110</height>
@@ -3850,7 +2856,7 @@ EM2L0-GEM</string>
         <widget class="Line" name="line_84">
          <property name="geometry">
           <rect>
-           <x>2980</x>
+           <x>2045</x>
            <y>60</y>
            <width>20</width>
            <height>61</height>
@@ -3866,7 +2872,7 @@ EM2L0-GEM</string>
         <widget class="Line" name="line_42">
          <property name="geometry">
           <rect>
-           <x>3580</x>
+           <x>2390</x>
            <y>220</y>
            <width>20</width>
            <height>110</height>
@@ -3882,7 +2888,7 @@ EM2L0-GEM</string>
         <widget class="Line" name="line_22">
          <property name="geometry">
           <rect>
-           <x>4220</x>
+           <x>2750</x>
            <y>350</y>
            <width>20</width>
            <height>130</height>
@@ -3898,8 +2904,8 @@ EM2L0-GEM</string>
         <widget class="Line" name="line_43">
          <property name="geometry">
           <rect>
-           <x>3810</x>
-           <y>340</y>
+           <x>2600</x>
+           <y>334</y>
            <width>20</width>
            <height>130</height>
           </rect>
@@ -3914,7 +2920,7 @@ EM2L0-GEM</string>
         <widget class="Line" name="line_44">
          <property name="geometry">
           <rect>
-           <x>3570</x>
+           <x>2390</x>
            <y>340</y>
            <width>20</width>
            <height>130</height>
@@ -3930,7 +2936,7 @@ EM2L0-GEM</string>
         <widget class="Line" name="line_45">
          <property name="geometry">
           <rect>
-           <x>3190</x>
+           <x>2205</x>
            <y>340</y>
            <width>20</width>
            <height>130</height>
@@ -3946,7 +2952,7 @@ EM2L0-GEM</string>
         <widget class="Line" name="line_46">
          <property name="geometry">
           <rect>
-           <x>4230</x>
+           <x>2750</x>
            <y>220</y>
            <width>20</width>
            <height>110</height>
@@ -3962,26 +2968,7 @@ EM2L0-GEM</string>
         <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_13">
          <property name="geometry">
           <rect>
-           <x>3100</x>
-           <y>-10</y>
-           <width>151</width>
-           <height>100</height>
-          </rect>
-         </property>
-         <property name="toolTip">
-          <string/>
-         </property>
-         <property name="lineWidth">
-          <number>0</number>
-         </property>
-         <property name="filename" stdset="0">
-          <string>vacuumscreens/templates/hxrArrow.ui</string>
-         </property>
-        </widget>
-        <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_14">
-         <property name="geometry">
-          <rect>
-           <x>4310</x>
+           <x>2660</x>
            <y>-10</y>
            <width>151</width>
            <height>100</height>
@@ -4000,7 +2987,7 @@ EM2L0-GEM</string>
         <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_15">
          <property name="geometry">
           <rect>
-           <x>1750</x>
+           <x>1460</x>
            <y>-10</y>
            <width>151</width>
            <height>100</height>
@@ -4057,6 +3044,135 @@ EM2L0-GEM</string>
           <string>&lt;-- UNDULATOR</string>
          </property>
         </widget>
+        <widget class="QLabel" name="label_46">
+         <property name="geometry">
+          <rect>
+           <x>220</x>
+           <y>180</y>
+           <width>41</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>TV1L0</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_47">
+         <property name="geometry">
+          <rect>
+           <x>580</x>
+           <y>180</y>
+           <width>51</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>TV2L0-1</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_48">
+         <property name="geometry">
+          <rect>
+           <x>776</x>
+           <y>180</y>
+           <width>51</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>TV2L0-2</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_49">
+         <property name="geometry">
+          <rect>
+           <x>1735</x>
+           <y>180</y>
+           <width>51</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>PA1L0</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_31">
+         <property name="geometry">
+          <rect>
+           <x>896</x>
+           <y>140</y>
+           <width>31</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>FEE</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_32">
+         <property name="geometry">
+          <rect>
+           <x>856</x>
+           <y>140</y>
+           <width>31</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>EBD</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_34">
+         <property name="geometry">
+          <rect>
+           <x>2808</x>
+           <y>70</y>
+           <width>31</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>FEE</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_35">
+         <property name="geometry">
+          <rect>
+           <x>2844</x>
+           <y>70</y>
+           <width>31</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>NEH</string>
+         </property>
+        </widget>
+        <zorder>line_31</zorder>
         <zorder>line_83</zorder>
         <zorder>line_46</zorder>
         <zorder>line_45</zorder>
@@ -4084,11 +3200,9 @@ EM2L0-GEM</string>
         <zorder>line_21</zorder>
         <zorder>line_39</zorder>
         <zorder>line</zorder>
-        <zorder>PA1L0</zorder>
         <zorder>line_9</zorder>
         <zorder>line_5</zorder>
         <zorder>line_32</zorder>
-        <zorder>line_31</zorder>
         <zorder>line_3</zorder>
         <zorder>line_2</zorder>
         <zorder>line_13</zorder>
@@ -4109,8 +3223,6 @@ EM2L0-GEM</string>
         <zorder>TV2L0_PIP_01</zorder>
         <zorder>TV2L0_VGC_01</zorder>
         <zorder>TV2L0_PIP_02</zorder>
-        <zorder>PyDMLabel_13</zorder>
-        <zorder>PyDMLabel_14</zorder>
         <zorder>TV2L0_PIP_03</zorder>
         <zorder>TV2L0_VGC_02</zorder>
         <zorder>AT2L0_SOLID_PIN_01</zorder>
@@ -4128,8 +3240,6 @@ EM2L0-GEM</string>
         <zorder>TV3L0_PIP_01</zorder>
         <zorder>ST1L0_XTES_PIP_01</zorder>
         <zorder>line_41</zorder>
-        <zorder>PyDMLabel_29</zorder>
-        <zorder>PyDMLabel_30</zorder>
         <zorder>PA1L0_VFS_01</zorder>
         <zorder>SL1L0_POWER_PIN_01</zorder>
         <zorder>AT1L0_GAS</zorder>
@@ -4140,51 +3250,14 @@ EM2L0-GEM</string>
         <zorder>TV1L1_VGC_2</zorder>
         <zorder>PC2L1_L2SI_VGC_01</zorder>
         <zorder>H1Button</zorder>
-        <zorder>RTDSL0_YAGXRAY</zorder>
         <zorder>IM1L0_XTES</zorder>
-        <zorder>PCPM2</zorder>
-        <zorder>MBXPM1</zorder>
-        <zorder>MBXPM2</zorder>
-        <zorder>PCPM3</zorder>
-        <zorder>BTM3</zorder>
-        <zorder>MBTMSFT</zorder>
-        <zorder>BTMSFT</zorder>
         <zorder>SL1L0_POWER</zorder>
         <zorder>AT2L0_SOLID</zorder>
-        <zorder>PC1L0_XTES</zorder>
-        <zorder>BT1L0_XTES</zorder>
-        <zorder>PF1L0_WFS</zorder>
-        <zorder>BS1L0_XTES</zorder>
-        <zorder>IM2L0_XTES</zorder>
-        <zorder>SL2L0_POWER</zorder>
         <zorder>SP1L0_KMONO</zorder>
-        <zorder>ND1H</zorder>
         <zorder>MR1L1_TXI</zorder>
         <zorder>BT2L0_PLEG</zorder>
-        <zorder>label_26</zorder>
-        <zorder>label_27</zorder>
-        <zorder>label_28</zorder>
-        <zorder>BS1L1_MINI</zorder>
-        <zorder>label_30</zorder>
-        <zorder>label_31</zorder>
-        <zorder>label_32</zorder>
         <zorder>MR2L0_HOMS</zorder>
-        <zorder>label_34</zorder>
-        <zorder>label_35</zorder>
-        <zorder>label_36</zorder>
-        <zorder>label_37</zorder>
-        <zorder>label_38</zorder>
-        <zorder>label_39</zorder>
-        <zorder>label_40</zorder>
         <zorder>ST1L0_XTES</zorder>
-        <zorder>label_42</zorder>
-        <zorder>label_43</zorder>
-        <zorder>BS4L0_LUSI</zorder>
-        <zorder>ST2L0_PPS</zorder>
-        <zorder>TV3L0</zorder>
-        <zorder>TV1L0</zorder>
-        <zorder>BTM2</zorder>
-        <zorder>TV2L0</zorder>
         <zorder>MR1L0_HOMS</zorder>
         <zorder>EM1L0_GEM_VGC_10</zorder>
         <zorder>EM1L0_GEM_VGC_70</zorder>
@@ -4238,10 +3311,17 @@ EM2L0-GEM</string>
         <zorder>label_44</zorder>
         <zorder>label_45</zorder>
         <zorder>PyDMEmbeddedDisplay_13</zorder>
-        <zorder>PyDMEmbeddedDisplay_14</zorder>
         <zorder>PyDMEmbeddedDisplay_15</zorder>
         <zorder>PyDMEmbeddedDisplay_16</zorder>
         <zorder>RTDSL0_2</zorder>
+        <zorder>label_46</zorder>
+        <zorder>label_47</zorder>
+        <zorder>label_48</zorder>
+        <zorder>label_49</zorder>
+        <zorder>label_31</zorder>
+        <zorder>label_32</zorder>
+        <zorder>label_34</zorder>
+        <zorder>label_35</zorder>
        </widget>
       </widget>
      </item>
@@ -4250,11 +3330,6 @@ EM2L0-GEM</string>
   </layout>
  </widget>
  <customwidgets>
-  <customwidget>
-   <class>PyDMLabel</class>
-   <extends>QLabel</extends>
-   <header>pydm.widgets.label</header>
-  </customwidget>
   <customwidget>
    <class>PyDMEmbeddedDisplay</class>
    <extends>QFrame</extends>
