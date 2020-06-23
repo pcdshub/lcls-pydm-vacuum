@@ -854,7 +854,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
           <rect>
            <x>140</x>
            <y>-10</y>
-           <width>151</width>
+           <width>161</width>
            <height>100</height>
           </rect>
          </property>
@@ -873,7 +873,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
           <rect>
            <x>1040</x>
            <y>-10</y>
-           <width>151</width>
+           <width>161</width>
            <height>100</height>
           </rect>
          </property>
