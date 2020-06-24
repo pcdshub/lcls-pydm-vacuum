@@ -372,7 +372,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
        <widget class="QWidget" name="scrollAreaWidgetContents">
         <property name="geometry">
          <rect>
-          <x>-91</x>
+          <x>0</x>
           <y>0</y>
           <width>1250</width>
           <height>580</height>
@@ -753,11 +753,11 @@ IonPump[state=&quot;FAULT&quot;] #icon {
          </property>
          <property name="commands" stdset="0">
           <stringlist>
-           <string>pydm vacuumscreens/screens/hxr-vac-dev.ui</string>
+           <string>pydm vacuumscreens/screens/hxrVac.ui</string>
           </stringlist>
          </property>
          <property name="command" stdset="0">
-          <string>pydm vacuumscreens/screens/hxr-vac-dev.ui</string>
+          <string>pydm vacuumscreens/screens/hxrVac.ui</string>
          </property>
         </widget>
         <widget class="IonPump" name="PA2L0_PIN_2">
