@@ -378,7 +378,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
        <widget class="QWidget" name="scrollAreaWidgetContents">
         <property name="geometry">
          <rect>
-          <x>0</x>
+          <x>-1401</x>
           <y>0</y>
           <width>3020</width>
           <height>620</height>
@@ -1167,17 +1167,26 @@ IonPump[state=&quot;FAULT&quot;] #icon {
            <x>2530</x>
            <y>315</y>
            <width>70</width>
-           <height>130</height>
+           <height>31</height>
           </rect>
          </property>
          <property name="toolTip">
           <string/>
          </property>
          <property name="controlsLocation" stdset="0">
-          <enum>PCDSSymbolBase::Bottom</enum>
+          <enum>PCDSSymbolBase::Hidden</enum>
          </property>
          <property name="channelsPrefix" stdset="0">
           <string>ca://TV3L0:VFS:01</string>
+         </property>
+         <property name="showIcon" stdset="0">
+          <bool>true</bool>
+         </property>
+         <property name="showStatusTooltip" stdset="0">
+          <bool>true</bool>
+         </property>
+         <property name="expertOphydClass" stdset="0">
+          <string>pcdsdevices.valve.VRC</string>
          </property>
          <property name="controlButtonHorizontal" stdset="0">
           <bool>false</bool>
