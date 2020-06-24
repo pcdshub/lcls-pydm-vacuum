@@ -1095,7 +1095,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
            <x>2270</x>
            <y>315</y>
            <width>70</width>
-           <height>31</height>
+           <height>131</height>
           </rect>
          </property>
          <property name="toolTip">
