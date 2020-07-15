@@ -220,6 +220,85 @@ PneumaticValve[error=&quot;Ext Fault&quot;] #icon {
     qproperty-penWidth: 2;
    qproperty-interlockBrush: red;
 }
+FastShutter #icon [alarmSeverity=&quot;0&quot;]{
+    qproperty-penStyle: &quot;QT::SolidLine&quot;;
+    qproperty-penColor: black;
+    qproperty-penWidth: 1;
+ 
+}
+FastShutter[interlocked=&quot;true&quot;] #icon{
+    border: 2px solid black;
+    qproperty-penWidth: 1;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+}
+FastShutter[interlocked=&quot;false&quot;] #icon{
+    border: 0px;
+    qproperty-penWidth: 1;
+    qproperty-brush: #00FF00;
+}
+FastShutter[interlocked=&quot;true&quot;] #icon {
+    qproperty-arrowBrush: black;
+}
+FastShutter[interlocked=&quot;false&quot;] #icon{
+    qproperty-arrowBrush: #00FF00;
+}
+FastShutter[state=&quot;OPEN&quot;] #icon {
+     qproperty-penStyle: &quot;QT::SolidLine&quot;;
+    qproperty-penColor: black;
+    qproperty-penWidth: 1;
+    qproperty-brush: #00FF00;
+}
+FastShutter[state=&quot;MOVING&quot;] #icon {
+    qproperty-penStyle: &quot;QT::SolidLine&quot;;
+    qproperty-penColor: black;
+    qproperty-penWidth: 1;
+    qproperty-brush: yellow;
+}
+FastShutter[state=&quot;CLOSED&quot;] #icon {
+    qproperty-penStyle: &quot;QT::SolidLine&quot;;
+    qproperty-penColor: gray;
+    qproperty-penWidth: 1;
+    qproperty-brush: black;
+}
+FastShutter[state=&quot;INVALID&quot;] #icon {
+    qproperty-penStyle: &quot;QT::SolidLine&quot;;
+    qproperty-penColor: black;
+    qproperty-penWidth: 1;
+    qproperty-brush: red;
+}
+FastShutter[error=&quot;AT Vacuum&quot;] #icon {
+    qproperty-penStyle: &quot;Qt::SolidLine&quot;;
+    qproperty-penColor: black;
+    qproperty-penWidth: 1;
+   qproperty-arrowBrush: #00FF00;
+}
+FastShutter[error=&quot;Triggered&quot;] #icon {
+    qproperty-penStyle: &quot;Qt::SolidLine&quot;;
+    qproperty-penColor: black;
+    qproperty-penWidth: 1;
+   qproperty-arrowBrush: yellow;
+}
+FastShutter[error=&quot;Vacuum Fault&quot;] #icon {
+    qproperty-penStyle: &quot;Qt::DotLine&quot;;
+    qproperty-penColor: black;
+    qproperty-penWidth: 1;
+   qproperty-arrowBrush: red;
+}
+FastShutter[error=&quot;Close Timeout&quot;] #icon {
+    qproperty-penStyle: &quot;Qt::DotLine&quot;;
+    qproperty-penColor: black;
+    qproperty-penWidth: 1;
+   qproperty-arrowBrush: red;
+}
+FastShutter[error=&quot;Open Timeout&quot;] #icon {
+    qproperty-penStyle: &quot;QT::SolidLine&quot;;
+    qproperty-penColor: black;
+    qproperty-penWidth: 1;
+   qproperty-arrowBrush: red;
+}
 ControlOnlyValveNC[interlocked=&quot;true&quot;] #icon {
      border: 2px solid black;
     qproperty-penWidth: 2;
@@ -378,7 +457,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
        <widget class="QWidget" name="scrollAreaWidgetContents">
         <property name="geometry">
          <rect>
-          <x>-1401</x>
+          <x>-1619</x>
           <y>0</y>
           <width>3020</width>
           <height>620</height>
@@ -1167,14 +1246,14 @@ IonPump[state=&quot;FAULT&quot;] #icon {
            <x>2530</x>
            <y>315</y>
            <width>70</width>
-           <height>31</height>
+           <height>131</height>
           </rect>
          </property>
          <property name="toolTip">
           <string/>
          </property>
          <property name="controlsLocation" stdset="0">
-          <enum>PCDSSymbolBase::Hidden</enum>
+          <enum>PCDSSymbolBase::Bottom</enum>
          </property>
          <property name="channelsPrefix" stdset="0">
           <string>ca://TV3L0:VFS:01</string>
@@ -2562,7 +2641,7 @@ EM2L0-GEM</string>
          <property name="geometry">
           <rect>
            <x>2540</x>
-           <y>291</y>
+           <y>289</y>
            <width>71</width>
            <height>23</height>
           </rect>
