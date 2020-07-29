@@ -1168,7 +1168,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
           <enum>QFrame::Plain</enum>
          </property>
          <property name="text">
-          <string>5.20e-08 Torr</string>
+          <string>5.00e-07 Torr</string>
          </property>
          <property name="textFormat">
           <enum>Qt::PlainText</enum>
@@ -1190,6 +1190,56 @@ IonPump[state=&quot;FAULT&quot;] #icon {
          </property>
          <property name="displayFormat" stdset="0">
           <enum>PyDMLabel::Exponential</enum>
+         </property>
+        </widget>
+        <widget class="Line" name="line_34">
+         <property name="geometry">
+          <rect>
+           <x>1153</x>
+           <y>85</y>
+           <width>10</width>
+           <height>400</height>
+          </rect>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Plain</enum>
+         </property>
+         <property name="lineWidth">
+          <number>4</number>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+        </widget>
+        <widget class="PyDMLabel" name="PyDMLabel_17">
+         <property name="geometry">
+          <rect>
+           <x>1165</x>
+           <y>70</y>
+           <width>67</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="toolTip">
+          <string/>
+         </property>
+         <property name="text">
+          <string>XPP</string>
+         </property>
+         <property name="textFormat">
+          <enum>Qt::PlainText</enum>
+         </property>
+         <property name="scaledContents">
+          <bool>false</bool>
+         </property>
+         <property name="displayFormat" stdset="0">
+          <enum>PyDMLabel::Default</enum>
          </property>
         </widget>
         <zorder>TV5L0_02</zorder>
@@ -1235,6 +1285,8 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <zorder>TyphosSignalPanel</zorder>
         <zorder>label_21</zorder>
         <zorder>PyDMLabel</zorder>
+        <zorder>line_34</zorder>
+        <zorder>PyDMLabel_17</zorder>
        </widget>
       </widget>
      </item>
