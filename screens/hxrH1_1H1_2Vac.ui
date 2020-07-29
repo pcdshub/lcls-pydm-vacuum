@@ -1082,26 +1082,32 @@ IonPump[state=&quot;FAULT&quot;] #icon {
           <string>TV5L0-GCC-03</string>
          </property>
         </widget>
-        <widget class="QLabel" name="TV1L0">
+        <widget class="PyDMShellCommand" name="PyDMShellCommand_FEE_2">
          <property name="geometry">
           <rect>
-           <x>1180</x>
-           <y>270</y>
-           <width>45</width>
-           <height>21</height>
+           <x>1145</x>
+           <y>265</y>
+           <width>91</width>
+           <height>24</height>
           </rect>
          </property>
-         <property name="autoFillBackground">
-          <bool>true</bool>
-         </property>
-         <property name="frameShape">
-          <enum>QFrame::Box</enum>
-         </property>
-         <property name="frameShadow">
-          <enum>QFrame::Plain</enum>
+         <property name="toolTip">
+          <string/>
          </property>
          <property name="text">
           <string>XPP &gt;</string>
+         </property>
+         <property name="icon">
+          <iconset theme="None">
+           <normaloff>.</normaloff>.</iconset>
+         </property>
+         <property name="commands" stdset="0">
+          <stringlist>
+           <string>edm /reg/g/pcds/package/screens/edm/xpp/vacuum/neh/neh.edl</string>
+          </stringlist>
+         </property>
+         <property name="command" stdset="0">
+          <string>edm /reg/g/pcds/package/screens/edm/xpp/vacuum/neh/neh.edl</string>
          </property>
         </widget>
         <zorder>TV5L0_02</zorder>
@@ -1142,7 +1148,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <zorder>label_18</zorder>
         <zorder>label_19</zorder>
         <zorder>label_20</zorder>
-        <zorder>TV1L0</zorder>
+        <zorder>PyDMShellCommand_FEE_2</zorder>
        </widget>
       </widget>
      </item>
