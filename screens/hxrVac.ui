@@ -457,7 +457,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
        <widget class="QWidget" name="scrollAreaWidgetContents">
         <property name="geometry">
          <rect>
-          <x>-1619</x>
+          <x>0</x>
           <y>0</y>
           <width>3020</width>
           <height>620</height>
@@ -526,9 +526,9 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <widget class="Line" name="line">
          <property name="geometry">
           <rect>
-           <x>160</x>
+           <x>0</x>
            <y>324</y>
-           <width>2700</width>
+           <width>2860</width>
            <height>20</height>
           </rect>
          </property>
