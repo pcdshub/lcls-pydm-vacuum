@@ -457,7 +457,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
        <widget class="QWidget" name="scrollAreaWidgetContents">
         <property name="geometry">
          <rect>
-          <x>0</x>
+          <x>-1401</x>
           <y>0</y>
           <width>3020</width>
           <height>620</height>
@@ -3263,6 +3263,113 @@ EM2L0-GEM</string>
           <string>NEH</string>
          </property>
         </widget>
+        <widget class="PyDMEnumButton" name="PyDMEnumButton">
+         <property name="geometry">
+          <rect>
+           <x>25</x>
+           <y>500</y>
+           <width>98</width>
+           <height>100</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>9</pointsize>
+          </font>
+         </property>
+         <property name="toolTip">
+          <string/>
+         </property>
+         <property name="channel" stdset="0">
+          <string>ca://PLC:LFE:VAC:EBD:OVRDON</string>
+         </property>
+         <property name="items" stdset="0">
+          <stringlist>
+           <string>FALSE</string>
+           <string>TRUE</string>
+          </stringlist>
+         </property>
+        </widget>
+        <widget class="PyDMLabel" name="PyDMLabel">
+         <property name="geometry">
+          <rect>
+           <x>25</x>
+           <y>455</y>
+           <width>106</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="toolTip">
+          <string/>
+         </property>
+         <property name="text">
+          <string>LFE VACUUM EBD OVERRIDE</string>
+         </property>
+         <property name="wordWrap">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="PyDMEnumButton" name="PyDMEnumButton_2">
+         <property name="geometry">
+          <rect>
+           <x>1135</x>
+           <y>500</y>
+           <width>98</width>
+           <height>100</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>9</pointsize>
+          </font>
+         </property>
+         <property name="toolTip">
+          <string/>
+         </property>
+         <property name="channel" stdset="0">
+          <string>ca://PLC:LFE:VAC:FEE:OVRDON</string>
+         </property>
+         <property name="items" stdset="0">
+          <stringlist>
+           <string>FALSE</string>
+           <string>TRUE</string>
+          </stringlist>
+         </property>
+        </widget>
+        <widget class="PyDMLabel" name="PyDMLabel_2">
+         <property name="geometry">
+          <rect>
+           <x>1135</x>
+           <y>455</y>
+           <width>106</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Sans Serif</family>
+           <pointsize>9</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+           <underline>false</underline>
+          </font>
+         </property>
+         <property name="toolTip">
+          <string/>
+         </property>
+         <property name="text">
+          <string>LFE VACUUM FEE OVERRIDE</string>
+         </property>
+         <property name="wordWrap">
+          <bool>true</bool>
+         </property>
+        </widget>
         <zorder>line_31</zorder>
         <zorder>line_83</zorder>
         <zorder>line_46</zorder>
@@ -3413,6 +3520,10 @@ EM2L0-GEM</string>
         <zorder>label_32</zorder>
         <zorder>label_34</zorder>
         <zorder>label_35</zorder>
+        <zorder>PyDMEnumButton</zorder>
+        <zorder>PyDMLabel</zorder>
+        <zorder>PyDMEnumButton_2</zorder>
+        <zorder>PyDMLabel_2</zorder>
        </widget>
       </widget>
      </item>
@@ -3422,9 +3533,19 @@ EM2L0-GEM</string>
  </widget>
  <customwidgets>
   <customwidget>
+   <class>PyDMLabel</class>
+   <extends>QLabel</extends>
+   <header>pydm.widgets.label</header>
+  </customwidget>
+  <customwidget>
    <class>PyDMEmbeddedDisplay</class>
    <extends>QFrame</extends>
    <header>pydm.widgets.embedded_display</header>
+  </customwidget>
+  <customwidget>
+   <class>PyDMEnumButton</class>
+   <extends>QWidget</extends>
+   <header>pydm.widgets.enum_button</header>
   </customwidget>
   <customwidget>
    <class>PyDMShellCommand</class>
