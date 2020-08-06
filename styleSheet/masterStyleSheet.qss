@@ -128,7 +128,7 @@ TurboPump[state="FAULT"] #icon {
     qproperty-centerBrush: red;
     qproperty-brush: gray;
 }
-TurboPump[error="true"] #icon {
+TurboPump[error="TRUE"] #icon {
     qproperty-penColor: red;
     qproperty-centerBrush: red;
 }
