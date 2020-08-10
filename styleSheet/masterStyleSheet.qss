@@ -10,6 +10,7 @@ ApertureValve #icon {
 }
 ApertureValve[interlocked="true"] #icon{
     border: 2px solid black;
+    qproperty-penWidth: 2;
     border-top-left-radius: 9px;
     border-top-right-radius: 9px;
     border-bottom-left-radius: 9px;
@@ -17,48 +18,53 @@ ApertureValve[interlocked="true"] #icon{
 }
 ApertureValve[interlocked="false"] #icon{
     border: 0px;
-    qproperty-brush: yellow;
-}
-ApertureValve[interlocked="true"] #icon {
-    qproperty-interlockBrush: black;
-}
-ApertureValve[interlocked="false"] #icon{
-    qproperty-interlockBrush: #00FF00;
+    qproperty-penWidth: 2;
+    qproperty-brush: #00FF00;
 }
 ApertureValve[state="OPEN"] #icon {
-    qproperty-penStyle: "QT::SolidLine";
+    qproperty-penStyle: "Qt::SolidLine";
     qproperty-penColor: black;
+    qproperty-penWidth: 2;
     qproperty-brush: #00FF00;
 }
 ApertureValve[state="MOVING"] #icon {
-    qproperty-penStyle: "QT::SolidLine";
+    qproperty-penStyle: "Qt::SolidLine";
     qproperty-penColor: black;
+    qproperty-penWidth: 2;
     qproperty-brush: yellow;
 }
 ApertureValve[state="CLOSED"] #icon {
-    qproperty-penStyle: "QT::SolidLine";
-    qproperty-penColor: gray;
+    qproperty-penStyle: "Qt::SolidLine";
+    qproperty-penColor: black;
+    qproperty-penWidth: 2;
     qproperty-brush: black;
 }
 ApertureValve[state="INVALID"] #icon {
-    qproperty-penStyle: "QT::SolidLine";
+    qproperty-penStyle: "Qt::SolidLine";
     qproperty-penColor: black;
+    qproperty-penWidth: 2;
     qproperty-brush: red;
 }
-ApertureValve[error="VENTED"] #icon {
-    qproperty-penStyle: "QT::SolidLine";
+ApertureValve[state="OPEN_F"] #icon {
+    qproperty-penStyle: "Qt::SolidLine";
+    qproperty-penColor: red;
+    qproperty-penWidth: 2;
+    qproperty-brush: #00FF00;
 }
-ApertureValve[error="ERR_LOST_VAC"] #icon {
-    qproperty-penStyle: "Qt::DotLine";
-    qproperty-penColor: black;
+ApertureValve[error="Vented"] #icon {
+    qproperty-penStyle: "Qt::SolidLine";
+    qproperty-interlockBrush: #00FF00;
+}
+ApertureValve[error="At Vacuum"] #icon {
+    qproperty-penStyle: "Qt::SolidLine";
+    qproperty-interlockBrush: #00FF00;
+}
+ApertureValve[error="Lost Vacuum"] #icon {
     qproperty-interlockBrush: red;
 }
 ApertureValve[error="Ext Fault"] #icon {
-    qproperty-penStyle: "QT::SolidLine";
-    qproperty-penColor: black;
-    qproperty-interlockBrush: black;
+    qproperty-interlockBrush: red;
 }
-
 /*################################*/
 
 /* PnumaticValve - vrc, vgc (use vrc)*/
@@ -96,7 +102,7 @@ PneumaticValve[state="MOVING"] #icon {
 }
 PneumaticValve[state="CLOSED"] #icon {
     qproperty-penStyle: "Qt::SolidLine";
-    qproperty-penColor: gray;
+    qproperty-penColor: black;
     qproperty-penWidth: 2;
     qproperty-brush: black;
 }
@@ -106,19 +112,19 @@ PneumaticValve[state="INVALID"] #icon {
     qproperty-penWidth: 2;
     qproperty-brush: red;
 }
+PneumaticValve[state="OPEN_F"] #icon {
+    qproperty-penStyle: "Qt::SolidLine";
+    qproperty-penColor: red;
+    qproperty-penWidth: 2;
+    qproperty-brush: #00FF00;
+}
 PneumaticValve[error="Vented"] #icon {
     qproperty-penStyle: "Qt::SolidLine";
 }
 PneumaticValve[error="Lost Vacuum"] #icon {
-    qproperty-penStyle: "Qt::DotLine";
-    qproperty-penColor: black;
-    qproperty-penWidth: 2;
    qproperty-interlockBrush: red;
 }
 PneumaticValve[error="Ext Fault"] #icon {
-    qproperty-penStyle: "Qt::SolidLine";
-    qproperty-penColor: black;
-    qproperty-penWidth: 2;
     qproperty-interlockBrush: red;
 }
 
