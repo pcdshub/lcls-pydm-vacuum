@@ -1,53 +1,9 @@
-RoughGauge[state="On"] #icon{
-    qproperty-brush: red;
-    color: gray;
-}
-RoughGauge[state="Off"] #icon{
-    qproperty-brush: #00FF00;
-    color: black;
-}
-RoughGauge #pressure{
-    color: blue;
-    border: 1px solid black;
-    background-color : white
-}
-ColdCathodeGauge #pressure{
-    color: blue;
-    border: 1px solid black;
-    background-color : white
-}
-ColdCathodeGauge[interlocked="true"] #icon{
-    border: 2px solid black;
-    qproperty-brush: black;
-    border-top-left-radius: 9px;
-    border-top-right-radius: 9px;
-    border-bottom-left-radius: 9px;
-    border-bottom-right-radius: 9px;
-}
-ColdCathodeGauge[state="Off"] #icon {
-    qproperty-penColor: black;
-    qproperty-brush: gray;
-}
-ColdCathodeGauge[state="GaugeDisconnected"] #icon {
-    qproperty-penColor: red;
-    qproperty-brush: gray;
-}
-ColdCathodeGauge[state="PressInvalid"] #icon {
-    qproperty-penColor: black;
-    qproperty-brush: gray;
-}
-ColdCathodeGauge[state="Starting"] #icon {
-    qproperty-penColor: black;
-    qproperty-brush: yellow;
-}
-ColdCathodeGauge[state="Valid"] #icon {
-    qproperty-penColor: black;
-    qproperty-brush: #00FF00;
-}
-ColdCathodeGauge[state="ValidLo"] #icon {
-    qproperty-penColor: black;
-    qproperty-brush: yellow;
-}
+/*################################*/
+/* Valves and Shutters*/
+/*################################*/
+
+/*#ApperatureValve - vgc*/
+
 ApertureValve #icon {
     qproperty-penStyle: "QT::SolidLine";
     qproperty-penColor: black;
@@ -102,36 +58,11 @@ ApertureValve[error="Ext Fault"] #icon {
     qproperty-penColor: black;
     qproperty-interlockBrush: black;
 }
-TurboPump[interlocked="true"] #icon {
-    border: 2px solid black;
-    qproperty-penColor: black;
-}
-TurboPump[interlocked="false"] #icon {
-    border: 0px;
-}
-TurboPump[state="RUNNING"] #icon {
-    qproperty-penColor: black;
-    qproperty-centerBrush: #00FF00;
-    qproperty-brush: #00FF00;
-}
-TurboPump[state="STARTING"] #icon {
-    qproperty-penColor: black;
-    qproperty-centerBrush: yellow;
-}
-TurboPump[state="STOPPED"] #icon {
-    qproperty-penColor: black;
-    qproperty-centerBrush: gray;
-    qproperty-brush: gray;
-}
-TurboPump[state="FAULT"] #icon {
-    qproperty-penColor: red;
-    qproperty-centerBrush: red;
-    qproperty-brush: gray;
-}
-TurboPump[error="TRUE"] #icon {
-    qproperty-penColor: red;
-    qproperty-centerBrush: red;
-}
+
+/*################################*/
+
+/* PnumaticValve - vrc, vgc (use vrc)*/
+
 PneumaticValve #icon {
     qproperty-penStyle: "Qt::SolidLine";
     qproperty-penColor: black;
@@ -190,11 +121,16 @@ PneumaticValve[error="Ext Fault"] #icon {
     qproperty-penWidth: 2;
     qproperty-interlockBrush: red;
 }
+
+/*###############################*/
+
+/* Fast Shutter - vfs*/
+
 FastShutter #icon [alarmSeverity="0"]{
     qproperty-penStyle: "QT::SolidLine";
     qproperty-penColor: black;
     qproperty-penWidth: 1;
- 
+
 }
 FastShutter[interlocked="true"] #icon{
     border: 2px solid black;
@@ -269,6 +205,11 @@ FastShutter[error="Open Timeout"] #icon {
     qproperty-penWidth: 1;
    qproperty-arrowBrush: red;
 }
+
+/*###############################*/
+
+/* Control Only Valve Normally Closed - vvcNC*/
+
 ControlOnlyValveNC[interlocked="true"] #icon {
     border: 2px solid black;
     qproperty-penWidth: 2;
@@ -283,7 +224,7 @@ ControlOnlyValveNC[interlocked="false"] #icon {
     qproperty-brush: #00FF00;
 }
 ControlOnlyValveNC[interlocked="true"] #icon {
-    qproperty-interlockBrush: #FF0000;
+    qproperty-interlockBrush: black;
 }
 ControlOnlyValveNC[interlocked="false"] #icon {
     qproperty-interlockBrush: #00FF00;
@@ -313,6 +254,11 @@ ControlOnlyValveNC[state="Close"] #icon {
     qproperty-penColor: gray;
     qproperty-brush: black;
 }
+
+/*##################################*/
+
+/* Needle Valve - vcn*/
+
 NeedleValve[interlocked="true"] #icon{
     border: 2px solid black;
     qproperty-penWidth: 2;
@@ -344,6 +290,48 @@ NeedleValve[state="Open"] #icon {
     qproperty-penWidth: 2;
     qproperty-brush: #00FF00;
 }
+
+/*################################*/
+/* Pumps */
+/*################################*/
+
+/* Turbo Pump - ptm */
+
+TurboPump[interlocked="true"] #icon {
+    border: 2px solid black;
+    qproperty-penColor: black;
+}
+TurboPump[interlocked="false"] #icon {
+    border: 0px;
+}
+TurboPump[state="RUNNING"] #icon {
+    qproperty-penColor: black;
+    qproperty-centerBrush: #00FF00;
+    qproperty-brush: #00FF00;
+}
+TurboPump[state="STARTING"] #icon {
+    qproperty-penColor: black;
+    qproperty-centerBrush: yellow;
+}
+TurboPump[state="STOPPED"] #icon {
+    qproperty-penColor: black;
+    qproperty-centerBrush: gray;
+    qproperty-brush: gray;
+}
+TurboPump[state="FAULT"] #icon {
+    qproperty-penColor: red;
+    qproperty-centerBrush: red;
+    qproperty-brush: gray;
+}
+TurboPump[error="TRUE"] #icon {
+    qproperty-penColor: red;
+    qproperty-centerBrush: red;
+}
+
+/*################################*/
+
+/* Scroll Pump - pro */
+
 ScrollPump[state="RUNNING"] #icon {
     qproperty-penColor: black;
     qproperty-centerBrush: #00FF00;
@@ -373,6 +361,11 @@ ScrollPump[error="true"] #icon {
     qproperty-penWidth: 2;
     qproperty-centerBrush: red;
 }
+
+/*################################*/
+
+/* Ion Pump - pip*/
+
 IonPump #pressure{
     color: blue;
     border: 1px solid black;
@@ -417,33 +410,65 @@ IonPump[state="FAULT"] #icon {
     qproperty-penColor: black;
     qproperty-brush: red;
 }
-ControlOnlyValveNC[interlocked="true"] #icon {
+
+/*################################*/
+/* Gauges */
+/*################################*/
+
+/* Rough Gauge - gpi */
+
+RoughGauge[state="On"] #icon{
+    qproperty-brush: red;
+    color: gray;
+}
+RoughGauge[state="Off"] #icon{
+    qproperty-brush: #00FF00;
+    color: black;
+}
+RoughGauge #pressure{
+    color: blue;
+    border: 1px solid black;
+    background-color : white
+}
+
+/*################################*/
+
+/* Cold Cathode - gcc */
+
+ColdCathodeGauge #pressure{
+    color: blue;
+    border: 1px solid black;
+    background-color : white
+}
+ColdCathodeGauge[interlocked="true"] #icon{
     border: 2px solid black;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
+    qproperty-brush: black;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
 }
-ControlOnlyValveNC[interlocked="false"] #icon {
-    border: 0px;
-}
-ControlOnlyValveNC[interlocked="true"] #icon {
-    qproperty-interlockBrush: black;
-}
-ControlOnlyValveNC[interlocked="false"] #icon {
-    qproperty-interlockBrush: #00FF00;
-}
-
-ControlOnlyValveNC[state="Open"] #icon {
+ColdCathodeGauge[state="Off"] #icon {
     qproperty-penColor: black;
-    qproperty-brush:#00FF00;
+    qproperty-brush: gray;
 }
-ControlOnlyValveNC[state="Zero"] #icon {
-    qproperty-penColor: Black;
-    qproperty-brush: black;
+ColdCathodeGauge[state="GaugeDisconnected"] #icon {
+    qproperty-penColor: red;
+    qproperty-brush: gray;
 }
-
-ControlOnlyValveNC[state="Close"] #icon {
-    qproperty-penColor: gray;
-    qproperty-brush: black;
+ColdCathodeGauge[state="PressInvalid"] #icon {
+    qproperty-penColor: black;
+    qproperty-brush: gray;
+}
+ColdCathodeGauge[state="Starting"] #icon {
+    qproperty-penColor: black;
+    qproperty-brush: yellow;
+}
+ColdCathodeGauge[state="Valid"] #icon {
+    qproperty-penColor: black;
+    qproperty-brush: #00FF00;
+}
+ColdCathodeGauge[state="ValidLo"] #icon {
+    qproperty-penColor: black;
+    qproperty-brush: yellow;
 }

@@ -128,13 +128,17 @@ class RecordMockingIOC(PVGroup):
 
 
 # Needle Valve - vcn
+    '''
+    _interlock_suffix = ":ILK_OK_RBV"
+    _state_suffix = ":STATE_RBV"
+    '''
     enum_strings = ['Close', 'Open', 'PressureControl', 'ManualControl']
     vcn_STATE_RBV = pvproperty(value=0, 
         enum_strings=enum_strings, 
         dtype=ChannelType.ENUM, 
         name = 'vcn:STATE_RBV')
 
-    enum_strings = ['false', 'true']
+    enum_strings = ['NOT OK', 'OK']
     vcn_OPN_OK_RBV = pvproperty(value=0, 
         enum_strings=enum_strings, 
         dtype=ChannelType.ENUM,
