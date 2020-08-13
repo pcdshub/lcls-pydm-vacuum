@@ -412,7 +412,7 @@ ControlOnlyValveNC[state=&quot;Close&quot;] #icon {
       </property>
       <property name="geometry">
        <rect>
-        <x>-1562</x>
+        <x>-1477</x>
         <y>0</y>
         <width>3100</width>
         <height>780</height>
@@ -2589,7 +2589,6 @@ ControlOnlyValveNC[state=&quot;Close&quot;] #icon {
       <zorder>IonPump_7</zorder>
       <zorder>IonPump_8</zorder>
       <zorder>PneumaticValve_7</zorder>
-      <zorder>PneumaticValve_8</zorder>
       <zorder>PyDMEmbeddedDisplay_3</zorder>
       <zorder>PneumaticValve_9</zorder>
       <zorder>PneumaticValve_10</zorder>
@@ -2669,6 +2668,7 @@ ControlOnlyValveNC[state=&quot;Close&quot;] #icon {
       <zorder>label_11</zorder>
       <zorder>PyDMByteIndicator</zorder>
       <zorder>PyDMCheckbox</zorder>
+      <zorder>PneumaticValve_8</zorder>
      </widget>
     </widget>
    </item>
