@@ -68,7 +68,7 @@ class RecordMockingIOC(PVGroup):
 
 # Fast Shutter - vfs
     '''
-    _interlock_suffix = ":OPN_OK_RBV"
+    _interlock_suffix = ":VAC_FAULT_OK_RBV"
     _error_suffix = ":STATE_RBV"
     _state_suffix = ":POS_STATE_RBV"
     '''
@@ -78,18 +78,18 @@ class RecordMockingIOC(PVGroup):
         dtype=ChannelType.ENUM, 
         name = 'vfs:POS_STATE_RBV')
 
-    enum_strings = ['At Vacuum', 'Triggered', 'Vacuum Fault', 'Close Timeout',
-                    'Open Timeout', 'Ext Fault']
+    enum_strings = ['At Vacuum', 'AT Vacuum', 'Triggered', 'Vacuum Fault',
+                    'Close Timeout','Open Timeout', 'Ext Fault']
     vfs_STATE_RBV = pvproperty(value=0, 
         enum_strings=enum_strings, 
         dtype=ChannelType.ENUM, 
         name = 'vfs:STATE_RBV')
 
     enum_strings = ['OPN ILK NOT OK', 'OPN ILK OK']
-    vfs_OPN_OK_RBV = pvproperty(value=0, 
+    vfs_VAC_FAULT_OK_RBV = pvproperty(value=0, 
         enum_strings=enum_strings, 
         dtype=ChannelType.ENUM,
-        name = 'vfs:OPN_OK_RBV') 
+        name = 'vfs:VAC_FAULT_OK_RBV') 
 
 
 # Control Only Valve Normally Closed - vvcNC
@@ -139,10 +139,10 @@ class RecordMockingIOC(PVGroup):
         name = 'vcn:STATE_RBV')
 
     enum_strings = ['NOT OK', 'OK']
-    vcn_OPN_OK_RBV = pvproperty(value=0, 
+    vcn_ILK_OK_RBV = pvproperty(value=0, 
         enum_strings=enum_strings, 
         dtype=ChannelType.ENUM,
-        name = 'vcn:OPN_OK_RBV')
+        name = 'vcn:ILK_OK_RBV')
 
 ################################
 #Pumps  
@@ -216,7 +216,7 @@ class RecordMockingIOC(PVGroup):
         dtype=ChannelType.ENUM,
         name = 'pip:ILK_OK_RBV')
 
-    enum_strings = ['TRUE', 'FALSE']
+    enum_strings = ['FALSE', 'TRUE']
     pip_ERROR_RBV = pvproperty(value=0, 
         enum_strings=enum_strings, 
         dtype=ChannelType.ENUM,

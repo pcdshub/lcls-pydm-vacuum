@@ -54,7 +54,7 @@
        <widget class="QWidget" name="scrollAreaWidgetContents">
         <property name="geometry">
          <rect>
-          <x>-501</x>
+          <x>0</x>
           <y>0</y>
           <width>3020</width>
           <height>620</height>
@@ -289,7 +289,7 @@
           </rect>
          </property>
          <property name="text">
-          <string>Pnumatic Valve -- test:vrc</string>
+          <string>Pneumatic Valve -- test:vrc</string>
          </property>
         </widget>
         <widget class="QLabel" name="label_13">
@@ -297,12 +297,12 @@
           <rect>
            <x>680</x>
            <y>120</y>
-           <width>101</width>
+           <width>141</width>
            <height>20</height>
           </rect>
          </property>
          <property name="text">
-          <string>:OPN_OK_RBV</string>
+          <string>:VAC_FAULT_OK_RBV</string>
          </property>
         </widget>
         <widget class="QLabel" name="label_14">
@@ -373,7 +373,7 @@
           <string/>
          </property>
          <property name="channel" stdset="0">
-          <string>ca://test:vfs:OPN_OK_RBV</string>
+          <string>ca://test:vfs:VAC_FAULT_OK_RBV</string>
          </property>
         </widget>
         <widget class="PyDMEnumButton" name="PyDMEnumButton_9">
@@ -382,7 +382,7 @@
            <x>550</x>
            <y>130</y>
            <width>111</width>
-           <height>121</height>
+           <height>141</height>
           </rect>
          </property>
          <property name="toolTip">
@@ -532,7 +532,7 @@
           <string/>
          </property>
          <property name="channelsPrefix" stdset="0">
-          <string>ca://test:vvc</string>
+          <string>ca://test:vvcNO</string>
          </property>
         </widget>
         <widget class="QLabel" name="label_17">
@@ -587,7 +587,7 @@
           </rect>
          </property>
          <property name="text">
-          <string>:OPN_OK_RBV</string>
+          <string>:ILK_OK_RBV</string>
          </property>
         </widget>
         <widget class="PyDMEnumButton" name="PyDMEnumButton_14">
@@ -603,7 +603,7 @@
           <string/>
          </property>
          <property name="channel" stdset="0">
-          <string>ca://test:vcn:OPN_OK_RBV</string>
+          <string>ca://test:vcn:ILK_OK_RBV</string>
          </property>
         </widget>
         <widget class="NeedleValve" name="NeedleValve">
