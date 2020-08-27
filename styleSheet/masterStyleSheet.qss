@@ -396,18 +396,12 @@ IonPump[error="TRUE"] #pressure{
     border: 1px;
     background-color : white;
 }
-IonPump[interlocked="true"] #icon{
+IonPump[interlocked="true"] #icon {
     border: 2px solid black;
-    qproperty-penWidth: 2;
-    border-top-left-radius: 9px;
-    border-top-right-radius: 9px;
-    border-bottom-left-radius: 9px;
-    border-bottom-right-radius: 9px;
+    qproperty-penColor: black;
 }
-IonPump[interlocked="false"] #icon{
+IonPump[interlocked="false"] #icon {
     border: 0px;
-    qproperty-penWidth: 2;
-    qproperty-brush: #00FF00;
 }
 IonPump[state="RUNNING"] #icon {
     qproperty-brush: #00FF00;
@@ -519,13 +513,12 @@ ColdCathodeGauge[state="PressInvalid"]  #pressure{
     border: 1px;
     background-color : white
 }
-ColdCathodeGauge[interlocked="true"] #icon{
+ColdCathodeGauge[interlocked="true"] #icon {
     border: 2px solid black;
-    qproperty-brush: black;
-    border-top-left-radius: 9px;
-    border-top-right-radius: 9px;
-    border-bottom-left-radius: 9px;
-    border-bottom-right-radius: 9px;
+    qproperty-penColor: black;
+}
+ColdCathodeGauge[interlocked="false"] #icon {
+    border: 0px;
 }
 ColdCathodeGauge[state="Off"] #icon {
     qproperty-penColor: black;
@@ -584,13 +577,12 @@ HotCathodeGauge[state="PressInvalid"]  #pressure{
     border: 1px;
     background-color : white
 }
-HotCathodeGauge[interlocked="true"] #icon{
+HotCathodeGauge[interlocked="true"] #icon {
     border: 2px solid black;
-    qproperty-brush: black;
-    border-top-left-radius: 9px;
-    border-top-right-radius: 9px;
-    border-bottom-left-radius: 9px;
-    border-bottom-right-radius: 9px;
+    qproperty-penColor: black;
+}
+HotCathodeGauge[interlocked="false"] #icon {
+    border: 0px;
 }
 HotCathodeGauge[state="Off"] #icon {
     qproperty-penColor: black;
