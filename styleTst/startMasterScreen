@@ -1,0 +1,13 @@
+#!/bin/bash
+#This script is run from lfe-console and launches all hxr screens.
+
+source dev_conda
+#source /reg/g/pcds/pyps/conda/dev_conda
+#source pcds_conda
+
+export PYDM_STYLESHEET=/reg/neh/home/jlevine7/vacuumscreens/styleSheet/masterStyleSheet.qss:$PYDM_STYLESHEET
+export PYDM_STYLESHEET_INCLUDE_DEFAULT=1
+
+pydm /reg/neh/home/jlevine7/vacuumscreens/styleTst/masterDemo.ui&
+
+python /reg/neh/home4/jlevine7/vacuumscreens/styleTst/mkDemoAllPv.py --list-pvs
