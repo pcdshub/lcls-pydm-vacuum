@@ -53,7 +53,7 @@ ApertureValve[state="OPEN_F"] #icon {
 }
 ApertureValve[error="Vented"] #icon {
     qproperty-penStyle: "Qt::SolidLine";
-    qproperty-interlockBrush: #00FF00;
+    qproperty-interlockBrush: red;
 }
 ApertureValve[error="At Vacuum"] #icon {
     qproperty-penStyle: "Qt::SolidLine";
@@ -89,40 +89,38 @@ PneumaticValve[interlocked="false"] #icon{
     qproperty-brush: #00FF00;
 }
 PneumaticValve[state="OPEN"] #icon {
-    qproperty-penStyle: "Qt::SolidLine";
     qproperty-penColor: black;
     qproperty-penWidth: 2;
     qproperty-brush: #00FF00;
 }
 PneumaticValve[state="MOVING"] #icon {
-    qproperty-penStyle: "Qt::SolidLine";
     qproperty-penColor: black;
     qproperty-penWidth: 2;
     qproperty-brush: yellow;
 }
 PneumaticValve[state="CLOSED"] #icon {
-    qproperty-penStyle: "Qt::SolidLine";
     qproperty-penColor: black;
     qproperty-penWidth: 2;
     qproperty-brush: black;
 }
 PneumaticValve[state="INVALID"] #icon {
-    qproperty-penStyle: "Qt::SolidLine";
     qproperty-penColor: black;
     qproperty-penWidth: 2;
     qproperty-brush: red;
 }
 PneumaticValve[state="OPEN_F"] #icon {
-    qproperty-penStyle: "Qt::SolidLine";
     qproperty-penColor: red;
     qproperty-penWidth: 2;
     qproperty-brush: #00FF00;
 }
 PneumaticValve[error="Vented"] #icon {
-    qproperty-penStyle: "Qt::SolidLine";
+    qproperty-interlockBrush: red;
 }
 PneumaticValve[error="Lost Vacuum"] #icon {
    qproperty-interlockBrush: red;
+}
+PneumaticValve[error="At Vacuum"] #icon {
+   qproperty-interlockBrush: #00FF00;
 }
 PneumaticValve[error="Ext Fault"] #icon {
     qproperty-interlockBrush: red;
@@ -149,59 +147,50 @@ FastShutter[interlocked="false"] #icon{
     qproperty-brush: #00FF00;
 }
 FastShutter[state="OPEN"] #icon {
-    qproperty-penStyle: "Qt::SolidLine";
     qproperty-penColor: black;
     qproperty-brush: #00FF00;
 }
 FastShutter[state="MOVING"] #icon {
-    qproperty-penStyle: "QT::SolidLine";
     qproperty-penColor: black;
     qproperty-brush: yellow;
 }
 FastShutter[state="CLOSED"] #icon {
-    qproperty-penStyle: "Qt::SolidLine";
     qproperty-penColor: black;
     qproperty-brush: black;
 }
 FastShutter[state="INVALID"] #icon {
-    qproperty-penStyle: "Qt::SolidLine";
     qproperty-penColor: black;
     qproperty-brush: red;
 }
 FastShutter[error="At Vacuum"] #icon {
-    qproperty-penStyle: "Qt::SolidLine";
     qproperty-penColor: black;
     qproperty-arrowBrush: #00FF00;
 }
-/*bug in lcls-twincat-vac has both `At Vac` and `AT Vac`*/
+
+/*bug in lcls-twincat-vac has both `At Vacuum` and `AT Vacuum`*/
+
 FastShutter[error="AT Vacuum"] #icon {
-    qproperty-penStyle: "Qt::SolidLine";
     qproperty-penColor: black;
     qproperty-arrowBrush: #00FF00;
 }
 FastShutter[error="Triggered"] #icon {
-    qproperty-penStyle: "Qt::SolidLine";
     qproperty-penColor: black;
     qproperty-arrowBrush: yellow;
 }
 FastShutter[error="Vacuum Fault"] #icon {
-    qproperty-penStyle: "Qt::SolidLine";
     qproperty-penColor: black;
     qproperty-arrowBrush: red;
 }
 FastShutter[error="Close Timeout"] #icon {
-    qproperty-penStyle: "Qt::SolidLine";
     qproperty-penColor: black;
     qproperty-arrowBrush: red;
 }
 FastShutter[error="Open Timeout"] #icon {
-    qproperty-penStyle: "QT::SolidLine";
     qproperty-penColor: black;
     qproperty-arrowBrush: red;
 }
 
 FastShutter[error="Ext Fault"] #icon {
-    qproperty-penStyle: "QT::SolidLine";
     qproperty-penColor: black;
     qproperty-arrowBrush: red;
 }

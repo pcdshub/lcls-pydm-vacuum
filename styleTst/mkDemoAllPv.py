@@ -54,7 +54,7 @@ class RecordMockingIOC(PVGroup):
         dtype=ChannelType.ENUM, 
         name = 'vrc:POS_STATE_RBV')
 
-    enum_strings = ['Vented', 'Lost Vacuum', 'Ext Fault']
+    enum_strings = ['Vented', 'At Vacuum', 'Lost Vacuum', 'Ext Fault']
     vrc_STATE_RBV = pvproperty(value=0, 
         enum_strings=enum_strings, 
         dtype=ChannelType.ENUM, 
