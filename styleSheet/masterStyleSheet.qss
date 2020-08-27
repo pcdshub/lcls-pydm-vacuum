@@ -77,7 +77,6 @@ PneumaticValve #icon {
 }
 PneumaticValve[interlocked="true"] #icon{
     border: 2px solid black;
-    qproperty-penWidth: 2;
     border-top-left-radius: 9px;
     border-top-right-radius: 9px;
     border-bottom-left-radius: 9px;
@@ -85,32 +84,26 @@ PneumaticValve[interlocked="true"] #icon{
 }
 PneumaticValve[interlocked="false"] #icon{
     border: 0px;
-    qproperty-penWidth: 2;
     qproperty-brush: #00FF00;
 }
 PneumaticValve[state="OPEN"] #icon {
     qproperty-penColor: black;
-    qproperty-penWidth: 2;
     qproperty-brush: #00FF00;
 }
 PneumaticValve[state="MOVING"] #icon {
     qproperty-penColor: black;
-    qproperty-penWidth: 2;
     qproperty-brush: yellow;
 }
 PneumaticValve[state="CLOSED"] #icon {
     qproperty-penColor: black;
-    qproperty-penWidth: 2;
     qproperty-brush: black;
 }
 PneumaticValve[state="INVALID"] #icon {
     qproperty-penColor: black;
-    qproperty-penWidth: 2;
     qproperty-brush: red;
 }
 PneumaticValve[state="OPEN_F"] #icon {
     qproperty-penColor: red;
-    qproperty-penWidth: 2;
     qproperty-brush: #00FF00;
 }
 PneumaticValve[error="Vented"] #icon {
@@ -147,51 +140,41 @@ FastShutter[interlocked="false"] #icon{
     qproperty-brush: #00FF00;
 }
 FastShutter[state="OPEN"] #icon {
-    qproperty-penColor: black;
     qproperty-brush: #00FF00;
 }
 FastShutter[state="MOVING"] #icon {
-    qproperty-penColor: black;
     qproperty-brush: yellow;
 }
 FastShutter[state="CLOSED"] #icon {
-    qproperty-penColor: black;
     qproperty-brush: black;
 }
 FastShutter[state="INVALID"] #icon {
-    qproperty-penColor: black;
     qproperty-brush: red;
 }
 FastShutter[error="At Vacuum"] #icon {
-    qproperty-penColor: black;
     qproperty-arrowBrush: #00FF00;
 }
 
 /*bug in lcls-twincat-vac has both `At Vacuum` and `AT Vacuum`*/
 
 FastShutter[error="AT Vacuum"] #icon {
-    qproperty-penColor: black;
     qproperty-arrowBrush: #00FF00;
 }
+
 FastShutter[error="Triggered"] #icon {
-    qproperty-penColor: black;
     qproperty-arrowBrush: yellow;
 }
 FastShutter[error="Vacuum Fault"] #icon {
-    qproperty-penColor: black;
     qproperty-arrowBrush: red;
 }
 FastShutter[error="Close Timeout"] #icon {
-    qproperty-penColor: black;
     qproperty-arrowBrush: red;
 }
 FastShutter[error="Open Timeout"] #icon {
-    qproperty-penColor: black;
     qproperty-arrowBrush: red;
 }
 
 FastShutter[error="Ext Fault"] #icon {
-    qproperty-penColor: black;
     qproperty-arrowBrush: red;
 }
 
@@ -319,7 +302,7 @@ TurboPump[state="FAULT"] #icon {
     qproperty-brush: red;
 }
 TurboPump[error="TRUE"] #icon {
-    qproperty-penColor: red;
+    qproperty-penColor: #E01010;
     qproperty-centerBrush: red;
 }
 TurboPump[error="FALSE"] #icon {
@@ -330,16 +313,15 @@ TurboPump[error="FALSE"] #icon {
 
 /* Scroll Pump - pro */
 
-ScrollPump[state="RUNNING"] #icon {
-    qproperty-penColor: black;
-    qproperty-centerBrush: #00FF00;
-    qproperty-brush: #00FF00;
-}
 ScrollPump[interlocked="true"] #icon {
     border: 2px solid black;
 }
 ScrollPump[interlocked="false"] #icon {
     border: 0px;
+}
+ScrollPump[state="RUNNING"] #icon {
+    qproperty-centerBrush: #00FF00;
+    qproperty-brush: #00FF00;
 }
 ScrollPump[state="STOPPING"] #icon {
     qproperty-centerBrush: orange;
@@ -359,7 +341,7 @@ ScrollPump[state="FAULT"] #icon {
 }
 ScrollPump[error="TRUE"] #icon {
     qproperty-centerBrush: red;
-    qproperty-penColor: red;
+    qproperty-penColor: #E01010;
 }
 
 ScrollPump[error="FALSE"] #icon {
@@ -378,13 +360,12 @@ IonPump #pressure{
 IonPump[state="STOPPED"] #pressure{
     color: gray;
     border: 1px;
-    background-color : white;
 }
 IonPump[error="TRUE"] #pressure{
     color: gray;
     border: 1px;
-    background-color : white;
 }
+
 IonPump[interlocked="true"] #icon {
     border: 2px solid black;
     qproperty-penColor: black;
@@ -429,17 +410,14 @@ RoughGauge #pressure{
 RoughGauge[state="GaugeDisconnected"]  #pressure{
     color: gray;
     border: 1px;
-    background-color : white
 }
 RoughGauge[state="Off"]  #pressure{
     color: gray;
     border: 1px;
-    background-color : white
 }
 RoughGauge[state="PressInvalid"]  #pressure{
     color: gray;
     border: 1px;
-    background-color : white
 }
 RoughGauge[interlocked="true"] #icon{
     border: 2px solid black;
@@ -490,21 +468,17 @@ ColdCathodeGauge #pressure{
 ColdCathodeGauge[state="GaugeDisconnected"]  #pressure{
     color: gray;
     border: 1px;
-    background-color : white
 }
 ColdCathodeGauge[state="Off"]  #pressure{
     color: gray;
     border: 1px;
-    background-color : white
 }
 ColdCathodeGauge[state="PressInvalid"]  #pressure{
     color: gray;
     border: 1px;
-    background-color : white
 }
 ColdCathodeGauge[interlocked="true"] #icon {
     border: 2px solid black;
-    qproperty-penColor: black;
 }
 ColdCathodeGauge[interlocked="false"] #icon {
     border: 0px;
@@ -554,21 +528,17 @@ HotCathodeGauge #pressure{
 HotCathodeGauge[state="GaugeDisconnected"]  #pressure{
     color: gray;
     border: 1px;
-    background-color : white
 }
 HotCathodeGauge[state="Off"]  #pressure{
     color: gray;
     border: 1px;
-    background-color : white
 }
 HotCathodeGauge[state="PressInvalid"]  #pressure{
     color: gray;
     border: 1px;
-    background-color : white
 }
 HotCathodeGauge[interlocked="true"] #icon {
     border: 2px solid black;
-    qproperty-penColor: black;
 }
 HotCathodeGauge[interlocked="false"] #icon {
     border: 0px;
