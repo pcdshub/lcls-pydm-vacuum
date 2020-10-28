@@ -372,7 +372,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
        <widget class="QWidget" name="scrollAreaWidgetContents">
         <property name="geometry">
          <rect>
-          <x>0</x>
+          <x>-191</x>
           <y>0</y>
           <width>1350</width>
           <height>580</height>
@@ -1103,11 +1103,11 @@ IonPump[state=&quot;FAULT&quot;] #icon {
          </property>
          <property name="commands" stdset="0">
           <stringlist>
-           <string>edm -x /reg/g/pcds/package/screens/edm/xpp/vacuum/neh/neh.edl</string>
+           <string>edm -x /reg/g/pcds/epics-dev/screens/edm/xpp/current/vacuum/neh/neh.edl</string>
           </stringlist>
          </property>
          <property name="command" stdset="0">
-          <string>edm -x /reg/g/pcds/package/screens/edm/xpp/vacuum/neh/neh.edl</string>
+          <string>edm -x /reg/g/pcds/epics-dev/screens/edm/xpp/current/vacuum/neh/neh.edl</string>
          </property>
         </widget>
         <widget class="Line" name="line_4">
@@ -1168,7 +1168,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
           <enum>QFrame::Plain</enum>
          </property>
          <property name="text">
-          <string>1.80e-08 Torr</string>
+          <string>2.10e-08 Torr</string>
          </property>
          <property name="textFormat">
           <enum>Qt::PlainText</enum>
@@ -1261,7 +1261,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
           <string/>
          </property>
          <property name="autoFillBackground">
-          <bool>true</bool>
+          <bool>false</bool>
          </property>
          <property name="text">
           <string>LFE VACUUM H1.1&amp;H1.2 OVERRIDE</string>
