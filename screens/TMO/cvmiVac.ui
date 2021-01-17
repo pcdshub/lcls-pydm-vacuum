@@ -619,6 +619,37 @@ ControlOnlyValveNC[state=&quot;Zero&quot;] #icon {
     qproperty-penWidth: 2;
     qproperty-brush: black;
 }
+ControlOnlyValveNO[interlocked=&quot;true&quot;] #icon {
+     border: 2px solid black;
+    qproperty-penWidth: 2;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+}
+ControlOnlyValveNO[interlocked=&quot;false&quot;] #icon {
+     border: 0px;
+    qproperty-penWidth: 2;
+    qproperty-brush: #00FF00;
+}
+ControlOnlyValveNO[interlocked=&quot;true&quot;] #icon {
+    qproperty-interlockBrush: #FF0000;
+}
+ControlOnlyValveNO[interlocked=&quot;false&quot;] #icon {
+    qproperty-interlockBrush: #00FF00;
+}
+ControlOnlyValveNO[state=&quot;One&quot;] #icon {
+     qproperty-penStyle: &quot;QT::SolidLine&quot;;
+    qproperty-penColor: black;
+    qproperty-penWidth: 2;
+    qproperty-brush: #00FF00;
+}
+ControlOnlyValveNO[state=&quot;Zero&quot;] #icon {
+    qproperty-penStyle: &quot;QT::SolidLine&quot;;
+    qproperty-penColor: gray;
+    qproperty-penWidth: 2;
+    qproperty-brush: black;
+}
 NeedleValve[interlocked=&quot;true&quot;] #icon{
     border: 2px solid black;
     qproperty-penWidth: 2;
@@ -781,7 +812,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <string/>
        </property>
        <property name="checked">
-        <bool>true</bool>
+        <bool>false</bool>
        </property>
        <property name="alarmSensitiveContent" stdset="0">
         <bool>false</bool>
@@ -873,7 +904,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <set>Qt::AlignCenter</set>
        </property>
       </widget>
-      <widget class="PyDMLabel" name="TV2K0_label_3">
+      <widget class="PyDMLabel" name="CVMI_VACUUM_LABEL">
        <property name="geometry">
         <rect>
          <x>630</x>
@@ -906,7 +937,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <number>0</number>
        </property>
        <property name="text">
-        <string> LAMP Vacuum Controls</string>
+        <string> CVMI Vacuum Controls</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignCenter</set>
@@ -2348,6 +2379,9 @@ IonPump[state=&quot;FAULT&quot;] #icon {
        <property name="rotateIcon" stdset="0">
         <bool>true</bool>
        </property>
+       <property name="expertOphydClass" stdset="0">
+        <string>pcdsdevices.valve.VGC_2S</string>
+       </property>
        <property name="controlButtonHorizontal" stdset="0">
         <bool>false</bool>
        </property>
@@ -2711,6 +2745,9 @@ IonPump[state=&quot;FAULT&quot;] #icon {
        </property>
        <property name="rotateIcon" stdset="0">
         <bool>true</bool>
+       </property>
+       <property name="expertOphydClass" stdset="0">
+        <string>pcdsdevices.valve.VGC_2S</string>
        </property>
        <property name="controlButtonHorizontal" stdset="0">
         <bool>false</bool>
@@ -3660,7 +3697,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <zorder>to_tmo_label</zorder>
       <zorder>PyDMCheckbox</zorder>
       <zorder>label</zorder>
-      <zorder>TV2K0_label_3</zorder>
+      <zorder>CVMI_VACUUM_LABEL</zorder>
       <zorder>LAMP_RGA_01</zorder>
       <zorder>line_42</zorder>
       <zorder>PA1K0_label_4</zorder>
