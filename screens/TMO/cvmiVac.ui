@@ -1047,9 +1047,9 @@ IonPump[state=&quot;FAULT&quot;] #icon {
        <property name="geometry">
         <rect>
          <x>260</x>
-         <y>306</y>
-         <width>80</width>
-         <height>110</height>
+         <y>280</y>
+         <width>100</width>
+         <height>80</height>
         </rect>
        </property>
        <property name="toolTip">
@@ -1062,7 +1062,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <enum>Qt::RightToLeft</enum>
        </property>
        <property name="controlsLocation" stdset="0">
-        <enum>PCDSSymbolBase::Bottom</enum>
+        <enum>PCDSSymbolBase::Left</enum>
        </property>
        <property name="channelsPrefix" stdset="0">
         <string>ca://CVMI:GJ:PTM:01</string>
@@ -1164,9 +1164,9 @@ IonPump[state=&quot;FAULT&quot;] #icon {
        <property name="geometry">
         <rect>
          <x>540</x>
-         <y>142</y>
-         <width>80</width>
-         <height>110</height>
+         <y>175</y>
+         <width>100</width>
+         <height>80</height>
         </rect>
        </property>
        <property name="toolTip">
@@ -1179,7 +1179,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <enum>Qt::LeftToRight</enum>
        </property>
        <property name="controlsLocation" stdset="0">
-        <enum>PCDSSymbolBase::Top</enum>
+        <enum>PCDSSymbolBase::Right</enum>
        </property>
        <property name="channelsPrefix" stdset="0">
         <string>ca://CVMI:GJ:PTM:03</string>
@@ -1195,9 +1195,9 @@ IonPump[state=&quot;FAULT&quot;] #icon {
        <property name="geometry">
         <rect>
          <x>260</x>
-         <y>142</y>
-         <width>80</width>
-         <height>110</height>
+         <y>190</y>
+         <width>100</width>
+         <height>80</height>
         </rect>
        </property>
        <property name="toolTip">
@@ -1210,7 +1210,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <enum>Qt::RightToLeft</enum>
        </property>
        <property name="controlsLocation" stdset="0">
-        <enum>PCDSSymbolBase::Top</enum>
+        <enum>PCDSSymbolBase::Left</enum>
        </property>
        <property name="channelsPrefix" stdset="0">
         <string>ca://CVMI:GJ:PTM:02</string>
@@ -1293,7 +1293,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
        <property name="geometry">
         <rect>
          <x>505</x>
-         <y>528</y>
+         <y>531</y>
          <width>51</width>
          <height>20</height>
         </rect>
@@ -1312,7 +1312,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
        <property name="geometry">
         <rect>
          <x>535</x>
-         <y>495</y>
+         <y>500</y>
          <width>100</width>
          <height>81</height>
         </rect>
@@ -1342,8 +1342,8 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="HotCathodeGauge" name="CVMI_MAIN_GHC_01">
        <property name="geometry">
         <rect>
-         <x>463</x>
-         <y>350</y>
+         <x>410</x>
+         <y>345</y>
          <width>100</width>
          <height>100</height>
         </rect>
@@ -1371,9 +1371,9 @@ IonPump[state=&quot;FAULT&quot;] #icon {
        <property name="geometry">
         <rect>
          <x>375</x>
-         <y>610</y>
+         <y>584</y>
          <width>140</width>
-         <height>50</height>
+         <height>76</height>
         </rect>
        </property>
        <property name="toolTip">
@@ -1399,7 +1399,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
        <property name="geometry">
         <rect>
          <x>375</x>
-         <y>625</y>
+         <y>613</y>
          <width>140</width>
          <height>21</height>
         </rect>
@@ -1440,7 +1440,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
          <x>390</x>
          <y>530</y>
          <width>20</width>
-         <height>151</height>
+         <height>186</height>
         </rect>
        </property>
        <property name="orientation">
@@ -1451,9 +1451,9 @@ IonPump[state=&quot;FAULT&quot;] #icon {
        <property name="geometry">
         <rect>
          <x>385</x>
-         <y>655</y>
+         <y>676</y>
          <width>100</width>
-         <height>82</height>
+         <height>80</height>
         </rect>
        </property>
        <property name="toolTip">
@@ -1481,8 +1481,8 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="Line" name="line_66">
        <property name="geometry">
         <rect>
-         <x>540</x>
-         <y>410</y>
+         <x>488</x>
+         <y>403</y>
          <width>20</width>
          <height>81</height>
         </rect>
@@ -1494,9 +1494,9 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="ColdCathodeGauge" name="CVMI_CATCH_GCC_01">
        <property name="geometry">
         <rect>
-         <x>255</x>
-         <y>540</y>
-         <width>141</width>
+         <x>275</x>
+         <y>525</y>
+         <width>100</width>
          <height>121</height>
         </rect>
        </property>
@@ -1523,7 +1523,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
        <property name="geometry">
         <rect>
          <x>860</x>
-         <y>490</y>
+         <y>495</y>
          <width>100</width>
          <height>82</height>
         </rect>
@@ -1582,7 +1582,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
        <property name="geometry">
         <rect>
          <x>820</x>
-         <y>520</y>
+         <y>525</y>
          <width>51</width>
          <height>20</height>
         </rect>
@@ -1856,6 +1856,14 @@ IonPump[state=&quot;FAULT&quot;] #icon {
          <height>82</height>
         </rect>
        </property>
+       <property name="font">
+        <font>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="cursor">
+        <cursorShape>BlankCursor</cursorShape>
+       </property>
        <property name="toolTip">
         <string/>
        </property>
@@ -1898,7 +1906,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <number>1</number>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Scroll Pump 1&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>Scroll Pump 1</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignCenter</set>
@@ -1913,7 +1921,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
          <x>541</x>
          <y>540</y>
          <width>20</width>
-         <height>326</height>
+         <height>271</height>
         </rect>
        </property>
        <property name="orientation">
@@ -2014,10 +2022,10 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="TurboPump" name="CVMI_ROUGH_PTM_01">
        <property name="geometry">
         <rect>
-         <x>510</x>
-         <y>645</y>
-         <width>80</width>
-         <height>110</height>
+         <x>536</x>
+         <y>710</y>
+         <width>100</width>
+         <height>80</height>
         </rect>
        </property>
        <property name="toolTip">
@@ -2030,7 +2038,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <enum>Qt::RightToLeft</enum>
        </property>
        <property name="controlsLocation" stdset="0">
-        <enum>PCDSSymbolBase::Bottom</enum>
+        <enum>PCDSSymbolBase::Left</enum>
        </property>
        <property name="channelsPrefix" stdset="0">
         <string>ca://CVMI:ROUGH:PTM:01</string>
@@ -2046,7 +2054,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
        <property name="geometry">
         <rect>
          <x>365</x>
-         <y>855</y>
+         <y>800</y>
          <width>591</width>
          <height>20</height>
         </rect>
@@ -2206,7 +2214,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
        <property name="geometry">
         <rect>
          <x>335</x>
-         <y>830</y>
+         <y>800</y>
          <width>70</width>
          <height>60</height>
         </rect>
@@ -2300,9 +2308,9 @@ IonPump[state=&quot;FAULT&quot;] #icon {
        <property name="geometry">
         <rect>
          <x>420</x>
-         <y>865</y>
+         <y>810</y>
          <width>20</width>
-         <height>91</height>
+         <height>146</height>
         </rect>
        </property>
        <property name="orientation">
@@ -2428,8 +2436,8 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="RoughGauge" name="CVMI_ROUGH_GPI_04">
        <property name="geometry">
         <rect>
-         <x>920</x>
-         <y>645</y>
+         <x>970</x>
+         <y>685</y>
          <width>70</width>
          <height>60</height>
         </rect>
@@ -2456,7 +2464,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="TurboPump" name="KTOF_PTM_01">
        <property name="geometry">
         <rect>
-         <x>689</x>
+         <x>760</x>
          <y>620</y>
          <width>100</width>
          <height>82</height>
@@ -2472,7 +2480,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <enum>Qt::RightToLeft</enum>
        </property>
        <property name="controlsLocation" stdset="0">
-        <enum>PCDSSymbolBase::Right</enum>
+        <enum>PCDSSymbolBase::Left</enum>
        </property>
        <property name="channelsPrefix" stdset="0">
         <string>ca://KTOF:PTM:01</string>
@@ -2501,9 +2509,9 @@ IonPump[state=&quot;FAULT&quot;] #icon {
        <property name="geometry">
         <rect>
          <x>995</x>
-         <y>465</y>
+         <y>470</y>
          <width>80</width>
-         <height>82</height>
+         <height>110</height>
         </rect>
        </property>
        <property name="toolTip">
@@ -2514,6 +2522,12 @@ IonPump[state=&quot;FAULT&quot;] #icon {
        </property>
        <property name="showIcon" stdset="0">
         <bool>true</bool>
+       </property>
+       <property name="iconSize" stdset="0">
+        <number>25</number>
+       </property>
+       <property name="controlButtonHorizontal" stdset="0">
+        <bool>false</bool>
        </property>
       </widget>
       <widget class="PyDMLabel" name="PA1K0_label_12">
@@ -2600,6 +2614,11 @@ IonPump[state=&quot;FAULT&quot;] #icon {
          <horstretch>10</horstretch>
          <verstretch>0</verstretch>
         </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>30</pointsize>
+        </font>
        </property>
        <property name="orientation">
         <enum>Qt::Horizontal</enum>
@@ -2703,8 +2722,8 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="PneumaticValve" name="CVMI_ROUGH_VRC_02">
        <property name="geometry">
         <rect>
-         <x>630</x>
-         <y>755</y>
+         <x>715</x>
+         <y>795</y>
          <width>100</width>
          <height>120</height>
         </rect>
@@ -2716,7 +2735,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <enum>Qt::LeftToRight</enum>
        </property>
        <property name="controlsLocation" stdset="0">
-        <enum>PCDSSymbolBase::Top</enum>
+        <enum>PCDSSymbolBase::Bottom</enum>
        </property>
        <property name="channelsPrefix" stdset="0">
         <string>ca://CVMI:ROUGH:VRC:02</string>
@@ -2734,8 +2753,8 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="RoughGauge" name="CVMI_CATCH_GPI_01">
        <property name="geometry">
         <rect>
-         <x>470</x>
-         <y>585</y>
+         <x>325</x>
+         <y>635</y>
          <width>70</width>
          <height>60</height>
         </rect>
@@ -2819,6 +2838,489 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <enum>Qt::Horizontal</enum>
        </property>
       </widget>
+      <widget class="Line" name="line_63">
+       <property name="geometry">
+        <rect>
+         <x>400</x>
+         <y>705</y>
+         <width>151</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+         <horstretch>10</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+      <widget class="Line" name="line_65">
+       <property name="geometry">
+        <rect>
+         <x>550</x>
+         <y>650</y>
+         <width>326</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+         <horstretch>10</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+      <widget class="Line" name="line_68">
+       <property name="geometry">
+        <rect>
+         <x>864</x>
+         <y>525</y>
+         <width>20</width>
+         <height>136</height>
+        </rect>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_25">
+       <property name="geometry">
+        <rect>
+         <x>715</x>
+         <y>765</y>
+         <width>100</width>
+         <height>30</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>9</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="lineWidth">
+        <number>1</number>
+       </property>
+       <property name="text">
+        <string>CVMI:ROUGH:&lt;br&gt;VRC:02</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_26">
+       <property name="geometry">
+        <rect>
+         <x>955</x>
+         <y>855</y>
+         <width>100</width>
+         <height>30</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>9</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="lineWidth">
+        <number>1</number>
+       </property>
+       <property name="text">
+        <string>CVMI:ROUGH:&lt;br&gt;VRC:03</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_27">
+       <property name="geometry">
+        <rect>
+         <x>425</x>
+         <y>855</y>
+         <width>100</width>
+         <height>30</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>9</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="lineWidth">
+        <number>1</number>
+       </property>
+       <property name="text">
+        <string>CVMI:ROUGH:&lt;br&gt;VRC:01</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_28">
+       <property name="geometry">
+        <rect>
+         <x>550</x>
+         <y>695</y>
+         <width>100</width>
+         <height>30</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>9</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="lineWidth">
+        <number>1</number>
+       </property>
+       <property name="text">
+        <string>CVMI:ROUGH:&lt;br&gt;PTM:01
+</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_29">
+       <property name="geometry">
+        <rect>
+         <x>504</x>
+         <y>491</y>
+         <width>100</width>
+         <height>30</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>9</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="lineWidth">
+        <number>1</number>
+       </property>
+       <property name="text">
+        <string>CVMI:MAIN:&lt;br&gt;PTM:01
+</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_30">
+       <property name="geometry">
+        <rect>
+         <x>820</x>
+         <y>490</y>
+         <width>100</width>
+         <height>30</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>9</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="lineWidth">
+        <number>1</number>
+       </property>
+       <property name="text">
+        <string>KTOF:&lt;br&gt;PTM:02</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_31">
+       <property name="geometry">
+        <rect>
+         <x>705</x>
+         <y>620</y>
+         <width>100</width>
+         <height>30</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>9</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="lineWidth">
+        <number>1</number>
+       </property>
+       <property name="text">
+        <string>KTOF:&lt;br&gt;PTM:01
+</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_32">
+       <property name="geometry">
+        <rect>
+         <x>830</x>
+         <y>915</y>
+         <width>100</width>
+         <height>30</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>9</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="lineWidth">
+        <number>1</number>
+       </property>
+       <property name="text">
+        <string>CVMI:ROUGH:&lt;br&gt;GPI:03</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_33">
+       <property name="geometry">
+        <rect>
+         <x>290</x>
+         <y>910</y>
+         <width>100</width>
+         <height>30</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>9</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="lineWidth">
+        <number>1</number>
+       </property>
+       <property name="text">
+        <string>CVMI:ROUGH:&lt;br&gt;GPI:01</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_34">
+       <property name="geometry">
+        <rect>
+         <x>290</x>
+         <y>790</y>
+         <width>100</width>
+         <height>30</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>9</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="lineWidth">
+        <number>1</number>
+       </property>
+       <property name="text">
+        <string>CVMI:ROUGH:&lt;br&gt;GPI:02</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_35">
+       <property name="geometry">
+        <rect>
+         <x>395</x>
+         <y>665</y>
+         <width>100</width>
+         <height>30</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>9</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="lineWidth">
+        <number>1</number>
+       </property>
+       <property name="text">
+        <string>CVMI:CATCH:&lt;br&gt;PTM:01
+</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_36">
+       <property name="geometry">
+        <rect>
+         <x>470</x>
+         <y>355</y>
+         <width>100</width>
+         <height>30</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>9</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="lineWidth">
+        <number>1</number>
+       </property>
+       <property name="text">
+        <string>CVMI:MAIN:&lt;br&gt;GHC:01
+</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_37">
+       <property name="geometry">
+        <rect>
+         <x>705</x>
+         <y>345</y>
+         <width>100</width>
+         <height>30</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>9</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="lineWidth">
+        <number>1</number>
+       </property>
+       <property name="text">
+        <string>FUTURE &lt;br&gt;UPGRADE</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="Line" name="line_69">
+       <property name="geometry">
+        <rect>
+         <x>955</x>
+         <y>690</y>
+         <width>51</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+         <horstretch>10</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_38">
+       <property name="geometry">
+        <rect>
+         <x>955</x>
+         <y>660</y>
+         <width>100</width>
+         <height>30</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>9</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="lineWidth">
+        <number>1</number>
+       </property>
+       <property name="text">
+        <string>CVMI:ROUGH:&lt;br&gt;GPI:04</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <zorder>line_68</zorder>
+      <zorder>line_65</zorder>
       <zorder>line_80</zorder>
       <zorder>line_62</zorder>
       <zorder>line_90</zorder>
@@ -2858,7 +3360,6 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <zorder>PA1K0_label_7</zorder>
       <zorder>PyDMDrawingRectangle_7</zorder>
       <zorder>PA1K0_label_8</zorder>
-      <zorder>CVMI_CATCH_PTM_01</zorder>
       <zorder>CVMI_CATCH_GCC_01</zorder>
       <zorder>PyDMDrawingRectangle_3</zorder>
       <zorder>line_75</zorder>
@@ -2885,7 +3386,6 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <zorder>CVMI_GJ_GCC_01</zorder>
       <zorder>CVMI_GJ_GPI_01</zorder>
       <zorder>PA1K0_label_11</zorder>
-      <zorder>CVMI_ROUGH_GPI_04</zorder>
       <zorder>KTOF_PTM_01</zorder>
       <zorder>CVMI_ROUGH_PTM_01</zorder>
       <zorder>LI3K4_IP1_VWC_01</zorder>
@@ -2900,6 +3400,24 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <zorder>line_84</zorder>
       <zorder>CVMI_ROUGH_VRC_03</zorder>
       <zorder>line_55</zorder>
+      <zorder>line_63</zorder>
+      <zorder>CVMI_CATCH_PTM_01</zorder>
+      <zorder>label_25</zorder>
+      <zorder>label_26</zorder>
+      <zorder>label_27</zorder>
+      <zorder>label_28</zorder>
+      <zorder>label_29</zorder>
+      <zorder>label_30</zorder>
+      <zorder>label_31</zorder>
+      <zorder>label_32</zorder>
+      <zorder>label_33</zorder>
+      <zorder>label_34</zorder>
+      <zorder>label_35</zorder>
+      <zorder>label_36</zorder>
+      <zorder>label_37</zorder>
+      <zorder>line_69</zorder>
+      <zorder>CVMI_ROUGH_GPI_04</zorder>
+      <zorder>label_38</zorder>
      </widget>
     </widget>
    </item>
