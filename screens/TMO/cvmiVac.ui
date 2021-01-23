@@ -2010,9 +2010,9 @@ IonPump[state=&quot;FAULT&quot;] #icon {
        <property name="geometry">
         <rect>
          <x>770</x>
-         <y>955</y>
+         <y>1065</y>
          <width>20</width>
-         <height>176</height>
+         <height>66</height>
         </rect>
        </property>
        <property name="orientation">
@@ -2810,9 +2810,9 @@ IonPump[state=&quot;FAULT&quot;] #icon {
        <property name="geometry">
         <rect>
          <x>945</x>
-         <y>280</y>
+         <y>510</y>
          <width>20</width>
-         <height>676</height>
+         <height>446</height>
         </rect>
        </property>
        <property name="orientation">
@@ -3319,6 +3319,82 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <bool>true</bool>
        </property>
       </widget>
+      <widget class="PyDMDrawingArc" name="PyDMDrawingArc">
+       <property name="geometry">
+        <rect>
+         <x>755</x>
+         <y>1015</y>
+         <width>50</width>
+         <height>50</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="penJoinStyle" stdset="0">
+        <enum>Qt::MiterJoin</enum>
+       </property>
+       <property name="rotation" stdset="0">
+        <double>0.000000000000000</double>
+       </property>
+       <property name="startAngle" stdset="0">
+        <double>-90.000000000000000</double>
+       </property>
+       <property name="spanAngle" stdset="0">
+        <double>180.000000000000000</double>
+       </property>
+      </widget>
+      <widget class="PyDMDrawingArc" name="PyDMDrawingArc_2">
+       <property name="geometry">
+        <rect>
+         <x>930</x>
+         <y>460</y>
+         <width>50</width>
+         <height>50</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="penJoinStyle" stdset="0">
+        <enum>Qt::MiterJoin</enum>
+       </property>
+       <property name="rotation" stdset="0">
+        <double>0.000000000000000</double>
+       </property>
+       <property name="startAngle" stdset="0">
+        <double>-90.000000000000000</double>
+       </property>
+       <property name="spanAngle" stdset="0">
+        <double>180.000000000000000</double>
+       </property>
+      </widget>
+      <widget class="Line" name="line_85">
+       <property name="geometry">
+        <rect>
+         <x>945</x>
+         <y>280</y>
+         <width>20</width>
+         <height>181</height>
+        </rect>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+      </widget>
+      <widget class="Line" name="line_87">
+       <property name="geometry">
+        <rect>
+         <x>770</x>
+         <y>955</y>
+         <width>20</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+      </widget>
       <zorder>line_68</zorder>
       <zorder>line_65</zorder>
       <zorder>line_80</zorder>
@@ -3418,6 +3494,10 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <zorder>line_69</zorder>
       <zorder>CVMI_ROUGH_GPI_04</zorder>
       <zorder>label_38</zorder>
+      <zorder>PyDMDrawingArc</zorder>
+      <zorder>PyDMDrawingArc_2</zorder>
+      <zorder>line_85</zorder>
+      <zorder>line_87</zorder>
      </widget>
     </widget>
    </item>
@@ -3433,6 +3513,11 @@ IonPump[state=&quot;FAULT&quot;] #icon {
    <class>PyDMCheckbox</class>
    <extends>QCheckBox</extends>
    <header>pydm.widgets.checkbox</header>
+  </customwidget>
+  <customwidget>
+   <class>PyDMDrawingArc</class>
+   <extends>QWidget</extends>
+   <header>pydm.widgets.drawing</header>
   </customwidget>
   <customwidget>
    <class>PyDMDrawingRectangle</class>
