@@ -2657,6 +2657,147 @@ FEE side</string>
         </stringlist>
        </property>
       </widget>
+      <widget class="PyDMShellCommand" name="H1Button">
+       <property name="geometry">
+        <rect>
+         <x>300</x>
+         <y>410</y>
+         <width>91</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="text">
+        <string>EM1K0-GMD</string>
+       </property>
+       <property name="icon">
+        <iconset theme="None">
+         <normaloff>../../../../../../../../../../../neh/home/adpai/.designer/backup</normaloff>../../../../../../../../../../../neh/home/adpai/.designer/backup</iconset>
+       </property>
+       <property name="commands" stdset="0">
+        <stringlist>
+         <string>pydm /reg/g/pcds/epics-dev/ioc/kfe/lcls-plc-kfe-gmd-vac/ui/GMD1bVacScreen.ui</string>
+        </stringlist>
+       </property>
+       <property name="command" stdset="0">
+        <string>pydm /reg/g/pcds/epics-dev/ioc/kfe/lcls-plc-kfe-gmd-vac/ui/GMD1bVacScreen.ui</string>
+       </property>
+      </widget>
+      <widget class="PyDMShellCommand" name="H1Button_2">
+       <property name="geometry">
+        <rect>
+         <x>760</x>
+         <y>450</y>
+         <width>81</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="text">
+        <string>AT1K0-GAS
+Vacuum</string>
+       </property>
+       <property name="icon">
+        <iconset theme="None">
+         <normaloff>../../../../../../../../../../../neh/home/adpai/.designer/backup</normaloff>../../../../../../../../../../../neh/home/adpai/.designer/backup</iconset>
+       </property>
+       <property name="commands" stdset="0">
+        <stringlist>
+         <string>pydm /reg/g/pcds/epics-dev/mghaly/screens/vacuumscreens/AT1K0-GAS.ui</string>
+        </stringlist>
+       </property>
+       <property name="command" stdset="0">
+        <string>pydm /reg/g/pcds/epics-dev/mghaly/screens/vacuumscreens/AT1K0-GAS.ui</string>
+       </property>
+      </widget>
+      <widget class="PyDMShellCommand" name="H1Button_3">
+       <property name="geometry">
+        <rect>
+         <x>1020</x>
+         <y>410</y>
+         <width>91</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="text">
+        <string>EM2K0-XGMD</string>
+       </property>
+       <property name="icon">
+        <iconset theme="None">
+         <normaloff>../../../../../../../../../../../neh/home/adpai/.designer/backup</normaloff>../../../../../../../../../../../neh/home/adpai/.designer/backup</iconset>
+       </property>
+       <property name="commands" stdset="0">
+        <stringlist>
+         <string>pydm /reg/g/pcds/epics-dev/ioc/kfe/lcls-plc-kfe-xgmd-vac/ui/XGMDVacScreen.ui</string>
+        </stringlist>
+       </property>
+       <property name="command" stdset="0">
+        <string>pydm /reg/g/pcds/epics-dev/ioc/kfe/lcls-plc-kfe-xgmd-vac/ui/XGMDVacScreen.ui</string>
+       </property>
+      </widget>
+      <widget class="PyDMShellCommand" name="H1Button_4">
+       <property name="geometry">
+        <rect>
+         <x>3020</x>
+         <y>140</y>
+         <width>71</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="text">
+        <string notr="true">RIX</string>
+       </property>
+       <property name="icon">
+        <iconset theme="None">
+         <normaloff>../../../../../../../../../../../neh/home/adpai/.designer/backup</normaloff>../../../../../../../../../../../neh/home/adpai/.designer/backup</iconset>
+       </property>
+       <property name="commands" stdset="0">
+        <stringlist>
+         <string>pydm /reg/g/pcds/epics-dev/jjoshi/screens/rixFeeVac.ui</string>
+        </stringlist>
+       </property>
+       <property name="command" stdset="0">
+        <string>pydm /reg/g/pcds/epics-dev/jjoshi/screens/rixFeeVac.ui</string>
+       </property>
+      </widget>
+      <widget class="PyDMShellCommand" name="H1Button_5">
+       <property name="geometry">
+        <rect>
+         <x>3020</x>
+         <y>410</y>
+         <width>71</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="text">
+        <string notr="true">TMO</string>
+       </property>
+       <property name="icon">
+        <iconset theme="None">
+         <normaloff>../../../../../../../../../../../neh/home/adpai/.designer/backup</normaloff>../../../../../../../../../../../neh/home/adpai/.designer/backup</iconset>
+       </property>
+       <property name="commands" stdset="0">
+        <stringlist>
+         <string>pydm /reg/g/pcds/epics-dev/jyin/screens/tmoVacuum/TMOVac.ui</string>
+        </stringlist>
+       </property>
+       <property name="command" stdset="0">
+        <string>pydm /reg/g/pcds/epics-dev/jyin/screens/tmoVacuum/TMOVac.ui</string>
+       </property>
+      </widget>
       <zorder>line_15</zorder>
       <zorder>line_16</zorder>
       <zorder>line_23</zorder>
@@ -2774,6 +2915,11 @@ FEE side</string>
       <zorder>RTDSL0_YAGXRAY_20</zorder>
       <zorder>PyDMLabel_2</zorder>
       <zorder>PyDMEnumButton_2</zorder>
+      <zorder>H1Button</zorder>
+      <zorder>H1Button_2</zorder>
+      <zorder>H1Button_3</zorder>
+      <zorder>H1Button_4</zorder>
+      <zorder>H1Button_5</zorder>
      </widget>
     </widget>
    </item>
@@ -2804,6 +2950,11 @@ FEE side</string>
    <class>PyDMEnumButton</class>
    <extends>QWidget</extends>
    <header>pydm.widgets.enum_button</header>
+  </customwidget>
+  <customwidget>
+   <class>PyDMShellCommand</class>
+   <extends>QPushButton</extends>
+   <header>pydm.widgets.shell_command</header>
   </customwidget>
   <customwidget>
    <class>PCDSSymbolBase</class>
