@@ -493,7 +493,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       </property>
       <property name="geometry">
        <rect>
-        <x>0</x>
+        <x>-1562</x>
         <y>0</y>
         <width>3100</width>
         <height>780</height>
@@ -2550,90 +2550,6 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
         <string>TV3K0</string>
        </property>
       </widget>
-      <widget class="QLabel" name="label_11">
-       <property name="geometry">
-        <rect>
-         <x>2850</x>
-         <y>750</y>
-         <width>241</width>
-         <height>16</height>
-        </rect>
-       </property>
-       <property name="text">
-        <string>&lt;-- Check this box to disable interlocks</string>
-       </property>
-      </widget>
-      <widget class="PyDMByteIndicator" name="PyDMByteIndicator">
-       <property name="geometry">
-        <rect>
-         <x>2820</x>
-         <y>720</y>
-         <width>221</width>
-         <height>20</height>
-        </rect>
-       </property>
-       <property name="toolTip">
-        <string/>
-       </property>
-       <property name="rules" stdset="0">
-        <string>[]</string>
-       </property>
-       <property name="alarmSensitiveContent" stdset="0">
-        <bool>true</bool>
-       </property>
-       <property name="channel" stdset="0">
-        <string>ca://PLC:KFE:VAC:K0:SYSOVERRIDE_RBV</string>
-       </property>
-       <property name="onColor" stdset="0">
-        <color>
-         <red>255</red>
-         <green>0</green>
-         <blue>0</blue>
-        </color>
-       </property>
-       <property name="offColor" stdset="0">
-        <color>
-         <red>0</red>
-         <green>255</green>
-         <blue>0</blue>
-        </color>
-       </property>
-       <property name="showLabels" stdset="0">
-        <bool>true</bool>
-       </property>
-       <property name="labels" stdset="0">
-        <stringlist>
-         <string>Vacuum interlocks enabled</string>
-         <string>Vacuum Interlocks DISABLED</string>
-         <string></string>
-        </stringlist>
-       </property>
-      </widget>
-      <widget class="PyDMCheckbox" name="PyDMCheckbox">
-       <property name="geometry">
-        <rect>
-         <x>2830</x>
-         <y>750</y>
-         <width>14</width>
-         <height>15</height>
-        </rect>
-       </property>
-       <property name="toolTip">
-        <string/>
-       </property>
-       <property name="checked">
-        <bool>true</bool>
-       </property>
-       <property name="alarmSensitiveContent" stdset="0">
-        <bool>false</bool>
-       </property>
-       <property name="alarmSensitiveBorder" stdset="0">
-        <bool>false</bool>
-       </property>
-       <property name="channel" stdset="0">
-        <string>ca://PLC:KFE:VAC:K0:SYSOVERRIDE</string>
-       </property>
-      </widget>
       <widget class="QLabel" name="RTDSL0_YAGXRAY_19">
        <property name="geometry">
         <rect>
@@ -2684,6 +2600,61 @@ FEE side</string>
        </property>
        <property name="wordWrap">
         <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="PyDMLabel" name="PyDMLabel_2">
+       <property name="geometry">
+        <rect>
+         <x>800</x>
+         <y>640</y>
+         <width>106</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Sans Serif</family>
+         <pointsize>9</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+         <underline>false</underline>
+        </font>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="text">
+        <string>KFE VACUUM OVERRIDE</string>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="PyDMEnumButton" name="PyDMEnumButton_2">
+       <property name="geometry">
+        <rect>
+         <x>800</x>
+         <y>675</y>
+         <width>98</width>
+         <height>80</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>9</pointsize>
+        </font>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="channel" stdset="0">
+        <string>ca://PLC:KFE:VAC:K0:SYSOVERRIDE</string>
+       </property>
+       <property name="items" stdset="0">
+        <stringlist>
+         <string>FALSE</string>
+         <string>TRUE</string>
+        </stringlist>
        </property>
       </widget>
       <zorder>line_15</zorder>
@@ -2798,12 +2769,11 @@ FEE side</string>
       <zorder>RTDSL0_YAGXRAY_17</zorder>
       <zorder>RTDSL0_YAGXRAY_18</zorder>
       <zorder>label_63</zorder>
-      <zorder>label_11</zorder>
-      <zorder>PyDMByteIndicator</zorder>
-      <zorder>PyDMCheckbox</zorder>
       <zorder>PneumaticValve_8</zorder>
       <zorder>RTDSL0_YAGXRAY_19</zorder>
       <zorder>RTDSL0_YAGXRAY_20</zorder>
+      <zorder>PyDMLabel_2</zorder>
+      <zorder>PyDMEnumButton_2</zorder>
      </widget>
     </widget>
    </item>
@@ -2814,16 +2784,6 @@ FEE side</string>
    <class>PyDMLabel</class>
    <extends>QLabel</extends>
    <header>pydm.widgets.label</header>
-  </customwidget>
-  <customwidget>
-   <class>PyDMByteIndicator</class>
-   <extends>QWidget</extends>
-   <header>pydm.widgets.byte</header>
-  </customwidget>
-  <customwidget>
-   <class>PyDMCheckbox</class>
-   <extends>QCheckBox</extends>
-   <header>pydm.widgets.checkbox</header>
   </customwidget>
   <customwidget>
    <class>PyDMDrawingRectangle</class>
@@ -2839,6 +2799,11 @@ FEE side</string>
    <class>PyDMEmbeddedDisplay</class>
    <extends>QFrame</extends>
    <header>pydm.widgets.embedded_display</header>
+  </customwidget>
+  <customwidget>
+   <class>PyDMEnumButton</class>
+   <extends>QWidget</extends>
+   <header>pydm.widgets.enum_button</header>
   </customwidget>
   <customwidget>
    <class>PCDSSymbolBase</class>

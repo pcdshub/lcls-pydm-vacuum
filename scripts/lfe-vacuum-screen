@@ -1,0 +1,9 @@
+#!/bin/bash
+#This script is run from lfe-console and launches the hxr screen
+
+source /reg/g/pcds/pyps/conda/dev_conda
+
+basePath="/reg/g/pcds/epics-dev/screens/pydm/vacuumscreens/screens/"
+screen="hxr-vac-dev.ui"
+path="$basePath/$screen"
+pydm $path 1>/dev/null 2>/dev/null&

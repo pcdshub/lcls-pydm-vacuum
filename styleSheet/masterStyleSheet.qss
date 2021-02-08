@@ -505,7 +505,7 @@ ColdCathodeGauge[state="ValidHi"] #icon {
 
 /*###################################*/
 
-/* Hot Cathode - gcc */
+/* Hot Cathode - ghc */
 
 HotCathodeGauge #pressure{
     color: blue;
