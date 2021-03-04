@@ -1255,7 +1255,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
          <x>190</x>
          <y>290</y>
          <width>136</width>
-         <height>80</height>
+         <height>106</height>
         </rect>
        </property>
        <property name="toolTip">
@@ -1320,7 +1320,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
        <property name="geometry">
         <rect>
          <x>180</x>
-         <y>381</y>
+         <y>405</y>
          <width>100</width>
          <height>99</height>
         </rect>
@@ -1430,7 +1430,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
          <x>220</x>
          <y>210</y>
          <width>20</width>
-         <height>171</height>
+         <height>196</height>
         </rect>
        </property>
        <property name="orientation">
@@ -4064,7 +4064,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
         <string/>
        </property>
        <property name="channel" stdset="0">
-        <string>ca://TMO:IP1:ENDSTATION:CONNECTED_RBV</string>
+        <string>ca://TMO:IP1:ENDSTATION:ETHERCAT_ERROR_RBV</string>
        </property>
        <property name="onColor" stdset="0">
         <color>
@@ -4167,19 +4167,19 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
         <string/>
        </property>
        <property name="channel" stdset="0">
-        <string>ca://TMO:IP1:ENDSTATION:CONNECTED_RBV</string>
+        <string>ca://IP1:TURBOS:ALL_AT_SPD_RBV</string>
        </property>
        <property name="onColor" stdset="0">
         <color>
-         <red>255</red>
-         <green>0</green>
+         <red>0</red>
+         <green>85</green>
          <blue>0</blue>
         </color>
        </property>
        <property name="offColor" stdset="0">
         <color>
-         <red>0</red>
-         <green>170</green>
+         <red>255</red>
+         <green>0</green>
          <blue>0</blue>
         </color>
        </property>
@@ -4208,7 +4208,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
         <string/>
        </property>
        <property name="channel" stdset="0">
-        <string>ca://PLC:CVMI:VAC:HV_SAFETY_ENABLE_RBV</string>
+        <string>ca://IP1:HV_SAFETY_ENABLE_RBV</string>
        </property>
        <property name="onColor" stdset="0">
         <color>
@@ -4233,6 +4233,47 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
        <property name="labels" stdset="0">
         <stringlist>
          <string>HV Enable</string>
+        </stringlist>
+       </property>
+      </widget>
+      <widget class="PyDMByteIndicator" name="FIM_HV_Safety_Enable">
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>360</y>
+         <width>91</width>
+         <height>26</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="channel" stdset="0">
+        <string>ca://TMO:FIM:HV_LOOP_ON_RBV</string>
+       </property>
+       <property name="onColor" stdset="0">
+        <color>
+         <red>0</red>
+         <green>170</green>
+         <blue>0</blue>
+        </color>
+       </property>
+       <property name="offColor" stdset="0">
+        <color>
+         <red>255</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </property>
+       <property name="orientation" stdset="0">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="labelPosition" stdset="0">
+        <enum>QTabWidget::South</enum>
+       </property>
+       <property name="labels" stdset="0">
+        <stringlist>
+         <string>FIM HV Enable</string>
         </stringlist>
        </property>
       </widget>
@@ -4373,6 +4414,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       <zorder>line_58</zorder>
       <zorder>PyDMByteIndicator_3</zorder>
       <zorder>IP1_HV_Safety_Enable</zorder>
+      <zorder>FIM_HV_Safety_Enable</zorder>
      </widget>
     </widget>
    </item>
