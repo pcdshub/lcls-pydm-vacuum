@@ -784,7 +784,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       </property>
       <property name="geometry">
        <rect>
-        <x>-2202</x>
+        <x>-1500</x>
         <y>0</y>
         <width>4000</width>
         <height>700</height>
@@ -2553,7 +2553,7 @@ p, li { white-space: pre-wrap; }
         <enum>PCDSSymbolBase::Top</enum>
        </property>
        <property name="channelsPrefix" stdset="0">
-        <string>ca://TV4K2:GCC:1</string>
+        <string>ca://TV4K2:GFS:1</string>
        </property>
        <property name="showIcon" stdset="0">
         <bool>true</bool>
