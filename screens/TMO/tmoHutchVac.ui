@@ -4110,7 +4110,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
         <string/>
        </property>
        <property name="channel" stdset="0">
-        <string>ca://IP1:PLC:NAME_RBV</string>
+        <string>ca://TMO:IP1:PLC:NAME_RBV</string>
        </property>
        <property name="displayFormat" stdset="0">
         <enum>PyDMLabel::String</enum>
@@ -4132,7 +4132,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
         <enum>PCDSSymbolBase::Right</enum>
        </property>
        <property name="channelsPrefix" stdset="0">
-        <string>ca://IP1:MAIN:GAUGE</string>
+        <string>ca://TMO:IP1:MAIN:GAUGE</string>
        </property>
        <property name="iconSize" stdset="0">
         <number>20</number>
@@ -4167,7 +4167,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
         <string/>
        </property>
        <property name="channel" stdset="0">
-        <string>ca://IP1:TURBOS:ALL_AT_SPD_RBV</string>
+        <string>ca://TMO:IP1:TURBOS:ALL_AT_SPD_RBV</string>
        </property>
        <property name="onColor" stdset="0">
         <color>
@@ -4208,7 +4208,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
         <string/>
        </property>
        <property name="channel" stdset="0">
-        <string>ca://IP1:HV_SAFETY_ENABLE_RBV</string>
+        <string>ca://TMO:IP1:HV_SAFETY_ENABLE_RBV</string>
        </property>
        <property name="onColor" stdset="0">
         <color>
