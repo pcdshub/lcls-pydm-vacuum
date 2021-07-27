@@ -493,7 +493,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       </property>
       <property name="geometry">
        <rect>
-        <x>-1156</x>
+        <x>-1562</x>
         <y>0</y>
         <width>3100</width>
         <height>780</height>
@@ -992,7 +992,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
         <string/>
        </property>
        <property name="channelsPrefix" stdset="0">
-        <string>ca://IM1K2:PPM:VGC:1</string>
+        <string>ca://IM1K3:PPM:VGC:1</string>
        </property>
        <property name="controlButtonHorizontal" stdset="0">
         <bool>true</bool>
@@ -1014,7 +1014,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
         <number>0</number>
        </property>
        <property name="macros" stdset="0">
-        <string>{&quot;PIP&quot;: &quot;MR1K4:SOMS:PIP:1&quot; , &quot;GPI&quot;: &quot;MR1K4:SOMS:GPI:1&quot; , &quot;GCC&quot;: &quot;MR1K4:SOMS:GCC:1&quot;}</string>
+        <string>{&quot;PIP&quot;: &quot;MR1K4:SOMS:PIP:01&quot; , &quot;GPI&quot;: &quot;MR1K4:SOMS:GPI:1&quot; , &quot;GCC&quot;: &quot;MR1K4:SOMS:GCC:1&quot;}</string>
        </property>
        <property name="filename" stdset="0">
         <string>vacuumscreens/templates/mirror.ui</string>
@@ -1937,7 +1937,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
         </rect>
        </property>
        <property name="text">
-        <string>IM1K2-PPM-VGC-1</string>
+        <string>IM1K3-PPM-VGC-1</string>
        </property>
       </widget>
       <widget class="QLabel" name="label_23">
