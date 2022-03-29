@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>LFE - H1.1/H2.2- Vacuum - User</string>
   </property>
   <property name="styleSheet">
    <string notr="true">RoughGauge[state=&quot;Off&quot;] #icon{
@@ -372,7 +372,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
        <widget class="QWidget" name="scrollAreaWidgetContents">
         <property name="geometry">
          <rect>
-          <x>-191</x>
+          <x>0</x>
           <y>0</y>
           <width>1350</width>
           <height>580</height>
@@ -810,6 +810,9 @@ IonPump[state=&quot;FAULT&quot;] #icon {
          <property name="channelsPrefix" stdset="0">
           <string>ca://TV5L0:GFS:01</string>
          </property>
+         <property name="expertOphydClass" stdset="0">
+          <string>pcdsdevices.gauge.GFSPLC</string>
+         </property>
          <property name="controlButtonHorizontal" stdset="0">
           <bool>true</bool>
          </property>
@@ -1168,7 +1171,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
           <enum>QFrame::Plain</enum>
          </property>
          <property name="text">
-          <string>2.10e-08 Torr</string>
+          <string>1.20e-08 Torr</string>
          </property>
          <property name="textFormat">
           <enum>Qt::PlainText</enum>
@@ -1286,6 +1289,62 @@ IonPump[state=&quot;FAULT&quot;] #icon {
           <string>ca://PLC:LFE:VAC:H1_1H1_2:OVRDON</string>
          </property>
         </widget>
+        <widget class="PyDMShellCommand" name="H1Button_6">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>30</y>
+           <width>111</width>
+           <height>24</height>
+          </rect>
+         </property>
+         <property name="toolTip">
+          <string/>
+         </property>
+         <property name="text">
+          <string notr="true">XBD Ops. Manual</string>
+         </property>
+         <property name="icon">
+          <iconset theme="None">
+           <normaloff>../../../../../../../../../../../neh/home/adpai/.designer/backup</normaloff>../../../../../../../../../../../neh/home/adpai/.designer/backup</iconset>
+         </property>
+         <property name="commands" stdset="0">
+          <stringlist>
+           <string>firefox https://confluence.slac.stanford.edu/display/XBD/Training+Curriculum+Plan#TrainingCurriculumPlan-OperatingManual</string>
+          </stringlist>
+         </property>
+         <property name="command" stdset="0">
+          <string>firefox https://confluence.slac.stanford.edu/display/XBD/Training+Curriculum+Plan#TrainingCurriculumPlan-OperatingManual</string>
+         </property>
+        </widget>
+        <widget class="PyDMShellCommand" name="H1Button_8">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>0</y>
+           <width>111</width>
+           <height>24</height>
+          </rect>
+         </property>
+         <property name="toolTip">
+          <string/>
+         </property>
+         <property name="text">
+          <string notr="true">Troubleshooting</string>
+         </property>
+         <property name="icon">
+          <iconset theme="None">
+           <normaloff>../../../../../../../../../../../neh/home/adpai/.designer/backup</normaloff>../../../../../../../../../../../neh/home/adpai/.designer/backup</iconset>
+         </property>
+         <property name="commands" stdset="0">
+          <stringlist>
+           <string>firefox https://confluence.slac.stanford.edu/pages/viewpage.action?pageId=286167132</string>
+          </stringlist>
+         </property>
+         <property name="command" stdset="0">
+          <string>firefox https://confluence.slac.stanford.edu/pages/viewpage.action?pageId=286167132</string>
+         </property>
+        </widget>
         <zorder>TV5L0_02</zorder>
         <zorder>TV4L0_01</zorder>
         <zorder>TV4L0_02</zorder>
@@ -1333,6 +1392,8 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <zorder>PyDMLabel_17</zorder>
         <zorder>PyDMLabel_2</zorder>
         <zorder>PyDMEnumButton</zorder>
+        <zorder>H1Button_6</zorder>
+        <zorder>H1Button_8</zorder>
        </widget>
       </widget>
      </item>
@@ -1341,6 +1402,11 @@ IonPump[state=&quot;FAULT&quot;] #icon {
   </layout>
  </widget>
  <customwidgets>
+  <customwidget>
+   <class>TyphosSignalPanel</class>
+   <extends>QWidget</extends>
+   <header>typhos.panel</header>
+  </customwidget>
   <customwidget>
    <class>PyDMLabel</class>
    <extends>QLabel</extends>
@@ -1380,11 +1446,6 @@ IonPump[state=&quot;FAULT&quot;] #icon {
    <class>ColdCathodeGauge</class>
    <extends>PCDSSymbolBase</extends>
    <header>pcdswidgets.vacuum.gauges</header>
-  </customwidget>
-  <customwidget>
-   <class>TyphosSignalPanel</class>
-   <extends>QWidget</extends>
-   <header>typhos.panel</header>
   </customwidget>
  </customwidgets>
  <resources/>
