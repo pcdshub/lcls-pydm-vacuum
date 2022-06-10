@@ -106,6 +106,114 @@ PneumaticValve[error="Ext Fault"] #icon {
     qproperty-interlockBrush: red;
 }
 
+/*################################*/
+
+/* PnumaticValveNO - vrc, vgc (use vrc)*/
+
+PneumaticValveNO #icon {
+    qproperty-penStyle: "Qt::SolidLine";
+    qproperty-penColor: black;
+    qproperty-penWidth: 2;
+    qproperty-interlockBrush: #00FF00;
+}
+PneumaticValveNO[interlocked="true"] #icon{
+    border: 2px solid black;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+}
+PneumaticValveNO[interlocked="false"] #icon{
+    border: 0px;
+    qproperty-brush: #00FF00;
+}
+PneumaticValveNO[state="OPEN"] #icon {
+    qproperty-penColor: black;
+    qproperty-brush: #00FF00;
+}
+PneumaticValveNO[state="MOVING"] #icon {
+    qproperty-penColor: black;
+    qproperty-brush: yellow;
+}
+PneumaticValveNO[state="CLOSED"] #icon {
+    qproperty-penColor: black;
+    qproperty-brush: black;
+}
+PneumaticValveNO[state="INVALID"] #icon {
+    qproperty-penColor: black;
+    qproperty-brush: red;
+}
+PneumaticValveNO[state="OPEN_F"] #icon {
+    qproperty-penColor: red;
+    qproperty-brush: #00FF00;
+}
+PneumaticValveNO[error="Vented"] #icon {
+    qproperty-interlockBrush: red;
+}
+PneumaticValveNO[error="Lost Vacuum"] #icon {
+   qproperty-interlockBrush: red;
+}
+PneumaticValveNO[error="At Vacuum"] #icon {
+   qproperty-interlockBrush: #00FF00;
+}
+PneumaticValveNO[error="Ext Fault"] #icon {
+    qproperty-interlockBrush: red;
+}
+
+/*################################*/
+
+/* PnumaticValveDA - dual acting vgc*/
+
+PneumaticValveDA #icon {
+    qproperty-penStyle: "Qt::SolidLine";
+    qproperty-penColor: black;
+    qproperty-penWidth: 2;
+    qproperty-interlockBrush: #00FF00;
+}
+PneumaticValveDA[interlocked="true"] #icon{
+    border: 2px solid black;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+}
+PneumaticValveDA[interlocked="false"] #icon{
+    border: 0px;
+    qproperty-brush: #00FF00;
+}
+PneumaticValveDA[state="OPEN"] #icon {
+    qproperty-penColor: black;
+    qproperty-brush: #00FF00;
+}
+PneumaticValveDA[state="MOVING"] #icon {
+    qproperty-penColor: black;
+    qproperty-brush: yellow;
+}
+PneumaticValveDA[state="CLOSED"] #icon {
+    qproperty-penColor: black;
+    qproperty-brush: black;
+}
+PneumaticValveDA[state="INVALID"] #icon {
+    qproperty-penColor: black;
+    qproperty-brush: red;
+}
+PneumaticValveDA[state="OPEN_F"] #icon {
+    qproperty-penColor: red;
+    qproperty-brush: #00FF00;
+}
+PneumaticValveDA[error="Vented"] #icon {
+    qproperty-interlockBrush: red;
+}
+PneumaticValveDA[error="Lost Vacuum"] #icon {
+   qproperty-interlockBrush: red;
+}
+PneumaticValveDA[error="At Vacuum"] #icon {
+   qproperty-interlockBrush: #00FF00;
+}
+PneumaticValveDA[error="Ext Fault"] #icon {
+    qproperty-interlockBrush: red;
+}
+
 /*###############################*/
 
 /* Fast Shutter - vfs*/

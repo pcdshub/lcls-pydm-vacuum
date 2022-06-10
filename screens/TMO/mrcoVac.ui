@@ -839,7 +839,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <bool>false</bool>
        </property>
        <property name="channel" stdset="0">
-        <string>ca://PLC:CVMI:VAC:OVRDON</string>
+        <string>ca://PLC:MRCO:VAC:OVRDON</string>
        </property>
       </widget>
       <widget class="QLabel" name="label">
@@ -2990,7 +2990,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <bool>true</bool>
        </property>
        <property name="expertOphydClass" stdset="0">
-        <string>pcdsdevices.valve.VRCNO</string>
+        <string>pcdsdevices.valve.VRC</string>
        </property>
        <property name="controlButtonHorizontal" stdset="0">
         <bool>false</bool>
@@ -3018,7 +3018,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <bool>true</bool>
        </property>
        <property name="expertOphydClass" stdset="0">
-        <string>pcdsdevices.valve.VRCNO</string>
+        <string>pcdsdevices.valve.VRC</string>
        </property>
        <property name="controlButtonHorizontal" stdset="0">
         <bool>false</bool>

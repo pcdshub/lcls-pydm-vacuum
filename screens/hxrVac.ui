@@ -17,7 +17,7 @@
    </sizepolicy>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>LFE - EBD/FEE - Vacuum - User</string>
   </property>
   <property name="styleSheet">
    <string notr="true">RoughGauge[state=&quot;Off&quot;] #icon{
@@ -1443,6 +1443,9 @@ EM2L0-GEM</string>
          </property>
          <property name="channelsPrefix" stdset="0">
           <string>ca://TV2L0:GFS:01</string>
+         </property>
+         <property name="expertOphydClass" stdset="0">
+          <string>pcdsdevices.gauge.GFSPLC</string>
          </property>
          <property name="controlButtonHorizontal" stdset="0">
           <bool>false</bool>
@@ -3370,6 +3373,62 @@ EM2L0-GEM</string>
           <bool>true</bool>
          </property>
         </widget>
+        <widget class="PyDMShellCommand" name="H1Button_6">
+         <property name="geometry">
+          <rect>
+           <x>70</x>
+           <y>90</y>
+           <width>111</width>
+           <height>24</height>
+          </rect>
+         </property>
+         <property name="toolTip">
+          <string/>
+         </property>
+         <property name="text">
+          <string notr="true">Troubleshooting</string>
+         </property>
+         <property name="icon">
+          <iconset theme="None">
+           <normaloff>../../../../../../../../../../../neh/home/adpai/.designer/backup</normaloff>../../../../../../../../../../../neh/home/adpai/.designer/backup</iconset>
+         </property>
+         <property name="commands" stdset="0">
+          <stringlist>
+           <string>firefox https://confluence.slac.stanford.edu/pages/viewpage.action?pageId=286167132</string>
+          </stringlist>
+         </property>
+         <property name="command" stdset="0">
+          <string>firefox https://confluence.slac.stanford.edu/pages/viewpage.action?pageId=286167132</string>
+         </property>
+        </widget>
+        <widget class="PyDMShellCommand" name="H1Button_5">
+         <property name="geometry">
+          <rect>
+           <x>70</x>
+           <y>120</y>
+           <width>111</width>
+           <height>24</height>
+          </rect>
+         </property>
+         <property name="toolTip">
+          <string/>
+         </property>
+         <property name="text">
+          <string notr="true">XBD Ops. Manual</string>
+         </property>
+         <property name="icon">
+          <iconset theme="None">
+           <normaloff>../../../../../../../../../../../neh/home/adpai/.designer/backup</normaloff>../../../../../../../../../../../neh/home/adpai/.designer/backup</iconset>
+         </property>
+         <property name="commands" stdset="0">
+          <stringlist>
+           <string>firefox https://confluence.slac.stanford.edu/display/XBD/Training+Curriculum+Plan#TrainingCurriculumPlan-OperatingManual</string>
+          </stringlist>
+         </property>
+         <property name="command" stdset="0">
+          <string>firefox https://confluence.slac.stanford.edu/display/XBD/Training+Curriculum+Plan#TrainingCurriculumPlan-OperatingManual</string>
+         </property>
+        </widget>
         <zorder>line_31</zorder>
         <zorder>line_83</zorder>
         <zorder>line_46</zorder>
@@ -3524,6 +3583,8 @@ EM2L0-GEM</string>
         <zorder>PyDMLabel</zorder>
         <zorder>PyDMEnumButton_2</zorder>
         <zorder>PyDMLabel_2</zorder>
+        <zorder>H1Button_6</zorder>
+        <zorder>H1Button_5</zorder>
        </widget>
       </widget>
      </item>
