@@ -9,8 +9,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1358</width>
-    <height>1200</height>
+    <width>1319</width>
+    <height>1219</height>
    </rect>
   </property>
   <property name="minimumSize">
@@ -839,7 +839,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <bool>false</bool>
        </property>
        <property name="channel" stdset="0">
-        <string>ca://PLC:LAMP:VAC:OVRDON</string>
+        <string>ca://PLC:MRCO:VAC:OVRDON</string>
        </property>
       </widget>
       <widget class="QLabel" name="label">
@@ -855,13 +855,13 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <string>&lt;-- Check this box to disable interlocks</string>
        </property>
       </widget>
-      <widget class="PyDMLabel" name="CVMI_VACUUM_LABEL">
+      <widget class="PyDMLabel" name="MRCO_VACUUM_LABEL">
        <property name="geometry">
         <rect>
-         <x>50</x>
-         <y>10</y>
-         <width>301</width>
-         <height>21</height>
+         <x>485</x>
+         <y>20</y>
+         <width>291</width>
+         <height>41</height>
         </rect>
        </property>
        <property name="font">
@@ -888,23 +888,10 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <number>0</number>
        </property>
        <property name="text">
-        <string>LAMP MBES Vacuum Controls</string>
+        <string> MRCO Vacuum Controls</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignCenter</set>
-       </property>
-      </widget>
-      <widget class="Line" name="line_45">
-       <property name="geometry">
-        <rect>
-         <x>390</x>
-         <y>330</y>
-         <width>20</width>
-         <height>211</height>
-        </rect>
-       </property>
-       <property name="orientation">
-        <enum>Qt::Vertical</enum>
        </property>
       </widget>
       <widget class="Line" name="line_50">
@@ -948,10 +935,10 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="QLabel" name="label_23">
        <property name="geometry">
         <rect>
-         <x>25</x>
-         <y>1075</y>
-         <width>121</width>
-         <height>25</height>
+         <x>10</x>
+         <y>1060</y>
+         <width>131</width>
+         <height>51</height>
         </rect>
        </property>
        <property name="font">
@@ -993,32 +980,13 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <number>20</number>
        </property>
       </widget>
-      <widget class="Line" name="line_58">
-       <property name="geometry">
-        <rect>
-         <x>320</x>
-         <y>320</y>
-         <width>141</width>
-         <height>20</height>
-        </rect>
-       </property>
-       <property name="sizePolicy">
-        <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
-         <horstretch>10</horstretch>
-         <verstretch>0</verstretch>
-        </sizepolicy>
-       </property>
-       <property name="orientation">
-        <enum>Qt::Horizontal</enum>
-       </property>
-      </widget>
       <widget class="PyDMLabel" name="PA1K0_label_6">
        <property name="geometry">
         <rect>
-         <x>320</x>
-         <y>160</y>
+         <x>375</x>
+         <y>210</y>
          <width>140</width>
-         <height>51</height>
+         <height>21</height>
         </rect>
        </property>
        <property name="font">
@@ -1045,7 +1013,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <number>0</number>
        </property>
        <property name="text">
-        <string>BOTTLE</string>
+        <string>GAS NEEDLE</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignCenter</set>
@@ -1054,37 +1022,9 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_5">
        <property name="geometry">
         <rect>
-         <x>320</x>
-         <y>50</y>
+         <x>375</x>
+         <y>170</y>
          <width>140</width>
-         <height>271</height>
-        </rect>
-       </property>
-       <property name="toolTip">
-        <string/>
-       </property>
-       <property name="brush" stdset="0">
-        <brush brushstyle="SolidPattern">
-         <color alpha="255">
-          <red>239</red>
-          <green>239</green>
-          <blue>239</blue>
-         </color>
-        </brush>
-       </property>
-       <property name="penStyle" stdset="0">
-        <enum>Qt::SolidLine</enum>
-       </property>
-       <property name="penWidth" stdset="0">
-        <double>0.000000000000000</double>
-       </property>
-      </widget>
-      <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_6">
-       <property name="geometry">
-        <rect>
-         <x>326</x>
-         <y>450</y>
-         <width>251</width>
          <height>100</height>
         </rect>
        </property>
@@ -1110,15 +1050,15 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="PyDMLabel" name="PA1K0_label_7">
        <property name="geometry">
         <rect>
-         <x>340</x>
-         <y>450</y>
-         <width>161</width>
-         <height>91</height>
+         <x>420</x>
+         <y>470</y>
+         <width>131</width>
+         <height>51</height>
         </rect>
        </property>
        <property name="font">
         <font>
-         <pointsize>12</pointsize>
+         <pointsize>16</pointsize>
          <weight>75</weight>
          <bold>true</bold>
          <kerning>true</kerning>
@@ -1140,20 +1080,19 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <number>0</number>
        </property>
        <property name="text">
-        <string>LAMP
-MAIN CHAMBER</string>
+        <string>MRCO</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignCenter</set>
        </property>
       </widget>
-      <widget class="HotCathodeGauge" name="LAMP_C1_GHC_01">
+      <widget class="HotCathodeGauge" name="MRCO_MAIN_GHC_01">
        <property name="geometry">
         <rect>
-         <x>410</x>
-         <y>345</y>
-         <width>100</width>
-         <height>100</height>
+         <x>310</x>
+         <y>300</y>
+         <width>111</width>
+         <height>111</height>
         </rect>
        </property>
        <property name="toolTip">
@@ -1166,7 +1105,7 @@ MAIN CHAMBER</string>
         <enum>PCDSSymbolBase::Right</enum>
        </property>
        <property name="channelsPrefix" stdset="0">
-        <string>ca://LAMP:C1:GHC:01</string>
+        <string>ca://MRCO:MAIN:GHC:01</string>
        </property>
        <property name="iconSize" stdset="0">
         <number>25</number>
@@ -1178,70 +1117,72 @@ MAIN CHAMBER</string>
         <bool>false</bool>
        </property>
       </widget>
-      <widget class="Line" name="line_66">
+      <widget class="TurboPump" name="MRCO_MAIN_PTM_01">
        <property name="geometry">
         <rect>
-         <x>488</x>
-         <y>403</y>
-         <width>20</width>
-         <height>81</height>
-        </rect>
-       </property>
-       <property name="orientation">
-        <enum>Qt::Vertical</enum>
-       </property>
-      </widget>
-      <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_3">
-       <property name="geometry">
-        <rect>
-         <x>652</x>
-         <y>440</y>
-         <width>241</width>
-         <height>100</height>
+         <x>290</x>
+         <y>630</y>
+         <width>100</width>
+         <height>80</height>
         </rect>
        </property>
        <property name="toolTip">
         <string/>
        </property>
-       <property name="brush" stdset="0">
-        <brush brushstyle="SolidPattern">
-         <color alpha="255">
-          <red>239</red>
-          <green>239</green>
-          <blue>239</blue>
-         </color>
-        </brush>
+       <property name="accessibleName">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;LAMP&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
-       <property name="penStyle" stdset="0">
-        <enum>Qt::SolidLine</enum>
+       <property name="layoutDirection">
+        <enum>Qt::LeftToRight</enum>
        </property>
-       <property name="penWidth" stdset="0">
-        <double>0.000000000000000</double>
+       <property name="controlsLocation" stdset="0">
+        <enum>PCDSSymbolBase::Right</enum>
+       </property>
+       <property name="channelsPrefix" stdset="0">
+        <string>ca://MRCO:MAIN:PTM:01</string>
+       </property>
+       <property name="iconSize" stdset="0">
+        <number>27</number>
+       </property>
+       <property name="controlButtonHorizontal" stdset="0">
+        <bool>false</bool>
        </property>
       </widget>
-      <widget class="Line" name="line_72">
+      <widget class="TurboPump" name="MRCO_MAIN_PTM_03">
        <property name="geometry">
         <rect>
-         <x>820</x>
-         <y>525</y>
-         <width>51</width>
-         <height>20</height>
+         <x>540</x>
+         <y>630</y>
+         <width>100</width>
+         <height>82</height>
         </rect>
        </property>
-       <property name="sizePolicy">
-        <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
-         <horstretch>10</horstretch>
-         <verstretch>0</verstretch>
-        </sizepolicy>
+       <property name="toolTip">
+        <string/>
        </property>
-       <property name="orientation">
-        <enum>Qt::Horizontal</enum>
+       <property name="accessibleName">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;LAMP&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="layoutDirection">
+        <enum>Qt::LeftToRight</enum>
+       </property>
+       <property name="controlsLocation" stdset="0">
+        <enum>PCDSSymbolBase::Right</enum>
+       </property>
+       <property name="channelsPrefix" stdset="0">
+        <string>ca://MRCO:MAIN:PTM:03</string>
+       </property>
+       <property name="iconSize" stdset="0">
+        <number>27</number>
+       </property>
+       <property name="controlButtonHorizontal" stdset="0">
+        <bool>false</bool>
        </property>
       </widget>
       <widget class="Line" name="line_53">
        <property name="geometry">
         <rect>
-         <x>250</x>
+         <x>300</x>
          <y>945</y>
          <width>20</width>
          <height>96</height>
@@ -1304,7 +1245,7 @@ MAIN CHAMBER</string>
         <bool>false</bool>
        </property>
       </widget>
-      <widget class="RoughGauge" name="LAMP_ROUGH_GPI_03">
+      <widget class="RoughGauge" name="MRCO_ROUGH_GPI_03">
        <property name="geometry">
         <rect>
          <x>875</x>
@@ -1320,7 +1261,7 @@ MAIN CHAMBER</string>
         <string notr="true"/>
        </property>
        <property name="channelsPrefix" stdset="0">
-        <string>ca://LAMP:ROUGH:GPI:03</string>
+        <string>ca://MRCO:ROUGH:GPI:03</string>
        </property>
        <property name="showStatusTooltip" stdset="0">
         <bool>false</bool>
@@ -1355,45 +1296,6 @@ MAIN CHAMBER</string>
        </property>
        <property name="iconSize" stdset="0">
         <number>25</number>
-       </property>
-      </widget>
-      <widget class="PyDMLabel" name="PA1K0_label_9">
-       <property name="geometry">
-        <rect>
-         <x>1100</x>
-         <y>470</y>
-         <width>120</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <pointsize>12</pointsize>
-         <weight>75</weight>
-         <bold>true</bold>
-         <kerning>true</kerning>
-        </font>
-       </property>
-       <property name="toolTip">
-        <string/>
-       </property>
-       <property name="frameShape">
-        <enum>QFrame::NoFrame</enum>
-       </property>
-       <property name="frameShadow">
-        <enum>QFrame::Plain</enum>
-       </property>
-       <property name="lineWidth">
-        <number>1</number>
-       </property>
-       <property name="midLineWidth">
-        <number>0</number>
-       </property>
-       <property name="text">
-        <string>To Granite 2</string>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
        </property>
       </widget>
       <widget class="RoughGauge" name="TMO_ROUGH1_GPI_01">
@@ -1462,55 +1364,13 @@ MAIN CHAMBER</string>
         <bool>false</bool>
        </property>
       </widget>
-      <widget class="PneumaticValve" name="LAMP_ROUGH_VRC_03">
-       <property name="geometry">
-        <rect>
-         <x>940</x>
-         <y>850</y>
-         <width>100</width>
-         <height>82</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <kerning>true</kerning>
-        </font>
-       </property>
-       <property name="cursor">
-        <cursorShape>BlankCursor</cursorShape>
-       </property>
-       <property name="toolTip">
-        <string/>
-       </property>
-       <property name="layoutDirection">
-        <enum>Qt::LeftToRight</enum>
-       </property>
-       <property name="controlsLocation" stdset="0">
-        <enum>PCDSSymbolBase::Right</enum>
-       </property>
-       <property name="channelsPrefix" stdset="0">
-        <string>ca://LAMP:ROUGH:VRC:03</string>
-       </property>
-       <property name="iconSize" stdset="0">
-        <number>25</number>
-       </property>
-       <property name="rotateIcon" stdset="0">
-        <bool>true</bool>
-       </property>
-       <property name="expertOphydClass" stdset="0">
-        <string>pcdsdevices.valve.VRC</string>
-       </property>
-       <property name="controlButtonHorizontal" stdset="0">
-        <bool>false</bool>
-       </property>
-      </widget>
       <widget class="QLabel" name="label_24">
        <property name="geometry">
         <rect>
-         <x>25</x>
-         <y>1003</y>
+         <x>10</x>
+         <y>970</y>
          <width>121</width>
-         <height>25</height>
+         <height>51</height>
         </rect>
        </property>
        <property name="font">
@@ -1531,19 +1391,6 @@ MAIN CHAMBER</string>
        </property>
        <property name="wordWrap">
         <bool>true</bool>
-       </property>
-      </widget>
-      <widget class="Line" name="line_67">
-       <property name="geometry">
-        <rect>
-         <x>541</x>
-         <y>660</y>
-         <width>20</width>
-         <height>141</height>
-        </rect>
-       </property>
-       <property name="orientation">
-        <enum>Qt::Vertical</enum>
        </property>
       </widget>
       <widget class="PneumaticValve" name="TMO_ROUGH1_VRC_02">
@@ -1584,9 +1431,9 @@ MAIN CHAMBER</string>
        <property name="geometry">
         <rect>
          <x>1140</x>
-         <y>520</y>
+         <y>530</y>
          <width>20</width>
-         <height>521</height>
+         <height>511</height>
         </rect>
        </property>
        <property name="orientation">
@@ -1596,7 +1443,7 @@ MAIN CHAMBER</string>
       <widget class="PneumaticValve" name="TMO_ROUGH1_VRC_01">
        <property name="geometry">
         <rect>
-         <x>250</x>
+         <x>295</x>
          <y>955</y>
          <width>100</width>
          <height>80</height>
@@ -1640,11 +1487,11 @@ MAIN CHAMBER</string>
         <enum>Qt::Vertical</enum>
        </property>
       </widget>
-      <widget class="TurboPump" name="LAMP_ROUGH_PTM_01">
+      <widget class="TurboPump" name="MRCO_MAIN_PTM_04">
        <property name="geometry">
         <rect>
-         <x>536</x>
-         <y>700</y>
+         <x>660</x>
+         <y>630</y>
          <width>100</width>
          <height>80</height>
         </rect>
@@ -1662,7 +1509,7 @@ MAIN CHAMBER</string>
         <enum>PCDSSymbolBase::Left</enum>
        </property>
        <property name="channelsPrefix" stdset="0">
-        <string>ca://LAMP:ROUGH:PTM:01</string>
+        <string>ca://MRCO:MAIN:PTM:04</string>
        </property>
        <property name="iconSize" stdset="0">
         <number>27</number>
@@ -1675,8 +1522,8 @@ MAIN CHAMBER</string>
        <property name="geometry">
         <rect>
          <x>365</x>
-         <y>790</y>
-         <width>591</width>
+         <y>820</y>
+         <width>121</width>
          <height>20</height>
         </rect>
        </property>
@@ -1720,7 +1567,7 @@ MAIN CHAMBER</string>
         <rect>
          <x>1150</x>
          <y>800</y>
-         <width>21</width>
+         <width>46</width>
          <height>20</height>
         </rect>
        </property>
@@ -1737,9 +1584,9 @@ MAIN CHAMBER</string>
       <widget class="Line" name="line_83">
        <property name="geometry">
         <rect>
-         <x>140</x>
+         <x>180</x>
          <y>935</y>
-         <width>291</width>
+         <width>306</width>
          <height>20</height>
         </rect>
        </property>
@@ -1756,8 +1603,8 @@ MAIN CHAMBER</string>
       <widget class="RoughGauge" name="TMO_ROUGH1_GPI_02">
        <property name="geometry">
         <rect>
-         <x>65</x>
-         <y>795</y>
+         <x>105</x>
+         <y>800</y>
          <width>70</width>
          <height>80</height>
         </rect>
@@ -1784,9 +1631,9 @@ MAIN CHAMBER</string>
       <widget class="Line" name="line_51">
        <property name="geometry">
         <rect>
-         <x>510</x>
-         <y>170</y>
-         <width>261</width>
+         <x>305</x>
+         <y>710</y>
+         <width>371</width>
          <height>20</height>
         </rect>
        </property>
@@ -1796,49 +1643,27 @@ MAIN CHAMBER</string>
          <verstretch>0</verstretch>
         </sizepolicy>
        </property>
+       <property name="font">
+        <font>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Sunken</enum>
+       </property>
+       <property name="lineWidth">
+        <number>1</number>
+       </property>
        <property name="orientation">
         <enum>Qt::Horizontal</enum>
        </property>
       </widget>
-      <widget class="PneumaticValve" name="LAMP_ROUGH_VRC_01">
-       <property name="geometry">
-        <rect>
-         <x>420</x>
-         <y>855</y>
-         <width>100</width>
-         <height>82</height>
-        </rect>
-       </property>
-       <property name="toolTip">
-        <string/>
-       </property>
-       <property name="layoutDirection">
-        <enum>Qt::LeftToRight</enum>
-       </property>
-       <property name="controlsLocation" stdset="0">
-        <enum>PCDSSymbolBase::Right</enum>
-       </property>
-       <property name="channelsPrefix" stdset="0">
-        <string>ca://LAMP:ROUGH:VRC:01</string>
-       </property>
-       <property name="iconSize" stdset="0">
-        <number>25</number>
-       </property>
-       <property name="rotateIcon" stdset="0">
-        <bool>true</bool>
-       </property>
-       <property name="expertOphydClass" stdset="0">
-        <string>pcdsdevices.valve.VRC</string>
-       </property>
-       <property name="controlButtonHorizontal" stdset="0">
-        <bool>false</bool>
-       </property>
-      </widget>
-      <widget class="RoughGauge" name="LAMP_ROUGH_GPI_02">
+      <widget class="RoughGauge" name="MRCO_ROUGH_GPI_02">
        <property name="geometry">
         <rect>
          <x>335</x>
-         <y>790</y>
+         <y>815</y>
          <width>70</width>
          <height>60</height>
         </rect>
@@ -1850,7 +1675,7 @@ MAIN CHAMBER</string>
         <string notr="true"/>
        </property>
        <property name="channelsPrefix" stdset="0">
-        <string>ca://LAMP:ROUGH:GPI:02</string>
+        <string>ca://MRCO:ROUGH:GPI:02</string>
        </property>
        <property name="showStatusTooltip" stdset="0">
         <bool>true</bool>
@@ -1859,24 +1684,11 @@ MAIN CHAMBER</string>
         <number>25</number>
        </property>
       </widget>
-      <widget class="Line" name="line_86">
-       <property name="geometry">
-        <rect>
-         <x>130</x>
-         <y>535</y>
-         <width>20</width>
-         <height>411</height>
-        </rect>
-       </property>
-       <property name="orientation">
-        <enum>Qt::Vertical</enum>
-       </property>
-      </widget>
       <widget class="RoughGauge" name="TMO_ROUGH2_GPI_02">
        <property name="geometry">
         <rect>
-         <x>635</x>
-         <y>925</y>
+         <x>720</x>
+         <y>970</y>
          <width>70</width>
          <height>60</height>
         </rect>
@@ -1900,13 +1712,13 @@ MAIN CHAMBER</string>
         <bool>false</bool>
        </property>
       </widget>
-      <widget class="RoughGauge" name="LAMP_ROUGH_GPI_01">
+      <widget class="RoughGauge" name="MRCO_MAIN_GPI_01">
        <property name="geometry">
         <rect>
-         <x>350</x>
-         <y>925</y>
-         <width>70</width>
-         <height>60</height>
+         <x>485</x>
+         <y>320</y>
+         <width>81</width>
+         <height>61</height>
         </rect>
        </property>
        <property name="toolTip">
@@ -1916,7 +1728,7 @@ MAIN CHAMBER</string>
         <string notr="true"/>
        </property>
        <property name="channelsPrefix" stdset="0">
-        <string>ca://LAMP:ROUGH:GPI:01</string>
+        <string>ca://MRCO:MAIN:GPI:01</string>
        </property>
        <property name="showStatusTooltip" stdset="0">
         <bool>false</bool>
@@ -1926,19 +1738,6 @@ MAIN CHAMBER</string>
        </property>
        <property name="rotateIcon" stdset="0">
         <bool>false</bool>
-       </property>
-      </widget>
-      <widget class="Line" name="line_52">
-       <property name="geometry">
-        <rect>
-         <x>420</x>
-         <y>800</y>
-         <width>20</width>
-         <height>146</height>
-        </rect>
-       </property>
-       <property name="orientation">
-        <enum>Qt::Vertical</enum>
        </property>
       </widget>
       <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton">
@@ -1962,51 +1761,11 @@ MAIN CHAMBER</string>
         </stringlist>
        </property>
       </widget>
-      <widget class="PyDMLabel" name="PA1K0_label_11">
+      <widget class="RoughGauge" name="MRCO_ROUGH_GPI_04">
        <property name="geometry">
         <rect>
-         <x>660</x>
-         <y>475</y>
-         <width>221</width>
-         <height>41</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <pointsize>12</pointsize>
-         <weight>75</weight>
-         <bold>true</bold>
-         <kerning>true</kerning>
-        </font>
-       </property>
-       <property name="toolTip">
-        <string/>
-       </property>
-       <property name="frameShape">
-        <enum>QFrame::NoFrame</enum>
-       </property>
-       <property name="frameShadow">
-        <enum>QFrame::Plain</enum>
-       </property>
-       <property name="lineWidth">
-        <number>1</number>
-       </property>
-       <property name="midLineWidth">
-        <number>0</number>
-       </property>
-       <property name="text">
-        <string>LAMP
-Pumping Chamber</string>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
-       </property>
-      </widget>
-      <widget class="RoughGauge" name="LAMP_ROUGH_GPI_5">
-       <property name="geometry">
-        <rect>
-         <x>740</x>
-         <y>160</y>
+         <x>970</x>
+         <y>740</y>
          <width>70</width>
          <height>60</height>
         </rect>
@@ -2018,7 +1777,7 @@ Pumping Chamber</string>
         <string notr="true"/>
        </property>
        <property name="channelsPrefix" stdset="0">
-        <string>ca://LAMP:ROUGH:GPI:04</string>
+        <string>ca://MRCO:ROUGH:GPI:04</string>
        </property>
        <property name="showStatusTooltip" stdset="0">
         <bool>false</bool>
@@ -2030,210 +1789,57 @@ Pumping Chamber</string>
         <bool>false</bool>
        </property>
       </widget>
+      <widget class="TurboPump" name="MRCO_MAIN_PTM_02">
+       <property name="geometry">
+        <rect>
+         <x>420</x>
+         <y>630</y>
+         <width>100</width>
+         <height>82</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="accessibleName">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;LAMP&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="layoutDirection">
+        <enum>Qt::RightToLeft</enum>
+       </property>
+       <property name="controlsLocation" stdset="0">
+        <enum>PCDSSymbolBase::Left</enum>
+       </property>
+       <property name="channelsPrefix" stdset="0">
+        <string>ca://MRCO:MAIN:PTM:02</string>
+       </property>
+       <property name="iconSize" stdset="0">
+        <number>27</number>
+       </property>
+       <property name="controlButtonHorizontal" stdset="0">
+        <bool>false</bool>
+       </property>
+      </widget>
       <widget class="Line" name="line_74">
        <property name="geometry">
         <rect>
-         <x>700</x>
-         <y>390</y>
-         <width>20</width>
-         <height>51</height>
+         <x>390</x>
+         <y>340</y>
+         <width>41</width>
+         <height>131</height>
         </rect>
        </property>
        <property name="orientation">
         <enum>Qt::Vertical</enum>
        </property>
       </widget>
-      <widget class="PneumaticValve" name="LI3K4_IP1_VWC_01">
-       <property name="geometry">
-        <rect>
-         <x>995</x>
-         <y>470</y>
-         <width>80</width>
-         <height>110</height>
-        </rect>
-       </property>
-       <property name="toolTip">
-        <string/>
-       </property>
-       <property name="channelsPrefix" stdset="0">
-        <string>ca://LI3K4:IP1:VWC:01</string>
-       </property>
-       <property name="showIcon" stdset="0">
-        <bool>true</bool>
-       </property>
-       <property name="iconSize" stdset="0">
-        <number>25</number>
-       </property>
-       <property name="controlButtonHorizontal" stdset="0">
-        <bool>false</bool>
-       </property>
-      </widget>
-      <widget class="PyDMLabel" name="PA1K0_label_12">
-       <property name="geometry">
-        <rect>
-         <x>80</x>
-         <y>470</y>
-         <width>151</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <pointsize>12</pointsize>
-         <weight>75</weight>
-         <bold>true</bold>
-         <kerning>true</kerning>
-        </font>
-       </property>
-       <property name="toolTip">
-        <string/>
-       </property>
-       <property name="frameShape">
-        <enum>QFrame::NoFrame</enum>
-       </property>
-       <property name="frameShadow">
-        <enum>QFrame::Plain</enum>
-       </property>
-       <property name="lineWidth">
-        <number>1</number>
-       </property>
-       <property name="midLineWidth">
-        <number>0</number>
-       </property>
-       <property name="text">
-        <string>To Granite 1</string>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
-       </property>
-      </widget>
-      <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_8">
-       <property name="geometry">
-        <rect>
-         <x>85</x>
-         <y>435</y>
-         <width>140</width>
-         <height>100</height>
-        </rect>
-       </property>
-       <property name="toolTip">
-        <string/>
-       </property>
-       <property name="accessibleName">
-        <string/>
-       </property>
-       <property name="brush" stdset="0">
-        <brush brushstyle="SolidPattern">
-         <color alpha="255">
-          <red>239</red>
-          <green>239</green>
-          <blue>239</blue>
-         </color>
-        </brush>
-       </property>
-       <property name="penStyle" stdset="0">
-        <enum>Qt::SolidLine</enum>
-       </property>
-       <property name="penWidth" stdset="0">
-        <double>0.000000000000000</double>
-       </property>
-      </widget>
-      <widget class="Line" name="line_90">
-       <property name="geometry">
-        <rect>
-         <x>-5</x>
-         <y>475</y>
-         <width>1291</width>
-         <height>20</height>
-        </rect>
-       </property>
-       <property name="sizePolicy">
-        <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
-         <horstretch>10</horstretch>
-         <verstretch>0</verstretch>
-        </sizepolicy>
-       </property>
-       <property name="font">
-        <font>
-         <pointsize>30</pointsize>
-        </font>
-       </property>
-       <property name="orientation">
-        <enum>Qt::Horizontal</enum>
-       </property>
-      </widget>
-      <widget class="PneumaticValve" name="LAMP_ROUGH_VRC_02">
-       <property name="geometry">
-        <rect>
-         <x>715</x>
-         <y>785</y>
-         <width>100</width>
-         <height>120</height>
-        </rect>
-       </property>
-       <property name="toolTip">
-        <string/>
-       </property>
-       <property name="layoutDirection">
-        <enum>Qt::LeftToRight</enum>
-       </property>
-       <property name="controlsLocation" stdset="0">
-        <enum>PCDSSymbolBase::Bottom</enum>
-       </property>
-       <property name="channelsPrefix" stdset="0">
-        <string>ca://LAMP:ROUGH:VRC:02</string>
-       </property>
-       <property name="iconSize" stdset="0">
-        <number>25</number>
-       </property>
-       <property name="rotateIcon" stdset="0">
-        <bool>false</bool>
-       </property>
-       <property name="expertOphydClass" stdset="0">
-        <string>pcdsdevices.valve.VRCNO</string>
-       </property>
-       <property name="controlButtonHorizontal" stdset="0">
-        <bool>false</bool>
-       </property>
-      </widget>
-      <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_9">
-       <property name="geometry">
-        <rect>
-         <x>1090</x>
-         <y>435</y>
-         <width>140</width>
-         <height>100</height>
-        </rect>
-       </property>
-       <property name="toolTip">
-        <string/>
-       </property>
-       <property name="accessibleName">
-        <string/>
-       </property>
-       <property name="brush" stdset="0">
-        <brush brushstyle="SolidPattern">
-         <color alpha="255">
-          <red>239</red>
-          <green>239</green>
-          <blue>239</blue>
-         </color>
-        </brush>
-       </property>
-       <property name="penStyle" stdset="0">
-        <enum>Qt::SolidLine</enum>
-       </property>
-       <property name="penWidth" stdset="0">
-        <double>0.000000000000000</double>
-       </property>
-      </widget>
       <widget class="Line" name="line_84">
        <property name="geometry">
         <rect>
          <x>945</x>
-         <y>510</y>
+         <y>760</y>
          <width>20</width>
-         <height>151</height>
+         <height>186</height>
         </rect>
        </property>
        <property name="orientation">
@@ -2243,9 +1849,9 @@ Pumping Chamber</string>
       <widget class="Line" name="line_55">
        <property name="geometry">
         <rect>
-         <x>665</x>
-         <y>935</y>
-         <width>291</width>
+         <x>485</x>
+         <y>820</y>
+         <width>471</width>
          <height>20</height>
         </rect>
        </property>
@@ -2262,9 +1868,9 @@ Pumping Chamber</string>
       <widget class="Line" name="line_65">
        <property name="geometry">
         <rect>
-         <x>550</x>
-         <y>650</y>
-         <width>401</width>
+         <x>305</x>
+         <y>520</y>
+         <width>371</width>
          <height>20</height>
         </rect>
        </property>
@@ -2278,26 +1884,13 @@ Pumping Chamber</string>
         <enum>Qt::Horizontal</enum>
        </property>
       </widget>
-      <widget class="Line" name="line_68">
-       <property name="geometry">
-        <rect>
-         <x>880</x>
-         <y>530</y>
-         <width>20</width>
-         <height>131</height>
-        </rect>
-       </property>
-       <property name="orientation">
-        <enum>Qt::Vertical</enum>
-       </property>
-      </widget>
       <widget class="QLabel" name="label_25">
        <property name="geometry">
         <rect>
-         <x>715</x>
-         <y>755</y>
-         <width>100</width>
-         <height>30</height>
+         <x>660</x>
+         <y>770</y>
+         <width>121</width>
+         <height>41</height>
         </rect>
        </property>
        <property name="font">
@@ -2311,7 +1904,7 @@ Pumping Chamber</string>
         <number>1</number>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;LAMP:ROUGH:&lt;br/&gt;VRC:02&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;MRCO:ROUGH:&lt;br/&gt;VRC:02&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignCenter</set>
@@ -2323,10 +1916,10 @@ Pumping Chamber</string>
       <widget class="QLabel" name="label_26">
        <property name="geometry">
         <rect>
-         <x>955</x>
-         <y>845</y>
-         <width>100</width>
-         <height>30</height>
+         <x>960</x>
+         <y>830</y>
+         <width>111</width>
+         <height>31</height>
         </rect>
        </property>
        <property name="font">
@@ -2340,7 +1933,7 @@ Pumping Chamber</string>
         <number>1</number>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;LAMP:ROUGH:&lt;br/&gt;VRC:03&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;MRCO:ROUGH:&lt;br/&gt;VRC:03&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignCenter</set>
@@ -2352,10 +1945,10 @@ Pumping Chamber</string>
       <widget class="QLabel" name="label_27">
        <property name="geometry">
         <rect>
-         <x>425</x>
-         <y>845</y>
-         <width>100</width>
-         <height>30</height>
+         <x>490</x>
+         <y>840</y>
+         <width>111</width>
+         <height>31</height>
         </rect>
        </property>
        <property name="font">
@@ -2369,7 +1962,7 @@ Pumping Chamber</string>
         <number>1</number>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;LAMP:ROUGH:&lt;br/&gt;VRC:01&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;MRCO:ROUGH:&lt;br/&gt;VRC:01&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignCenter</set>
@@ -2381,10 +1974,10 @@ Pumping Chamber</string>
       <widget class="QLabel" name="label_28">
        <property name="geometry">
         <rect>
-         <x>550</x>
-         <y>695</y>
-         <width>100</width>
-         <height>30</height>
+         <x>670</x>
+         <y>610</y>
+         <width>111</width>
+         <height>31</height>
         </rect>
        </property>
        <property name="font">
@@ -2398,7 +1991,95 @@ Pumping Chamber</string>
         <number>1</number>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;LAMP:ROUGH:&lt;br/&gt;PTM:01 &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>MRCO:MAIN:&lt;br&gt;PTM:04
+</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_29">
+       <property name="geometry">
+        <rect>
+         <x>475</x>
+         <y>280</y>
+         <width>101</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>9</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="lineWidth">
+        <number>1</number>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;MRCO:MAIN:&lt;br/&gt;GPI:01 &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_30">
+       <property name="geometry">
+        <rect>
+         <x>550</x>
+         <y>610</y>
+         <width>121</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>9</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="lineWidth">
+        <number>1</number>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;MRCO:MAIN:&lt;br/&gt;PTM:03&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_31">
+       <property name="geometry">
+        <rect>
+         <x>430</x>
+         <y>610</y>
+         <width>111</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>9</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="lineWidth">
+        <number>1</number>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;MRCO:MAIN:&lt;br/&gt;PTM:02 &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignCenter</set>
@@ -2410,36 +2091,7 @@ Pumping Chamber</string>
       <widget class="QLabel" name="label_32">
        <property name="geometry">
         <rect>
-         <x>830</x>
-         <y>915</y>
-         <width>100</width>
-         <height>30</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <pointsize>9</pointsize>
-         <weight>50</weight>
-         <bold>false</bold>
-        </font>
-       </property>
-       <property name="lineWidth">
-        <number>1</number>
-       </property>
-       <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;LAMP:ROUGH:&lt;br/&gt;GPI:03&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
-       </property>
-       <property name="wordWrap">
-        <bool>true</bool>
-       </property>
-      </widget>
-      <widget class="QLabel" name="label_33">
-       <property name="geometry">
-        <rect>
-         <x>305</x>
+         <x>820</x>
          <y>910</y>
          <width>100</width>
          <height>30</height>
@@ -2456,7 +2108,36 @@ Pumping Chamber</string>
         <number>1</number>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;LAMP:ROUGH:&lt;br/&gt;GPI:01&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;MRCO:ROUGH:&lt;br/&gt;GPI:03&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_33">
+       <property name="geometry">
+        <rect>
+         <x>350</x>
+         <y>890</y>
+         <width>111</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>9</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="lineWidth">
+        <number>1</number>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;MRCO:ROUGH:&lt;br/&gt;GPI:01&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignCenter</set>
@@ -2468,10 +2149,10 @@ Pumping Chamber</string>
       <widget class="QLabel" name="label_34">
        <property name="geometry">
         <rect>
-         <x>290</x>
-         <y>780</y>
-         <width>100</width>
-         <height>30</height>
+         <x>279</x>
+         <y>790</y>
+         <width>101</width>
+         <height>31</height>
         </rect>
        </property>
        <property name="font">
@@ -2485,7 +2166,36 @@ Pumping Chamber</string>
         <number>1</number>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;LAMP:ROUGH:&lt;br/&gt;GPI:02&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;MRCO:ROUGH:&lt;br/&gt;GPI:02&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_35">
+       <property name="geometry">
+        <rect>
+         <x>310</x>
+         <y>610</y>
+         <width>101</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>9</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="lineWidth">
+        <number>1</number>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;MRCO:MAIN:&lt;br/&gt;PTM:01 &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignCenter</set>
@@ -2497,8 +2207,8 @@ Pumping Chamber</string>
       <widget class="QLabel" name="label_36">
        <property name="geometry">
         <rect>
-         <x>470</x>
-         <y>355</y>
+         <x>300</x>
+         <y>280</y>
          <width>100</width>
          <height>30</height>
         </rect>
@@ -2514,7 +2224,8 @@ Pumping Chamber</string>
         <number>1</number>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;LAMP:C1:&lt;br/&gt;GHC:01 &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>MRCO:MAIN:&lt;br&gt;GHC:01
+</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignCenter</set>
@@ -2523,11 +2234,30 @@ Pumping Chamber</string>
         <bool>true</bool>
        </property>
       </widget>
+      <widget class="Line" name="line_69">
+       <property name="geometry">
+        <rect>
+         <x>955</x>
+         <y>749</y>
+         <width>46</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+         <horstretch>10</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
       <widget class="QLabel" name="label_38">
        <property name="geometry">
         <rect>
-         <x>730</x>
-         <y>130</y>
+         <x>950</x>
+         <y>710</y>
          <width>100</width>
          <height>30</height>
         </rect>
@@ -2543,7 +2273,7 @@ Pumping Chamber</string>
         <number>1</number>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;LAMP:ROUGH:&lt;br/&gt;GPI:04&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;MRCO:ROUGH:&lt;br/&gt;GPI:04&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignCenter</set>
@@ -2577,44 +2307,6 @@ Pumping Chamber</string>
         <double>180.000000000000000</double>
        </property>
       </widget>
-      <widget class="PyDMDrawingArc" name="PyDMDrawingArc_2">
-       <property name="geometry">
-        <rect>
-         <x>930</x>
-         <y>460</y>
-         <width>50</width>
-         <height>50</height>
-        </rect>
-       </property>
-       <property name="toolTip">
-        <string/>
-       </property>
-       <property name="penJoinStyle" stdset="0">
-        <enum>Qt::MiterJoin</enum>
-       </property>
-       <property name="rotation" stdset="0">
-        <double>0.000000000000000</double>
-       </property>
-       <property name="startAngle" stdset="0">
-        <double>-90.000000000000000</double>
-       </property>
-       <property name="spanAngle" stdset="0">
-        <double>180.000000000000000</double>
-       </property>
-      </widget>
-      <widget class="Line" name="line_85">
-       <property name="geometry">
-        <rect>
-         <x>945</x>
-         <y>180</y>
-         <width>20</width>
-         <height>281</height>
-        </rect>
-       </property>
-       <property name="orientation">
-        <enum>Qt::Vertical</enum>
-       </property>
-      </widget>
       <widget class="Line" name="line_87">
        <property name="geometry">
         <rect>
@@ -2628,42 +2320,13 @@ Pumping Chamber</string>
         <enum>Qt::Vertical</enum>
        </property>
       </widget>
-      <widget class="QLabel" name="label_39">
-       <property name="geometry">
-        <rect>
-         <x>985</x>
-         <y>440</y>
-         <width>100</width>
-         <height>30</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <pointsize>9</pointsize>
-         <weight>50</weight>
-         <bold>false</bold>
-        </font>
-       </property>
-       <property name="lineWidth">
-        <number>1</number>
-       </property>
-       <property name="text">
-        <string>LI3K4:IP1:&lt;br&gt;VWC:01</string>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
-       </property>
-       <property name="wordWrap">
-        <bool>true</bool>
-       </property>
-      </widget>
       <widget class="QLabel" name="label_40">
        <property name="geometry">
         <rect>
          <x>1150</x>
-         <y>760</y>
-         <width>100</width>
-         <height>30</height>
+         <y>750</y>
+         <width>101</width>
+         <height>41</height>
         </rect>
        </property>
        <property name="font">
@@ -2689,9 +2352,9 @@ Pumping Chamber</string>
       <widget class="Line" name="line_88">
        <property name="geometry">
         <rect>
-         <x>115</x>
+         <x>140</x>
          <y>815</y>
-         <width>21</width>
+         <width>41</width>
          <height>20</height>
         </rect>
        </property>
@@ -2708,8 +2371,8 @@ Pumping Chamber</string>
       <widget class="QLabel" name="label_41">
        <property name="geometry">
         <rect>
-         <x>45</x>
-         <y>775</y>
+         <x>85</x>
+         <y>780</y>
          <width>100</width>
          <height>30</height>
         </rect>
@@ -2737,8 +2400,8 @@ Pumping Chamber</string>
       <widget class="QLabel" name="label_42">
        <property name="geometry">
         <rect>
-         <x>590</x>
-         <y>915</y>
+         <x>630</x>
+         <y>980</y>
          <width>100</width>
          <height>30</height>
         </rect>
@@ -2795,10 +2458,10 @@ Pumping Chamber</string>
       <widget class="QLabel" name="label_44">
        <property name="geometry">
         <rect>
-         <x>680</x>
-         <y>1071</y>
-         <width>100</width>
-         <height>30</height>
+         <x>650</x>
+         <y>1060</y>
+         <width>121</width>
+         <height>41</height>
         </rect>
        </property>
        <property name="font">
@@ -2824,10 +2487,10 @@ Pumping Chamber</string>
       <widget class="QLabel" name="label_45">
        <property name="geometry">
         <rect>
-         <x>165</x>
+         <x>209</x>
          <y>945</y>
-         <width>100</width>
-         <height>30</height>
+         <width>101</width>
+         <height>41</height>
         </rect>
        </property>
        <property name="font">
@@ -2882,10 +2545,10 @@ Pumping Chamber</string>
       <widget class="QLabel" name="label_47">
        <property name="geometry">
         <rect>
-         <x>135</x>
-         <y>1085</y>
-         <width>100</width>
-         <height>30</height>
+         <x>130</x>
+         <y>1080</y>
+         <width>111</width>
+         <height>31</height>
         </rect>
        </property>
        <property name="font">
@@ -2908,90 +2571,51 @@ Pumping Chamber</string>
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="Line" name="line_46">
+      <widget class="PyDMDrawingCircle" name="PyDMDrawingCircle">
        <property name="geometry">
         <rect>
-         <x>880</x>
-         <y>440</y>
-         <width>20</width>
-         <height>101</height>
+         <x>340</x>
+         <y>410</y>
+         <width>291</width>
+         <height>171</height>
         </rect>
        </property>
-       <property name="orientation">
-        <enum>Qt::Vertical</enum>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="brush" stdset="0">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>239</red>
+          <green>239</green>
+          <blue>239</blue>
+         </color>
+        </brush>
+       </property>
+       <property name="penStyle" stdset="0">
+        <enum>Qt::SolidLine</enum>
        </property>
       </widget>
-      <widget class="Line" name="line_56">
+      <widget class="Line" name="line">
        <property name="geometry">
         <rect>
-         <x>460</x>
-         <y>170</y>
+         <x>430</x>
+         <y>250</y>
          <width>31</width>
-         <height>20</height>
-        </rect>
-       </property>
-       <property name="sizePolicy">
-        <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
-         <horstretch>10</horstretch>
-         <verstretch>0</verstretch>
-        </sizepolicy>
-       </property>
-       <property name="orientation">
-        <enum>Qt::Horizontal</enum>
-       </property>
-      </widget>
-      <widget class="Line" name="line_70">
-       <property name="geometry">
-        <rect>
-         <x>785</x>
-         <y>170</y>
-         <width>171</width>
-         <height>20</height>
-        </rect>
-       </property>
-       <property name="sizePolicy">
-        <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
-         <horstretch>10</horstretch>
-         <verstretch>0</verstretch>
-        </sizepolicy>
-       </property>
-       <property name="orientation">
-        <enum>Qt::Horizontal</enum>
-       </property>
-      </widget>
-      <widget class="Line" name="line_89">
-       <property name="geometry">
-        <rect>
-         <x>650</x>
-         <y>180</y>
-         <width>20</width>
-         <height>261</height>
+         <height>231</height>
         </rect>
        </property>
        <property name="orientation">
         <enum>Qt::Vertical</enum>
        </property>
       </widget>
-      <widget class="Line" name="line_91">
+      <widget class="Line" name="line_2">
        <property name="geometry">
         <rect>
-         <x>880</x>
-         <y>180</y>
-         <width>20</width>
-         <height>261</height>
-        </rect>
-       </property>
-       <property name="orientation">
-        <enum>Qt::Vertical</enum>
-       </property>
-      </widget>
-      <widget class="Line" name="line_75">
-       <property name="geometry">
-        <rect>
-         <x>820</x>
-         <y>430</y>
-         <width>20</width>
-         <height>16</height>
+         <x>290</x>
+         <y>530</y>
+         <width>31</width>
+         <height>141</height>
         </rect>
        </property>
        <property name="orientation">
@@ -3001,184 +2625,53 @@ Pumping Chamber</string>
       <widget class="Line" name="line_71">
        <property name="geometry">
         <rect>
-         <x>650</x>
-         <y>540</y>
-         <width>20</width>
-         <height>121</height>
+         <x>660</x>
+         <y>530</y>
+         <width>31</width>
+         <height>191</height>
         </rect>
        </property>
        <property name="orientation">
         <enum>Qt::Vertical</enum>
        </property>
       </widget>
-      <widget class="Line" name="line_92">
+      <widget class="Line" name="line_73">
        <property name="geometry">
         <rect>
-         <x>570</x>
-         <y>450</y>
-         <width>20</width>
-         <height>101</height>
+         <x>470</x>
+         <y>720</y>
+         <width>31</width>
+         <height>226</height>
         </rect>
        </property>
        <property name="orientation">
         <enum>Qt::Vertical</enum>
        </property>
       </widget>
-      <widget class="Line" name="line_93">
+      <widget class="Line" name="line_75">
        <property name="geometry">
         <rect>
-         <x>310</x>
-         <y>50</y>
-         <width>20</width>
-         <height>281</height>
+         <x>290</x>
+         <y>670</y>
+         <width>31</width>
+         <height>51</height>
         </rect>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Sunken</enum>
+       </property>
+       <property name="lineWidth">
+        <number>1</number>
        </property>
        <property name="orientation">
         <enum>Qt::Vertical</enum>
        </property>
       </widget>
-      <widget class="Line" name="line_94">
+      <widget class="RoughGauge" name="MRCO_ROUGH_GPI_1">
        <property name="geometry">
         <rect>
-         <x>450</x>
-         <y>50</y>
-         <width>20</width>
-         <height>281</height>
-        </rect>
-       </property>
-       <property name="orientation">
-        <enum>Qt::Vertical</enum>
-       </property>
-      </widget>
-      <widget class="TurboPump" name="LAMP_C2_PTM_04">
-       <property name="geometry">
-        <rect>
-         <x>880</x>
-         <y>560</y>
-         <width>100</width>
-         <height>80</height>
-        </rect>
-       </property>
-       <property name="toolTip">
-        <string/>
-       </property>
-       <property name="accessibleName">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;LAMP&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-       </property>
-       <property name="layoutDirection">
-        <enum>Qt::RightToLeft</enum>
-       </property>
-       <property name="controlsLocation" stdset="0">
-        <enum>PCDSSymbolBase::Left</enum>
-       </property>
-       <property name="channelsPrefix" stdset="0">
-        <string>ca://LAMP:C2:PTM:04</string>
-       </property>
-       <property name="iconSize" stdset="0">
-        <number>27</number>
-       </property>
-       <property name="controlButtonHorizontal" stdset="0">
-        <bool>false</bool>
-       </property>
-      </widget>
-      <widget class="TurboPump" name="LAMP_C2_PTM_02">
-       <property name="geometry">
-        <rect>
-         <x>880</x>
-         <y>290</y>
-         <width>100</width>
-         <height>80</height>
-        </rect>
-       </property>
-       <property name="toolTip">
-        <string/>
-       </property>
-       <property name="accessibleName">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;LAMP&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-       </property>
-       <property name="layoutDirection">
-        <enum>Qt::RightToLeft</enum>
-       </property>
-       <property name="controlsLocation" stdset="0">
-        <enum>PCDSSymbolBase::Left</enum>
-       </property>
-       <property name="channelsPrefix" stdset="0">
-        <string>ca://LAMP:C2:PTM:02</string>
-       </property>
-       <property name="iconSize" stdset="0">
-        <number>27</number>
-       </property>
-       <property name="controlButtonHorizontal" stdset="0">
-        <bool>false</bool>
-       </property>
-      </widget>
-      <widget class="TurboPump" name="LAMP_C2_PTM_03">
-       <property name="geometry">
-        <rect>
-         <x>650</x>
-         <y>560</y>
-         <width>81</width>
-         <height>81</height>
-        </rect>
-       </property>
-       <property name="toolTip">
-        <string/>
-       </property>
-       <property name="accessibleName">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;LAMP&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-       </property>
-       <property name="layoutDirection">
-        <enum>Qt::RightToLeft</enum>
-       </property>
-       <property name="controlsLocation" stdset="0">
-        <enum>PCDSSymbolBase::Left</enum>
-       </property>
-       <property name="channelsPrefix" stdset="0">
-        <string>ca://LAMP:C2:PTM:03</string>
-       </property>
-       <property name="iconSize" stdset="0">
-        <number>27</number>
-       </property>
-       <property name="controlButtonHorizontal" stdset="0">
-        <bool>false</bool>
-       </property>
-      </widget>
-      <widget class="TurboPump" name="LAMP_C2_PTM_01">
-       <property name="geometry">
-        <rect>
-         <x>650</x>
-         <y>290</y>
-         <width>81</width>
-         <height>81</height>
-        </rect>
-       </property>
-       <property name="toolTip">
-        <string/>
-       </property>
-       <property name="accessibleName">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;LAMP&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-       </property>
-       <property name="layoutDirection">
-        <enum>Qt::RightToLeft</enum>
-       </property>
-       <property name="controlsLocation" stdset="0">
-        <enum>PCDSSymbolBase::Right</enum>
-       </property>
-       <property name="channelsPrefix" stdset="0">
-        <string>ca://LAMP:C2:PTM:01</string>
-       </property>
-       <property name="iconSize" stdset="0">
-        <number>27</number>
-       </property>
-       <property name="controlButtonHorizontal" stdset="0">
-        <bool>false</bool>
-       </property>
-      </widget>
-      <widget class="RoughGauge" name="LAMP_C2_GPI_01">
-       <property name="geometry">
-        <rect>
-         <x>680</x>
-         <y>370</y>
+         <x>395</x>
+         <y>930</y>
          <width>70</width>
          <height>60</height>
         </rect>
@@ -3190,7 +2683,7 @@ Pumping Chamber</string>
         <string notr="true"/>
        </property>
        <property name="channelsPrefix" stdset="0">
-        <string>ca://LAMP:C2:GPI:01</string>
+        <string>ca://MRCO:ROUGH:GPI:01</string>
        </property>
        <property name="showStatusTooltip" stdset="0">
         <bool>false</bool>
@@ -3202,88 +2695,94 @@ Pumping Chamber</string>
         <bool>false</bool>
        </property>
       </widget>
-      <widget class="Line" name="line_95">
+      <widget class="Line" name="line_85">
        <property name="geometry">
         <rect>
-         <x>940</x>
-         <y>800</y>
+         <x>170</x>
+         <y>550</y>
          <width>20</width>
-         <height>141</height>
+         <height>396</height>
         </rect>
        </property>
        <property name="orientation">
         <enum>Qt::Vertical</enum>
        </property>
       </widget>
-      <widget class="TurboPump" name="LAMP_GJ2_PTM_01">
+      <widget class="RGA" name="MRCO_MAIN_RGA_01">
        <property name="geometry">
         <rect>
-         <x>490</x>
-         <y>130</y>
-         <width>81</width>
-         <height>81</height>
+         <x>670</x>
+         <y>320</y>
+         <width>40</width>
+         <height>40</height>
         </rect>
        </property>
        <property name="toolTip">
         <string/>
        </property>
-       <property name="accessibleName">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;LAMP&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-       </property>
-       <property name="layoutDirection">
-        <enum>Qt::RightToLeft</enum>
-       </property>
-       <property name="controlsLocation" stdset="0">
-        <enum>PCDSSymbolBase::Left</enum>
-       </property>
-       <property name="channelsPrefix" stdset="0">
-        <string>ca://LAMP:GJ2:PTM:01</string>
-       </property>
-       <property name="iconSize" stdset="0">
-        <number>27</number>
-       </property>
-       <property name="controlButtonHorizontal" stdset="0">
-        <bool>false</bool>
-       </property>
       </widget>
-      <widget class="ColdCathodeGauge" name="LAMP_C2_GCC_3">
+      <widget class="Line" name="line_3">
        <property name="geometry">
         <rect>
-         <x>790</x>
-         <y>290</y>
-         <width>80</width>
-         <height>141</height>
+         <x>420</x>
+         <y>550</y>
+         <width>31</width>
+         <height>166</height>
         </rect>
        </property>
-       <property name="toolTip">
-        <string/>
-       </property>
-       <property name="layoutDirection">
-        <enum>Qt::LeftToRight</enum>
-       </property>
-       <property name="controlsLocation" stdset="0">
-        <enum>PCDSSymbolBase::Top</enum>
-       </property>
-       <property name="channelsPrefix" stdset="0">
-        <string>ca://LAMP:C2:GCC:01</string>
-       </property>
-       <property name="iconSize" stdset="0">
-        <number>25</number>
-       </property>
-       <property name="rotateIcon" stdset="0">
-        <bool>false</bool>
-       </property>
-       <property name="controlButtonHorizontal" stdset="0">
-        <bool>false</bool>
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
        </property>
       </widget>
-      <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_10">
+      <widget class="Line" name="line_4">
        <property name="geometry">
         <rect>
-         <x>1080</x>
-         <y>10</y>
-         <width>201</width>
-         <height>251</height>
+         <x>540</x>
+         <y>520</y>
+         <width>31</width>
+         <height>201</height>
+        </rect>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_37">
+       <property name="geometry">
+        <rect>
+         <x>649</x>
+         <y>280</y>
+         <width>101</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>9</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="lineWidth">
+        <number>1</number>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;MRCO:MAIN:&lt;br/&gt;RGA:01 &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_6">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>460</y>
+         <width>140</width>
+         <height>100</height>
         </rect>
        </property>
        <property name="toolTip">
@@ -3302,21 +2801,68 @@ Pumping Chamber</string>
         <enum>Qt::SolidLine</enum>
        </property>
        <property name="penWidth" stdset="0">
-        <double>2.000000000000000</double>
+        <double>0.000000000000000</double>
        </property>
       </widget>
-      <widget class="PyDMLabel" name="PA1K0_label_13">
+      <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_7">
        <property name="geometry">
         <rect>
-         <x>1100</x>
-         <y>20</y>
-         <width>171</width>
-         <height>45</height>
+         <x>1080</x>
+         <y>460</y>
+         <width>140</width>
+         <height>100</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="brush" stdset="0">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>239</red>
+          <green>239</green>
+          <blue>239</blue>
+         </color>
+        </brush>
+       </property>
+       <property name="penStyle" stdset="0">
+        <enum>Qt::SolidLine</enum>
+       </property>
+       <property name="penWidth" stdset="0">
+        <double>0.000000000000000</double>
+       </property>
+      </widget>
+      <widget class="Line" name="line_52">
+       <property name="geometry">
+        <rect>
+         <x>130</x>
+         <y>490</y>
+         <width>1031</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+         <horstretch>10</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+      <widget class="PyDMLabel" name="PA1K0_label_8">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>500</y>
+         <width>140</width>
+         <height>21</height>
         </rect>
        </property>
        <property name="font">
         <font>
-         <pointsize>10</pointsize>
+         <pointsize>12</pointsize>
          <weight>75</weight>
          <bold>true</bold>
          <kerning>true</kerning>
@@ -3338,20 +2884,199 @@ Pumping Chamber</string>
         <number>0</number>
        </property>
        <property name="text">
-        <string>LAMP INTERNAL&lt;br&gt; VACUUM STATUS</string>
-       </property>
-       <property name="textFormat">
-        <enum>Qt::RichText</enum>
+        <string>To Granite 1</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignCenter</set>
        </property>
+       <property name="rules" stdset="0">
+        <string>[]</string>
+       </property>
       </widget>
-      <widget class="PyDMByteIndicator" name="PyDMByteIndicator_3">
+      <widget class="PyDMLabel" name="PA1K0_label_9">
        <property name="geometry">
         <rect>
-         <x>1140</x>
-         <y>70</y>
+         <x>1080</x>
+         <y>500</y>
+         <width>140</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::NoFrame</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Plain</enum>
+       </property>
+       <property name="lineWidth">
+        <number>1</number>
+       </property>
+       <property name="midLineWidth">
+        <number>0</number>
+       </property>
+       <property name="text">
+        <string>To Granite 2</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="rules" stdset="0">
+        <string>[]</string>
+       </property>
+      </widget>
+      <widget class="PneumaticValve" name="LI3K4_IP1_VWC_01">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>800</x>
+         <y>480</y>
+         <width>180</width>
+         <height>82</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="channelsPrefix" stdset="0">
+        <string>ca://LI3K4:IP1:VWC:01</string>
+       </property>
+       <property name="controlButtonHorizontal" stdset="0">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_39">
+       <property name="geometry">
+        <rect>
+         <x>840</x>
+         <y>440</y>
+         <width>100</width>
+         <height>30</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>9</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="lineWidth">
+        <number>1</number>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;LI3K4:IP1:&lt;br/&gt;VWC:01&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="TurboPump" name="MRCO_ROUGH_PTM_01">
+       <property name="geometry">
+        <rect>
+         <x>471</x>
+         <y>740</y>
+         <width>100</width>
+         <height>82</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="accessibleName">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;LAMP&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="layoutDirection">
+        <enum>Qt::RightToLeft</enum>
+       </property>
+       <property name="controlsLocation" stdset="0">
+        <enum>PCDSSymbolBase::Left</enum>
+       </property>
+       <property name="channelsPrefix" stdset="0">
+        <string>ca://MRCO:ROUGH:PTM:01</string>
+       </property>
+       <property name="iconSize" stdset="0">
+        <number>27</number>
+       </property>
+       <property name="controlButtonHorizontal" stdset="0">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_48">
+       <property name="geometry">
+        <rect>
+         <x>485</x>
+         <y>729</y>
+         <width>111</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>9</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="lineWidth">
+        <number>1</number>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;MRCO:ROUGH:&lt;br/&gt;PTM:01 &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="Line" name="line_76">
+       <property name="geometry">
+        <rect>
+         <x>500</x>
+         <y>350</y>
+         <width>41</width>
+         <height>131</height>
+        </rect>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+      </widget>
+      <widget class="Line" name="line_77">
+       <property name="geometry">
+        <rect>
+         <x>670</x>
+         <y>350</y>
+         <width>41</width>
+         <height>146</height>
+        </rect>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+      </widget>
+      <widget class="PyDMByteIndicator" name="PyDMByteIndicator_2">
+       <property name="geometry">
+        <rect>
+         <x>930</x>
+         <y>200</y>
          <width>101</width>
          <height>61</height>
         </rect>
@@ -3360,12 +3085,12 @@ Pumping Chamber</string>
         <string/>
        </property>
        <property name="channel" stdset="0">
-        <string>ca://PLC:LAMP:VAC:IP1_TURBOS_ALL_ATSPD_RBV</string>
+        <string>ca://PLC:MRCO:ON:BEAMLINE_RBV</string>
        </property>
        <property name="onColor" stdset="0">
         <color>
          <red>0</red>
-         <green>85</green>
+         <green>170</green>
          <blue>0</blue>
         </color>
        </property>
@@ -3384,24 +3109,24 @@ Pumping Chamber</string>
        </property>
        <property name="labels" stdset="0">
         <stringlist>
-         <string>All Turbos&lt;br&gt;At Speed</string>
+         <string>PLC on&lt;br&gt;Beamline</string>
         </stringlist>
        </property>
       </widget>
       <widget class="PyDMByteIndicator" name="IP1_HV_Safety_Enable">
        <property name="geometry">
         <rect>
-         <x>1150</x>
-         <y>140</y>
+         <x>935</x>
+         <y>160</y>
          <width>91</width>
-         <height>36</height>
+         <height>41</height>
         </rect>
        </property>
        <property name="toolTip">
         <string/>
        </property>
        <property name="channel" stdset="0">
-        <string>ca://TMO:PLC:LAMP:VAC:HV_SAFETY_ENABLE_RBV</string>
+        <string>ca://PLC:MRCO:VAC:HV_SAFETY_ENABLE_RBV</string>
        </property>
        <property name="onColor" stdset="0">
         <color>
@@ -3429,32 +3154,32 @@ Pumping Chamber</string>
         </stringlist>
        </property>
       </widget>
-      <widget class="PyDMByteIndicator" name="PyDMByteIndicator_2">
+      <widget class="PyDMByteIndicator" name="PyDMByteIndicator_3">
        <property name="geometry">
         <rect>
-         <x>1140</x>
-         <y>180</y>
+         <x>930</x>
+         <y>100</y>
          <width>101</width>
-         <height>71</height>
+         <height>61</height>
         </rect>
        </property>
        <property name="toolTip">
         <string/>
        </property>
        <property name="channel" stdset="0">
-        <string>ca://TMO:IP1:ENDSTATION:ETHERCAT_ERROR_RBV</string>
+        <string>ca://PLC:MRCO:VAC:IP1_TURBOS_ALL_ATSPD_RBV</string>
        </property>
        <property name="onColor" stdset="0">
         <color>
-         <red>255</red>
-         <green>0</green>
+         <red>0</red>
+         <green>85</green>
          <blue>0</blue>
         </color>
        </property>
        <property name="offColor" stdset="0">
         <color>
-         <red>0</red>
-         <green>170</green>
+         <red>255</red>
+         <green>0</green>
          <blue>0</blue>
         </color>
        </property>
@@ -3466,82 +3191,306 @@ Pumping Chamber</string>
        </property>
        <property name="labels" stdset="0">
         <stringlist>
-         <string>PLC on&lt;br&gt;Beamline</string>
+         <string>All Turbos&lt;br&gt;At Speed</string>
         </stringlist>
        </property>
       </widget>
-      <zorder>line_88</zorder>
-      <zorder>line_68</zorder>
-      <zorder>line_65</zorder>
-      <zorder>line_80</zorder>
-      <zorder>line_90</zorder>
-      <zorder>PyDMDrawingRectangle_9</zorder>
-      <zorder>line_54</zorder>
-      <zorder>line_72</zorder>
-      <zorder>line_58</zorder>
-      <zorder>line_49</zorder>
-      <zorder>line_52</zorder>
-      <zorder>line_86</zorder>
+      <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_8">
+       <property name="geometry">
+        <rect>
+         <x>905</x>
+         <y>35</y>
+         <width>151</width>
+         <height>231</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="brush" stdset="0">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>239</red>
+          <green>239</green>
+          <blue>239</blue>
+         </color>
+        </brush>
+       </property>
+       <property name="penStyle" stdset="0">
+        <enum>Qt::SolidLine</enum>
+       </property>
+       <property name="penWidth" stdset="0">
+        <double>0.000000000000000</double>
+       </property>
+      </widget>
+      <widget class="PyDMLabel" name="PA1K0_label_10">
+       <property name="geometry">
+        <rect>
+         <x>900</x>
+         <y>40</y>
+         <width>171</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::NoFrame</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Plain</enum>
+       </property>
+       <property name="lineWidth">
+        <number>1</number>
+       </property>
+       <property name="midLineWidth">
+        <number>0</number>
+       </property>
+       <property name="text">
+        <string>MRCO INTERNAL&lt;br&gt; VACUUM STATUS</string>
+       </property>
+       <property name="textFormat">
+        <enum>Qt::RichText</enum>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="PneumaticValve" name="PneumaticValve_3">
+       <property name="geometry">
+        <rect>
+         <x>940</x>
+         <y>840</y>
+         <width>101</width>
+         <height>111</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="controlsLocation" stdset="0">
+        <enum>PCDSSymbolBase::Right</enum>
+       </property>
+       <property name="channelsPrefix" stdset="0">
+        <string>ca://MRCO:ROUGH:VRC:03</string>
+       </property>
+       <property name="showStatusTooltip" stdset="0">
+        <bool>true</bool>
+       </property>
+       <property name="iconSize" stdset="0">
+        <number>32</number>
+       </property>
+       <property name="rotateIcon" stdset="0">
+        <bool>true</bool>
+       </property>
+       <property name="expertOphydClass" stdset="0">
+        <string>pcdsdevices.valve.VRC</string>
+       </property>
+       <property name="controlButtonHorizontal" stdset="0">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="PneumaticValve" name="PneumaticValve_4">
+       <property name="geometry">
+        <rect>
+         <x>470</x>
+         <y>850</y>
+         <width>101</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="controlsLocation" stdset="0">
+        <enum>PCDSSymbolBase::Right</enum>
+       </property>
+       <property name="channelsPrefix" stdset="0">
+        <string>ca://MRCO:ROUGH:VRC:01</string>
+       </property>
+       <property name="showStatusTooltip" stdset="0">
+        <bool>true</bool>
+       </property>
+       <property name="iconSize" stdset="0">
+        <number>32</number>
+       </property>
+       <property name="rotateIcon" stdset="0">
+        <bool>true</bool>
+       </property>
+       <property name="expertOphydClass" stdset="0">
+        <string>pcdsdevices.valve.VRC</string>
+       </property>
+       <property name="controlButtonHorizontal" stdset="0">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="Line" name="line_56">
+       <property name="geometry">
+        <rect>
+         <x>750</x>
+         <y>980</y>
+         <width>31</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+         <horstretch>10</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+      <widget class="PneumaticValve" name="LAMP_ROUGH_VRC_02">
+       <property name="geometry">
+        <rect>
+         <x>680</x>
+         <y>810</y>
+         <width>81</width>
+         <height>120</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="layoutDirection">
+        <enum>Qt::LeftToRight</enum>
+       </property>
+       <property name="controlsLocation" stdset="0">
+        <enum>PCDSSymbolBase::Bottom</enum>
+       </property>
+       <property name="channelsPrefix" stdset="0">
+        <string>ca://MRCO:ROUGH:VRC:02</string>
+       </property>
+       <property name="expertOphydClass" stdset="0">
+        <string>pcdsdevices.valve.VRCNO</string>
+       </property>
+       <property name="controlButtonHorizontal" stdset="0">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="Line" name="line_57">
+       <property name="geometry">
+        <rect>
+         <x>780</x>
+         <y>930</y>
+         <width>176</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+         <horstretch>10</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+      <widget class="PyDMShellCommand" name="PyDMShellCommand">
+       <property name="geometry">
+        <rect>
+         <x>550</x>
+         <y>400</y>
+         <width>111</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="text">
+        <string>VCN(VAT590)</string>
+       </property>
+       <property name="showIcon" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="commands" stdset="0">
+        <stringlist>
+         <string>/reg/g/pcds/epics-dev/screens/pydm/vacuumscreens/screens/TMO/VAT590/pydm-tmo-mrco-vat590.cmd</string>
+        </stringlist>
+       </property>
+      </widget>
+      <zorder>line_57</zorder>
+      <zorder>line_56</zorder>
       <zorder>PyDMDrawingRectangle_8</zorder>
+      <zorder>line_77</zorder>
+      <zorder>line_76</zorder>
+      <zorder>line_52</zorder>
+      <zorder>line_4</zorder>
+      <zorder>line_3</zorder>
       <zorder>line_74</zorder>
-      <zorder>line_66</zorder>
-      <zorder>LAMP_C1_GHC_01</zorder>
+      <zorder>line</zorder>
+      <zorder>line_65</zorder>
+      <zorder>PyDMDrawingCircle</zorder>
+      <zorder>line_75</zorder>
+      <zorder>line_73</zorder>
+      <zorder>line_71</zorder>
+      <zorder>line_2</zorder>
+      <zorder>line_88</zorder>
+      <zorder>line_80</zorder>
+      <zorder>line_54</zorder>
+      <zorder>line_49</zorder>
+      <zorder>MRCO_MAIN_GHC_01</zorder>
       <zorder>line_81</zorder>
       <zorder>line_51</zorder>
       <zorder>line_50</zorder>
-      <zorder>line_67</zorder>
       <zorder>line_53</zorder>
-      <zorder>line_45</zorder>
       <zorder>PyDMDrawingRectangle_5</zorder>
       <zorder>to_tmo_label</zorder>
       <zorder>PyDMCheckbox</zorder>
       <zorder>label</zorder>
-      <zorder>CVMI_VACUUM_LABEL</zorder>
+      <zorder>MRCO_VACUUM_LABEL</zorder>
       <zorder>ScrollPump</zorder>
       <zorder>label_23</zorder>
       <zorder>PneumaticValve</zorder>
       <zorder>PA1K0_label_6</zorder>
-      <zorder>PyDMDrawingRectangle_6</zorder>
-      <zorder>PA1K0_label_7</zorder>
-      <zorder>PyDMDrawingRectangle_3</zorder>
       <zorder>TMO_ROUGH2_VRC_01</zorder>
       <zorder>TMO_ROUGH2_GPI_01</zorder>
-      <zorder>PA1K0_label_9</zorder>
       <zorder>TMO_ROUGH1_GPI_01</zorder>
       <zorder>PneumaticValve_2</zorder>
       <zorder>ScrollPump_2</zorder>
       <zorder>label_24</zorder>
       <zorder>TMO_ROUGH1_VRC_02</zorder>
       <zorder>TMO_ROUGH1_VRC_01</zorder>
-      <zorder>TMO_ROUGH1_GPI_03</zorder>
       <zorder>line_82</zorder>
       <zorder>line_83</zorder>
-      <zorder>LAMP_ROUGH_VRC_01</zorder>
-      <zorder>LAMP_ROUGH_GPI_02</zorder>
+      <zorder>MRCO_ROUGH_GPI_02</zorder>
       <zorder>TMO_ROUGH1_GPI_02</zorder>
-      <zorder>LAMP_ROUGH_GPI_01</zorder>
       <zorder>PyDMRelatedDisplayButton</zorder>
-      <zorder>PA1K0_label_11</zorder>
-      <zorder>LAMP_ROUGH_PTM_01</zorder>
-      <zorder>LI3K4_IP1_VWC_01</zorder>
-      <zorder>PA1K0_label_12</zorder>
-      <zorder>LAMP_ROUGH_VRC_02</zorder>
+      <zorder>MRCO_MAIN_PTM_02</zorder>
+      <zorder>MRCO_MAIN_PTM_04</zorder>
+      <zorder>MRCO_MAIN_PTM_03</zorder>
       <zorder>line_84</zorder>
+      <zorder>MRCO_MAIN_PTM_01</zorder>
       <zorder>label_25</zorder>
       <zorder>label_26</zorder>
       <zorder>label_27</zorder>
       <zorder>label_28</zorder>
+      <zorder>label_30</zorder>
+      <zorder>label_31</zorder>
       <zorder>label_32</zorder>
       <zorder>label_33</zorder>
       <zorder>label_34</zorder>
+      <zorder>label_35</zorder>
       <zorder>label_36</zorder>
-      <zorder>LAMP_ROUGH_GPI_5</zorder>
+      <zorder>line_69</zorder>
+      <zorder>MRCO_ROUGH_GPI_04</zorder>
       <zorder>label_38</zorder>
       <zorder>PyDMDrawingArc</zorder>
-      <zorder>PyDMDrawingArc_2</zorder>
-      <zorder>line_85</zorder>
       <zorder>line_87</zorder>
-      <zorder>label_39</zorder>
       <zorder>label_40</zorder>
       <zorder>label_41</zorder>
       <zorder>label_42</zorder>
@@ -3551,32 +3500,32 @@ Pumping Chamber</string>
       <zorder>label_46</zorder>
       <zorder>label_47</zorder>
       <zorder>line_55</zorder>
-      <zorder>LAMP_ROUGH_GPI_03</zorder>
+      <zorder>MRCO_ROUGH_GPI_03</zorder>
       <zorder>TMO_ROUGH2_GPI_02</zorder>
-      <zorder>line_46</zorder>
-      <zorder>line_56</zorder>
-      <zorder>line_70</zorder>
-      <zorder>line_89</zorder>
-      <zorder>line_91</zorder>
-      <zorder>line_75</zorder>
-      <zorder>line_71</zorder>
-      <zorder>line_92</zorder>
-      <zorder>line_93</zorder>
-      <zorder>line_94</zorder>
-      <zorder>LAMP_C2_PTM_04</zorder>
-      <zorder>LAMP_C2_PTM_02</zorder>
-      <zorder>LAMP_C2_PTM_03</zorder>
-      <zorder>LAMP_C2_PTM_01</zorder>
-      <zorder>LAMP_C2_GPI_01</zorder>
-      <zorder>line_95</zorder>
-      <zorder>LAMP_GJ2_PTM_01</zorder>
-      <zorder>LAMP_C2_GCC_3</zorder>
-      <zorder>LAMP_ROUGH_VRC_03</zorder>
-      <zorder>PyDMDrawingRectangle_10</zorder>
-      <zorder>PA1K0_label_13</zorder>
-      <zorder>PyDMByteIndicator_3</zorder>
-      <zorder>IP1_HV_Safety_Enable</zorder>
+      <zorder>PA1K0_label_7</zorder>
+      <zorder>label_29</zorder>
+      <zorder>MRCO_ROUGH_GPI_1</zorder>
+      <zorder>line_85</zorder>
+      <zorder>MRCO_MAIN_RGA_01</zorder>
+      <zorder>label_37</zorder>
+      <zorder>PyDMDrawingRectangle_6</zorder>
+      <zorder>PyDMDrawingRectangle_7</zorder>
+      <zorder>PA1K0_label_8</zorder>
+      <zorder>PA1K0_label_9</zorder>
+      <zorder>LI3K4_IP1_VWC_01</zorder>
+      <zorder>label_39</zorder>
+      <zorder>MRCO_ROUGH_PTM_01</zorder>
+      <zorder>label_48</zorder>
+      <zorder>TMO_ROUGH1_GPI_03</zorder>
+      <zorder>MRCO_MAIN_GPI_01</zorder>
       <zorder>PyDMByteIndicator_2</zorder>
+      <zorder>IP1_HV_Safety_Enable</zorder>
+      <zorder>PyDMByteIndicator_3</zorder>
+      <zorder>PA1K0_label_10</zorder>
+      <zorder>PneumaticValve_3</zorder>
+      <zorder>PneumaticValve_4</zorder>
+      <zorder>LAMP_ROUGH_VRC_02</zorder>
+      <zorder>PyDMShellCommand</zorder>
      </widget>
     </widget>
    </item>
@@ -3604,6 +3553,11 @@ Pumping Chamber</string>
    <header>pydm.widgets.drawing</header>
   </customwidget>
   <customwidget>
+   <class>PyDMDrawingCircle</class>
+   <extends>QWidget</extends>
+   <header>pydm.widgets.drawing</header>
+  </customwidget>
+  <customwidget>
    <class>PyDMDrawingRectangle</class>
    <extends>QWidget</extends>
    <header>pydm.widgets.drawing</header>
@@ -3614,29 +3568,9 @@ Pumping Chamber</string>
    <header>pydm.widgets.related_display_button</header>
   </customwidget>
   <customwidget>
-   <class>PCDSSymbolBase</class>
-   <extends>QWidget</extends>
-   <header>pcdswidgets.vacuum.base</header>
-  </customwidget>
-  <customwidget>
-   <class>PneumaticValve</class>
-   <extends>PCDSSymbolBase</extends>
-   <header>pcdswidgets.vacuum.valves</header>
-  </customwidget>
-  <customwidget>
-   <class>TurboPump</class>
-   <extends>PCDSSymbolBase</extends>
-   <header>pcdswidgets.vacuum.pumps</header>
-  </customwidget>
-  <customwidget>
-   <class>ScrollPump</class>
-   <extends>PCDSSymbolBase</extends>
-   <header>pcdswidgets.vacuum.pumps</header>
-  </customwidget>
-  <customwidget>
-   <class>RoughGauge</class>
-   <extends>PCDSSymbolBase</extends>
-   <header>pcdswidgets.vacuum.gauges</header>
+   <class>PyDMShellCommand</class>
+   <extends>QPushButton</extends>
+   <header>pydm.widgets.shell_command</header>
   </customwidget>
   <customwidget>
    <class>HotCathodeGauge</class>
@@ -3644,9 +3578,34 @@ Pumping Chamber</string>
    <header>pcdswidgets.vacuum.gauges</header>
   </customwidget>
   <customwidget>
-   <class>ColdCathodeGauge</class>
+   <class>PneumaticValve</class>
+   <extends>PCDSSymbolBase</extends>
+   <header>pcdswidgets.vacuum.valves</header>
+  </customwidget>
+  <customwidget>
+   <class>RGA</class>
+   <extends>PCDSSymbolBase</extends>
+   <header>pcdswidgets.vacuum.others</header>
+  </customwidget>
+  <customwidget>
+   <class>RoughGauge</class>
    <extends>PCDSSymbolBase</extends>
    <header>pcdswidgets.vacuum.gauges</header>
+  </customwidget>
+  <customwidget>
+   <class>ScrollPump</class>
+   <extends>PCDSSymbolBase</extends>
+   <header>pcdswidgets.vacuum.pumps</header>
+  </customwidget>
+  <customwidget>
+   <class>PCDSSymbolBase</class>
+   <extends>QWidget</extends>
+   <header>pcdswidgets.vacuum.base</header>
+  </customwidget>
+  <customwidget>
+   <class>TurboPump</class>
+   <extends>PCDSSymbolBase</extends>
+   <header>pcdswidgets.vacuum.pumps</header>
   </customwidget>
  </customwidgets>
  <resources/>

@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>850</width>
+    <height>426</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="PyDMByteIndicator" name="PyDMByteIndicator_10">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>50</y>
+     <width>110</width>
+     <height>90</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="alarmSensitiveContent" stdset="0">
+    <bool>false</bool>
+   </property>
+   <property name="alarmSensitiveBorder" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="channel" stdset="0">
+    <string>calc://OPEN_OK_VGC?OPEN_OK=ca://${vgc}:OPN_OK_RBV&amp;OVRD=ca://${vgc}:OVRD_ON_RBV&amp;expr=OPEN_OK or OVRD</string>
+   </property>
+   <property name="orientation" stdset="0">
+    <enum>Qt::Horizontal</enum>
+   </property>
+   <property name="showLabels" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="bigEndian" stdset="0">
+    <bool>false</bool>
+   </property>
+   <property name="circles" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="labelPosition" stdset="0">
+    <enum>QTabWidget::North</enum>
+   </property>
+   <property name="numBits" stdset="0">
+    <number>1</number>
+   </property>
+   <property name="shift" stdset="0">
+    <number>0</number>
+   </property>
+   <property name="labels" stdset="0">
+    <stringlist>
+     <string>OPEN_OK</string>
+    </stringlist>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_144">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>20</y>
+     <width>310</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="lineWidth">
+    <number>1</number>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;${vgc}&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="Line" name="line_98">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>60</y>
+     <width>21</width>
+     <height>310</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Plain</enum>
+   </property>
+   <property name="lineWidth">
+    <number>5</number>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="PyDMByteIndicator" name="PyDMByteIndicator">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>120</y>
+     <width>50</width>
+     <height>0</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="alarmSensitiveContent" stdset="0">
+    <bool>false</bool>
+   </property>
+   <property name="alarmSensitiveBorder" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="channel" stdset="0">
+    <string/>
+   </property>
+   <property name="showLabels" stdset="0">
+    <bool>false</bool>
+   </property>
+   <property name="bigEndian" stdset="0">
+    <bool>false</bool>
+   </property>
+   <property name="circles" stdset="0">
+    <bool>false</bool>
+   </property>
+   <property name="numBits" stdset="0">
+    <number>1</number>
+   </property>
+   <property name="shift" stdset="0">
+    <number>0</number>
+   </property>
+   <property name="labels" stdset="0">
+    <stringlist>
+     <string>Bit 0</string>
+    </stringlist>
+   </property>
+  </widget>
+  <widget class="Line" name="line_99">
+   <property name="geometry">
+    <rect>
+     <x>740</x>
+     <y>60</y>
+     <width>20</width>
+     <height>320</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Plain</enum>
+   </property>
+   <property name="lineWidth">
+    <number>5</number>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>110</y>
+     <width>721</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_2">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>300</y>
+     <width>611</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_5">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>172</y>
+     <width>140</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>true</bool>
+   </property>
+   <property name="title">
+    <string>${vfs}</string>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="PyDMByteIndicator" name="PyDMByteIndicator_13">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="whatsThis">
+       <string>Out of chamber</string>
+      </property>
+      <property name="alarmSensitiveContent" stdset="0">
+       <bool>false</bool>
+      </property>
+      <property name="alarmSensitiveBorder" stdset="0">
+       <bool>true</bool>
+      </property>
+      <property name="channel" stdset="0">
+       <string>ca://${vgc}:VAC_FAULT_OK_RBV</string>
+      </property>
+      <property name="showLabels" stdset="0">
+       <bool>true</bool>
+      </property>
+      <property name="bigEndian" stdset="0">
+       <bool>false</bool>
+      </property>
+      <property name="circles" stdset="0">
+       <bool>true</bool>
+      </property>
+      <property name="numBits" stdset="0">
+       <number>1</number>
+      </property>
+      <property name="shift" stdset="0">
+       <number>0</number>
+      </property>
+      <property name="labels" stdset="0">
+       <stringlist>
+        <string>OUT</string>
+       </stringlist>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_6">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>270</y>
+     <width>140</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>true</bool>
+   </property>
+   <property name="title">
+    <string>Override Mode</string>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_3">
+    <item>
+     <widget class="PyDMByteIndicator" name="PyDMByteIndicator_14">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="alarmSensitiveContent" stdset="0">
+       <bool>false</bool>
+      </property>
+      <property name="alarmSensitiveBorder" stdset="0">
+       <bool>true</bool>
+      </property>
+      <property name="channel" stdset="0">
+       <string>ca://${vgc}:OVRD_ON_RBV</string>
+      </property>
+      <property name="showLabels" stdset="0">
+       <bool>true</bool>
+      </property>
+      <property name="bigEndian" stdset="0">
+       <bool>false</bool>
+      </property>
+      <property name="circles" stdset="0">
+       <bool>true</bool>
+      </property>
+      <property name="numBits" stdset="0">
+       <number>1</number>
+      </property>
+      <property name="shift" stdset="0">
+       <number>0</number>
+      </property>
+      <property name="labels" stdset="0">
+       <stringlist>
+        <string>OVRD</string>
+       </stringlist>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="Line" name="line_3">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>200</y>
+     <width>451</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_5">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>120</y>
+     <width>20</width>
+     <height>191</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_4">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>83</y>
+     <width>140</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>true</bool>
+   </property>
+   <property name="title">
+    <string>${vgc}</string>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <item>
+     <widget class="PyDMLabel" name="PyDMLabel">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="text">
+       <string>ca://${gcp2}:PRESS_RBV</string>
+      </property>
+      <property name="channel" stdset="0">
+       <string>ca://${gcp2}:PRESS_RBV</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_7">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>83</y>
+     <width>140</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>true</bool>
+   </property>
+   <property name="title">
+    <string>${gcc2}</string>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_3">
+    <item>
+     <widget class="PyDMLabel" name="PyDMLabel_2">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="channel" stdset="0">
+       <string>ca://${gcp2}:PRESS_RBV</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_8">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>81</y>
+     <width>140</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>true</bool>
+   </property>
+   <property name="title">
+    <string>${gcc1}</string>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_4">
+    <item>
+     <widget class="PyDMLabel" name="PyDMLabel_3">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="channel" stdset="0">
+       <string>ca://${gcp2}:PRESS_RBV</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="label_145">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>104</y>
+     <width>61</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="lineWidth">
+    <number>1</number>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;AND&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_146">
+   <property name="geometry">
+    <rect>
+     <x>431</x>
+     <y>106</y>
+     <width>61</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="lineWidth">
+    <number>1</number>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&amp;lt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_9">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>170</y>
+     <width>140</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>true</bool>
+   </property>
+   <property name="title">
+    <string>${vfs}</string>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_4">
+    <item>
+     <widget class="PyDMByteIndicator" name="PyDMByteIndicator_15">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="whatsThis">
+       <string>Out of chamber</string>
+      </property>
+      <property name="alarmSensitiveContent" stdset="0">
+       <bool>false</bool>
+      </property>
+      <property name="alarmSensitiveBorder" stdset="0">
+       <bool>true</bool>
+      </property>
+      <property name="channel" stdset="0">
+       <string>ca://${vgc}:VAC_FAULT_OK_RBV</string>
+      </property>
+      <property name="showLabels" stdset="0">
+       <bool>true</bool>
+      </property>
+      <property name="bigEndian" stdset="0">
+       <bool>false</bool>
+      </property>
+      <property name="circles" stdset="0">
+       <bool>true</bool>
+      </property>
+      <property name="numBits" stdset="0">
+       <number>1</number>
+      </property>
+      <property name="shift" stdset="0">
+       <number>0</number>
+      </property>
+      <property name="labels" stdset="0">
+       <stringlist>
+        <string>OUT</string>
+       </stringlist>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <zorder>line_3</zorder>
+  <zorder>line_2</zorder>
+  <zorder>line</zorder>
+  <zorder>PyDMByteIndicator_10</zorder>
+  <zorder>label_144</zorder>
+  <zorder>PyDMByteIndicator</zorder>
+  <zorder>line_99</zorder>
+  <zorder>groupBox_5</zorder>
+  <zorder>groupBox_6</zorder>
+  <zorder>line_98</zorder>
+  <zorder>line_5</zorder>
+  <zorder>groupBox_4</zorder>
+  <zorder>groupBox_7</zorder>
+  <zorder>groupBox_8</zorder>
+  <zorder>label_145</zorder>
+  <zorder>label_146</zorder>
+  <zorder>groupBox_9</zorder>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>PyDMLabel</class>
+   <extends>QLabel</extends>
+   <header>pydm.widgets.label</header>
+  </customwidget>
+  <customwidget>
+   <class>PyDMByteIndicator</class>
+   <extends>QWidget</extends>
+   <header>pydm.widgets.byte</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
