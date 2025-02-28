@@ -1,6 +1,6 @@
-# vacuumscreens
+# lcls-pydm-vacuum
 LCLS pydm vacuum screens 
 
-Development directory: `/reg/g/pcds/epics-dev/screens/pydm/vacuumscreens`
+Development directory: `/cds/group/pcds/epics-dev/screens/pydm/vacuums`
 
-`/reg/g/pcds/epics-dev/screens/pydm/vacuumscreens/templates` contains templates for things like gauge clusters. 
+`/cds/group/pcds/epics-dev/screens/pydm/vacuum/templates` contains templates for things like gauge clusters. 
