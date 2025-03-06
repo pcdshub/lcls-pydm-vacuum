@@ -4454,7 +4454,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
         <number>2</number>
        </property>
        <property name="text">
-        <string>0.027 lpm</string>
+        <string>0.007 lpm</string>
        </property>
        <property name="precision" stdset="0">
         <number>3</number>
@@ -5766,6 +5766,62 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
         <bool>true</bool>
        </property>
       </widget>
+      <widget class="QLabel" name="label_245">
+       <property name="geometry">
+        <rect>
+         <x>1200</x>
+         <y>1045</y>
+         <width>191</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="lineWidth">
+        <number>0</number>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;NOTE:&lt;/span&gt;&lt;br/&gt;Leaking starts at 45%.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_246">
+       <property name="geometry">
+        <rect>
+         <x>800</x>
+         <y>370</y>
+         <width>191</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="lineWidth">
+        <number>0</number>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;NOTE:&lt;/span&gt;&lt;br/&gt;Leaking starts at 53%.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
       <zorder>line_148</zorder>
       <zorder>line_133</zorder>
       <zorder>line_147</zorder>
@@ -5992,6 +6048,8 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       <zorder>PyDMLabel_43</zorder>
       <zorder>PyDMLabel_44</zorder>
       <zorder>PyDMLabel_45</zorder>
+      <zorder>label_245</zorder>
+      <zorder>label_246</zorder>
      </widget>
     </widget>
    </item>
