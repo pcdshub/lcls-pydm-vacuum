@@ -4454,7 +4454,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
         <number>2</number>
        </property>
        <property name="text">
-        <string>0.007 lpm</string>
+        <string>0.000 lpm</string>
        </property>
        <property name="precision" stdset="0">
         <number>3</number>
@@ -4542,10 +4542,10 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_12">
        <property name="geometry">
         <rect>
-         <x>1105</x>
-         <y>15</y>
-         <width>311</width>
-         <height>51</height>
+         <x>165</x>
+         <y>5</y>
+         <width>226</width>
+         <height>36</height>
         </rect>
        </property>
        <property name="toolTip">
@@ -4570,10 +4570,10 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       <widget class="PyDMCheckbox" name="PyDMCheckbox">
        <property name="geometry">
         <rect>
-         <x>1120</x>
-         <y>25</y>
+         <x>180</x>
+         <y>10</y>
          <width>21</width>
-         <height>31</height>
+         <height>26</height>
         </rect>
        </property>
        <property name="toolTip">
@@ -4586,10 +4586,10 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       <widget class="QLabel" name="label_144">
        <property name="geometry">
         <rect>
-         <x>1135</x>
-         <y>20</y>
-         <width>226</width>
-         <height>41</height>
+         <x>195</x>
+         <y>10</y>
+         <width>176</width>
+         <height>26</height>
         </rect>
        </property>
        <property name="font">
@@ -4602,7 +4602,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
         <number>0</number>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;GLOBAL OVERRIDE BIT&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:8pt; font-weight:600;&quot;&gt;GLOBAL OVERRIDE BIT&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignCenter</set>
@@ -4673,10 +4673,10 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       <widget class="PyDMByteIndicator" name="PyDMByteIndicator_4">
        <property name="geometry">
         <rect>
-         <x>1370</x>
-         <y>25</y>
-         <width>31</width>
-         <height>31</height>
+         <x>360</x>
+         <y>10</y>
+         <width>26</width>
+         <height>26</height>
         </rect>
        </property>
        <property name="toolTip">
@@ -5822,6 +5822,118 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
         <bool>true</bool>
        </property>
       </widget>
+      <widget class="QLabel" name="label_247">
+       <property name="geometry">
+        <rect>
+         <x>815</x>
+         <y>260</y>
+         <width>191</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="lineWidth">
+        <number>0</number>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;NOTE:&lt;/span&gt;&lt;br/&gt;Leaking starts at XX%.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_13">
+       <property name="geometry">
+        <rect>
+         <x>980</x>
+         <y>0</y>
+         <width>436</width>
+         <height>126</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="brush" stdset="0">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>239</red>
+          <green>239</green>
+          <blue>239</blue>
+         </color>
+        </brush>
+       </property>
+       <property name="penStyle" stdset="0">
+        <enum>Qt::SolidLine</enum>
+       </property>
+       <property name="penWidth" stdset="0">
+        <double>2.000000000000000</double>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_151">
+       <property name="geometry">
+        <rect>
+         <x>985</x>
+         <y>5</y>
+         <width>251</width>
+         <height>26</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="lineWidth">
+        <number>0</number>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;DREAM AUTOMATION CONTROL&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_166">
+       <property name="geometry">
+        <rect>
+         <x>1005</x>
+         <y>40</y>
+         <width>276</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="lineWidth">
+        <number>0</number>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Start/Abort button&lt;br/&gt;Main state machine state readback&lt;br/&gt;Main state machine select procedure&lt;br/&gt;Error indicator&lt;br/&gt;Last Message Indicator&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
       <zorder>line_148</zorder>
       <zorder>line_133</zorder>
       <zorder>line_147</zorder>
@@ -6050,6 +6162,10 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       <zorder>PyDMLabel_45</zorder>
       <zorder>label_245</zorder>
       <zorder>label_246</zorder>
+      <zorder>label_247</zorder>
+      <zorder>PyDMDrawingRectangle_13</zorder>
+      <zorder>label_151</zorder>
+      <zorder>label_166</zorder>
      </widget>
     </widget>
    </item>
