@@ -3822,7 +3822,7 @@ PPM</string>
        </property>
        <property name="commands" stdset="0">
         <stringlist>
-         <string>pydm /cds/group/pcds/epics-dev/screens/pydm/vacuumscreens/screens/TMO/cvmiVac_bootstrap.ui</string>
+         <string>pydm /cds/group/pcds/epics-dev/screens/pydm/vacuumscreens/screens/TMO/lamp_mbes_Vac_V3.ui</string>
         </stringlist>
        </property>
       </widget>
@@ -4224,7 +4224,7 @@ PPM</string>
         <string/>
        </property>
        <property name="text">
-        <string>CVMI</string>
+        <string>LAMP</string>
        </property>
        <property name="channel" stdset="0">
         <string>ca://TMO:IP1:PLC:NAME_RBV</string>
