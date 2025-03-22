@@ -2157,7 +2157,7 @@ Pumping Chamber</string>
       <widget class="QLabel" name="label_33">
        <property name="geometry">
         <rect>
-         <x>290</x>
+         <x>330</x>
          <y>1030</y>
          <width>100</width>
          <height>30</height>
@@ -3000,7 +3000,7 @@ Pumping Chamber</string>
        <property name="geometry">
         <rect>
          <x>450</x>
-         <y>250</y>
+         <y>260</y>
          <width>110</width>
          <height>90</height>
         </rect>
@@ -3342,8 +3342,8 @@ Pumping Chamber</string>
       <widget class="QLabel" name="label_48">
        <property name="geometry">
         <rect>
-         <x>570</x>
-         <y>270</y>
+         <x>460</x>
+         <y>250</y>
          <width>100</width>
          <height>30</height>
         </rect>
@@ -3400,8 +3400,8 @@ Pumping Chamber</string>
       <widget class="QLabel" name="label_50">
        <property name="geometry">
         <rect>
-         <x>330</x>
-         <y>290</y>
+         <x>320</x>
+         <y>300</y>
          <width>100</width>
          <height>30</height>
         </rect>
@@ -3944,6 +3944,61 @@ Pumping Chamber</string>
         <bool>true</bool>
        </property>
       </widget>
+      <widget class="QLabel" name="label_7">
+       <property name="geometry">
+        <rect>
+         <x>670</x>
+         <y>460</y>
+         <width>120</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;LAMP:C2:&lt;br/&gt;GPI:01&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_29">
+       <property name="geometry">
+        <rect>
+         <x>260</x>
+         <y>1080</y>
+         <width>100</width>
+         <height>30</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>9</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="lineWidth">
+        <number>1</number>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;TMO:ROUGH:&lt;br/&gt;VRC:01&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_8">
+       <property name="geometry">
+        <rect>
+         <x>750</x>
+         <y>390</y>
+         <width>120</width>
+         <height>30</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>LAMP:C2:GCC:01</string>
+       </property>
+      </widget>
       <zorder>line_97</zorder>
       <zorder>line_51</zorder>
       <zorder>line_46</zorder>
@@ -4073,6 +4128,9 @@ Pumping Chamber</string>
       <zorder>LAMP_C2_PTM_6</zorder>
       <zorder>label_6</zorder>
       <zorder>label_45</zorder>
+      <zorder>label_7</zorder>
+      <zorder>label_29</zorder>
+      <zorder>label_8</zorder>
      </widget>
     </widget>
    </item>
