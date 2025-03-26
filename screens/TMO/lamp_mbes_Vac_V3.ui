@@ -1344,48 +1344,6 @@ MAIN CHAMBER</string>
         <bool>false</bool>
        </property>
       </widget>
-      <widget class="PneumaticValve" name="LAMP_ROUGH_VRC_03">
-       <property name="geometry">
-        <rect>
-         <x>940</x>
-         <y>990</y>
-         <width>100</width>
-         <height>82</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <kerning>true</kerning>
-        </font>
-       </property>
-       <property name="cursor">
-        <cursorShape>BlankCursor</cursorShape>
-       </property>
-       <property name="toolTip">
-        <string/>
-       </property>
-       <property name="layoutDirection">
-        <enum>Qt::LeftToRight</enum>
-       </property>
-       <property name="controlsLocation" stdset="0">
-        <enum>PCDSSymbolBase::Right</enum>
-       </property>
-       <property name="channelsPrefix" stdset="0">
-        <string>ca://LAMP:ROUGH:VRC:03</string>
-       </property>
-       <property name="iconSize" stdset="0">
-        <number>25</number>
-       </property>
-       <property name="rotateIcon" stdset="0">
-        <bool>true</bool>
-       </property>
-       <property name="expertOphydClass" stdset="0">
-        <string>pcdsdevices.valve.VRC</string>
-       </property>
-       <property name="controlButtonHorizontal" stdset="0">
-        <bool>false</bool>
-       </property>
-      </widget>
       <widget class="QLabel" name="label_24">
        <property name="geometry">
         <rect>
@@ -2041,8 +1999,8 @@ Pumping Chamber</string>
       <widget class="QLabel" name="label_26">
        <property name="geometry">
         <rect>
-         <x>955</x>
-         <y>960</y>
+         <x>950</x>
+         <y>950</y>
          <width>100</width>
          <height>30</height>
         </rect>
@@ -2128,8 +2086,8 @@ Pumping Chamber</string>
       <widget class="QLabel" name="label_32">
        <property name="geometry">
         <rect>
-         <x>830</x>
-         <y>1020</y>
+         <x>780</x>
+         <y>1090</y>
          <width>100</width>
          <height>30</height>
         </rect>
@@ -3999,6 +3957,40 @@ Pumping Chamber</string>
         <string>LAMP:C2:GCC:01</string>
        </property>
       </widget>
+      <widget class="PneumaticValve" name="LAMP_ROUGH_VRC_2">
+       <property name="geometry">
+        <rect>
+         <x>940</x>
+         <y>970</y>
+         <width>100</width>
+         <height>82</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="layoutDirection">
+        <enum>Qt::LeftToRight</enum>
+       </property>
+       <property name="controlsLocation" stdset="0">
+        <enum>PCDSSymbolBase::Right</enum>
+       </property>
+       <property name="channelsPrefix" stdset="0">
+        <string>ca://LAMP:ROUGH:VRC:03</string>
+       </property>
+       <property name="iconSize" stdset="0">
+        <number>25</number>
+       </property>
+       <property name="rotateIcon" stdset="0">
+        <bool>true</bool>
+       </property>
+       <property name="expertOphydClass" stdset="0">
+        <string>pcdsdevices.valve.VRC_2S</string>
+       </property>
+       <property name="controlButtonHorizontal" stdset="0">
+        <bool>false</bool>
+       </property>
+      </widget>
       <zorder>line_97</zorder>
       <zorder>line_51</zorder>
       <zorder>line_46</zorder>
@@ -4122,7 +4114,6 @@ Pumping Chamber</string>
       <zorder>PyDMDrawingRectangle_11</zorder>
       <zorder>PA1K0_label_8</zorder>
       <zorder>TMO_ROUGH2_VRC_01</zorder>
-      <zorder>LAMP_ROUGH_VRC_03</zorder>
       <zorder>line_92</zorder>
       <zorder>LAMP_ROUGH_GPI_2</zorder>
       <zorder>LAMP_C2_PTM_6</zorder>
@@ -4131,6 +4122,7 @@ Pumping Chamber</string>
       <zorder>label_7</zorder>
       <zorder>label_29</zorder>
       <zorder>label_8</zorder>
+      <zorder>LAMP_ROUGH_VRC_2</zorder>
      </widget>
     </widget>
    </item>

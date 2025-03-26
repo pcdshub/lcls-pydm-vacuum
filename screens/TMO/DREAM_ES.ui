@@ -786,7 +786,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       </property>
       <property name="geometry">
        <rect>
-        <x>0</x>
+        <x>-32</x>
         <y>0</y>
         <width>1450</width>
         <height>1200</height>
@@ -4463,7 +4463,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
         <number>2</number>
        </property>
        <property name="text">
-        <string>0.070 lpm</string>
+        <string>0.038 lpm</string>
        </property>
        <property name="precision" stdset="0">
         <number>3</number>
@@ -5892,7 +5892,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
         <rect>
          <x>880</x>
          <y>5</y>
-         <width>236</width>
+         <width>571</width>
          <height>26</height>
         </rect>
        </property>
