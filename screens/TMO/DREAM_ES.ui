@@ -352,6 +352,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
      </property>
      <property name="font">
       <font>
+       <pointsize>8</pointsize>
        <underline>false</underline>
       </font>
      </property>
@@ -801,7 +802,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       <widget class="PyDMLabel" name="TitleLabel">
        <property name="geometry">
         <rect>
-         <x>390</x>
+         <x>395</x>
          <y>10</y>
          <width>496</width>
          <height>41</height>
@@ -809,7 +810,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
        </property>
        <property name="font">
         <font>
-         <pointsize>18</pointsize>
+         <pointsize>14</pointsize>
          <weight>75</weight>
          <italic>false</italic>
          <bold>true</bold>
@@ -1160,7 +1161,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
         <bool>true</bool>
        </property>
        <property name="expertOphydClass" stdset="0">
-        <string>pcdsdevices.valve.VRC</string>
+        <string>pcdsdevices.valve.VGC</string>
        </property>
        <property name="controlButtonHorizontal" stdset="0">
         <bool>false</bool>
@@ -1312,7 +1313,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
         <bool>true</bool>
        </property>
        <property name="expertOphydClass" stdset="0">
-        <string>pcdsdevices.valve.VRC</string>
+        <string>pcdsdevices.valve.VGC</string>
        </property>
        <property name="controlButtonHorizontal" stdset="0">
         <bool>false</bool>
@@ -1961,62 +1962,6 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
        </property>
        <property name="channelsPrefix" stdset="0">
         <string>ca://DREAM:MC:GPI:01</string>
-       </property>
-      </widget>
-      <widget class="QLabel" name="label_129">
-       <property name="geometry">
-        <rect>
-         <x>260</x>
-         <y>100</y>
-         <width>101</width>
-         <height>51</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <weight>50</weight>
-         <bold>false</bold>
-        </font>
-       </property>
-       <property name="lineWidth">
-        <number>0</number>
-       </property>
-       <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;DREAM:NC:&lt;br/&gt;GPI:01&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
-       </property>
-       <property name="wordWrap">
-        <bool>true</bool>
-       </property>
-      </widget>
-      <widget class="QLabel" name="label_161">
-       <property name="geometry">
-        <rect>
-         <x>160</x>
-         <y>70</y>
-         <width>101</width>
-         <height>51</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <weight>50</weight>
-         <bold>false</bold>
-        </font>
-       </property>
-       <property name="lineWidth">
-        <number>0</number>
-       </property>
-       <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;DREAM:NC:&lt;br/&gt;GCC:01&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
-       </property>
-       <property name="wordWrap">
-        <bool>true</bool>
        </property>
       </widget>
       <widget class="Line" name="line_142">
@@ -4151,7 +4096,6 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
        </property>
        <property name="font">
         <font>
-         <pointsize>10</pointsize>
          <weight>75</weight>
          <bold>true</bold>
          <kerning>true</kerning>
@@ -4413,7 +4357,6 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
        </property>
        <property name="font">
         <font>
-         <pointsize>10</pointsize>
          <weight>75</weight>
          <bold>true</bold>
          <kerning>true</kerning>
@@ -4463,7 +4406,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
         <number>2</number>
        </property>
        <property name="text">
-        <string>0.038 lpm</string>
+        <string>0.026 lpm</string>
        </property>
        <property name="precision" stdset="0">
         <number>3</number>
@@ -4553,7 +4496,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
         <rect>
          <x>165</x>
          <y>5</y>
-         <width>226</width>
+         <width>241</width>
          <height>36</height>
         </rect>
        </property>
@@ -4579,7 +4522,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       <widget class="PyDMCheckbox" name="PyDMCheckbox">
        <property name="geometry">
         <rect>
-         <x>180</x>
+         <x>170</x>
          <y>10</y>
          <width>21</width>
          <height>26</height>
@@ -4595,26 +4538,17 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       <widget class="QLabel" name="label_144">
        <property name="geometry">
         <rect>
-         <x>195</x>
+         <x>190</x>
          <y>10</y>
-         <width>176</width>
+         <width>211</width>
          <height>26</height>
         </rect>
-       </property>
-       <property name="font">
-        <font>
-         <weight>50</weight>
-         <bold>false</bold>
-        </font>
        </property>
        <property name="lineWidth">
         <number>0</number>
        </property>
        <property name="text">
         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:8pt; font-weight:600;&quot;&gt;GLOBAL OVERRIDE BIT&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
        </property>
        <property name="wordWrap">
         <bool>true</bool>
@@ -4682,7 +4616,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       <widget class="PyDMByteIndicator" name="PyDMByteIndicator_4">
        <property name="geometry">
         <rect>
-         <x>360</x>
+         <x>375</x>
          <y>10</y>
          <width>26</width>
          <height>26</height>
@@ -5890,9 +5824,9 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       <widget class="QLabel" name="label_151">
        <property name="geometry">
         <rect>
-         <x>880</x>
+         <x>895</x>
          <y>5</y>
-         <width>571</width>
+         <width>516</width>
          <height>26</height>
         </rect>
        </property>
@@ -5907,9 +5841,6 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
        </property>
        <property name="text">
         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;DREAM AUTOMATION CONTROL&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
        </property>
        <property name="wordWrap">
         <bool>true</bool>
@@ -6011,7 +5942,7 @@ Controller</string>
       </widget>
       <widget class="PyDMLabel" name="ValveControlMode_RBV">
        <property name="enabled">
-        <bool>false</bool>
+        <bool>true</bool>
        </property>
        <property name="geometry">
         <rect>
@@ -6042,7 +5973,7 @@ Controller</string>
         <number>1</number>
        </property>
        <property name="text">
-        <string>ca://PLC:DREAM:OPERATION_RBV</string>
+        <string>STANDBY</string>
        </property>
        <property name="precision" stdset="0">
         <number>2</number>
@@ -6132,7 +6063,7 @@ Controller</string>
         <string>CANCEL OP</string>
        </property>
        <property name="channel" stdset="0">
-        <string>ca://PLC:DREAM:OPERATION:CANCEL OPERATION</string>
+        <string>ca://PLC:DREAM:OPERATION:CANCEL</string>
        </property>
        <property name="pressValue" stdset="0">
         <string>1</string>
@@ -6158,7 +6089,7 @@ Controller</string>
       </widget>
       <widget class="PyDMLabel" name="ValveControlMode_RBV_2">
        <property name="enabled">
-        <bool>false</bool>
+        <bool>true</bool>
        </property>
        <property name="geometry">
         <rect>
@@ -6189,7 +6120,7 @@ Controller</string>
         <number>1</number>
        </property>
        <property name="text">
-        <string>ca://PLC:DREAM:OPERATION:MESSAGE_RBV</string>
+        <string>Invalid state transition</string>
        </property>
        <property name="precision" stdset="0">
         <number>2</number>
@@ -6213,7 +6144,10 @@ Controller</string>
         <string>ca://PLC:DREAM:OPERATION:MESSAGE_RBV</string>
        </property>
        <property name="enableRichText" stdset="0">
-        <bool>false</bool>
+        <bool>true</bool>
+       </property>
+       <property name="displayFormat" stdset="0">
+        <enum>PyDMLabel::String</enum>
        </property>
       </widget>
       <widget class="PyDMByteIndicator" name="PyDMByteIndicator_5">
@@ -6306,7 +6240,7 @@ Controller</string>
       </widget>
       <widget class="PyDMLabel" name="ValveControlMode_RBV_5">
        <property name="enabled">
-        <bool>false</bool>
+        <bool>true</bool>
        </property>
        <property name="geometry">
         <rect>
@@ -6337,7 +6271,7 @@ Controller</string>
         <number>1</number>
        </property>
        <property name="text">
-        <string>ca://PLC:DREAM:OPERATION:BUSY_RBV</string>
+        <string>NOT_BUSY</string>
        </property>
        <property name="precision" stdset="0">
         <number>2</number>
@@ -6364,6 +6298,317 @@ Controller</string>
         <bool>false</bool>
        </property>
       </widget>
+      <widget class="QLabel" name="label_166">
+       <property name="geometry">
+        <rect>
+         <x>155</x>
+         <y>70</y>
+         <width>101</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="lineWidth">
+        <number>0</number>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;DREAM:NC:&lt;br/&gt;GCC:01&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_167">
+       <property name="geometry">
+        <rect>
+         <x>265</x>
+         <y>110</y>
+         <width>101</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="lineWidth">
+        <number>0</number>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;DREAM:NC:&lt;br/&gt;GPI:01&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="PyDMLabel" name="PyDMLabel_49">
+       <property name="geometry">
+        <rect>
+         <x>1205</x>
+         <y>785</y>
+         <width>61</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="text">
+        <string>TC 3:</string>
+       </property>
+      </widget>
+      <widget class="PyDMLabel" name="PyDMLabel_46">
+       <property name="geometry">
+        <rect>
+         <x>1205</x>
+         <y>810</y>
+         <width>61</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="text">
+        <string>TC 4:</string>
+       </property>
+      </widget>
+      <widget class="PyDMLabel" name="PyDMLabel_47">
+       <property name="geometry">
+        <rect>
+         <x>1205</x>
+         <y>735</y>
+         <width>61</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="text">
+        <string>TC 2:</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_156">
+       <property name="geometry">
+        <rect>
+         <x>1205</x>
+         <y>685</y>
+         <width>236</width>
+         <height>26</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="lineWidth">
+        <number>0</number>
+       </property>
+       <property name="text">
+        <string>MC THERMOCOUPLES - SOUTH</string>
+       </property>
+       <property name="wordWrap">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="PyDMLabel" name="PyDMLabel_48">
+       <property name="geometry">
+        <rect>
+         <x>1265</x>
+         <y>735</y>
+         <width>71</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Sunken</enum>
+       </property>
+       <property name="lineWidth">
+        <number>2</number>
+       </property>
+       <property name="showUnits" stdset="0">
+        <bool>true</bool>
+       </property>
+       <property name="channel" stdset="0">
+        <string>ca://DREAM:STC:02:TEMP_RBV</string>
+       </property>
+      </widget>
+      <widget class="PyDMLabel" name="PyDMLabel_50">
+       <property name="geometry">
+        <rect>
+         <x>1265</x>
+         <y>710</y>
+         <width>71</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Sunken</enum>
+       </property>
+       <property name="lineWidth">
+        <number>2</number>
+       </property>
+       <property name="showUnits" stdset="0">
+        <bool>true</bool>
+       </property>
+       <property name="channel" stdset="0">
+        <string>ca://DREAM:STC:01:TEMP_RBV</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_157">
+       <property name="geometry">
+        <rect>
+         <x>1205</x>
+         <y>760</y>
+         <width>236</width>
+         <height>26</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="lineWidth">
+        <number>0</number>
+       </property>
+       <property name="text">
+        <string>MC THERMOCOUPLES - NORTH</string>
+       </property>
+       <property name="wordWrap">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="PyDMLabel" name="PyDMLabel_51">
+       <property name="geometry">
+        <rect>
+         <x>1265</x>
+         <y>785</y>
+         <width>71</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Sunken</enum>
+       </property>
+       <property name="lineWidth">
+        <number>2</number>
+       </property>
+       <property name="showUnits" stdset="0">
+        <bool>true</bool>
+       </property>
+       <property name="channel" stdset="0">
+        <string>ca://DREAM:STC:03:TEMP_RBV</string>
+       </property>
+      </widget>
+      <widget class="PyDMLabel" name="PyDMLabel_52">
+       <property name="geometry">
+        <rect>
+         <x>1205</x>
+         <y>710</y>
+         <width>61</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="text">
+        <string>TC 1:</string>
+       </property>
+      </widget>
+      <widget class="PyDMLabel" name="PyDMLabel_53">
+       <property name="geometry">
+        <rect>
+         <x>1265</x>
+         <y>810</y>
+         <width>71</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Sunken</enum>
+       </property>
+       <property name="lineWidth">
+        <number>2</number>
+       </property>
+       <property name="showUnits" stdset="0">
+        <bool>true</bool>
+       </property>
+       <property name="channel" stdset="0">
+        <string>ca://DREAM:STC:04:TEMP_RBV</string>
+       </property>
+      </widget>
+      <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_14">
+       <property name="geometry">
+        <rect>
+         <x>1200</x>
+         <y>680</y>
+         <width>246</width>
+         <height>161</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="brush" stdset="0">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>239</red>
+          <green>239</green>
+          <blue>239</blue>
+         </color>
+        </brush>
+       </property>
+       <property name="penStyle" stdset="0">
+        <enum>Qt::SolidLine</enum>
+       </property>
+       <property name="penWidth" stdset="0">
+        <double>2.000000000000000</double>
+       </property>
+      </widget>
+      <zorder>PyDMDrawingRectangle_14</zorder>
       <zorder>line_148</zorder>
       <zorder>line_133</zorder>
       <zorder>line_147</zorder>
@@ -6431,8 +6676,6 @@ Controller</string>
       <zorder>line_156</zorder>
       <zorder>TurboPump_31</zorder>
       <zorder>RoughGauge_26</zorder>
-      <zorder>label_129</zorder>
-      <zorder>label_161</zorder>
       <zorder>PneumaticValve_18</zorder>
       <zorder>line_142</zorder>
       <zorder>HotCathodeGauge_19</zorder>
@@ -6594,7 +6837,6 @@ Controller</string>
       <zorder>label_246</zorder>
       <zorder>label_247</zorder>
       <zorder>PyDMDrawingRectangle_13</zorder>
-      <zorder>label_151</zorder>
       <zorder>PyDMShellCommand_3</zorder>
       <zorder>ValveControlText</zorder>
       <zorder>ValveControlMode_RBV</zorder>
@@ -6607,6 +6849,19 @@ Controller</string>
       <zorder>ValveControlText_3</zorder>
       <zorder>ValveControlText_7</zorder>
       <zorder>ValveControlMode_RBV_5</zorder>
+      <zorder>label_151</zorder>
+      <zorder>label_166</zorder>
+      <zorder>label_167</zorder>
+      <zorder>PyDMLabel_49</zorder>
+      <zorder>PyDMLabel_46</zorder>
+      <zorder>PyDMLabel_47</zorder>
+      <zorder>label_156</zorder>
+      <zorder>PyDMLabel_48</zorder>
+      <zorder>PyDMLabel_50</zorder>
+      <zorder>label_157</zorder>
+      <zorder>PyDMLabel_51</zorder>
+      <zorder>PyDMLabel_52</zorder>
+      <zorder>PyDMLabel_53</zorder>
      </widget>
     </widget>
    </item>
