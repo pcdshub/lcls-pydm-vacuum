@@ -787,7 +787,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       </property>
       <property name="geometry">
        <rect>
-        <x>-32</x>
+        <x>0</x>
         <y>0</y>
         <width>1450</width>
         <height>1200</height>
@@ -986,7 +986,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
        <property name="geometry">
         <rect>
          <x>845</x>
-         <y>780</y>
+         <y>790</y>
          <width>101</width>
          <height>111</height>
         </rect>
@@ -1230,7 +1230,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
          <x>950</x>
          <y>480</y>
          <width>41</width>
-         <height>321</height>
+         <height>331</height>
         </rect>
        </property>
        <property name="orientation">
@@ -1440,7 +1440,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
        <property name="geometry">
         <rect>
          <x>380</x>
-         <y>800</y>
+         <y>790</y>
          <width>111</width>
          <height>16</height>
         </rect>
@@ -1543,20 +1543,20 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
        <property name="geometry">
         <rect>
          <x>370</x>
-         <y>750</y>
+         <y>735</y>
          <width>131</width>
-         <height>111</height>
+         <height>126</height>
         </rect>
        </property>
        <property name="toolTip">
         <string/>
        </property>
        <property name="brush" stdset="0">
-        <brush brushstyle="NoBrush">
+        <brush brushstyle="SolidPattern">
          <color alpha="255">
-          <red>0</red>
-          <green>0</green>
-          <blue>0</blue>
+          <red>255</red>
+          <green>255</green>
+          <blue>255</blue>
          </color>
         </brush>
        </property>
@@ -1872,7 +1872,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
        <property name="geometry">
         <rect>
          <x>810</x>
-         <y>790</y>
+         <y>800</y>
          <width>161</width>
          <height>20</height>
         </rect>
@@ -1952,7 +1952,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
        <property name="geometry">
         <rect>
          <x>250</x>
-         <y>780</y>
+         <y>785</y>
          <width>70</width>
          <height>60</height>
         </rect>
@@ -3322,7 +3322,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       <widget class="QLabel" name="label_230">
        <property name="geometry">
         <rect>
-         <x>590</x>
+         <x>585</x>
          <y>710</y>
          <width>101</width>
          <height>51</height>
@@ -3379,7 +3379,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
        <property name="geometry">
         <rect>
          <x>820</x>
-         <y>730</y>
+         <y>745</y>
          <width>151</width>
          <height>51</height>
         </rect>
@@ -3389,6 +3389,9 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
          <weight>50</weight>
          <bold>false</bold>
         </font>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Plain</enum>
        </property>
        <property name="lineWidth">
         <number>0</number>
@@ -3911,7 +3914,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
        <property name="geometry">
         <rect>
          <x>240</x>
-         <y>730</y>
+         <y>745</y>
          <width>101</width>
          <height>51</height>
         </rect>
@@ -4406,7 +4409,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
         <number>2</number>
        </property>
        <property name="text">
-        <string>0.026 lpm</string>
+        <string>0.007 lpm</string>
        </property>
        <property name="precision" stdset="0">
         <number>3</number>
@@ -4450,9 +4453,9 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
        <property name="geometry">
         <rect>
          <x>810</x>
-         <y>815</y>
+         <y>825</y>
          <width>20</width>
-         <height>186</height>
+         <height>176</height>
         </rect>
        </property>
        <property name="orientation">
@@ -4463,7 +4466,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
        <property name="geometry">
         <rect>
          <x>800</x>
-         <y>780</y>
+         <y>790</y>
          <width>41</width>
          <height>36</height>
         </rect>
@@ -4484,7 +4487,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
          <x>810</x>
          <y>680</y>
          <width>20</width>
-         <height>101</height>
+         <height>111</height>
         </rect>
        </property>
        <property name="orientation">
@@ -5088,7 +5091,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
        <property name="geometry">
         <rect>
          <x>830</x>
-         <y>895</y>
+         <y>905</y>
          <width>61</width>
          <height>21</height>
         </rect>
@@ -5104,7 +5107,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
        <property name="geometry">
         <rect>
          <x>890</x>
-         <y>895</y>
+         <y>905</y>
          <width>71</width>
          <height>21</height>
         </rect>
@@ -5619,7 +5622,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
        <property name="geometry">
         <rect>
          <x>830</x>
-         <y>915</y>
+         <y>925</y>
          <width>61</width>
          <height>21</height>
         </rect>
@@ -5635,7 +5638,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
        <property name="geometry">
         <rect>
          <x>890</x>
-         <y>915</y>
+         <y>925</y>
          <width>71</width>
          <height>21</height>
         </rect>
@@ -6120,7 +6123,7 @@ Controller</string>
         <number>1</number>
        </property>
        <property name="text">
-        <string>Invalid state transition</string>
+        <string>Initialization completed</string>
        </property>
        <property name="precision" stdset="0">
         <number>2</number>
@@ -6608,6 +6611,165 @@ Controller</string>
         <double>2.000000000000000</double>
        </property>
       </widget>
+      <widget class="PneumaticValve" name="PneumaticValve_21">
+       <property name="geometry">
+        <rect>
+         <x>1015</x>
+         <y>725</y>
+         <width>75</width>
+         <height>46</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="controlsLocation" stdset="0">
+        <enum>PCDSSymbolBase::Hidden</enum>
+       </property>
+       <property name="channelsPrefix" stdset="0">
+        <string>ca://TM2K4:KBO:VWC:01</string>
+       </property>
+       <property name="expertOphydClass" stdset="0">
+        <string>pcdsdevices.valve.VGC_2S</string>
+       </property>
+       <property name="ui_paths" stdset="0">
+        <stringlist>
+         <string>/cds/group/pcds/epics-dev/screens/pydm/tmo_screens/vac_screens/interlock_screens/VGC_2S_interlock.ui</string>
+        </stringlist>
+       </property>
+       <property name="ui_macros" stdset="0">
+        <stringlist>
+         <string>VGC=TM2K4:KBO:VWC:01, USG=TM2K4:KBO:GCC:01, DSG=TM2K4:KBO:GCC:01</string>
+        </stringlist>
+       </property>
+       <property name="ui_titles" stdset="0">
+        <stringlist>
+         <string>Interlocks</string>
+        </stringlist>
+       </property>
+       <property name="controlButtonHorizontal" stdset="0">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="PneumaticValve" name="PneumaticValve_9">
+       <property name="geometry">
+        <rect>
+         <x>-10</x>
+         <y>725</y>
+         <width>75</width>
+         <height>46</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="controlsLocation" stdset="0">
+        <enum>PCDSSymbolBase::Hidden</enum>
+       </property>
+       <property name="channelsPrefix" stdset="0">
+        <string>ca://MR5K4:KBO:VWC:01</string>
+       </property>
+       <property name="showIcon" stdset="0">
+        <bool>true</bool>
+       </property>
+       <property name="expertOphydClass" stdset="0">
+        <string>pcdsdevices.valve.VGC_2S</string>
+       </property>
+       <property name="ui_paths" stdset="0">
+        <stringlist>
+         <string>/cds/group/pcds/epics-dev/screens/pydm/tmo_screens/vac_screens/interlock_screens/VGC_2S_interlock.ui</string>
+        </stringlist>
+       </property>
+       <property name="ui_macros" stdset="0">
+        <stringlist>
+         <string>VGC=MR5K4:KBO:VWC:01, USG=MR4K4:KBO:GCC:01, DSG=TM2K4:KBO:GCC:01</string>
+        </stringlist>
+       </property>
+       <property name="ui_titles" stdset="0">
+        <stringlist>
+         <string>Interlocks</string>
+        </stringlist>
+       </property>
+       <property name="controlButtonHorizontal" stdset="0">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="Line" name="line_152">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>740</y>
+         <width>1131</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Plain</enum>
+       </property>
+       <property name="lineWidth">
+        <number>4</number>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_248">
+       <property name="geometry">
+        <rect>
+         <x>-5</x>
+         <y>755</y>
+         <width>61</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="lineWidth">
+        <number>0</number>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;MR5K4&lt;br/&gt;VWC:01&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_249">
+       <property name="geometry">
+        <rect>
+         <x>1025</x>
+         <y>755</y>
+         <width>61</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="lineWidth">
+        <number>0</number>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;TM2K4&lt;br/&gt;VWC:01&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <zorder>line_152</zorder>
       <zorder>PyDMDrawingRectangle_14</zorder>
       <zorder>line_148</zorder>
       <zorder>line_133</zorder>
@@ -6648,12 +6810,10 @@ Controller</string>
       <zorder>PyDMDrawingRectangle_17</zorder>
       <zorder>PneumaticValveNO_3</zorder>
       <zorder>line_127</zorder>
-      <zorder>label_148</zorder>
       <zorder>line_129</zorder>
       <zorder>line_131</zorder>
       <zorder>line_134</zorder>
       <zorder>line_135</zorder>
-      <zorder>PyDMDrawingRectangle_18</zorder>
       <zorder>PyDMDrawingRectangle_19</zorder>
       <zorder>label_155</zorder>
       <zorder>line_137</zorder>
@@ -6761,7 +6921,6 @@ Controller</string>
       <zorder>label_146</zorder>
       <zorder>label_150</zorder>
       <zorder>label_152</zorder>
-      <zorder>label_241</zorder>
       <zorder>label_242</zorder>
       <zorder>label_153</zorder>
       <zorder>label_154</zorder>
@@ -6862,6 +7021,13 @@ Controller</string>
       <zorder>PyDMLabel_51</zorder>
       <zorder>PyDMLabel_52</zorder>
       <zorder>PyDMLabel_53</zorder>
+      <zorder>PneumaticValve_21</zorder>
+      <zorder>PneumaticValve_9</zorder>
+      <zorder>PyDMDrawingRectangle_18</zorder>
+      <zorder>label_148</zorder>
+      <zorder>label_241</zorder>
+      <zorder>label_248</zorder>
+      <zorder>label_249</zorder>
      </widget>
     </widget>
    </item>
