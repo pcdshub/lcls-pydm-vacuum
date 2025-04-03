@@ -670,3 +670,177 @@ HotCathodeGauge[state="ValidHi"] #icon {
     qproperty-penColor: black;
     qproperty-brush: #00FF00;
 }
+
+/*###################################*/
+
+/* Cold Cathode Combo Gauge - gcp */
+
+ColdCathodeComboGauge #pressure{
+    color: blue;
+    border: 1px solid black;
+    background-color : white
+}
+ColdCathodeComboGauge[state="GaugeDisconnected"]  #pressure{
+    color: gray;
+    border: 1px;
+}
+ColdCathodeComboGauge[state="Off"]  #pressure{
+    color: gray;
+    border: 1px;
+}
+ColdCathodeComboGauge[state="PressInvalid"]  #pressure{
+    color: gray;
+    border: 1px;
+}
+ColdCathodeComboGauge[interlocked="true"] #icon{
+    border: 2px solid black;
+    qproperty-brush: black;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+}
+ColdCathodeComboGauge[state="Off"] #icon {
+    qproperty-penColor: black;
+    qproperty-brush: gray;
+}
+ColdCathodeComboGauge[state="GaugeDisconnected"] #icon {
+    qproperty-penColor: gray;
+    qproperty-brush: black;
+}
+ColdCathodeComboGauge[state="OoR"] #icon {
+    qproperty-penColor: black;
+    qproperty-brush: red;
+}
+ColdCathodeComboGauge[state="PressInvalid"] #icon {
+    qproperty-penColor: black;
+    qproperty-brush: gray;
+}
+ColdCathodeComboGauge[state="Valid"] #icon {
+    qproperty-penColor: black;
+    qproperty-brush: #00FF00;
+}
+ColdCathodeComboGauge[state="ValidLo"] #icon {
+    qproperty-penColor: black;
+    qproperty-brush: #00FF00;
+}
+ColdCathodeComboGauge[state="ValidHi"] #icon {
+    qproperty-penColor: black;
+    qproperty-brush: #00FF00;
+}
+
+/*###################################*/
+
+/* Hot Cathode Combo Gauge - gcp */
+
+HotCathodeComboGauge #pressure{
+    color: blue;
+    border: 1px solid black;
+    background-color : white
+}
+HotCathodeComboGauge[state="GaugeDisconnected"]  #pressure{
+    color: gray;
+    border: 1px;
+}
+HotCathodeComboGauge[state="Off"]  #pressure{
+    color: gray;
+    border: 1px;
+}
+HotCathodeComboGauge[state="PressInvalid"]  #pressure{
+    color: gray;
+    border: 1px;
+}
+HotCathodeComboGauge[interlocked="true"] #icon{
+    border: 2px solid black;
+    qproperty-brush: black;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+}
+HotCathodeComboGauge[state="Off"] #icon {
+    qproperty-penColor: black;
+    qproperty-brush: gray;
+}
+HotCathodeComboGauge[state="GaugeDisconnected"] #icon {
+    qproperty-penColor: gray;
+    qproperty-brush: black;
+}
+HotCathodeComboGauge[state="OoR"] #icon {
+    qproperty-penColor: black;
+    qproperty-brush: red;
+}
+HotCathodeComboGauge[state="PressInvalid"] #icon {
+    qproperty-penColor: black;
+    qproperty-brush: gray;
+}
+HotCathodeComboGauge[state="Valid"] #icon {
+    qproperty-penColor: black;
+    qproperty-brush: #00FF00;
+}
+HotCathodeComboGauge[state="ValidLo"] #icon {
+    qproperty-penColor: black;
+    qproperty-brush: #00FF00;
+}
+HotCathodeComboGauge[state="ValidHi"] #icon {
+    qproperty-penColor: black;
+    qproperty-brush: #00FF00;
+}
+
+/*###################################*/
+
+/* Capacitance Monometer Gauge - gcp */
+
+CapacitanceMonometerGauge #pressure{
+    color: blue;
+    border: 1px solid black;
+    background-color : white
+}
+CapacitanceMonometerGauge[state="GaugeDisconnected"]  #pressure{
+    color: gray;
+    border: 1px;
+}
+CapacitanceMonometerGauge[state="Off"]  #pressure{
+    color: gray;
+    border: 1px;
+}
+CapacitanceMonometerGauge[state="PressInvalid"]  #pressure{
+    color: gray;
+    border: 1px;
+}
+CapacitanceMonometerGauge[interlocked="true"] #icon{
+    border: 2px solid black;
+    qproperty-brush: black;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+}
+CapacitanceMonometerGauge[state="Off"] #icon {
+    qproperty-penColor: black;
+    qproperty-brush: gray;
+}
+CapacitanceMonometerGauge[state="GaugeDisconnected"] #icon {
+    qproperty-penColor: gray;
+    qproperty-brush: black;
+}
+CapacitanceMonometerGauge[state="OoR"] #icon {
+    qproperty-penColor: black;
+    qproperty-brush: red;
+}
+CapacitanceMonometerGauge[state="PressInvalid"] #icon {
+    qproperty-penColor: black;
+    qproperty-brush: gray;
+}
+CapacitanceMonometerGauge[state="Valid"] #icon {
+    qproperty-penColor: black;
+    qproperty-brush: #00FF00;
+}
+CapacitanceMonometerGauge[state="ValidLo"] #icon {
+    qproperty-penColor: black;
+    qproperty-brush: #00FF00;
+}
+CapacitanceMonometerGauge[state="ValidHi"] #icon {
+    qproperty-penColor: black;
+    qproperty-brush: #00FF00;
+}
