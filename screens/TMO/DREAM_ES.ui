@@ -9,8 +9,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1450</width>
-    <height>1200</height>
+    <width>1541</width>
+    <height>1201</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -787,9 +787,9 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       </property>
       <property name="geometry">
        <rect>
-        <x>0</x>
+        <x>-41</x>
         <y>0</y>
-        <width>1450</width>
+        <width>1550</width>
         <height>1200</height>
        </rect>
       </property>
@@ -4409,7 +4409,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
         <number>2</number>
        </property>
        <property name="text">
-        <string>0.007 lpm</string>
+        <string>0.042 lpm</string>
        </property>
        <property name="precision" stdset="0">
         <number>3</number>
@@ -6588,7 +6588,7 @@ Controller</string>
         <rect>
          <x>1200</x>
          <y>680</y>
-         <width>246</width>
+         <width>321</width>
          <height>161</height>
         </rect>
        </property>
@@ -6764,6 +6764,82 @@ Controller</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_250">
+       <property name="geometry">
+        <rect>
+         <x>1345</x>
+         <y>710</y>
+         <width>141</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="lineWidth">
+        <number>0</number>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;SPEC. FEEDTHROUGH&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_251">
+       <property name="geometry">
+        <rect>
+         <x>1345</x>
+         <y>730</y>
+         <width>141</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="lineWidth">
+        <number>0</number>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;SPEC. FLANGE&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_252">
+       <property name="geometry">
+        <rect>
+         <x>1345</x>
+         <y>785</y>
+         <width>156</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="lineWidth">
+        <number>0</number>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;SHORT SIDE DET. FLANGE&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_253">
+       <property name="geometry">
+        <rect>
+         <x>1345</x>
+         <y>810</y>
+         <width>156</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="lineWidth">
+        <number>0</number>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;SAMPLE PADDLE DRIFT&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
        <property name="wordWrap">
         <bool>true</bool>
@@ -7028,6 +7104,10 @@ Controller</string>
       <zorder>label_241</zorder>
       <zorder>label_248</zorder>
       <zorder>label_249</zorder>
+      <zorder>label_250</zorder>
+      <zorder>label_251</zorder>
+      <zorder>label_252</zorder>
+      <zorder>label_253</zorder>
      </widget>
     </widget>
    </item>
