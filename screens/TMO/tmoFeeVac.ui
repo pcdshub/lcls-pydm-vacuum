@@ -991,7 +991,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
        <property name="geometry">
         <rect>
          <x>384</x>
-         <y>408</y>
+         <y>398</y>
          <width>85</width>
          <height>131</height>
         </rect>
