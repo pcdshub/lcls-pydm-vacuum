@@ -791,24 +791,24 @@ HotCathodeComboGauge[state="ValidHi"] #icon {
 
 /* Capacitance Monometer Gauge - gcp */
 
-CapacitanceMonometerGauge #pressure{
+CapacitanceManometerGauge #pressure{
     color: blue;
     border: 1px solid black;
     background-color : white
 }
-CapacitanceMonometerGauge[state="GaugeDisconnected"]  #pressure{
+CapacitanceManometerGauge[state="GaugeDisconnected"]  #pressure{
     color: gray;
     border: 1px;
 }
-CapacitanceMonometerGauge[state="Off"]  #pressure{
+CapacitanceManometerGauge[state="Off"]  #pressure{
     color: gray;
     border: 1px;
 }
-CapacitanceMonometerGauge[state="PressInvalid"]  #pressure{
+CapacitanceManometerGauge[state="PressInvalid"]  #pressure{
     color: gray;
     border: 1px;
 }
-CapacitanceMonometerGauge[interlocked="true"] #icon{
+CapacitanceManometerGauge[interlocked="true"] #icon{
     border: 2px solid black;
     qproperty-brush: black;
     border-top-left-radius: 9px;
@@ -816,31 +816,31 @@ CapacitanceMonometerGauge[interlocked="true"] #icon{
     border-bottom-left-radius: 9px;
     border-bottom-right-radius: 9px;
 }
-CapacitanceMonometerGauge[state="Off"] #icon {
+CapacitanceManometerGauge[state="Off"] #icon {
     qproperty-penColor: black;
     qproperty-brush: gray;
 }
-CapacitanceMonometerGauge[state="GaugeDisconnected"] #icon {
+CapacitanceManometerGauge[state="GaugeDisconnected"] #icon {
     qproperty-penColor: gray;
     qproperty-brush: black;
 }
-CapacitanceMonometerGauge[state="OoR"] #icon {
+CapacitanceManometerGauge[state="OoR"] #icon {
     qproperty-penColor: black;
     qproperty-brush: red;
 }
-CapacitanceMonometerGauge[state="PressInvalid"] #icon {
+CapacitanceManometerGauge[state="PressInvalid"] #icon {
     qproperty-penColor: black;
     qproperty-brush: gray;
 }
-CapacitanceMonometerGauge[state="Valid"] #icon {
+CapacitanceManometerGauge[state="Valid"] #icon {
     qproperty-penColor: black;
     qproperty-brush: #00FF00;
 }
-CapacitanceMonometerGauge[state="ValidLo"] #icon {
+CapacitanceManometerGauge[state="ValidLo"] #icon {
     qproperty-penColor: black;
     qproperty-brush: #00FF00;
 }
-CapacitanceMonometerGauge[state="ValidHi"] #icon {
+CapacitanceManometerGauge[state="ValidHi"] #icon {
     qproperty-penColor: black;
     qproperty-brush: #00FF00;
 }
