@@ -9,7 +9,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1346</width>
+    <width>1525</width>
     <height>818</height>
    </rect>
   </property>
@@ -493,7 +493,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       </property>
       <property name="geometry">
        <rect>
-        <x>-1562</x>
+        <x>0</x>
         <y>0</y>
         <width>3100</width>
         <height>780</height>
@@ -1678,7 +1678,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
        <property name="geometry">
         <rect>
          <x>1440</x>
-         <y>400</y>
+         <y>383</y>
          <width>81</width>
          <height>141</height>
         </rect>

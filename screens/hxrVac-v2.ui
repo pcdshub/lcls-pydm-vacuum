@@ -457,7 +457,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
        <widget class="QWidget" name="scrollAreaWidgetContents">
         <property name="geometry">
          <rect>
-          <x>-990</x>
+          <x>0</x>
           <y>0</y>
           <width>3450</width>
           <height>620</height>
@@ -1244,7 +1244,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
          <property name="geometry">
           <rect>
            <x>2690</x>
-           <y>301</y>
+           <y>291</y>
            <width>70</width>
            <height>150</height>
           </rect>
@@ -1341,7 +1341,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
          <property name="geometry">
           <rect>
            <x>1672</x>
-           <y>291</y>
+           <y>278</y>
            <width>76</width>
            <height>176</height>
           </rect>
@@ -1569,7 +1569,7 @@ EM2L0-GEM</string>
          </property>
          <property name="icon">
           <iconset theme="None">
-           <normaloff>../../../../../../../../../../../neh/home/adpai/.designer/backup</normaloff>../../../../../../../../../../../neh/home/adpai/.designer/backup</iconset>
+           <normaloff>../../../../../../../../../../../../../../../neh/home/adpai/.designer/backup</normaloff>../../../../../../../../../../../../../../../neh/home/adpai/.designer/backup</iconset>
          </property>
          <property name="commands" stdset="0">
           <stringlist>
@@ -3288,7 +3288,7 @@ EM2L0-GEM</string>
          </property>
          <property name="icon">
           <iconset theme="None">
-           <normaloff>../../../../../../../../../../../neh/home/adpai/.designer/backup</normaloff>../../../../../../../../../../../neh/home/adpai/.designer/backup</iconset>
+           <normaloff>../../../../../../../../../../../../../../../neh/home/adpai/.designer/backup</normaloff>../../../../../../../../../../../../../../../neh/home/adpai/.designer/backup</iconset>
          </property>
          <property name="commands" stdset="0">
           <stringlist>
@@ -3316,7 +3316,7 @@ EM2L0-GEM</string>
          </property>
          <property name="icon">
           <iconset theme="None">
-           <normaloff>../../../../../../../../../../../neh/home/adpai/.designer/backup</normaloff>../../../../../../../../../../../neh/home/adpai/.designer/backup</iconset>
+           <normaloff>../../../../../../../../../../../../../../../neh/home/adpai/.designer/backup</normaloff>../../../../../../../../../../../../../../../neh/home/adpai/.designer/backup</iconset>
          </property>
          <property name="commands" stdset="0">
           <stringlist>
