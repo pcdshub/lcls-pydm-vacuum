@@ -673,7 +673,7 @@ HotCathodeGauge[state="ValidHi"] #icon {
 
 /*###################################*/
 
-/* Cold Cathode Combo Gauge - gcp */
+/* Cold Cathode Combo Gauge - gccc */
 
 ColdCathodeComboGauge #pressure{
     color: blue;
@@ -731,7 +731,7 @@ ColdCathodeComboGauge[state="ValidHi"] #icon {
 
 /*###################################*/
 
-/* Hot Cathode Combo Gauge - gcp */
+/* Hot Cathode Combo Gauge - ghcc */
 
 HotCathodeComboGauge #pressure{
     color: blue;
@@ -789,7 +789,7 @@ HotCathodeComboGauge[state="ValidHi"] #icon {
 
 /*###################################*/
 
-/* Capacitance Manometer Gauge - gcp */
+/* Capacitance Manometer Gauge - gcm */
 
 CapacitanceManometerGauge #pressure{
     color: blue;
