@@ -12,3 +12,5 @@ core.*
 __pycache__
 *.pyc
 
+# Old VCS somehow
+*.svn
