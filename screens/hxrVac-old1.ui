@@ -457,7 +457,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
        <widget class="QWidget" name="scrollAreaWidgetContents">
         <property name="geometry">
          <rect>
-          <x>-1604</x>
+          <x>-1502</x>
           <y>0</y>
           <width>3450</width>
           <height>620</height>
@@ -1244,7 +1244,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
          <property name="geometry">
           <rect>
            <x>2690</x>
-           <y>291</y>
+           <y>301</y>
            <width>70</width>
            <height>150</height>
           </rect>
@@ -1341,7 +1341,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
          <property name="geometry">
           <rect>
            <x>1672</x>
-           <y>278</y>
+           <y>291</y>
            <width>76</width>
            <height>176</height>
           </rect>
@@ -3372,7 +3372,7 @@ EM2L0-GEM</string>
           <enum>PCDSSymbolBase::Bottom</enum>
          </property>
          <property name="channelsPrefix" stdset="0">
-          <string>ca://PC2L1:L2SI:PIP:01</string>
+          <string>ca://PC2L1:PIP:01</string>
          </property>
          <property name="controlButtonHorizontal" stdset="0">
           <bool>true</bool>
@@ -3406,8 +3406,8 @@ EM2L0-GEM</string>
         <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_13">
          <property name="geometry">
           <rect>
-           <x>2900</x>
-           <y>70</y>
+           <x>2920</x>
+           <y>60</y>
            <width>200</width>
            <height>140</height>
           </rect>
@@ -3419,7 +3419,7 @@ EM2L0-GEM</string>
           <number>0</number>
          </property>
          <property name="macros" stdset="0">
-          <string>{&quot;GCC&quot;: &quot;ST1L1:PPS:GCC:01&quot; , &quot;GPI&quot;:&quot;ST1L1:PPS:GPI:01&quot;}</string>
+          <string>{&quot;GCC&quot;: &quot;ST1L1:GCC:01&quot; , &quot;GPI&quot;:&quot;ST1L1:GPI:01&quot;}</string>
          </property>
          <property name="filename" stdset="0">
           <string>vacuumscreens/templates/GCC_GPI.ui</string>
@@ -3470,7 +3470,7 @@ EM2L0-GEM</string>
           <enum>PCDSSymbolBase::Bottom</enum>
          </property>
          <property name="channelsPrefix" stdset="0">
-          <string>ca://ST1L1:PPS:PIP:01</string>
+          <string>ca://ST1L1:PIP:01</string>
          </property>
          <property name="controlButtonHorizontal" stdset="0">
           <bool>true</bool>

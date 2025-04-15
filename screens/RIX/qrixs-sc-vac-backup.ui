@@ -22,23 +22,6 @@
      <height>871</height>
     </rect>
    </property>
-   <property name="styleSheet">
-    <string notr="true">ControlOnlyValveNC[state=&quot;CLOSE&quot;] #icon {
-    qproperty-penStyle: &quot;QT::SolidLine&quot;;
-    qproperty-penColor: gray;
-    qproperty-penWidth: 2;
-	qproperty-brush: black;
-}
-
-ControlOnlyValveNC[state=&quot;OPEN&quot;] #icon {
-    qproperty-penStyle: &quot;QT::SolidLine&quot;;
-    qproperty-penColor: gray;
-    qproperty-penWidth: 2;
-	qproperty-brush: #00FF00;
-}
-
-</string>
-   </property>
    <property name="widgetResizable">
     <bool>true</bool>
    </property>
@@ -318,8 +301,8 @@ ControlOnlyValveNC[state=&quot;OPEN&quot;] #icon {
     <widget class="PneumaticValve" name="PneumaticValve_4">
      <property name="geometry">
       <rect>
-       <x>10</x>
-       <y>786</y>
+       <x>1027</x>
+       <y>775</y>
        <width>120</width>
        <height>80</height>
       </rect>
@@ -328,13 +311,13 @@ ControlOnlyValveNC[state=&quot;OPEN&quot;] #icon {
       <string/>
      </property>
      <property name="controlsLocation" stdset="0">
-      <enum>PCDSSymbolBase::Left</enum>
+      <enum>PCDSSymbolBase::Right</enum>
      </property>
      <property name="channelsPrefix" stdset="0">
-      <string>ca://QRIXS:ROUGH:VRC:01</string>
+      <string>ca://QRIXS:ROUGH:VRC:02</string>
      </property>
      <property name="rotateIcon" stdset="0">
-      <bool>false</bool>
+      <bool>true</bool>
      </property>
      <property name="controlButtonHorizontal" stdset="0">
       <bool>false</bool>
@@ -412,9 +395,9 @@ ControlOnlyValveNC[state=&quot;OPEN&quot;] #icon {
     <widget class="RoughGauge" name="RoughGauge_4">
      <property name="geometry">
       <rect>
-       <x>9</x>
+       <x>20</x>
        <y>350</y>
-       <width>90</width>
+       <width>70</width>
        <height>60</height>
       </rect>
      </property>
@@ -454,9 +437,9 @@ ControlOnlyValveNC[state=&quot;OPEN&quot;] #icon {
     <widget class="RoughGauge" name="RoughGauge_5">
      <property name="geometry">
       <rect>
-       <x>129</x>
+       <x>128</x>
        <y>19</y>
-       <width>80</width>
+       <width>90</width>
        <height>60</height>
       </rect>
      </property>
@@ -470,7 +453,7 @@ ControlOnlyValveNC[state=&quot;OPEN&quot;] #icon {
     <widget class="ControlOnlyValveNC" name="ControlOnlyValveNC_5">
      <property name="geometry">
       <rect>
-       <x>70</x>
+       <x>50</x>
        <y>30</y>
        <width>20</width>
        <height>20</height>
@@ -483,7 +466,7 @@ ControlOnlyValveNC[state=&quot;OPEN&quot;] #icon {
       <enum>PCDSSymbolBase::Hidden</enum>
      </property>
      <property name="channelsPrefix" stdset="0">
-      <string>ca://QRIXS:VRO:01</string>
+      <string>ca://QRIX:VRO:01</string>
      </property>
      <property name="iconSize" stdset="0">
       <number>20</number>
@@ -498,7 +481,7 @@ ControlOnlyValveNC[state=&quot;OPEN&quot;] #icon {
     <widget class="ScrollPump" name="ScrollPump_7">
      <property name="geometry">
       <rect>
-       <x>0</x>
+       <x>-10</x>
        <y>20</y>
        <width>80</width>
        <height>110</height>
@@ -603,9 +586,9 @@ ControlOnlyValveNC[state=&quot;OPEN&quot;] #icon {
      <property name="geometry">
       <rect>
        <x>480</x>
-       <y>446</y>
+       <y>450</y>
        <width>70</width>
-       <height>60</height>
+       <height>50</height>
       </rect>
      </property>
      <property name="toolTip">
@@ -896,8 +879,8 @@ ControlOnlyValveNC[state=&quot;OPEN&quot;] #icon {
     <widget class="PneumaticValve" name="PneumaticValve_5">
      <property name="geometry">
       <rect>
-       <x>10</x>
-       <y>460</y>
+       <x>-20</x>
+       <y>465</y>
        <width>130</width>
        <height>90</height>
       </rect>
@@ -909,10 +892,10 @@ ControlOnlyValveNC[state=&quot;OPEN&quot;] #icon {
       <enum>PCDSSymbolBase::Left</enum>
      </property>
      <property name="channelsPrefix" stdset="0">
-      <string>ca://QRIXS:ROUGH:VRC:02</string>
+      <string>ca://QRIXS:ROUGH:VRC:01</string>
      </property>
      <property name="rotateIcon" stdset="0">
-      <bool>false</bool>
+      <bool>true</bool>
      </property>
      <property name="controlButtonHorizontal" stdset="0">
       <bool>false</bool>
@@ -1287,62 +1270,6 @@ ControlOnlyValveNC[state=&quot;OPEN&quot;] #icon {
       </color>
      </property>
     </widget>
-    <widget class="PyDMLabel" name="PyDMLabel_2">
-     <property name="geometry">
-      <rect>
-       <x>1320</x>
-       <y>755</y>
-       <width>106</width>
-       <height>41</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <family>Sans Serif</family>
-       <pointsize>9</pointsize>
-       <weight>75</weight>
-       <bold>true</bold>
-       <underline>false</underline>
-      </font>
-     </property>
-     <property name="toolTip">
-      <string/>
-     </property>
-     <property name="text">
-      <string>QRIX VACUUM OVERRIDE</string>
-     </property>
-     <property name="wordWrap">
-      <bool>true</bool>
-     </property>
-    </widget>
-    <widget class="PyDMEnumButton" name="PyDMEnumButton_2">
-     <property name="geometry">
-      <rect>
-       <x>1320</x>
-       <y>790</y>
-       <width>98</width>
-       <height>80</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <pointsize>9</pointsize>
-      </font>
-     </property>
-     <property name="toolTip">
-      <string/>
-     </property>
-     <property name="channel" stdset="0">
-      <string>ca://PLC:QRIXS:VAC:OVRDON</string>
-     </property>
-     <property name="items" stdset="0">
-      <stringlist>
-       <string>FALSE</string>
-       <string>TRUE</string>
-      </stringlist>
-     </property>
-    </widget>
-    <zorder>ScrollPump_7</zorder>
     <zorder>line_8</zorder>
     <zorder>line_7</zorder>
     <zorder>PyDMDrawingCircle</zorder>
@@ -1378,6 +1305,7 @@ ControlOnlyValveNC[state=&quot;OPEN&quot;] #icon {
     <zorder>line_13</zorder>
     <zorder>RoughGauge_5</zorder>
     <zorder>ControlOnlyValveNC_5</zorder>
+    <zorder>ScrollPump_7</zorder>
     <zorder>PneumaticValve_6</zorder>
     <zorder>PneumaticValve_7</zorder>
     <zorder>RoughGauge_7</zorder>
@@ -1413,17 +1341,10 @@ ControlOnlyValveNC[state=&quot;OPEN&quot;] #icon {
     <zorder>PyDMDrawingLine</zorder>
     <zorder>PyDMDrawingLine_2</zorder>
     <zorder>TurboPump_3</zorder>
-    <zorder>PyDMLabel_2</zorder>
-    <zorder>PyDMEnumButton_2</zorder>
    </widget>
   </widget>
  </widget>
  <customwidgets>
-  <customwidget>
-   <class>PyDMLabel</class>
-   <extends>QLabel</extends>
-   <header>pydm.widgets.label</header>
-  </customwidget>
   <customwidget>
    <class>PyDMDrawingArc</class>
    <extends>QWidget</extends>
@@ -1438,11 +1359,6 @@ ControlOnlyValveNC[state=&quot;OPEN&quot;] #icon {
    <class>PyDMDrawingLine</class>
    <extends>QWidget</extends>
    <header>pydm.widgets.drawing</header>
-  </customwidget>
-  <customwidget>
-   <class>PyDMEnumButton</class>
-   <extends>QWidget</extends>
-   <header>pydm.widgets.enum_button</header>
   </customwidget>
   <customwidget>
    <class>PCDSSymbolBase</class>

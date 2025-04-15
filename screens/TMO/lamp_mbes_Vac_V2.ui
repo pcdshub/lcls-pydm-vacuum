@@ -2162,40 +2162,6 @@ Pumping Chamber</string>
         <enum>Qt::Horizontal</enum>
        </property>
       </widget>
-      <widget class="PneumaticValve" name="LAMP_ROUGH_VRC_02">
-       <property name="geometry">
-        <rect>
-         <x>715</x>
-         <y>785</y>
-         <width>100</width>
-         <height>120</height>
-        </rect>
-       </property>
-       <property name="toolTip">
-        <string/>
-       </property>
-       <property name="layoutDirection">
-        <enum>Qt::LeftToRight</enum>
-       </property>
-       <property name="controlsLocation" stdset="0">
-        <enum>PCDSSymbolBase::Bottom</enum>
-       </property>
-       <property name="channelsPrefix" stdset="0">
-        <string>ca://LAMP:ROUGH:VRC:02</string>
-       </property>
-       <property name="iconSize" stdset="0">
-        <number>25</number>
-       </property>
-       <property name="rotateIcon" stdset="0">
-        <bool>false</bool>
-       </property>
-       <property name="expertOphydClass" stdset="0">
-        <string>pcdsdevices.valve.VRCNO</string>
-       </property>
-       <property name="controlButtonHorizontal" stdset="0">
-        <bool>false</bool>
-       </property>
-      </widget>
       <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_9">
        <property name="geometry">
         <rect>
@@ -2295,7 +2261,7 @@ Pumping Chamber</string>
        <property name="geometry">
         <rect>
          <x>715</x>
-         <y>755</y>
+         <y>740</y>
          <width>100</width>
          <height>30</height>
         </rect>
@@ -3470,6 +3436,22 @@ Pumping Chamber</string>
         </stringlist>
        </property>
       </widget>
+      <widget class="PneumaticValveNO" name="PneumaticValveNO">
+       <property name="geometry">
+        <rect>
+         <x>679</x>
+         <y>780</y>
+         <width>171</width>
+         <height>82</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="channelsPrefix" stdset="0">
+        <string>ca://LAMP:ROUGH:VRC:02</string>
+       </property>
+      </widget>
       <zorder>line_88</zorder>
       <zorder>line_68</zorder>
       <zorder>line_65</zorder>
@@ -3525,7 +3507,6 @@ Pumping Chamber</string>
       <zorder>LAMP_ROUGH_PTM_01</zorder>
       <zorder>LI3K4_IP1_VWC_01</zorder>
       <zorder>PA1K0_label_12</zorder>
-      <zorder>LAMP_ROUGH_VRC_02</zorder>
       <zorder>line_84</zorder>
       <zorder>label_25</zorder>
       <zorder>label_26</zorder>
@@ -3577,6 +3558,7 @@ Pumping Chamber</string>
       <zorder>PyDMByteIndicator_3</zorder>
       <zorder>IP1_HV_Safety_Enable</zorder>
       <zorder>PyDMByteIndicator_2</zorder>
+      <zorder>PneumaticValveNO</zorder>
      </widget>
     </widget>
    </item>
@@ -3614,27 +3596,7 @@ Pumping Chamber</string>
    <header>pydm.widgets.related_display_button</header>
   </customwidget>
   <customwidget>
-   <class>PCDSSymbolBase</class>
-   <extends>QWidget</extends>
-   <header>pcdswidgets.vacuum.base</header>
-  </customwidget>
-  <customwidget>
-   <class>PneumaticValve</class>
-   <extends>PCDSSymbolBase</extends>
-   <header>pcdswidgets.vacuum.valves</header>
-  </customwidget>
-  <customwidget>
-   <class>TurboPump</class>
-   <extends>PCDSSymbolBase</extends>
-   <header>pcdswidgets.vacuum.pumps</header>
-  </customwidget>
-  <customwidget>
-   <class>ScrollPump</class>
-   <extends>PCDSSymbolBase</extends>
-   <header>pcdswidgets.vacuum.pumps</header>
-  </customwidget>
-  <customwidget>
-   <class>RoughGauge</class>
+   <class>ColdCathodeGauge</class>
    <extends>PCDSSymbolBase</extends>
    <header>pcdswidgets.vacuum.gauges</header>
   </customwidget>
@@ -3644,9 +3606,34 @@ Pumping Chamber</string>
    <header>pcdswidgets.vacuum.gauges</header>
   </customwidget>
   <customwidget>
-   <class>ColdCathodeGauge</class>
+   <class>PneumaticValve</class>
+   <extends>PCDSSymbolBase</extends>
+   <header>pcdswidgets.vacuum.valves</header>
+  </customwidget>
+  <customwidget>
+   <class>PneumaticValveNO</class>
+   <extends>PCDSSymbolBase</extends>
+   <header>pcdswidgets.vacuum.valves</header>
+  </customwidget>
+  <customwidget>
+   <class>RoughGauge</class>
    <extends>PCDSSymbolBase</extends>
    <header>pcdswidgets.vacuum.gauges</header>
+  </customwidget>
+  <customwidget>
+   <class>ScrollPump</class>
+   <extends>PCDSSymbolBase</extends>
+   <header>pcdswidgets.vacuum.pumps</header>
+  </customwidget>
+  <customwidget>
+   <class>PCDSSymbolBase</class>
+   <extends>QWidget</extends>
+   <header>pcdswidgets.vacuum.base</header>
+  </customwidget>
+  <customwidget>
+   <class>TurboPump</class>
+   <extends>PCDSSymbolBase</extends>
+   <header>pcdswidgets.vacuum.pumps</header>
   </customwidget>
  </customwidgets>
  <resources/>

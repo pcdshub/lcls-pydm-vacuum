@@ -9,7 +9,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1558</width>
+    <width>1525</width>
     <height>818</height>
    </rect>
   </property>
@@ -1678,7 +1678,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
        <property name="geometry">
         <rect>
          <x>1440</x>
-         <y>400</y>
+         <y>383</y>
          <width>81</width>
          <height>141</height>
         </rect>
@@ -2399,31 +2399,6 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QLabel" name="RTDSL0_YAGXRAY_8">
-       <property name="geometry">
-        <rect>
-         <x>3020</x>
-         <y>690</y>
-         <width>71</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="autoFillBackground">
-        <bool>true</bool>
-       </property>
-       <property name="frameShape">
-        <enum>QFrame::Box</enum>
-       </property>
-       <property name="text">
-        <string>TXI</string>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-       </property>
-       <property name="wordWrap">
-        <bool>true</bool>
-       </property>
-      </widget>
       <widget class="QLabel" name="RTDSL0_YAGXRAY_16">
        <property name="geometry">
         <rect>
@@ -2753,11 +2728,11 @@ Vacuum</string>
        </property>
        <property name="commands" stdset="0">
         <stringlist>
-         <string>pydm /reg/g/pcds/epics-dev/jyin/screens/tmoVacuum/TMOVac.ui</string>
+         <string>pydm /reg/g/pcds/epics-dev/screens/pydm/vacuumscreens/screens/TMO/tmoFeeVac.ui</string>
         </stringlist>
        </property>
        <property name="command" stdset="0">
-        <string>pydm /reg/g/pcds/epics-dev/jyin/screens/tmoVacuum/TMOVac.ui</string>
+        <string>pydm /reg/g/pcds/epics-dev/screens/pydm/vacuumscreens/screens/TMO/tmoFeeVac.ui</string>
        </property>
       </widget>
       <widget class="PneumaticValve" name="PneumaticValve_6">
@@ -2863,11 +2838,11 @@ Vacuum</string>
        </property>
        <property name="commands" stdset="0">
         <stringlist>
-         <string>firefox https://confluence.slac.stanford.edu/pages/viewpage.action?pageId=290360622</string>
+         <string>pydm /reg/g/pcds/epics-dev/screens/pydm/txi_screens/vacuum_screens/TXI_FEE.ui</string>
         </stringlist>
        </property>
        <property name="command" stdset="0">
-        <string>firefox https://confluence.slac.stanford.edu/pages/viewpage.action?pageId=290360622</string>
+        <string>pydm /reg/g/pcds/epics-dev/screens/pydm/txi_screens/vacuum_screens/TXI_FEE.ui</string>
        </property>
       </widget>
       <widget class="PyDMShellCommand" name="H1Button_7">
@@ -2896,6 +2871,34 @@ Vacuum</string>
        </property>
        <property name="command" stdset="0">
         <string>firefox https://confluence.slac.stanford.edu/display/XBD/Training+Curriculum+Plan#TrainingCurriculumPlan-DetailedCurriculumSXR</string>
+       </property>
+      </widget>
+      <widget class="PyDMShellCommand" name="H1Button_8">
+       <property name="geometry">
+        <rect>
+         <x>3020</x>
+         <y>690</y>
+         <width>71</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="text">
+        <string notr="true">TXI</string>
+       </property>
+       <property name="icon">
+        <iconset theme="None">
+         <normaloff>../../../../../../../../../../../neh/home/adpai/.designer/backup</normaloff>../../../../../../../../../../../neh/home/adpai/.designer/backup</iconset>
+       </property>
+       <property name="commands" stdset="0">
+        <stringlist>
+         <string>pydm /reg/g/pcds/epics-dev/screens/pydm/txi_screens/vacuum_screens/TXI_FEE.ui</string>
+        </stringlist>
+       </property>
+       <property name="command" stdset="0">
+        <string>pydm /reg/g/pcds/epics-dev/screens/pydm/txi_screens/vacuum_screens/TXI_FEE.ui</string>
        </property>
       </widget>
       <zorder>line_15</zorder>
@@ -3003,7 +3006,6 @@ Vacuum</string>
       <zorder>PyDMDrawingTriangle_7</zorder>
       <zorder>PyDMDrawingTriangle_8</zorder>
       <zorder>RTDSL0_YAGXRAY_7</zorder>
-      <zorder>RTDSL0_YAGXRAY_8</zorder>
       <zorder>RTDSL0_YAGXRAY_16</zorder>
       <zorder>RTDSL0_YAGXRAY_17</zorder>
       <zorder>RTDSL0_YAGXRAY_18</zorder>
@@ -3024,6 +3026,7 @@ Vacuum</string>
       <zorder>IonPump_10</zorder>
       <zorder>H1Button_6</zorder>
       <zorder>H1Button_7</zorder>
+      <zorder>H1Button_8</zorder>
      </widget>
     </widget>
    </item>
@@ -3061,14 +3064,9 @@ Vacuum</string>
    <header>pydm.widgets.shell_command</header>
   </customwidget>
   <customwidget>
-   <class>PCDSSymbolBase</class>
-   <extends>QWidget</extends>
-   <header>pcdswidgets.vacuum.base</header>
-  </customwidget>
-  <customwidget>
-   <class>PneumaticValve</class>
+   <class>ColdCathodeGauge</class>
    <extends>PCDSSymbolBase</extends>
-   <header>pcdswidgets.vacuum.valves</header>
+   <header>pcdswidgets.vacuum.gauges</header>
   </customwidget>
   <customwidget>
    <class>FastShutter</class>
@@ -3081,14 +3079,19 @@ Vacuum</string>
    <header>pcdswidgets.vacuum.pumps</header>
   </customwidget>
   <customwidget>
-   <class>ColdCathodeGauge</class>
+   <class>PneumaticValve</class>
    <extends>PCDSSymbolBase</extends>
-   <header>pcdswidgets.vacuum.gauges</header>
+   <header>pcdswidgets.vacuum.valves</header>
   </customwidget>
   <customwidget>
    <class>RGA</class>
    <extends>PCDSSymbolBase</extends>
    <header>pcdswidgets.vacuum.others</header>
+  </customwidget>
+  <customwidget>
+   <class>PCDSSymbolBase</class>
+   <extends>QWidget</extends>
+   <header>pcdswidgets.vacuum.base</header>
   </customwidget>
  </customwidgets>
  <resources/>

@@ -1,4 +1,16 @@
+# Terminal editor ignores
 *.swp
-*.swo
-__pycache__
 *~
+
+# Core dumps
+core.*
+
+# Timechart logs
+*.log
+
+# Python pyc
+__pycache__
+*.pyc
+
+# Old VCS somehow
+*.svn

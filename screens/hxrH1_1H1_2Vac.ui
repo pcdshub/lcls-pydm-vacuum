@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1181</width>
-    <height>645</height>
+    <width>1593</width>
+    <height>641</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -348,6 +348,9 @@ IonPump[state=&quot;FAULT&quot;] #icon {
      </property>
      <item>
       <widget class="QScrollArea" name="scrollArea">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
        <property name="sizePolicy">
         <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
          <horstretch>0</horstretch>
@@ -370,11 +373,14 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <bool>false</bool>
        </property>
        <widget class="QWidget" name="scrollAreaWidgetContents">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
         <property name="geometry">
          <rect>
-          <x>0</x>
+          <x>-279</x>
           <y>0</y>
-          <width>1350</width>
+          <width>1850</width>
           <height>580</height>
          </rect>
         </property>
@@ -405,7 +411,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
           <rect>
            <x>136</x>
            <y>270</y>
-           <width>1150</width>
+           <width>1631</width>
            <height>20</height>
           </rect>
          </property>
@@ -1088,8 +1094,8 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <widget class="PyDMShellCommand" name="PyDMShellCommand_FEE_2">
          <property name="geometry">
           <rect>
-           <x>1160</x>
-           <y>268</y>
+           <x>1630</x>
+           <y>290</y>
            <width>91</width>
            <height>24</height>
           </rect>
@@ -1098,7 +1104,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
           <string/>
          </property>
          <property name="text">
-          <string>XPP &gt;</string>
+          <string>XRT &gt;</string>
          </property>
          <property name="icon">
           <iconset theme="None">
@@ -1106,17 +1112,17 @@ IonPump[state=&quot;FAULT&quot;] #icon {
          </property>
          <property name="commands" stdset="0">
           <stringlist>
-           <string>edm -x /reg/g/pcds/epics-dev/screens/edm/xpp/current/vacuum/neh/neh.edl</string>
+           <string>edm -x /reg/g/pcds/epics-dev/screens/edm/vacuum/current/xrt.edl</string>
           </stringlist>
          </property>
          <property name="command" stdset="0">
-          <string>edm -x /reg/g/pcds/epics-dev/screens/edm/xpp/current/vacuum/neh/neh.edl</string>
+          <string>edm -x /reg/g/pcds/epics-dev/screens/edm/vacuum/current/xrt.edl</string>
          </property>
         </widget>
         <widget class="Line" name="line_4">
          <property name="geometry">
           <rect>
-           <x>1260</x>
+           <x>1700</x>
            <y>220</y>
            <width>10</width>
            <height>56</height>
@@ -1142,20 +1148,20 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <widget class="QLabel" name="label_21">
          <property name="geometry">
           <rect>
-           <x>1185</x>
+           <x>1630</x>
            <y>185</y>
            <width>151</width>
            <height>16</height>
           </rect>
          </property>
          <property name="text">
-          <string>HX3:MON:GCC:01:PMON</string>
+          <string>HXX:UM6:GCC:01:PMON</string>
          </property>
         </widget>
         <widget class="PyDMLabel" name="PyDMLabel">
          <property name="geometry">
           <rect>
-           <x>1220</x>
+           <x>1660</x>
            <y>205</y>
            <width>96</width>
            <height>16</height>
@@ -1171,7 +1177,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
           <enum>QFrame::Plain</enum>
          </property>
          <property name="text">
-          <string>1.20e-08 Torr</string>
+          <string>3.20e-09 Torr</string>
          </property>
          <property name="textFormat">
           <enum>Qt::PlainText</enum>
@@ -1189,7 +1195,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
           <bool>false</bool>
          </property>
          <property name="channel" stdset="0">
-          <string>ca://HX3:MON:GCC:01:PMON</string>
+          <string>ca://HXX:UM6:GCC:01:PMON</string>
          </property>
          <property name="displayFormat" stdset="0">
           <enum>PyDMLabel::Exponential</enum>
@@ -1345,6 +1351,122 @@ IonPump[state=&quot;FAULT&quot;] #icon {
           <string>firefox https://confluence.slac.stanford.edu/pages/viewpage.action?pageId=286167132</string>
          </property>
         </widget>
+        <widget class="Line" name="line_35">
+         <property name="geometry">
+          <rect>
+           <x>1620</x>
+           <y>80</y>
+           <width>10</width>
+           <height>410</height>
+          </rect>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Plain</enum>
+         </property>
+         <property name="lineWidth">
+          <number>4</number>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+        </widget>
+        <widget class="PyDMLabel" name="PyDMLabel_18">
+         <property name="geometry">
+          <rect>
+           <x>1640</x>
+           <y>80</y>
+           <width>67</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="toolTip">
+          <string/>
+         </property>
+         <property name="text">
+          <string>XRT</string>
+         </property>
+         <property name="textFormat">
+          <enum>Qt::PlainText</enum>
+         </property>
+         <property name="scaledContents">
+          <bool>false</bool>
+         </property>
+         <property name="displayFormat" stdset="0">
+          <enum>PyDMLabel::Default</enum>
+         </property>
+        </widget>
+        <widget class="PyDMEmbeddedDisplay" name="TV4L0_3">
+         <property name="geometry">
+          <rect>
+           <x>1380</x>
+           <y>100</y>
+           <width>191</width>
+           <height>461</height>
+          </rect>
+         </property>
+         <property name="toolTip">
+          <string/>
+         </property>
+         <property name="lineWidth">
+          <number>0</number>
+         </property>
+         <property name="macros" stdset="0">
+          <string>{&quot;GCC&quot;: &quot;TV8L0:GCC:01&quot; , &quot;GPI&quot;: &quot;TV8L0:GPI:01&quot; , &quot;PIP&quot;: &quot;TV8L0:PIP:01&quot; }</string>
+         </property>
+         <property name="filename" stdset="0">
+          <string>vacuumscreens/templates/vacuum_gauge_pump_set.ui</string>
+         </property>
+        </widget>
+        <widget class="PyDMEmbeddedDisplay" name="TV4L0_4">
+         <property name="geometry">
+          <rect>
+           <x>1190</x>
+           <y>100</y>
+           <width>191</width>
+           <height>461</height>
+          </rect>
+         </property>
+         <property name="toolTip">
+          <string/>
+         </property>
+         <property name="lineWidth">
+          <number>0</number>
+         </property>
+         <property name="macros" stdset="0">
+          <string>{&quot;GCC&quot;: &quot;SP1L2:LODCM:GCC:01&quot; , &quot;GPI&quot;: &quot;SP1L2:LODCM:GPI:01&quot; , &quot;PIP&quot;: &quot;TV7L0:PIP:01&quot; }</string>
+         </property>
+         <property name="filename" stdset="0">
+          <string>vacuumscreens/templates/vacuum_gauge_pump_set.ui</string>
+         </property>
+        </widget>
+        <widget class="PneumaticValve" name="TV6L0_VGC_2">
+         <property name="geometry">
+          <rect>
+           <x>1560</x>
+           <y>260</y>
+           <width>70</width>
+           <height>130</height>
+          </rect>
+         </property>
+         <property name="toolTip">
+          <string/>
+         </property>
+         <property name="controlsLocation" stdset="0">
+          <enum>PCDSSymbolBase::Bottom</enum>
+         </property>
+         <property name="channelsPrefix" stdset="0">
+          <string>ca://TV8L0:VGC:01</string>
+         </property>
+         <property name="controlButtonHorizontal" stdset="0">
+          <bool>false</bool>
+         </property>
+        </widget>
         <zorder>TV5L0_02</zorder>
         <zorder>TV4L0_01</zorder>
         <zorder>TV4L0_02</zorder>
@@ -1394,6 +1516,11 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <zorder>PyDMEnumButton</zorder>
         <zorder>H1Button_6</zorder>
         <zorder>H1Button_8</zorder>
+        <zorder>line_35</zorder>
+        <zorder>PyDMLabel_18</zorder>
+        <zorder>TV4L0_3</zorder>
+        <zorder>TV4L0_4</zorder>
+        <zorder>TV6L0_VGC_2</zorder>
        </widget>
       </widget>
      </item>
@@ -1402,11 +1529,6 @@ IonPump[state=&quot;FAULT&quot;] #icon {
   </layout>
  </widget>
  <customwidgets>
-  <customwidget>
-   <class>TyphosSignalPanel</class>
-   <extends>QWidget</extends>
-   <header>typhos.panel</header>
-  </customwidget>
   <customwidget>
    <class>PyDMLabel</class>
    <extends>QLabel</extends>
@@ -1428,14 +1550,14 @@ IonPump[state=&quot;FAULT&quot;] #icon {
    <header>pydm.widgets.shell_command</header>
   </customwidget>
   <customwidget>
-   <class>PCDSSymbolBase</class>
+   <class>TyphosSignalPanel</class>
    <extends>QWidget</extends>
-   <header>pcdswidgets.vacuum.base</header>
+   <header>typhos.panel</header>
   </customwidget>
   <customwidget>
-   <class>PneumaticValve</class>
+   <class>ColdCathodeGauge</class>
    <extends>PCDSSymbolBase</extends>
-   <header>pcdswidgets.vacuum.valves</header>
+   <header>pcdswidgets.vacuum.gauges</header>
   </customwidget>
   <customwidget>
    <class>IonPump</class>
@@ -1443,9 +1565,14 @@ IonPump[state=&quot;FAULT&quot;] #icon {
    <header>pcdswidgets.vacuum.pumps</header>
   </customwidget>
   <customwidget>
-   <class>ColdCathodeGauge</class>
+   <class>PneumaticValve</class>
    <extends>PCDSSymbolBase</extends>
-   <header>pcdswidgets.vacuum.gauges</header>
+   <header>pcdswidgets.vacuum.valves</header>
+  </customwidget>
+  <customwidget>
+   <class>PCDSSymbolBase</class>
+   <extends>QWidget</extends>
+   <header>pcdswidgets.vacuum.base</header>
   </customwidget>
  </customwidgets>
  <resources/>

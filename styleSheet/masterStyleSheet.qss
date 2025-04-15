@@ -305,6 +305,21 @@ ControlOnlyValveNC[state="Closed"] #icon {
     qproperty-brush: black;
 }
 
+ControlOnlyValveNC[state="CLOSE"] #icon {
+    qproperty-penStyle: "QT::SolidLine";
+    qproperty-penColor: gray;
+    qproperty-penWidth: 2;
+	qproperty-brush: black;
+}
+
+ControlOnlyValveNC[state="OPEN"] #icon {
+    qproperty-penStyle: "QT::SolidLine";
+    qproperty-penColor: gray;
+    qproperty-penWidth: 2;
+	qproperty-brush: #00FF00;
+}
+
+
 /*##################################*/
 
 /* Control Only Valve Normally Open - vvcNO*/
