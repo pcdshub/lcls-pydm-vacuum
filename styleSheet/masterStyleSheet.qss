@@ -789,7 +789,7 @@ HotCathodeComboGauge[state="ValidHi"] #icon {
 
 /*###################################*/
 
-/* Capacitance Monometer Gauge - gcp */
+/* Capacitance Manometer Gauge - gcp */
 
 CapacitanceManometerGauge #pressure{
     color: blue;
