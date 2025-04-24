@@ -2268,7 +2268,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       <widget class="PneumaticValve" name="PneumaticValve_19">
        <property name="geometry">
         <rect>
-         <x>1060</x>
+         <x>1065</x>
          <y>910</y>
          <width>161</width>
          <height>82</height>
@@ -4409,7 +4409,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
         <number>2</number>
        </property>
        <property name="text">
-        <string>0.004 lpm</string>
+        <string>0.000 lpm</string>
        </property>
        <property name="precision" stdset="0">
         <number>3</number>
