@@ -787,7 +787,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       </property>
       <property name="geometry">
        <rect>
-        <x>0</x>
+        <x>-41</x>
         <y>0</y>
         <width>1550</width>
         <height>1200</height>
@@ -4396,7 +4396,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
         <number>2</number>
        </property>
        <property name="text">
-        <string>0.082 lpm</string>
+        <string>0.000 lpm</string>
        </property>
        <property name="precision" stdset="0">
         <number>3</number>
@@ -6348,7 +6348,7 @@ Controller</string>
        <property name="geometry">
         <rect>
          <x>1205</x>
-         <y>735</y>
+         <y>725</y>
          <width>61</width>
          <height>21</height>
         </rect>
@@ -6364,7 +6364,7 @@ Controller</string>
        <property name="geometry">
         <rect>
          <x>1205</x>
-         <y>760</y>
+         <y>750</y>
          <width>61</width>
          <height>21</height>
         </rect>
@@ -6380,7 +6380,7 @@ Controller</string>
        <property name="geometry">
         <rect>
          <x>1205</x>
-         <y>685</y>
+         <y>700</y>
          <width>61</width>
          <height>21</height>
         </rect>
@@ -6396,7 +6396,7 @@ Controller</string>
        <property name="geometry">
         <rect>
          <x>1205</x>
-         <y>635</y>
+         <y>645</y>
          <width>236</width>
          <height>26</height>
         </rect>
@@ -6411,7 +6411,7 @@ Controller</string>
         <number>0</number>
        </property>
        <property name="text">
-        <string>MC THERMOCOUPLES - SOUTH</string>
+        <string>THERMOCOUPLES:</string>
        </property>
        <property name="wordWrap">
         <bool>false</bool>
@@ -6421,7 +6421,7 @@ Controller</string>
        <property name="geometry">
         <rect>
          <x>1265</x>
-         <y>685</y>
+         <y>700</y>
          <width>71</width>
          <height>21</height>
         </rect>
@@ -6449,7 +6449,7 @@ Controller</string>
        <property name="geometry">
         <rect>
          <x>1265</x>
-         <y>660</y>
+         <y>675</y>
          <width>71</width>
          <height>21</height>
         </rect>
@@ -6473,36 +6473,11 @@ Controller</string>
         <string>ca://DREAM:STC:01:TEMP_RBV</string>
        </property>
       </widget>
-      <widget class="QLabel" name="label_157">
-       <property name="geometry">
-        <rect>
-         <x>1205</x>
-         <y>710</y>
-         <width>236</width>
-         <height>26</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <weight>75</weight>
-         <bold>true</bold>
-        </font>
-       </property>
-       <property name="lineWidth">
-        <number>0</number>
-       </property>
-       <property name="text">
-        <string>MC THERMOCOUPLES - NORTH</string>
-       </property>
-       <property name="wordWrap">
-        <bool>false</bool>
-       </property>
-      </widget>
       <widget class="PyDMLabel" name="PyDMLabel_51">
        <property name="geometry">
         <rect>
          <x>1265</x>
-         <y>735</y>
+         <y>725</y>
          <width>71</width>
          <height>21</height>
         </rect>
@@ -6530,7 +6505,7 @@ Controller</string>
        <property name="geometry">
         <rect>
          <x>1205</x>
-         <y>660</y>
+         <y>675</y>
          <width>61</width>
          <height>21</height>
         </rect>
@@ -6546,7 +6521,7 @@ Controller</string>
        <property name="geometry">
         <rect>
          <x>1265</x>
-         <y>760</y>
+         <y>750</y>
          <width>71</width>
          <height>21</height>
         </rect>
@@ -6574,9 +6549,9 @@ Controller</string>
        <property name="geometry">
         <rect>
          <x>1200</x>
-         <y>630</y>
+         <y>640</y>
          <width>321</width>
-         <height>306</height>
+         <height>266</height>
         </rect>
        </property>
        <property name="toolTip">
@@ -6760,7 +6735,7 @@ Controller</string>
        <property name="geometry">
         <rect>
          <x>1345</x>
-         <y>660</y>
+         <y>675</y>
          <width>141</width>
          <height>21</height>
         </rect>
@@ -6779,7 +6754,7 @@ Controller</string>
        <property name="geometry">
         <rect>
          <x>1345</x>
-         <y>680</y>
+         <y>700</y>
          <width>141</width>
          <height>21</height>
         </rect>
@@ -6798,7 +6773,7 @@ Controller</string>
        <property name="geometry">
         <rect>
          <x>1345</x>
-         <y>735</y>
+         <y>725</y>
          <width>156</width>
          <height>21</height>
         </rect>
@@ -6817,7 +6792,7 @@ Controller</string>
        <property name="geometry">
         <rect>
          <x>1345</x>
-         <y>760</y>
+         <y>750</y>
          <width>156</width>
          <height>21</height>
         </rect>
@@ -6836,8 +6811,8 @@ Controller</string>
        <property name="geometry">
         <rect>
          <x>1345</x>
-         <y>905</y>
-         <width>156</width>
+         <y>870</y>
+         <width>171</width>
          <height>21</height>
         </rect>
        </property>
@@ -6845,7 +6820,7 @@ Controller</string>
         <number>0</number>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;XXXXXX&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;SS-DET. FEEDTHROUGH&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
        <property name="wordWrap">
         <bool>true</bool>
@@ -6855,7 +6830,7 @@ Controller</string>
        <property name="geometry">
         <rect>
          <x>1265</x>
-         <y>830</y>
+         <y>820</y>
          <width>71</width>
          <height>21</height>
         </rect>
@@ -6879,36 +6854,11 @@ Controller</string>
         <string>ca://DREAM:STC:06:TEMP_RBV</string>
        </property>
       </widget>
-      <widget class="QLabel" name="label_159">
-       <property name="geometry">
-        <rect>
-         <x>1205</x>
-         <y>855</y>
-         <width>236</width>
-         <height>26</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <weight>75</weight>
-         <bold>true</bold>
-        </font>
-       </property>
-       <property name="lineWidth">
-        <number>0</number>
-       </property>
-       <property name="text">
-        <string>XXXXXXXX</string>
-       </property>
-       <property name="wordWrap">
-        <bool>false</bool>
-       </property>
-      </widget>
       <widget class="PyDMLabel" name="PyDMLabel_55">
        <property name="geometry">
         <rect>
          <x>1265</x>
-         <y>805</y>
+         <y>795</y>
          <width>71</width>
          <height>21</height>
         </rect>
@@ -6936,7 +6886,7 @@ Controller</string>
        <property name="geometry">
         <rect>
          <x>1205</x>
-         <y>880</y>
+         <y>845</y>
          <width>61</width>
          <height>21</height>
         </rect>
@@ -6948,36 +6898,11 @@ Controller</string>
         <string>TC 7:</string>
        </property>
       </widget>
-      <widget class="QLabel" name="label_160">
-       <property name="geometry">
-        <rect>
-         <x>1205</x>
-         <y>780</y>
-         <width>236</width>
-         <height>26</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <weight>75</weight>
-         <bold>true</bold>
-        </font>
-       </property>
-       <property name="lineWidth">
-        <number>0</number>
-       </property>
-       <property name="text">
-        <string>XXXXXXX</string>
-       </property>
-       <property name="wordWrap">
-        <bool>false</bool>
-       </property>
-      </widget>
       <widget class="PyDMLabel" name="PyDMLabel_57">
        <property name="geometry">
         <rect>
          <x>1205</x>
-         <y>830</y>
+         <y>820</y>
          <width>61</width>
          <height>21</height>
         </rect>
@@ -6993,7 +6918,7 @@ Controller</string>
        <property name="geometry">
         <rect>
          <x>1345</x>
-         <y>880</y>
+         <y>845</y>
          <width>156</width>
          <height>21</height>
         </rect>
@@ -7002,7 +6927,7 @@ Controller</string>
         <number>0</number>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;XXXXXX&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;SS-DET. FLANGE&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
        <property name="wordWrap">
         <bool>true</bool>
@@ -7012,7 +6937,7 @@ Controller</string>
        <property name="geometry">
         <rect>
          <x>1345</x>
-         <y>825</y>
+         <y>820</y>
          <width>141</width>
          <height>21</height>
         </rect>
@@ -7021,7 +6946,7 @@ Controller</string>
         <number>0</number>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;XXXXXX&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;S-COIL WATER&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
        <property name="wordWrap">
         <bool>true</bool>
@@ -7031,7 +6956,7 @@ Controller</string>
        <property name="geometry">
         <rect>
          <x>1265</x>
-         <y>905</y>
+         <y>870</y>
          <width>71</width>
          <height>21</height>
         </rect>
@@ -7059,7 +6984,7 @@ Controller</string>
        <property name="geometry">
         <rect>
          <x>1205</x>
-         <y>805</y>
+         <y>795</y>
          <width>61</width>
          <height>21</height>
         </rect>
@@ -7075,7 +7000,7 @@ Controller</string>
        <property name="geometry">
         <rect>
          <x>1265</x>
-         <y>880</y>
+         <y>845</y>
          <width>71</width>
          <height>21</height>
         </rect>
@@ -7103,7 +7028,7 @@ Controller</string>
        <property name="geometry">
         <rect>
          <x>1205</x>
-         <y>905</y>
+         <y>870</y>
          <width>61</width>
          <height>21</height>
         </rect>
@@ -7119,7 +7044,7 @@ Controller</string>
        <property name="geometry">
         <rect>
          <x>1345</x>
-         <y>805</y>
+         <y>795</y>
          <width>141</width>
          <height>21</height>
         </rect>
@@ -7128,7 +7053,7 @@ Controller</string>
         <number>0</number>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;XXXXXX&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;N-COIL WATER&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
        <property name="wordWrap">
         <bool>true</bool>
@@ -7411,7 +7336,6 @@ Controller</string>
       <zorder>label_156</zorder>
       <zorder>PyDMLabel_48</zorder>
       <zorder>PyDMLabel_50</zorder>
-      <zorder>label_157</zorder>
       <zorder>PyDMLabel_51</zorder>
       <zorder>PyDMLabel_52</zorder>
       <zorder>PyDMLabel_53</zorder>
@@ -7428,10 +7352,8 @@ Controller</string>
       <zorder>label_253</zorder>
       <zorder>label_254</zorder>
       <zorder>PyDMLabel_54</zorder>
-      <zorder>label_159</zorder>
       <zorder>PyDMLabel_55</zorder>
       <zorder>PyDMLabel_56</zorder>
-      <zorder>label_160</zorder>
       <zorder>PyDMLabel_57</zorder>
       <zorder>label_255</zorder>
       <zorder>label_256</zorder>
