@@ -6395,7 +6395,7 @@ Controller</string>
       <widget class="QLabel" name="label_156">
        <property name="geometry">
         <rect>
-         <x>1205</x>
+         <x>1210</x>
          <y>645</y>
          <width>236</width>
          <height>26</height>
