@@ -4396,7 +4396,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
         <number>2</number>
        </property>
        <property name="text">
-        <string>0.000 lpm</string>
+        <string>8.337 lpm</string>
        </property>
        <property name="precision" stdset="0">
         <number>3</number>
@@ -7091,6 +7091,34 @@ Controller</string>
         <double>35.000000000000000</double>
        </property>
       </widget>
+      <widget class="QLabel" name="label_258">
+       <property name="geometry">
+        <rect>
+         <x>320</x>
+         <y>290</y>
+         <width>261</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="lineWidth">
+        <number>0</number>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;NOTE:&lt;/span&gt;&lt;br/&gt;Don't use FORCE_CLOSE function!&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
       <zorder>line_152</zorder>
       <zorder>PyDMDrawingRectangle_14</zorder>
       <zorder>line_148</zorder>
@@ -7366,6 +7394,7 @@ Controller</string>
       <zorder>PyDMDrawingLine_4</zorder>
       <zorder>HotCathodeGauge_23</zorder>
       <zorder>HotCathodeGauge_22</zorder>
+      <zorder>label_258</zorder>
      </widget>
     </widget>
    </item>
