@@ -4203,7 +4203,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
        <property name="onColor" stdset="0">
         <color>
          <red>0</red>
-         <green>85</green>
+         <green>170</green>
          <blue>0</blue>
         </color>
        </property>
@@ -4396,13 +4396,16 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
         <number>2</number>
        </property>
        <property name="text">
-        <string>8.337 lpm</string>
+        <string>8.267 lpm</string>
        </property>
        <property name="precision" stdset="0">
         <number>3</number>
        </property>
        <property name="showUnits" stdset="0">
         <bool>true</bool>
+       </property>
+       <property name="alarmSensitiveBorder" stdset="0">
+        <bool>false</bool>
        </property>
        <property name="channel" stdset="0">
         <string>ca://DREAM:COIL:FWM:VAL_RBV</string>
@@ -6441,6 +6444,9 @@ Controller</string>
        <property name="showUnits" stdset="0">
         <bool>true</bool>
        </property>
+       <property name="alarmSensitiveBorder" stdset="0">
+        <bool>false</bool>
+       </property>
        <property name="channel" stdset="0">
         <string>ca://DREAM:STC:02:TEMP_RBV</string>
        </property>
@@ -6469,6 +6475,9 @@ Controller</string>
        <property name="showUnits" stdset="0">
         <bool>true</bool>
        </property>
+       <property name="alarmSensitiveBorder" stdset="0">
+        <bool>false</bool>
+       </property>
        <property name="channel" stdset="0">
         <string>ca://DREAM:STC:01:TEMP_RBV</string>
        </property>
@@ -6496,6 +6505,9 @@ Controller</string>
        </property>
        <property name="showUnits" stdset="0">
         <bool>true</bool>
+       </property>
+       <property name="alarmSensitiveBorder" stdset="0">
+        <bool>false</bool>
        </property>
        <property name="channel" stdset="0">
         <string>ca://DREAM:STC:03:TEMP_RBV</string>
@@ -6540,6 +6552,9 @@ Controller</string>
        </property>
        <property name="showUnits" stdset="0">
         <bool>true</bool>
+       </property>
+       <property name="alarmSensitiveBorder" stdset="0">
+        <bool>false</bool>
        </property>
        <property name="channel" stdset="0">
         <string>ca://DREAM:STC:04:TEMP_RBV</string>
@@ -6850,6 +6865,9 @@ Controller</string>
        <property name="showUnits" stdset="0">
         <bool>true</bool>
        </property>
+       <property name="alarmSensitiveBorder" stdset="0">
+        <bool>false</bool>
+       </property>
        <property name="channel" stdset="0">
         <string>ca://DREAM:STC:06:TEMP_RBV</string>
        </property>
@@ -6877,6 +6895,9 @@ Controller</string>
        </property>
        <property name="showUnits" stdset="0">
         <bool>true</bool>
+       </property>
+       <property name="alarmSensitiveBorder" stdset="0">
+        <bool>false</bool>
        </property>
        <property name="channel" stdset="0">
         <string>ca://DREAM:STC:05:TEMP_RBV</string>
@@ -6976,6 +6997,9 @@ Controller</string>
        <property name="showUnits" stdset="0">
         <bool>true</bool>
        </property>
+       <property name="alarmSensitiveBorder" stdset="0">
+        <bool>false</bool>
+       </property>
        <property name="channel" stdset="0">
         <string>ca://DREAM:STC:08:TEMP_RBV</string>
        </property>
@@ -7019,6 +7043,9 @@ Controller</string>
        </property>
        <property name="showUnits" stdset="0">
         <bool>true</bool>
+       </property>
+       <property name="alarmSensitiveBorder" stdset="0">
+        <bool>false</bool>
        </property>
        <property name="channel" stdset="0">
         <string>ca://DREAM:STC:07:TEMP_RBV</string>
