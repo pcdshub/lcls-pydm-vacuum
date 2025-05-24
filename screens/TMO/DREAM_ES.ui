@@ -917,7 +917,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
         <rect>
          <x>210</x>
          <y>670</y>
-         <width>161</width>
+         <width>166</width>
          <height>20</height>
         </rect>
        </property>
@@ -928,7 +928,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_15">
        <property name="geometry">
         <rect>
-         <x>370</x>
+         <x>375</x>
          <y>550</y>
          <width>131</width>
          <height>51</height>
@@ -953,9 +953,9 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       <widget class="Line" name="line_108">
        <property name="geometry">
         <rect>
-         <x>520</x>
+         <x>515</x>
          <y>1090</y>
-         <width>801</width>
+         <width>806</width>
          <height>20</height>
         </rect>
        </property>
@@ -1027,8 +1027,8 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
        <property name="geometry">
         <rect>
          <x>220</x>
-         <y>560</y>
-         <width>151</width>
+         <y>570</y>
+         <width>156</width>
          <height>20</height>
         </rect>
        </property>
@@ -1040,9 +1040,9 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
        <property name="geometry">
         <rect>
          <x>430</x>
-         <y>500</y>
+         <y>505</y>
          <width>20</width>
-         <height>51</height>
+         <height>46</height>
         </rect>
        </property>
        <property name="orientation">
@@ -1052,9 +1052,9 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       <widget class="Line" name="line_113">
        <property name="geometry">
         <rect>
-         <x>500</x>
+         <x>505</x>
          <y>470</y>
-         <width>881</width>
+         <width>876</width>
          <height>20</height>
         </rect>
        </property>
@@ -1067,7 +1067,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
         <rect>
          <x>245</x>
          <y>840</y>
-         <width>126</width>
+         <width>131</width>
          <height>20</height>
         </rect>
        </property>
@@ -1078,9 +1078,9 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       <widget class="Line" name="line_116">
        <property name="geometry">
         <rect>
-         <x>520</x>
+         <x>525</x>
          <y>250</y>
-         <width>221</width>
+         <width>216</width>
          <height>20</height>
         </rect>
        </property>
@@ -1335,7 +1335,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_16">
        <property name="geometry">
         <rect>
-         <x>370</x>
+         <x>365</x>
          <y>1070</y>
          <width>151</width>
          <height>51</height>
@@ -1373,7 +1373,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_17">
        <property name="geometry">
         <rect>
-         <x>350</x>
+         <x>355</x>
          <y>240</y>
          <width>171</width>
          <height>51</height>
@@ -1484,9 +1484,9 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       <widget class="Line" name="line_133">
        <property name="geometry">
         <rect>
-         <x>500</x>
+         <x>505</x>
          <y>570</y>
-         <width>451</width>
+         <width>446</width>
          <height>20</height>
         </rect>
        </property>
@@ -1531,7 +1531,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
         <rect>
          <x>290</x>
          <y>270</y>
-         <width>61</width>
+         <width>66</width>
          <height>20</height>
         </rect>
        </property>
@@ -1542,7 +1542,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_18">
        <property name="geometry">
         <rect>
-         <x>370</x>
+         <x>375</x>
          <y>735</y>
          <width>131</width>
          <height>126</height>
@@ -1567,8 +1567,8 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_19">
        <property name="geometry">
         <rect>
-         <x>370</x>
-         <y>450</y>
+         <x>375</x>
+         <y>455</y>
          <width>131</width>
          <height>51</height>
         </rect>
@@ -1627,7 +1627,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
          <x>430</x>
          <y>290</y>
          <width>20</width>
-         <height>161</height>
+         <height>166</height>
         </rect>
        </property>
        <property name="orientation">
@@ -1637,9 +1637,9 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       <widget class="Line" name="line_140">
        <property name="geometry">
         <rect>
-         <x>500</x>
+         <x>505</x>
          <y>670</y>
-         <width>321</width>
+         <width>316</width>
          <height>20</height>
         </rect>
        </property>
@@ -1652,7 +1652,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
         <rect>
          <x>290</x>
          <y>250</y>
-         <width>61</width>
+         <width>66</width>
          <height>20</height>
         </rect>
        </property>
@@ -1676,9 +1676,9 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       <widget class="Line" name="line_144">
        <property name="geometry">
         <rect>
-         <x>520</x>
+         <x>515</x>
          <y>990</y>
-         <width>301</width>
+         <width>306</width>
          <height>20</height>
         </rect>
        </property>
@@ -1704,7 +1704,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
         <rect>
          <x>210</x>
          <y>1090</y>
-         <width>161</width>
+         <width>156</width>
          <height>20</height>
         </rect>
        </property>
@@ -1715,14 +1715,17 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       <widget class="RoughGauge" name="RoughGauge_24">
        <property name="geometry">
         <rect>
-         <x>230</x>
-         <y>420</y>
+         <x>170</x>
+         <y>370</y>
          <width>70</width>
-         <height>60</height>
+         <height>66</height>
         </rect>
        </property>
        <property name="toolTip">
         <string/>
+       </property>
+       <property name="controlsLocation" stdset="0">
+        <enum>PCDSSymbolBase::Top</enum>
        </property>
        <property name="channelsPrefix" stdset="0">
         <string>ca://DREAM:DP1:GPI:01</string>
@@ -1789,7 +1792,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_20">
        <property name="geometry">
         <rect>
-         <x>370</x>
+         <x>365</x>
          <y>970</y>
          <width>151</width>
          <height>51</height>
@@ -1846,7 +1849,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_21">
        <property name="geometry">
         <rect>
-         <x>370</x>
+         <x>375</x>
          <y>650</y>
          <width>131</width>
          <height>51</height>
@@ -1967,9 +1970,9 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       <widget class="Line" name="line_142">
        <property name="geometry">
         <rect>
-         <x>240</x>
-         <y>480</y>
-         <width>131</width>
+         <x>205</x>
+         <y>450</y>
+         <width>171</width>
          <height>20</height>
         </rect>
        </property>
@@ -1980,8 +1983,8 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       <widget class="Line" name="line_125">
        <property name="geometry">
         <rect>
-         <x>230</x>
-         <y>440</y>
+         <x>195</x>
+         <y>425</y>
          <width>20</width>
          <height>51</height>
         </rect>
@@ -1994,7 +1997,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
        <property name="geometry">
         <rect>
          <x>100</x>
-         <y>390</y>
+         <y>430</y>
          <width>121</width>
          <height>101</height>
         </rect>
@@ -2015,24 +2018,11 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
         <bool>false</bool>
        </property>
       </widget>
-      <widget class="Line" name="line_157">
-       <property name="geometry">
-        <rect>
-         <x>220</x>
-         <y>430</y>
-         <width>41</width>
-         <height>20</height>
-        </rect>
-       </property>
-       <property name="orientation">
-        <enum>Qt::Horizontal</enum>
-       </property>
-      </widget>
       <widget class="HotCathodeGauge" name="HotCathodeGauge_20">
        <property name="geometry">
         <rect>
          <x>100</x>
-         <y>520</y>
+         <y>530</y>
          <width>121</width>
          <height>101</height>
         </rect>
@@ -3025,8 +3015,8 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       <widget class="QLabel" name="label_221">
        <property name="geometry">
         <rect>
-         <x>220</x>
-         <y>370</y>
+         <x>235</x>
+         <y>385</y>
          <width>101</width>
          <height>51</height>
         </rect>
@@ -3054,7 +3044,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
        <property name="geometry">
         <rect>
          <x>10</x>
-         <y>440</y>
+         <y>470</y>
          <width>101</width>
          <height>51</height>
         </rect>
@@ -3082,7 +3072,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
        <property name="geometry">
         <rect>
          <x>10</x>
-         <y>570</y>
+         <y>575</y>
          <width>101</width>
          <height>51</height>
         </rect>
@@ -3110,7 +3100,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
        <property name="geometry">
         <rect>
          <x>10</x>
-         <y>680</y>
+         <y>670</y>
          <width>101</width>
          <height>51</height>
         </rect>
@@ -4067,7 +4057,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
         <rect>
          <x>210</x>
          <y>990</y>
-         <width>161</width>
+         <width>156</width>
          <height>20</height>
         </rect>
        </property>
@@ -4079,7 +4069,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
        <property name="geometry">
         <rect>
          <x>15</x>
-         <y>10</y>
+         <y>5</y>
          <width>141</width>
          <height>45</height>
         </rect>
@@ -4120,7 +4110,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
        <property name="geometry">
         <rect>
          <x>40</x>
-         <y>135</y>
+         <y>115</y>
          <width>91</width>
          <height>36</height>
         </rect>
@@ -4163,7 +4153,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
          <x>10</x>
          <y>5</y>
          <width>151</width>
-         <height>251</height>
+         <height>231</height>
         </rect>
        </property>
        <property name="toolTip">
@@ -4189,7 +4179,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
        <property name="geometry">
         <rect>
          <x>35</x>
-         <y>65</y>
+         <y>50</y>
          <width>101</width>
          <height>61</height>
         </rect>
@@ -4230,7 +4220,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
        <property name="geometry">
         <rect>
          <x>35</x>
-         <y>175</y>
+         <y>155</y>
          <width>101</width>
          <height>71</height>
         </rect>
@@ -4271,9 +4261,9 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
        <property name="geometry">
         <rect>
          <x>10</x>
-         <y>255</y>
+         <y>240</y>
          <width>151</width>
-         <height>136</height>
+         <height>181</height>
         </rect>
        </property>
        <property name="toolTip">
@@ -4299,7 +4289,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
        <property name="geometry">
         <rect>
          <x>20</x>
-         <y>300</y>
+         <y>285</y>
          <width>131</width>
          <height>36</height>
         </rect>
@@ -4340,7 +4330,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
        <property name="geometry">
         <rect>
          <x>15</x>
-         <y>260</y>
+         <y>245</y>
          <width>141</width>
          <height>45</height>
         </rect>
@@ -4381,7 +4371,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
        <property name="geometry">
         <rect>
          <x>25</x>
-         <y>340</y>
+         <y>325</y>
          <width>121</width>
          <height>26</height>
         </rect>
@@ -4396,7 +4386,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
         <number>2</number>
        </property>
        <property name="text">
-        <string>8.267 lpm</string>
+        <string>8.170 lpm</string>
        </property>
        <property name="precision" stdset="0">
         <number>3</number>
@@ -4415,7 +4405,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
        <property name="geometry">
         <rect>
          <x>15</x>
-         <y>365</y>
+         <y>350</y>
          <width>141</width>
          <height>21</height>
         </rect>
@@ -7146,6 +7136,80 @@ Controller</string>
         <bool>true</bool>
        </property>
       </widget>
+      <widget class="QLabel" name="label_168">
+       <property name="geometry">
+        <rect>
+         <x>15</x>
+         <y>395</y>
+         <width>141</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="lineWidth">
+        <number>0</number>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;COIL PS CURRENT&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="PyDMLabel" name="PyDMLabel_62">
+       <property name="geometry">
+        <rect>
+         <x>25</x>
+         <y>370</y>
+         <width>121</width>
+         <height>26</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
+       <property name="lineWidth">
+        <number>2</number>
+       </property>
+       <property name="text">
+        <string>0.00 A</string>
+       </property>
+       <property name="precision" stdset="0">
+        <number>2</number>
+       </property>
+       <property name="showUnits" stdset="0">
+        <bool>true</bool>
+       </property>
+       <property name="precisionFromPV" stdset="0">
+        <bool>true</bool>
+       </property>
+       <property name="alarmSensitiveContent" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="alarmSensitiveBorder" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="PyDMToolTip" stdset="0">
+        <string/>
+       </property>
+       <property name="channel" stdset="0">
+        <string>ca://TMO:DREAM:COIL:GETCUR</string>
+       </property>
+       <property name="enableRichText" stdset="0">
+        <bool>false</bool>
+       </property>
+      </widget>
       <zorder>line_152</zorder>
       <zorder>PyDMDrawingRectangle_14</zorder>
       <zorder>line_148</zorder>
@@ -7159,7 +7223,6 @@ Controller</string>
       <zorder>line_130</zorder>
       <zorder>line_158</zorder>
       <zorder>line_125</zorder>
-      <zorder>line_157</zorder>
       <zorder>line_118</zorder>
       <zorder>TitleLabel</zorder>
       <zorder>PyDMEmbeddedDisplay_10</zorder>
@@ -7422,6 +7485,8 @@ Controller</string>
       <zorder>HotCathodeGauge_23</zorder>
       <zorder>HotCathodeGauge_22</zorder>
       <zorder>label_258</zorder>
+      <zorder>label_168</zorder>
+      <zorder>PyDMLabel_62</zorder>
      </widget>
     </widget>
    </item>
