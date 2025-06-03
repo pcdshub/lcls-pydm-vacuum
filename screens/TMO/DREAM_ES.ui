@@ -787,7 +787,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       </property>
       <property name="geometry">
        <rect>
-        <x>0</x>
+        <x>-41</x>
         <y>0</y>
         <width>1550</width>
         <height>1200</height>
@@ -2362,7 +2362,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
          <x>1220</x>
          <y>170</y>
          <width>70</width>
-         <height>60</height>
+         <height>61</height>
         </rect>
        </property>
        <property name="toolTip">
@@ -2378,8 +2378,8 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       <widget class="QLabel" name="label_118">
        <property name="geometry">
         <rect>
-         <x>1310</x>
-         <y>190</y>
+         <x>1405</x>
+         <y>235</y>
          <width>141</width>
          <height>51</height>
         </rect>
@@ -2445,8 +2445,8 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       <widget class="QLabel" name="label_137">
        <property name="geometry">
         <rect>
-         <x>1310</x>
-         <y>490</y>
+         <x>1405</x>
+         <y>455</y>
          <width>141</width>
          <height>51</height>
         </rect>
@@ -3750,7 +3750,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       <widget class="QLabel" name="label_143">
        <property name="geometry">
         <rect>
-         <x>1180</x>
+         <x>1170</x>
          <y>120</y>
          <width>151</width>
          <height>51</height>
@@ -3806,7 +3806,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       <widget class="QLabel" name="label_146">
        <property name="geometry">
         <rect>
-         <x>1210</x>
+         <x>1185</x>
          <y>590</y>
          <width>151</width>
          <height>51</height>
@@ -4386,7 +4386,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
         <number>2</number>
        </property>
        <property name="text">
-        <string>8.170 lpm</string>
+        <string>8.423 lpm</string>
        </property>
        <property name="precision" stdset="0">
         <number>3</number>
@@ -7210,6 +7210,78 @@ Controller</string>
         <bool>false</bool>
        </property>
       </widget>
+      <widget class="PneumaticValve" name="PneumaticValve_22">
+       <property name="geometry">
+        <rect>
+         <x>1320</x>
+         <y>160</y>
+         <width>101</width>
+         <height>81</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="controlsLocation" stdset="0">
+        <enum>PCDSSymbolBase::Right</enum>
+       </property>
+       <property name="channelsPrefix" stdset="0">
+        <string>ca://DREAM:ROUGH1:VRC:10</string>
+       </property>
+       <property name="rotateIcon" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="expertOphydClass" stdset="0">
+        <string>pcdsdevices.valve.VRC</string>
+       </property>
+       <property name="controlButtonHorizontal" stdset="0">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="Line" name="line_157">
+       <property name="geometry">
+        <rect>
+         <x>1255</x>
+         <y>195</y>
+         <width>71</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Sunken</enum>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_157">
+       <property name="geometry">
+        <rect>
+         <x>1310</x>
+         <y>135</y>
+         <width>151</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="lineWidth">
+        <number>0</number>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600; color:#0000ff;&quot;&gt;DREAM:ROUGH1:&lt;br/&gt;&lt;/span&gt;&lt;span style=&quot; font-weight:600; color:#000000;&quot;&gt;VRC&lt;/span&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;:10&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
       <zorder>line_152</zorder>
       <zorder>PyDMDrawingRectangle_14</zorder>
       <zorder>line_148</zorder>
@@ -7487,6 +7559,9 @@ Controller</string>
       <zorder>label_258</zorder>
       <zorder>label_168</zorder>
       <zorder>PyDMLabel_62</zorder>
+      <zorder>line_157</zorder>
+      <zorder>PneumaticValve_22</zorder>
+      <zorder>label_157</zorder>
      </widget>
     </widget>
    </item>
