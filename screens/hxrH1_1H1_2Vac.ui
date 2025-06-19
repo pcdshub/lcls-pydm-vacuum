@@ -1177,7 +1177,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
           <enum>QFrame::Plain</enum>
          </property>
          <property name="text">
-          <string>3.20e-09 Torr</string>
+          <string>4.90e-09 Torr</string>
          </property>
          <property name="textFormat">
           <enum>Qt::PlainText</enum>
@@ -1449,9 +1449,9 @@ IonPump[state=&quot;FAULT&quot;] #icon {
          <property name="geometry">
           <rect>
            <x>1560</x>
-           <y>260</y>
-           <width>70</width>
-           <height>130</height>
+           <y>232</y>
+           <width>71</width>
+           <height>141</height>
           </rect>
          </property>
          <property name="toolTip">
@@ -1462,6 +1462,12 @@ IonPump[state=&quot;FAULT&quot;] #icon {
          </property>
          <property name="channelsPrefix" stdset="0">
           <string>ca://TV8L0:VGC:01</string>
+         </property>
+         <property name="showName" stdset="0">
+          <bool>true</bool>
+         </property>
+         <property name="fontSize" stdset="0">
+          <number>12</number>
          </property>
          <property name="controlButtonHorizontal" stdset="0">
           <bool>false</bool>
@@ -1550,11 +1556,6 @@ IonPump[state=&quot;FAULT&quot;] #icon {
    <header>pydm.widgets.shell_command</header>
   </customwidget>
   <customwidget>
-   <class>TyphosSignalPanel</class>
-   <extends>QWidget</extends>
-   <header>typhos.panel</header>
-  </customwidget>
-  <customwidget>
    <class>ColdCathodeGauge</class>
    <extends>PCDSSymbolBase</extends>
    <header>pcdswidgets.vacuum.gauges</header>
@@ -1573,6 +1574,11 @@ IonPump[state=&quot;FAULT&quot;] #icon {
    <class>PCDSSymbolBase</class>
    <extends>QWidget</extends>
    <header>pcdswidgets.vacuum.base</header>
+  </customwidget>
+  <customwidget>
+   <class>TyphosSignalPanel</class>
+   <extends>QWidget</extends>
+   <header>typhos.panel</header>
   </customwidget>
  </customwidgets>
  <resources/>
