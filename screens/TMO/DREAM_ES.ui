@@ -4386,7 +4386,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
         <number>2</number>
        </property>
        <property name="text">
-        <string>8.354 lpm</string>
+        <string>8.300 lpm</string>
        </property>
        <property name="precision" stdset="0">
         <number>3</number>
@@ -7204,7 +7204,7 @@ Controller</string>
         <string/>
        </property>
        <property name="channel" stdset="0">
-        <string>ca://TMO:DREAM:COIL:GETCUR</string>
+        <string>ca://TMO:DREAM:COIL:PSI:01:GETCUR</string>
        </property>
        <property name="enableRichText" stdset="0">
         <bool>false</bool>
@@ -7401,7 +7401,6 @@ Controller</string>
       <zorder>line_155</zorder>
       <zorder>line_156</zorder>
       <zorder>TurboPump_31</zorder>
-      <zorder>RoughGauge_26</zorder>
       <zorder>PneumaticValve_18</zorder>
       <zorder>line_142</zorder>
       <zorder>HotCathodeGauge_19</zorder>
@@ -7619,6 +7618,7 @@ Controller</string>
       <zorder>label_157</zorder>
       <zorder>line_162</zorder>
       <zorder>label_120</zorder>
+      <zorder>RoughGauge_26</zorder>
      </widget>
     </widget>
    </item>
