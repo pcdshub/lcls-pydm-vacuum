@@ -2901,6 +2901,22 @@ Vacuum</string>
         <string>pydm /reg/g/pcds/epics-dev/screens/pydm/txi_screens/vacuum_screens/TXI_FEE.ui</string>
        </property>
       </widget>
+      <widget class="QLabel" name="label_14">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>450</x>
+         <y>690</y>
+         <width>161</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:7pt;&quot;&gt;Note: Generally should be left off. &lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:7pt;&quot;&gt;If GFS-1 above faults, please turn off.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
       <zorder>line_15</zorder>
       <zorder>line_16</zorder>
       <zorder>line_23</zorder>
@@ -3027,6 +3043,7 @@ Vacuum</string>
       <zorder>H1Button_6</zorder>
       <zorder>H1Button_7</zorder>
       <zorder>H1Button_8</zorder>
+      <zorder>label_14</zorder>
      </widget>
     </widget>
    </item>
