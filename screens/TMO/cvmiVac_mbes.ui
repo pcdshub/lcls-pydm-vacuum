@@ -3332,40 +3332,6 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <bool>false</bool>
        </property>
       </widget>
-      <widget class="TurboPump" name="MBES_GJ2_PTM_04">
-       <property name="geometry">
-        <rect>
-         <x>790</x>
-         <y>550</y>
-         <width>91</width>
-         <height>101</height>
-        </rect>
-       </property>
-       <property name="toolTip">
-        <string/>
-       </property>
-       <property name="accessibleName">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;LAMP&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-       </property>
-       <property name="layoutDirection">
-        <enum>Qt::RightToLeft</enum>
-       </property>
-       <property name="controlsLocation" stdset="0">
-        <enum>PCDSSymbolBase::Bottom</enum>
-       </property>
-       <property name="channelsPrefix" stdset="0">
-        <string>ca://MBES:GJ2:PTM:04</string>
-       </property>
-       <property name="iconSize" stdset="0">
-        <number>40</number>
-       </property>
-       <property name="rotateIcon" stdset="0">
-        <bool>true</bool>
-       </property>
-       <property name="controlButtonHorizontal" stdset="0">
-        <bool>false</bool>
-       </property>
-      </widget>
       <widget class="TurboPump" name="MBES_GJ2_PTM_01">
        <property name="geometry">
         <rect>
@@ -3484,7 +3450,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
          <x>820</x>
          <y>380</y>
          <width>31</width>
-         <height>171</height>
+         <height>71</height>
         </rect>
        </property>
        <property name="frameShadow">
@@ -3576,35 +3542,6 @@ IonPump[state=&quot;FAULT&quot;] #icon {
        </property>
        <property name="text">
         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;MBES:GJ2:&lt;br/&gt;PTM:03&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
-       </property>
-       <property name="wordWrap">
-        <bool>true</bool>
-       </property>
-      </widget>
-      <widget class="QLabel" name="label_59">
-       <property name="geometry">
-        <rect>
-         <x>790</x>
-         <y>650</y>
-         <width>91</width>
-         <height>41</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <pointsize>9</pointsize>
-         <weight>50</weight>
-         <bold>false</bold>
-        </font>
-       </property>
-       <property name="lineWidth">
-        <number>1</number>
-       </property>
-       <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;MBES:GJ2:&lt;br/&gt;PTM:04&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignCenter</set>
@@ -3820,6 +3757,9 @@ IonPump[state=&quot;FAULT&quot;] #icon {
        </property>
        <property name="channelsPrefix" stdset="0">
         <string>ca://MBES:ROUGH:GPI:06</string>
+       </property>
+       <property name="showName" stdset="0">
+        <bool>false</bool>
        </property>
        <property name="showStatusTooltip" stdset="0">
         <bool>true</bool>
@@ -4580,7 +4520,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <number>1</number>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;MBES:ROUGH:&lt;br/&gt;VRC:03&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;MBES:ROUGH:&lt;br/&gt;VRC:02&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignCenter</set>
@@ -4706,7 +4646,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <number>1</number>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;MBES:ROUGH:&lt;br/&gt;VRC:05&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;MBES:ROUGH:&lt;br/&gt;VRC:06&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignCenter</set>
@@ -4916,13 +4856,11 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <zorder>PyDMDrawingRectangle_4</zorder>
       <zorder>PA1K0_label_13</zorder>
       <zorder>MBES_GJ2_PTM_03</zorder>
-      <zorder>MBES_GJ2_PTM_04</zorder>
       <zorder>MBES_GJ2_PTM_01</zorder>
       <zorder>MBES_GJ2_PTM_02</zorder>
       <zorder>label_56</zorder>
       <zorder>label_57</zorder>
       <zorder>label_58</zorder>
-      <zorder>label_59</zorder>
       <zorder>MBES_GJ2_GCC_01</zorder>
       <zorder>MBES_GJ2_GPI_01</zorder>
       <zorder>line_81</zorder>
