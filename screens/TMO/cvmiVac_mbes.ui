@@ -9,8 +9,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1436</width>
-    <height>1750</height>
+    <width>1300</width>
+    <height>1350</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -396,7 +396,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
      <property name="minimumSize">
       <size>
        <width>0</width>
-       <height>1600</height>
+       <height>0</height>
       </size>
      </property>
      <property name="maximumSize">
@@ -407,7 +407,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
      </property>
      <property name="font">
       <font>
-       <pointsize>24</pointsize>
+       <pointsize>10</pointsize>
       </font>
      </property>
      <property name="styleSheet">
@@ -767,7 +767,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <enum>QFrame::NoFrame</enum>
      </property>
      <property name="lineWidth">
-      <number>3</number>
+      <number>1</number>
      </property>
      <property name="widgetResizable">
       <bool>false</bool>
@@ -784,13 +784,13 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <x>0</x>
         <y>0</y>
         <width>1300</width>
-        <height>1750</height>
+        <height>1350</height>
        </rect>
       </property>
       <property name="minimumSize">
        <size>
         <width>0</width>
-        <height>1600</height>
+        <height>1200</height>
        </size>
       </property>
       <property name="maximumSize">
@@ -888,14 +888,14 @@ IonPump[state=&quot;FAULT&quot;] #icon {
        <property name="geometry">
         <rect>
          <x>520</x>
-         <y>460</y>
-         <width>161</width>
+         <y>400</y>
+         <width>121</width>
          <height>61</height>
         </rect>
        </property>
        <property name="font">
         <font>
-         <pointsize>14</pointsize>
+         <pointsize>12</pointsize>
          <weight>75</weight>
          <bold>true</bold>
          <kerning>true</kerning>
@@ -926,10 +926,10 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="HotCathodeGauge" name="MBES_MAIN_GHC_01">
        <property name="geometry">
         <rect>
-         <x>390</x>
-         <y>300</y>
+         <x>430</x>
+         <y>280</y>
          <width>81</width>
-         <height>121</height>
+         <height>111</height>
         </rect>
        </property>
        <property name="toolTip">
@@ -945,7 +945,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <string>ca://MBES:MAIN:GHC:01</string>
        </property>
        <property name="iconSize" stdset="0">
-        <number>40</number>
+        <number>25</number>
        </property>
        <property name="expertOphydClass" stdset="0">
         <string>pcdsdevices.gauge.GHCPLC</string>
@@ -957,15 +957,15 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="PyDMLabel" name="PA1K0_label_8">
        <property name="geometry">
         <rect>
-         <x>380</x>
-         <y>480</y>
-         <width>101</width>
-         <height>21</height>
+         <x>430</x>
+         <y>410</y>
+         <width>61</width>
+         <height>41</height>
         </rect>
        </property>
        <property name="font">
         <font>
-         <pointsize>12</pointsize>
+         <pointsize>10</pointsize>
          <weight>75</weight>
          <bold>true</bold>
          <kerning>true</kerning>
@@ -996,10 +996,10 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="TurboPump" name="MBES_CATCH_PTM_01">
        <property name="geometry">
         <rect>
-         <x>210</x>
-         <y>410</y>
-         <width>101</width>
-         <height>101</height>
+         <x>240</x>
+         <y>350</y>
+         <width>91</width>
+         <height>91</height>
         </rect>
        </property>
        <property name="focusPolicy">
@@ -1027,7 +1027,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <bool>true</bool>
        </property>
        <property name="iconSize" stdset="0">
-        <number>40</number>
+        <number>26</number>
        </property>
        <property name="controlButtonHorizontal" stdset="0">
         <bool>false</bool>
@@ -1036,10 +1036,10 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="PneumaticValve" name="MBES_ROUGH_VRC_04">
        <property name="geometry">
         <rect>
-         <x>600</x>
-         <y>1000</y>
-         <width>121</width>
-         <height>131</height>
+         <x>540</x>
+         <y>870</y>
+         <width>81</width>
+         <height>91</height>
         </rect>
        </property>
        <property name="toolTip">
@@ -1061,7 +1061,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <bool>true</bool>
        </property>
        <property name="iconSize" stdset="0">
-        <number>50</number>
+        <number>26</number>
        </property>
        <property name="rotateIcon" stdset="0">
         <bool>false</bool>
@@ -1076,10 +1076,10 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="RoughGauge" name="MBES_ROUGH_GPI_03">
        <property name="geometry">
         <rect>
-         <x>990</x>
-         <y>1450</y>
+         <x>1010</x>
+         <y>1160</y>
          <width>81</width>
-         <height>71</height>
+         <height>51</height>
         </rect>
        </property>
        <property name="toolTip">
@@ -1089,7 +1089,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <string notr="true"/>
        </property>
        <property name="controlsLocation" stdset="0">
-        <enum>PCDSSymbolBase::Top</enum>
+        <enum>PCDSSymbolBase::Bottom</enum>
        </property>
        <property name="channelsPrefix" stdset="0">
         <string>ca://MBES:ROUGH:GPI:03</string>
@@ -1098,7 +1098,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <bool>false</bool>
        </property>
        <property name="iconSize" stdset="0">
-        <number>40</number>
+        <number>25</number>
        </property>
        <property name="rotateIcon" stdset="0">
         <bool>false</bool>
@@ -1107,10 +1107,10 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="RoughGauge" name="MBES_ROUGH_GPI_02">
        <property name="geometry">
         <rect>
-         <x>220</x>
-         <y>1210</y>
-         <width>91</width>
-         <height>71</height>
+         <x>250</x>
+         <y>1020</y>
+         <width>71</width>
+         <height>61</height>
         </rect>
        </property>
        <property name="toolTip">
@@ -1129,7 +1129,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <bool>false</bool>
        </property>
        <property name="iconSize" stdset="0">
-        <number>40</number>
+        <number>25</number>
        </property>
       </widget>
       <widget class="PyDMLabel" name="PA1K0_label_9">
@@ -1175,9 +1175,9 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="RoughGauge" name="MBES_ROUGH_GPI_01">
        <property name="geometry">
         <rect>
-         <x>219</x>
-         <y>1450</y>
-         <width>91</width>
+         <x>220</x>
+         <y>1150</y>
+         <width>71</width>
          <height>71</height>
         </rect>
        </property>
@@ -1197,7 +1197,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <bool>false</bool>
        </property>
        <property name="iconSize" stdset="0">
-        <number>40</number>
+        <number>25</number>
        </property>
        <property name="rotateIcon" stdset="0">
         <bool>false</bool>
@@ -1206,9 +1206,9 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="TurboPump" name="MBES_ROUGH_PTM_01">
        <property name="geometry">
         <rect>
-         <x>320</x>
-         <y>1150</y>
-         <width>151</width>
+         <x>330</x>
+         <y>950</y>
+         <width>121</width>
          <height>61</height>
         </rect>
        </property>
@@ -1228,7 +1228,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <string>ca://MBES:ROUGH:PTM:01</string>
        </property>
        <property name="iconSize" stdset="0">
-        <number>40</number>
+        <number>26</number>
        </property>
        <property name="rotateIcon" stdset="0">
         <bool>true</bool>
@@ -1240,8 +1240,8 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="RoughGauge" name="MBES_ROUGH_GPI_05">
        <property name="geometry">
         <rect>
-         <x>750</x>
-         <y>1020</y>
+         <x>730</x>
+         <y>860</y>
          <width>81</width>
          <height>71</height>
         </rect>
@@ -1259,16 +1259,16 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <bool>true</bool>
        </property>
        <property name="iconSize" stdset="0">
-        <number>40</number>
+        <number>26</number>
        </property>
       </widget>
       <widget class="RoughGauge" name="MBES_ROUGH_GPI_04">
        <property name="geometry">
         <rect>
-         <x>990</x>
-         <y>1210</y>
-         <width>81</width>
-         <height>71</height>
+         <x>980</x>
+         <y>990</y>
+         <width>91</width>
+         <height>61</height>
         </rect>
        </property>
        <property name="toolTip">
@@ -1287,7 +1287,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <bool>false</bool>
        </property>
        <property name="iconSize" stdset="0">
-        <number>40</number>
+        <number>25</number>
        </property>
        <property name="rotateIcon" stdset="0">
         <bool>false</bool>
@@ -1317,8 +1317,8 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="RoughGauge" name="MBES_CAT_GPI_01">
        <property name="geometry">
         <rect>
-         <x>300</x>
-         <y>560</y>
+         <x>340</x>
+         <y>460</y>
          <width>71</width>
          <height>71</height>
         </rect>
@@ -1339,7 +1339,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <bool>true</bool>
        </property>
        <property name="iconSize" stdset="0">
-        <number>40</number>
+        <number>25</number>
        </property>
       </widget>
       <widget class="PyDMLabel" name="PA1K0_label_12">
@@ -1417,7 +1417,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
        <property name="geometry">
         <rect>
          <x>1090</x>
-         <y>435</y>
+         <y>440</y>
          <width>140</width>
          <height>100</height>
         </rect>
@@ -1448,9 +1448,9 @@ IonPump[state=&quot;FAULT&quot;] #icon {
        <property name="geometry">
         <rect>
          <x>220</x>
-         <y>480</y>
-         <width>191</width>
-         <height>20</height>
+         <y>409</y>
+         <width>481</width>
+         <height>41</height>
         </rect>
        </property>
        <property name="sizePolicy">
@@ -1463,7 +1463,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <enum>QFrame::Plain</enum>
        </property>
        <property name="lineWidth">
-        <number>3</number>
+        <number>1</number>
        </property>
        <property name="orientation">
         <enum>Qt::Horizontal</enum>
@@ -1472,9 +1472,9 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="QLabel" name="label_28">
        <property name="geometry">
         <rect>
-         <x>369</x>
-         <y>1130</y>
-         <width>101</width>
+         <x>360</x>
+         <y>1010</y>
+         <width>91</width>
          <height>41</height>
         </rect>
        </property>
@@ -1501,8 +1501,8 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="QLabel" name="label_29">
        <property name="geometry">
         <rect>
-         <x>740</x>
-         <y>110</y>
+         <x>660</x>
+         <y>120</y>
          <width>91</width>
          <height>41</height>
         </rect>
@@ -1530,8 +1530,8 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="QLabel" name="label_32">
        <property name="geometry">
         <rect>
-         <x>980</x>
-         <y>1420</y>
+         <x>1010</x>
+         <y>1210</y>
          <width>100</width>
          <height>41</height>
         </rect>
@@ -1559,10 +1559,10 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="QLabel" name="label_34">
        <property name="geometry">
         <rect>
-         <x>730</x>
-         <y>1090</y>
+         <x>700</x>
+         <y>920</y>
          <width>141</width>
-         <height>21</height>
+         <height>31</height>
         </rect>
        </property>
        <property name="font">
@@ -1588,10 +1588,10 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="QLabel" name="label_35">
        <property name="geometry">
         <rect>
-         <x>210</x>
-         <y>380</y>
-         <width>101</width>
-         <height>41</height>
+         <x>240</x>
+         <y>330</y>
+         <width>91</width>
+         <height>31</height>
         </rect>
        </property>
        <property name="font">
@@ -1618,8 +1618,8 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="QLabel" name="label_36">
        <property name="geometry">
         <rect>
-         <x>390</x>
-         <y>270</y>
+         <x>430</x>
+         <y>250</y>
          <width>81</width>
          <height>41</height>
         </rect>
@@ -1647,8 +1647,8 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="Line" name="line_69">
        <property name="geometry">
         <rect>
-         <x>800</x>
-         <y>1030</y>
+         <x>770</x>
+         <y>870</y>
          <width>81</width>
          <height>21</height>
         </rect>
@@ -1663,7 +1663,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <enum>QFrame::Plain</enum>
        </property>
        <property name="lineWidth">
-        <number>3</number>
+        <number>1</number>
        </property>
        <property name="orientation">
         <enum>Qt::Horizontal</enum>
@@ -1672,10 +1672,10 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="QLabel" name="label_42">
        <property name="geometry">
         <rect>
-         <x>990</x>
-         <y>1180</y>
-         <width>81</width>
-         <height>41</height>
+         <x>960</x>
+         <y>980</y>
+         <width>131</width>
+         <height>21</height>
         </rect>
        </property>
        <property name="font">
@@ -1689,7 +1689,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <number>1</number>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;MBES:ROUGH:&lt;br/&gt;GPI:04&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;MBES:ROUGH:GPI:04&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignCenter</set>
@@ -1701,10 +1701,10 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="QLabel" name="label_43">
        <property name="geometry">
         <rect>
-         <x>400</x>
-         <y>1380</y>
-         <width>111</width>
-         <height>31</height>
+         <x>480</x>
+         <y>1140</y>
+         <width>101</width>
+         <height>41</height>
         </rect>
        </property>
        <property name="font">
@@ -1730,10 +1730,10 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="QLabel" name="label_44">
        <property name="geometry">
         <rect>
-         <x>590</x>
-         <y>1130</y>
-         <width>141</width>
-         <height>41</height>
+         <x>500</x>
+         <y>860</y>
+         <width>151</width>
+         <height>21</height>
         </rect>
        </property>
        <property name="font">
@@ -1759,8 +1759,8 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="QLabel" name="label_45">
        <property name="geometry">
         <rect>
-         <x>220</x>
-         <y>1310</y>
+         <x>350</x>
+         <y>1090</y>
          <width>101</width>
          <height>31</height>
         </rect>
@@ -1788,8 +1788,8 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="QLabel" name="label_46">
        <property name="geometry">
         <rect>
-         <x>220</x>
-         <y>1420</y>
+         <x>210</x>
+         <y>1120</y>
          <width>91</width>
          <height>51</height>
         </rect>
@@ -1817,8 +1817,8 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="QLabel" name="label_47">
        <property name="geometry">
         <rect>
-         <x>220</x>
-         <y>1180</y>
+         <x>240</x>
+         <y>990</y>
          <width>91</width>
          <height>41</height>
         </rect>
@@ -2042,10 +2042,10 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="PneumaticValve" name="TMO_ROUGH1_VFV_02">
        <property name="geometry">
         <rect>
-         <x>400</x>
-         <y>1390</y>
-         <width>111</width>
-         <height>131</height>
+         <x>450</x>
+         <y>1160</y>
+         <width>121</width>
+         <height>91</height>
         </rect>
        </property>
        <property name="toolTip">
@@ -2055,13 +2055,13 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <enum>Qt::LeftToRight</enum>
        </property>
        <property name="controlsLocation" stdset="0">
-        <enum>PCDSSymbolBase::Top</enum>
+        <enum>PCDSSymbolBase::Right</enum>
        </property>
        <property name="channelsPrefix" stdset="0">
         <string>ca://TMO:ROUGH1:VFV:02</string>
        </property>
        <property name="iconSize" stdset="0">
-        <number>50</number>
+        <number>26</number>
        </property>
        <property name="rotateIcon" stdset="0">
         <bool>false</bool>
@@ -2079,14 +2079,14 @@ IonPump[state=&quot;FAULT&quot;] #icon {
          <x>171</x>
          <y>49</y>
          <width>21</width>
-         <height>1061</height>
+         <height>901</height>
         </rect>
        </property>
        <property name="frameShadow">
         <enum>QFrame::Plain</enum>
        </property>
        <property name="lineWidth">
-        <number>3</number>
+        <number>1</number>
        </property>
        <property name="orientation">
         <enum>Qt::Vertical</enum>
@@ -2095,8 +2095,8 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="Line" name="line_92">
        <property name="geometry">
         <rect>
-         <x>420</x>
-         <y>530</y>
+         <x>450</x>
+         <y>440</y>
          <width>21</width>
          <height>41</height>
         </rect>
@@ -2105,7 +2105,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <enum>QFrame::Plain</enum>
        </property>
        <property name="lineWidth">
-        <number>3</number>
+        <number>1</number>
        </property>
        <property name="orientation">
         <enum>Qt::Vertical</enum>
@@ -2114,10 +2114,10 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="RoughGauge" name="MBES_MAIN_GPI_01">
        <property name="geometry">
         <rect>
-         <x>290</x>
-         <y>340</y>
-         <width>91</width>
-         <height>81</height>
+         <x>340</x>
+         <y>330</y>
+         <width>71</width>
+         <height>61</height>
         </rect>
        </property>
        <property name="toolTip">
@@ -2136,15 +2136,15 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <bool>false</bool>
        </property>
        <property name="iconSize" stdset="0">
-        <number>40</number>
+        <number>25</number>
        </property>
       </widget>
       <widget class="QLabel" name="label_49">
        <property name="geometry">
         <rect>
-         <x>290</x>
-         <y>310</y>
-         <width>91</width>
+         <x>330</x>
+         <y>300</y>
+         <width>81</width>
          <height>41</height>
         </rect>
        </property>
@@ -2171,8 +2171,8 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="Line" name="line_66">
        <property name="geometry">
         <rect>
-         <x>340</x>
-         <y>560</y>
+         <x>380</x>
+         <y>460</y>
          <width>81</width>
          <height>41</height>
         </rect>
@@ -2196,10 +2196,10 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="ColdCathodeGauge" name="MBES_CAT_GCC_01">
        <property name="geometry">
         <rect>
-         <x>390</x>
-         <y>560</y>
-         <width>80</width>
-         <height>121</height>
+         <x>419</x>
+         <y>470</y>
+         <width>81</width>
+         <height>111</height>
         </rect>
        </property>
        <property name="toolTip">
@@ -2218,7 +2218,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <bool>true</bool>
        </property>
        <property name="iconSize" stdset="0">
-        <number>40</number>
+        <number>25</number>
        </property>
        <property name="rotateIcon" stdset="0">
         <bool>false</bool>
@@ -2230,10 +2230,10 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="Line" name="line_67">
        <property name="geometry">
         <rect>
-         <x>340</x>
-         <y>380</y>
-         <width>81</width>
-         <height>41</height>
+         <x>370</x>
+         <y>360</y>
+         <width>151</width>
+         <height>31</height>
         </rect>
        </property>
        <property name="sizePolicy">
@@ -2252,38 +2252,13 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <enum>Qt::Horizontal</enum>
        </property>
       </widget>
-      <widget class="Line" name="line_68">
-       <property name="geometry">
-        <rect>
-         <x>430</x>
-         <y>390</y>
-         <width>81</width>
-         <height>20</height>
-        </rect>
-       </property>
-       <property name="sizePolicy">
-        <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
-         <horstretch>10</horstretch>
-         <verstretch>0</verstretch>
-        </sizepolicy>
-       </property>
-       <property name="frameShadow">
-        <enum>QFrame::Plain</enum>
-       </property>
-       <property name="lineWidth">
-        <number>3</number>
-       </property>
-       <property name="orientation">
-        <enum>Qt::Horizontal</enum>
-       </property>
-      </widget>
       <widget class="QLabel" name="label_50">
        <property name="geometry">
         <rect>
-         <x>300</x>
-         <y>630</y>
+         <x>340</x>
+         <y>530</y>
          <width>71</width>
-         <height>41</height>
+         <height>31</height>
         </rect>
        </property>
        <property name="font">
@@ -2309,8 +2284,8 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="QLabel" name="label_51">
        <property name="geometry">
         <rect>
-         <x>390</x>
-         <y>680</y>
+         <x>420</x>
+         <y>580</y>
          <width>81</width>
          <height>41</height>
         </rect>
@@ -2339,16 +2314,16 @@ IonPump[state=&quot;FAULT&quot;] #icon {
        <property name="geometry">
         <rect>
          <x>210</x>
-         <y>490</y>
+         <y>430</y>
          <width>21</width>
-         <height>511</height>
+         <height>431</height>
         </rect>
        </property>
        <property name="frameShadow">
         <enum>QFrame::Plain</enum>
        </property>
        <property name="lineWidth">
-        <number>3</number>
+        <number>1</number>
        </property>
        <property name="orientation">
         <enum>Qt::Vertical</enum>
@@ -2357,10 +2332,10 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="TurboPump" name="MBES_MAIN_PTM_04">
        <property name="geometry">
         <rect>
-         <x>290</x>
-         <y>780</y>
-         <width>131</width>
-         <height>101</height>
+         <x>420</x>
+         <y>630</y>
+         <width>81</width>
+         <height>91</height>
         </rect>
        </property>
        <property name="toolTip">
@@ -2379,7 +2354,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <string>ca://MBES:MAIN:PTM:04</string>
        </property>
        <property name="iconSize" stdset="0">
-        <number>40</number>
+        <number>26</number>
        </property>
        <property name="controlButtonHorizontal" stdset="0">
         <bool>false</bool>
@@ -2389,9 +2364,9 @@ IonPump[state=&quot;FAULT&quot;] #icon {
        <property name="geometry">
         <rect>
          <x>240</x>
-         <y>779</y>
+         <y>620</y>
          <width>691</width>
-         <height>41</height>
+         <height>51</height>
         </rect>
        </property>
        <property name="sizePolicy">
@@ -2404,7 +2379,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <enum>QFrame::Plain</enum>
        </property>
        <property name="lineWidth">
-        <number>3</number>
+        <number>1</number>
        </property>
        <property name="orientation">
         <enum>Qt::Horizontal</enum>
@@ -2413,9 +2388,9 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="QLabel" name="label_48">
        <property name="geometry">
         <rect>
-         <x>290</x>
-         <y>870</y>
-         <width>131</width>
+         <x>420</x>
+         <y>720</y>
+         <width>81</width>
          <height>41</height>
         </rect>
        </property>
@@ -2430,7 +2405,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <number>1</number>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;MBES:MAIN:PTM:04&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;MBES:MAIN:&lt;br/&gt;PTM:04&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignCenter</set>
@@ -2443,8 +2418,8 @@ IonPump[state=&quot;FAULT&quot;] #icon {
        <property name="geometry">
         <rect>
          <x>220</x>
-         <y>980</y>
-         <width>631</width>
+         <y>840</y>
+         <width>601</width>
          <height>41</height>
         </rect>
        </property>
@@ -2458,7 +2433,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <enum>QFrame::Plain</enum>
        </property>
        <property name="lineWidth">
-        <number>3</number>
+        <number>1</number>
        </property>
        <property name="orientation">
         <enum>Qt::Horizontal</enum>
@@ -2468,16 +2443,16 @@ IonPump[state=&quot;FAULT&quot;] #icon {
        <property name="geometry">
         <rect>
          <x>930</x>
-         <y>370</y>
+         <y>360</y>
          <width>41</width>
-         <height>1181</height>
+         <height>901</height>
         </rect>
        </property>
        <property name="frameShadow">
         <enum>QFrame::Plain</enum>
        </property>
        <property name="lineWidth">
-        <number>3</number>
+        <number>1</number>
        </property>
        <property name="orientation">
         <enum>Qt::Vertical</enum>
@@ -2486,10 +2461,10 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="TurboPump" name="MBES_MAIN_PTM_03">
        <property name="geometry">
         <rect>
-         <x>370</x>
-         <y>150</y>
-         <width>131</width>
-         <height>101</height>
+         <x>430</x>
+         <y>160</y>
+         <width>81</width>
+         <height>91</height>
         </rect>
        </property>
        <property name="toolTip">
@@ -2508,7 +2483,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <string>ca://MBES:MAIN:PTM:03</string>
        </property>
        <property name="iconSize" stdset="0">
-        <number>40</number>
+        <number>26</number>
        </property>
        <property name="controlButtonHorizontal" stdset="0">
         <bool>false</bool>
@@ -2519,7 +2494,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <rect>
          <x>180</x>
          <y>34</y>
-         <width>661</width>
+         <width>621</width>
          <height>31</height>
         </rect>
        </property>
@@ -2533,7 +2508,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <enum>QFrame::Plain</enum>
        </property>
        <property name="lineWidth">
-        <number>3</number>
+        <number>1</number>
        </property>
        <property name="orientation">
         <enum>Qt::Horizontal</enum>
@@ -2542,10 +2517,10 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="TurboPump" name="MBES_MAIN_PTM_01">
        <property name="geometry">
         <rect>
-         <x>720</x>
-         <y>150</y>
-         <width>131</width>
-         <height>101</height>
+         <x>650</x>
+         <y>160</y>
+         <width>81</width>
+         <height>91</height>
         </rect>
        </property>
        <property name="toolTip">
@@ -2564,7 +2539,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <string>ca://MBES:MAIN:PTM:01</string>
        </property>
        <property name="iconSize" stdset="0">
-        <number>40</number>
+        <number>26</number>
        </property>
        <property name="controlButtonHorizontal" stdset="0">
         <bool>false</bool>
@@ -2573,9 +2548,9 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="QLabel" name="label_52">
        <property name="geometry">
         <rect>
-         <x>390</x>
-         <y>110</y>
-         <width>91</width>
+         <x>430</x>
+         <y>120</y>
+         <width>81</width>
          <height>41</height>
         </rect>
        </property>
@@ -2602,9 +2577,9 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="TurboPump" name="MBES_MAIN_PTM_02">
        <property name="geometry">
         <rect>
-         <x>570</x>
+         <x>560</x>
          <y>60</y>
-         <width>141</width>
+         <width>111</width>
          <height>61</height>
         </rect>
        </property>
@@ -2624,7 +2599,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <string>ca://MBES:MAIN:PTM:02</string>
        </property>
        <property name="iconSize" stdset="0">
-        <number>40</number>
+        <number>26</number>
        </property>
        <property name="controlButtonHorizontal" stdset="0">
         <bool>false</bool>
@@ -2633,7 +2608,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="Line" name="line_55">
        <property name="geometry">
         <rect>
-         <x>570</x>
+         <x>550</x>
          <y>50</y>
          <width>41</width>
          <height>111</height>
@@ -2643,7 +2618,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <enum>QFrame::Plain</enum>
        </property>
        <property name="lineWidth">
-        <number>3</number>
+        <number>1</number>
        </property>
        <property name="orientation">
         <enum>Qt::Vertical</enum>
@@ -2652,9 +2627,9 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="QLabel" name="label_30">
        <property name="geometry">
         <rect>
-         <x>480</x>
+         <x>470</x>
          <y>70</y>
-         <width>91</width>
+         <width>81</width>
          <height>41</height>
         </rect>
        </property>
@@ -2681,7 +2656,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="Line" name="line_56">
        <property name="geometry">
         <rect>
-         <x>820</x>
+         <x>780</x>
          <y>50</y>
          <width>41</width>
          <height>121</height>
@@ -2691,7 +2666,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <enum>QFrame::Plain</enum>
        </property>
        <property name="lineWidth">
-        <number>3</number>
+        <number>1</number>
        </property>
        <property name="orientation">
         <enum>Qt::Vertical</enum>
@@ -2702,7 +2677,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <rect>
          <x>180</x>
          <y>150</y>
-         <width>661</width>
+         <width>621</width>
          <height>41</height>
         </rect>
        </property>
@@ -2716,7 +2691,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <enum>QFrame::Plain</enum>
        </property>
        <property name="lineWidth">
-        <number>3</number>
+        <number>1</number>
        </property>
        <property name="orientation">
         <enum>Qt::Horizontal</enum>
@@ -2725,9 +2700,9 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="QLabel" name="label_53">
        <property name="geometry">
         <rect>
-         <x>710</x>
-         <y>690</y>
-         <width>121</width>
+         <x>650</x>
+         <y>720</y>
+         <width>81</width>
          <height>41</height>
         </rect>
        </property>
@@ -2742,7 +2717,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <number>1</number>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;MBES:GJ1:VRC:01&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;MBES:GJ1:&lt;br/&gt;VRC:01&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignCenter</set>
@@ -2754,15 +2729,15 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="PyDMLabel" name="PA1K0_label_11">
        <property name="geometry">
         <rect>
-         <x>830</x>
-         <y>790</y>
-         <width>101</width>
-         <height>21</height>
+         <x>790</x>
+         <y>630</y>
+         <width>121</width>
+         <height>41</height>
         </rect>
        </property>
        <property name="font">
         <font>
-         <pointsize>12</pointsize>
+         <pointsize>10</pointsize>
          <weight>75</weight>
          <bold>true</bold>
          <kerning>true</kerning>
@@ -2793,9 +2768,9 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="TurboPump" name="MBES_GJ1_PTM_01">
        <property name="geometry">
         <rect>
-         <x>760</x>
-         <y>870</y>
-         <width>141</width>
+         <x>840</x>
+         <y>720</y>
+         <width>101</width>
          <height>61</height>
         </rect>
        </property>
@@ -2809,13 +2784,13 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <enum>Qt::RightToLeft</enum>
        </property>
        <property name="controlsLocation" stdset="0">
-        <enum>PCDSSymbolBase::Right</enum>
+        <enum>PCDSSymbolBase::Left</enum>
        </property>
        <property name="channelsPrefix" stdset="0">
         <string>ca://MBES:GJ1:PTM:01</string>
        </property>
        <property name="iconSize" stdset="0">
-        <number>40</number>
+        <number>26</number>
        </property>
        <property name="rotateIcon" stdset="0">
         <bool>true</bool>
@@ -2824,45 +2799,20 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <bool>false</bool>
        </property>
       </widget>
-      <widget class="Line" name="line_73">
-       <property name="geometry">
-        <rect>
-         <x>710</x>
-         <y>810</y>
-         <width>171</width>
-         <height>41</height>
-        </rect>
-       </property>
-       <property name="sizePolicy">
-        <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
-         <horstretch>10</horstretch>
-         <verstretch>0</verstretch>
-        </sizepolicy>
-       </property>
-       <property name="frameShadow">
-        <enum>QFrame::Plain</enum>
-       </property>
-       <property name="lineWidth">
-        <number>3</number>
-       </property>
-       <property name="orientation">
-        <enum>Qt::Horizontal</enum>
-       </property>
-      </widget>
       <widget class="Line" name="line_89">
        <property name="geometry">
         <rect>
-         <x>700</x>
-         <y>830</y>
-         <width>20</width>
-         <height>61</height>
+         <x>780</x>
+         <y>670</y>
+         <width>16</width>
+         <height>51</height>
         </rect>
        </property>
        <property name="frameShadow">
         <enum>QFrame::Plain</enum>
        </property>
        <property name="lineWidth">
-        <number>3</number>
+        <number>1</number>
        </property>
        <property name="orientation">
         <enum>Qt::Vertical</enum>
@@ -2871,10 +2821,10 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="ColdCathodeGauge" name="MBES_GJ1_GCC_01">
        <property name="geometry">
         <rect>
-         <x>670</x>
-         <y>860</y>
-         <width>80</width>
-         <height>121</height>
+         <x>750</x>
+         <y>700</y>
+         <width>81</width>
+         <height>111</height>
         </rect>
        </property>
        <property name="toolTip">
@@ -2893,7 +2843,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <bool>true</bool>
        </property>
        <property name="iconSize" stdset="0">
-        <number>40</number>
+        <number>26</number>
        </property>
        <property name="rotateIcon" stdset="0">
         <bool>false</bool>
@@ -2905,8 +2855,8 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="QLabel" name="label_54">
        <property name="geometry">
         <rect>
-         <x>610</x>
-         <y>860</y>
+         <x>750</x>
+         <y>810</y>
          <width>81</width>
          <height>41</height>
         </rect>
@@ -2934,17 +2884,17 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="Line" name="line_90">
        <property name="geometry">
         <rect>
-         <x>860</x>
-         <y>840</y>
-         <width>41</width>
-         <height>461</height>
+         <x>840</x>
+         <y>670</y>
+         <width>20</width>
+         <height>411</height>
         </rect>
        </property>
        <property name="frameShadow">
         <enum>QFrame::Plain</enum>
        </property>
        <property name="lineWidth">
-        <number>3</number>
+        <number>1</number>
        </property>
        <property name="orientation">
         <enum>Qt::Vertical</enum>
@@ -2953,8 +2903,8 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="PyDMDrawingArc" name="PyDMDrawingArc_4">
        <property name="geometry">
         <rect>
-         <x>850</x>
-         <y>970</y>
+         <x>820</x>
+         <y>830</y>
          <width>61</width>
          <height>61</height>
         </rect>
@@ -2966,7 +2916,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <enum>Qt::MiterJoin</enum>
        </property>
        <property name="penWidth" stdset="0">
-        <double>3.000000000000000</double>
+        <double>1.000000000000000</double>
        </property>
        <property name="rotation" stdset="0">
         <double>0.000000000000000</double>
@@ -2981,9 +2931,9 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="Line" name="line_74">
        <property name="geometry">
         <rect>
-         <x>910</x>
-         <y>980</y>
-         <width>41</width>
+         <x>880</x>
+         <y>840</y>
+         <width>71</width>
          <height>41</height>
         </rect>
        </property>
@@ -2997,7 +2947,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <enum>QFrame::Plain</enum>
        </property>
        <property name="lineWidth">
-        <number>3</number>
+        <number>1</number>
        </property>
        <property name="orientation">
         <enum>Qt::Horizontal</enum>
@@ -3006,10 +2956,10 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="QLabel" name="label_55">
        <property name="geometry">
         <rect>
-         <x>750</x>
-         <y>850</y>
-         <width>121</width>
-         <height>41</height>
+         <x>870</x>
+         <y>700</y>
+         <width>71</width>
+         <height>31</height>
         </rect>
        </property>
        <property name="font">
@@ -3023,7 +2973,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <number>1</number>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;MBES:GJ1:PTM:01&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;MBES:GJ1:&lt;br/&gt;PTM:01&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignCenter</set>
@@ -3036,8 +2986,8 @@ IonPump[state=&quot;FAULT&quot;] #icon {
        <property name="geometry">
         <rect>
          <x>180</x>
-         <y>1100</y>
-         <width>701</width>
+         <y>940</y>
+         <width>671</width>
          <height>21</height>
         </rect>
        </property>
@@ -3051,7 +3001,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <enum>QFrame::Plain</enum>
        </property>
        <property name="lineWidth">
-        <number>3</number>
+        <number>1</number>
        </property>
        <property name="orientation">
         <enum>Qt::Horizontal</enum>
@@ -3060,10 +3010,10 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="PneumaticValve" name="MBES_GJ1_VRC_01">
        <property name="geometry">
         <rect>
-         <x>720</x>
-         <y>710</y>
-         <width>101</width>
-         <height>111</height>
+         <x>650</x>
+         <y>630</y>
+         <width>81</width>
+         <height>91</height>
         </rect>
        </property>
        <property name="toolTip">
@@ -3073,13 +3023,13 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <enum>Qt::LeftToRight</enum>
        </property>
        <property name="controlsLocation" stdset="0">
-        <enum>PCDSSymbolBase::Top</enum>
+        <enum>PCDSSymbolBase::Bottom</enum>
        </property>
        <property name="channelsPrefix" stdset="0">
         <string>ca://MBES:GJ1:VRC:01</string>
        </property>
        <property name="iconSize" stdset="0">
-        <number>50</number>
+        <number>26</number>
        </property>
        <property name="rotateIcon" stdset="0">
         <bool>false</bool>
@@ -3095,9 +3045,9 @@ IonPump[state=&quot;FAULT&quot;] #icon {
        <property name="geometry">
         <rect>
          <x>509</x>
-         <y>150</y>
-         <width>181</width>
-         <height>701</height>
+         <y>140</y>
+         <width>141</width>
+         <height>621</height>
         </rect>
        </property>
        <property name="toolTip">
@@ -3129,10 +3079,10 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_2">
        <property name="geometry">
         <rect>
-         <x>380</x>
-         <y>440</y>
-         <width>100</width>
-         <height>100</height>
+         <x>430</x>
+         <y>399</y>
+         <width>61</width>
+         <height>61</height>
         </rect>
        </property>
        <property name="toolTip">
@@ -3164,10 +3114,10 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_3">
        <property name="geometry">
         <rect>
-         <x>829</x>
-         <y>750</y>
-         <width>101</width>
-         <height>100</height>
+         <x>780</x>
+         <y>620</y>
+         <width>141</width>
+         <height>61</height>
         </rect>
        </property>
        <property name="toolTip">
@@ -3200,9 +3150,9 @@ IonPump[state=&quot;FAULT&quot;] #icon {
        <property name="geometry">
         <rect>
          <x>200</x>
-         <y>780</y>
+         <y>620</y>
          <width>41</width>
-         <height>41</height>
+         <height>51</height>
         </rect>
        </property>
        <property name="toolTip">
@@ -3212,7 +3162,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <enum>Qt::MiterJoin</enum>
        </property>
        <property name="penWidth" stdset="0">
-        <double>3.000000000000000</double>
+        <double>1.000000000000000</double>
        </property>
        <property name="rotation" stdset="0">
         <double>0.000000000000000</double>
@@ -3227,10 +3177,10 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_4">
        <property name="geometry">
         <rect>
-         <x>740</x>
-         <y>440</y>
-         <width>101</width>
-         <height>100</height>
+         <x>680</x>
+         <y>400</y>
+         <width>111</width>
+         <height>61</height>
         </rect>
        </property>
        <property name="toolTip">
@@ -3262,15 +3212,15 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="PyDMLabel" name="PA1K0_label_13">
        <property name="geometry">
         <rect>
-         <x>740</x>
-         <y>480</y>
-         <width>101</width>
-         <height>21</height>
+         <x>690</x>
+         <y>410</y>
+         <width>91</width>
+         <height>41</height>
         </rect>
        </property>
        <property name="font">
         <font>
-         <pointsize>12</pointsize>
+         <pointsize>10</pointsize>
          <weight>75</weight>
          <bold>true</bold>
          <kerning>true</kerning>
@@ -3301,10 +3251,10 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="TurboPump" name="MBES_GJ2_PTM_03">
        <property name="geometry">
         <rect>
-         <x>700</x>
-         <y>550</y>
-         <width>91</width>
-         <height>101</height>
+         <x>650</x>
+         <y>490</y>
+         <width>81</width>
+         <height>91</height>
         </rect>
        </property>
        <property name="toolTip">
@@ -3323,7 +3273,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <string>ca://MBES:GJ2:PTM:03</string>
        </property>
        <property name="iconSize" stdset="0">
-        <number>40</number>
+        <number>26</number>
        </property>
        <property name="rotateIcon" stdset="0">
         <bool>true</bool>
@@ -3335,10 +3285,10 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="TurboPump" name="MBES_GJ2_PTM_01">
        <property name="geometry">
         <rect>
-         <x>700</x>
-         <y>290</y>
-         <width>91</width>
-         <height>101</height>
+         <x>650</x>
+         <y>280</y>
+         <width>81</width>
+         <height>91</height>
         </rect>
        </property>
        <property name="toolTip">
@@ -3357,7 +3307,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <string>ca://MBES:GJ2:PTM:01</string>
        </property>
        <property name="iconSize" stdset="0">
-        <number>40</number>
+        <number>26</number>
        </property>
        <property name="rotateIcon" stdset="0">
         <bool>true</bool>
@@ -3369,10 +3319,10 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="TurboPump" name="MBES_GJ2_PTM_02">
        <property name="geometry">
         <rect>
-         <x>790</x>
-         <y>290</y>
-         <width>91</width>
-         <height>101</height>
+         <x>740</x>
+         <y>280</y>
+         <width>81</width>
+         <height>91</height>
         </rect>
        </property>
        <property name="toolTip">
@@ -3391,7 +3341,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <string>ca://MBES:GJ2:PTM:02</string>
        </property>
        <property name="iconSize" stdset="0">
-        <number>40</number>
+        <number>26</number>
        </property>
        <property name="rotateIcon" stdset="0">
         <bool>true</bool>
@@ -3400,45 +3350,20 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <bool>false</bool>
        </property>
       </widget>
-      <widget class="Line" name="line_71">
-       <property name="geometry">
-        <rect>
-         <x>660</x>
-         <y>480</y>
-         <width>131</width>
-         <height>20</height>
-        </rect>
-       </property>
-       <property name="sizePolicy">
-        <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
-         <horstretch>10</horstretch>
-         <verstretch>0</verstretch>
-        </sizepolicy>
-       </property>
-       <property name="frameShadow">
-        <enum>QFrame::Plain</enum>
-       </property>
-       <property name="lineWidth">
-        <number>3</number>
-       </property>
-       <property name="orientation">
-        <enum>Qt::Horizontal</enum>
-       </property>
-      </widget>
       <widget class="Line" name="line_95">
        <property name="geometry">
         <rect>
-         <x>730</x>
-         <y>370</y>
-         <width>31</width>
-         <height>191</height>
+         <x>680</x>
+         <y>360</y>
+         <width>21</width>
+         <height>131</height>
         </rect>
        </property>
        <property name="frameShadow">
         <enum>QFrame::Plain</enum>
        </property>
        <property name="lineWidth">
-        <number>3</number>
+        <number>1</number>
        </property>
        <property name="orientation">
         <enum>Qt::Vertical</enum>
@@ -3447,17 +3372,17 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="Line" name="line_96">
        <property name="geometry">
         <rect>
-         <x>820</x>
-         <y>380</y>
-         <width>31</width>
-         <height>71</height>
+         <x>770</x>
+         <y>350</y>
+         <width>21</width>
+         <height>141</height>
         </rect>
        </property>
        <property name="frameShadow">
         <enum>QFrame::Plain</enum>
        </property>
        <property name="lineWidth">
-        <number>3</number>
+        <number>1</number>
        </property>
        <property name="orientation">
         <enum>Qt::Vertical</enum>
@@ -3466,8 +3391,8 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="QLabel" name="label_56">
        <property name="geometry">
         <rect>
-         <x>700</x>
-         <y>260</y>
+         <x>650</x>
+         <y>250</y>
          <width>91</width>
          <height>41</height>
         </rect>
@@ -3495,9 +3420,9 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="QLabel" name="label_57">
        <property name="geometry">
         <rect>
-         <x>790</x>
-         <y>260</y>
-         <width>91</width>
+         <x>740</x>
+         <y>250</y>
+         <width>81</width>
          <height>41</height>
         </rect>
        </property>
@@ -3524,9 +3449,9 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="QLabel" name="label_58">
        <property name="geometry">
         <rect>
-         <x>700</x>
-         <y>650</y>
-         <width>91</width>
+         <x>650</x>
+         <y>580</y>
+         <width>81</width>
          <height>41</height>
         </rect>
        </property>
@@ -3553,10 +3478,10 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="Line" name="line_76">
        <property name="geometry">
         <rect>
-         <x>740</x>
-         <y>560</y>
-         <width>211</width>
-         <height>20</height>
+         <x>680</x>
+         <y>489</y>
+         <width>271</width>
+         <height>31</height>
         </rect>
        </property>
        <property name="sizePolicy">
@@ -3569,7 +3494,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <enum>QFrame::Plain</enum>
        </property>
        <property name="lineWidth">
-        <number>3</number>
+        <number>1</number>
        </property>
        <property name="orientation">
         <enum>Qt::Horizontal</enum>
@@ -3578,9 +3503,9 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="Line" name="line_77">
        <property name="geometry">
         <rect>
-         <x>740</x>
-         <y>360</y>
-         <width>211</width>
+         <x>690</x>
+         <y>350</y>
+         <width>261</width>
          <height>20</height>
         </rect>
        </property>
@@ -3594,7 +3519,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <enum>QFrame::Plain</enum>
        </property>
        <property name="lineWidth">
-        <number>3</number>
+        <number>1</number>
        </property>
        <property name="orientation">
         <enum>Qt::Horizontal</enum>
@@ -3603,9 +3528,9 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="ColdCathodeGauge" name="MBES_GJ2_GCC_01">
        <property name="geometry">
         <rect>
-         <x>900</x>
-         <y>420</y>
-         <width>131</width>
+         <x>820</x>
+         <y>370</y>
+         <width>111</width>
          <height>81</height>
         </rect>
        </property>
@@ -3625,7 +3550,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <bool>true</bool>
        </property>
        <property name="iconSize" stdset="0">
-        <number>40</number>
+        <number>25</number>
        </property>
        <property name="rotateIcon" stdset="0">
         <bool>false</bool>
@@ -3637,9 +3562,9 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="RoughGauge" name="MBES_GJ2_GPI_01">
        <property name="geometry">
         <rect>
-         <x>900</x>
-         <y>490</y>
-         <width>131</width>
+         <x>820</x>
+         <y>450</y>
+         <width>111</width>
          <height>61</height>
         </rect>
        </property>
@@ -3659,16 +3584,19 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <bool>true</bool>
        </property>
        <property name="iconSize" stdset="0">
-        <number>40</number>
+        <number>26</number>
+       </property>
+       <property name="rotateIcon" stdset="0">
+        <bool>true</bool>
        </property>
       </widget>
       <widget class="Line" name="line_78">
        <property name="geometry">
         <rect>
-         <x>790</x>
-         <y>450</y>
-         <width>131</width>
-         <height>20</height>
+         <x>780</x>
+         <y>400</y>
+         <width>51</width>
+         <height>21</height>
         </rect>
        </property>
        <property name="sizePolicy">
@@ -3681,32 +3609,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <enum>QFrame::Plain</enum>
        </property>
        <property name="lineWidth">
-        <number>3</number>
-       </property>
-       <property name="orientation">
-        <enum>Qt::Horizontal</enum>
-       </property>
-      </widget>
-      <widget class="Line" name="line_79">
-       <property name="geometry">
-        <rect>
-         <x>790</x>
-         <y>510</y>
-         <width>131</width>
-         <height>20</height>
-        </rect>
-       </property>
-       <property name="sizePolicy">
-        <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
-         <horstretch>10</horstretch>
-         <verstretch>0</verstretch>
-        </sizepolicy>
-       </property>
-       <property name="frameShadow">
-        <enum>QFrame::Plain</enum>
-       </property>
-       <property name="lineWidth">
-        <number>3</number>
+        <number>1</number>
        </property>
        <property name="orientation">
         <enum>Qt::Horizontal</enum>
@@ -3731,7 +3634,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <enum>QFrame::Plain</enum>
        </property>
        <property name="lineWidth">
-        <number>3</number>
+        <number>1</number>
        </property>
        <property name="orientation">
         <enum>Qt::Horizontal</enum>
@@ -3742,7 +3645,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <rect>
          <x>960</x>
          <y>310</y>
-         <width>91</width>
+         <width>81</width>
          <height>81</height>
         </rect>
        </property>
@@ -3758,22 +3661,22 @@ IonPump[state=&quot;FAULT&quot;] #icon {
        <property name="channelsPrefix" stdset="0">
         <string>ca://MBES:ROUGH:GPI:06</string>
        </property>
-       <property name="showName" stdset="0">
-        <bool>false</bool>
-       </property>
        <property name="showStatusTooltip" stdset="0">
         <bool>true</bool>
        </property>
        <property name="iconSize" stdset="0">
-        <number>40</number>
+        <number>26</number>
+       </property>
+       <property name="showName" stdset="0">
+        <bool>false</bool>
        </property>
       </widget>
       <widget class="QLabel" name="label_60">
        <property name="geometry">
         <rect>
-         <x>950</x>
-         <y>390</y>
-         <width>71</width>
+         <x>830</x>
+         <y>350</y>
+         <width>121</width>
          <height>41</height>
         </rect>
        </property>
@@ -3788,7 +3691,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <number>1</number>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;MBES:GJ2:&lt;br/&gt;GCC:01&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;MBES:GJ2:GCC:01&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignCenter</set>
@@ -3829,10 +3732,10 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="QLabel" name="label_61">
        <property name="geometry">
         <rect>
-         <x>950</x>
-         <y>530</y>
-         <width>71</width>
-         <height>41</height>
+         <x>830</x>
+         <y>450</y>
+         <width>121</width>
+         <height>31</height>
         </rect>
        </property>
        <property name="font">
@@ -3846,7 +3749,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <number>1</number>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;MBES:GJ2:&lt;br/&gt;GPI:01&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;MBES:GJ2:GPI:01&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignCenter</set>
@@ -3859,9 +3762,9 @@ IonPump[state=&quot;FAULT&quot;] #icon {
        <property name="geometry">
         <rect>
          <x>930</x>
-         <y>780</y>
+         <y>620</y>
          <width>41</width>
-         <height>41</height>
+         <height>51</height>
         </rect>
        </property>
        <property name="toolTip">
@@ -3871,7 +3774,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <enum>Qt::MiterJoin</enum>
        </property>
        <property name="penWidth" stdset="0">
-        <double>3.000000000000000</double>
+        <double>1.000000000000000</double>
        </property>
        <property name="rotation" stdset="0">
         <double>0.000000000000000</double>
@@ -3886,10 +3789,10 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="Line" name="line_83">
        <property name="geometry">
         <rect>
-         <x>181</x>
-         <y>790</y>
+         <x>180</x>
+         <y>629</y>
          <width>20</width>
-         <height>20</height>
+         <height>31</height>
         </rect>
        </property>
        <property name="sizePolicy">
@@ -3902,7 +3805,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <enum>QFrame::Plain</enum>
        </property>
        <property name="lineWidth">
-        <number>3</number>
+        <number>1</number>
        </property>
        <property name="orientation">
         <enum>Qt::Horizontal</enum>
@@ -3912,9 +3815,9 @@ IonPump[state=&quot;FAULT&quot;] #icon {
        <property name="geometry">
         <rect>
          <x>970</x>
-         <y>790</y>
-         <width>91</width>
-         <height>20</height>
+         <y>630</y>
+         <width>51</width>
+         <height>31</height>
         </rect>
        </property>
        <property name="sizePolicy">
@@ -3927,7 +3830,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <enum>QFrame::Plain</enum>
        </property>
        <property name="lineWidth">
-        <number>3</number>
+        <number>1</number>
        </property>
        <property name="orientation">
         <enum>Qt::Horizontal</enum>
@@ -3936,8 +3839,8 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_5">
        <property name="geometry">
         <rect>
-         <x>1040</x>
-         <y>770</y>
+         <x>980</x>
+         <y>620</y>
          <width>131</width>
          <height>61</height>
         </rect>
@@ -3971,8 +3874,8 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="PyDMLabel" name="PA1K0_label_14">
        <property name="geometry">
         <rect>
-         <x>1050</x>
-         <y>790</y>
+         <x>990</x>
+         <y>640</y>
          <width>111</width>
          <height>21</height>
         </rect>
@@ -4010,8 +3913,8 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="QLabel" name="label_62">
        <property name="geometry">
         <rect>
-         <x>1050</x>
-         <y>750</y>
+         <x>990</x>
+         <y>600</y>
          <width>111</width>
          <height>21</height>
         </rect>
@@ -4040,16 +3943,16 @@ IonPump[state=&quot;FAULT&quot;] #icon {
        <property name="geometry">
         <rect>
          <x>330</x>
-         <y>1110</y>
+         <y>950</y>
          <width>21</width>
-         <height>461</height>
+         <height>311</height>
         </rect>
        </property>
        <property name="frameShadow">
         <enum>QFrame::Plain</enum>
        </property>
        <property name="lineWidth">
-        <number>3</number>
+        <number>1</number>
        </property>
        <property name="orientation">
         <enum>Qt::Vertical</enum>
@@ -4058,9 +3961,9 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="Line" name="line_85">
        <property name="geometry">
         <rect>
-         <x>260</x>
-         <y>1250</y>
-         <width>81</width>
+         <x>280</x>
+         <y>1060</y>
+         <width>61</width>
          <height>21</height>
         </rect>
        </property>
@@ -4074,7 +3977,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <enum>QFrame::Plain</enum>
        </property>
        <property name="lineWidth">
-        <number>3</number>
+        <number>1</number>
        </property>
        <property name="orientation">
         <enum>Qt::Horizontal</enum>
@@ -4083,10 +3986,10 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="Line" name="line_87">
        <property name="geometry">
         <rect>
-         <x>260</x>
-         <y>1490</y>
-         <width>171</width>
-         <height>21</height>
+         <x>250</x>
+         <y>1190</y>
+         <width>201</width>
+         <height>31</height>
         </rect>
        </property>
        <property name="sizePolicy">
@@ -4099,7 +4002,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <enum>QFrame::Plain</enum>
        </property>
        <property name="lineWidth">
-        <number>3</number>
+        <number>1</number>
        </property>
        <property name="orientation">
         <enum>Qt::Horizontal</enum>
@@ -4108,10 +4011,10 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="PneumaticValve" name="TMO_ROUGH1_VRC_01">
        <property name="geometry">
         <rect>
-         <x>290</x>
-         <y>1550</y>
-         <width>111</width>
-         <height>131</height>
+         <x>320</x>
+         <y>1230</y>
+         <width>161</width>
+         <height>81</height>
         </rect>
        </property>
        <property name="toolTip">
@@ -4121,13 +4024,13 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <enum>Qt::LeftToRight</enum>
        </property>
        <property name="controlsLocation" stdset="0">
-        <enum>PCDSSymbolBase::Bottom</enum>
+        <enum>PCDSSymbolBase::Right</enum>
        </property>
        <property name="channelsPrefix" stdset="0">
         <string>ca://TMO:ROUGH1:VRC:01</string>
        </property>
        <property name="iconSize" stdset="0">
-        <number>50</number>
+        <number>25</number>
        </property>
        <property name="rotateIcon" stdset="0">
         <bool>true</bool>
@@ -4142,10 +4045,10 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="PneumaticValve" name="MBES_ROUGH_VRC_01">
        <property name="geometry">
         <rect>
-         <x>200</x>
-         <y>1330</y>
-         <width>181</width>
-         <height>91</height>
+         <x>330</x>
+         <y>1120</y>
+         <width>111</width>
+         <height>61</height>
         </rect>
        </property>
        <property name="toolTip">
@@ -4155,13 +4058,13 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <enum>Qt::LeftToRight</enum>
        </property>
        <property name="controlsLocation" stdset="0">
-        <enum>PCDSSymbolBase::Left</enum>
+        <enum>PCDSSymbolBase::Right</enum>
        </property>
        <property name="channelsPrefix" stdset="0">
         <string>ca://MBES:ROUGH:VRC:01</string>
        </property>
        <property name="iconSize" stdset="0">
-        <number>50</number>
+        <number>26</number>
        </property>
        <property name="rotateIcon" stdset="0">
         <bool>true</bool>
@@ -4176,9 +4079,9 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="QLabel" name="label_63">
        <property name="geometry">
         <rect>
-         <x>300</x>
-         <y>1680</y>
-         <width>91</width>
+         <x>340</x>
+         <y>1220</y>
+         <width>141</width>
          <height>31</height>
         </rect>
        </property>
@@ -4193,7 +4096,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <number>1</number>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;TMO:ROUGH1:&lt;br/&gt;VRC:01&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;TMO:ROUGH1:VRC:01&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignCenter</set>
@@ -4206,9 +4109,9 @@ IonPump[state=&quot;FAULT&quot;] #icon {
        <property name="geometry">
         <rect>
          <x>340</x>
-         <y>1280</y>
+         <y>1070</y>
          <width>611</width>
-         <height>41</height>
+         <height>21</height>
         </rect>
        </property>
        <property name="sizePolicy">
@@ -4221,7 +4124,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <enum>QFrame::Plain</enum>
        </property>
        <property name="lineWidth">
-        <number>3</number>
+        <number>1</number>
        </property>
        <property name="orientation">
         <enum>Qt::Horizontal</enum>
@@ -4231,7 +4134,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
        <property name="geometry">
         <rect>
          <x>950</x>
-         <y>1250</y>
+         <y>1030</y>
          <width>81</width>
          <height>21</height>
         </rect>
@@ -4246,7 +4149,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <enum>QFrame::Plain</enum>
        </property>
        <property name="lineWidth">
-        <number>3</number>
+        <number>1</number>
        </property>
        <property name="orientation">
         <enum>Qt::Horizontal</enum>
@@ -4255,10 +4158,10 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="Line" name="line_100">
        <property name="geometry">
         <rect>
-         <x>870</x>
-         <y>1490</y>
-         <width>171</width>
-         <height>21</height>
+         <x>850</x>
+         <y>1160</y>
+         <width>201</width>
+         <height>31</height>
         </rect>
        </property>
        <property name="sizePolicy">
@@ -4271,7 +4174,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <enum>QFrame::Plain</enum>
        </property>
        <property name="lineWidth">
-        <number>3</number>
+        <number>1</number>
        </property>
        <property name="orientation">
         <enum>Qt::Horizontal</enum>
@@ -4280,10 +4183,10 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="PneumaticValve" name="MBES_ROUGH_VRC_03">
        <property name="geometry">
         <rect>
-         <x>920</x>
-         <y>1330</y>
-         <width>181</width>
-         <height>91</height>
+         <x>930</x>
+         <y>1090</y>
+         <width>161</width>
+         <height>61</height>
         </rect>
        </property>
        <property name="toolTip">
@@ -4299,7 +4202,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <string>ca://MBES:ROUGH:VRC:03</string>
        </property>
        <property name="iconSize" stdset="0">
-        <number>50</number>
+        <number>26</number>
        </property>
        <property name="rotateIcon" stdset="0">
         <bool>true</bool>
@@ -4314,8 +4217,8 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="QLabel" name="label_64">
        <property name="geometry">
         <rect>
-         <x>990</x>
-         <y>1310</y>
+         <x>980</x>
+         <y>1070</y>
          <width>101</width>
          <height>31</height>
         </rect>
@@ -4343,10 +4246,10 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="PneumaticValve" name="TMO_ROUGH2_VFV_01">
        <property name="geometry">
         <rect>
-         <x>800</x>
-         <y>1390</y>
-         <width>111</width>
-         <height>131</height>
+         <x>750</x>
+         <y>1130</y>
+         <width>121</width>
+         <height>91</height>
         </rect>
        </property>
        <property name="toolTip">
@@ -4356,13 +4259,13 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <enum>Qt::LeftToRight</enum>
        </property>
        <property name="controlsLocation" stdset="0">
-        <enum>PCDSSymbolBase::Top</enum>
+        <enum>PCDSSymbolBase::Left</enum>
        </property>
        <property name="channelsPrefix" stdset="0">
         <string>ca://TMO:ROUGH2:VFV:01</string>
        </property>
        <property name="iconSize" stdset="0">
-        <number>50</number>
+        <number>26</number>
        </property>
        <property name="rotateIcon" stdset="0">
         <bool>false</bool>
@@ -4377,10 +4280,10 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="QLabel" name="label_65">
        <property name="geometry">
         <rect>
-         <x>790</x>
-         <y>1380</y>
-         <width>111</width>
-         <height>31</height>
+         <x>750</x>
+         <y>1110</y>
+         <width>101</width>
+         <height>41</height>
         </rect>
        </property>
        <property name="font">
@@ -4406,10 +4309,10 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="PneumaticValve" name="TMO_ROUGH2_VRC_01">
        <property name="geometry">
         <rect>
-         <x>900</x>
-         <y>1550</y>
-         <width>111</width>
-         <height>131</height>
+         <x>830</x>
+         <y>1220</y>
+         <width>141</width>
+         <height>91</height>
         </rect>
        </property>
        <property name="toolTip">
@@ -4419,13 +4322,13 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <enum>Qt::LeftToRight</enum>
        </property>
        <property name="controlsLocation" stdset="0">
-        <enum>PCDSSymbolBase::Bottom</enum>
+        <enum>PCDSSymbolBase::Left</enum>
        </property>
        <property name="channelsPrefix" stdset="0">
         <string>ca://TMO:ROUGH2:VRC:01</string>
        </property>
        <property name="iconSize" stdset="0">
-        <number>50</number>
+        <number>25</number>
        </property>
        <property name="rotateIcon" stdset="0">
         <bool>true</bool>
@@ -4440,9 +4343,9 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="QLabel" name="label_66">
        <property name="geometry">
         <rect>
-         <x>910</x>
-         <y>1680</y>
-         <width>91</width>
+         <x>810</x>
+         <y>1210</y>
+         <width>141</width>
          <height>31</height>
         </rect>
        </property>
@@ -4457,7 +4360,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <number>1</number>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;TMO:ROUGH2:&lt;br/&gt;VRC:01&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;TMO:ROUGH2:VRC:01&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignCenter</set>
@@ -4469,10 +4372,10 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="PneumaticValve" name="MBES_ROUGH_VRC_02">
        <property name="geometry">
         <rect>
-         <x>600</x>
-         <y>1270</y>
-         <width>121</width>
-         <height>131</height>
+         <x>540</x>
+         <y>1000</y>
+         <width>81</width>
+         <height>91</height>
         </rect>
        </property>
        <property name="toolTip">
@@ -4482,13 +4385,13 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <enum>Qt::LeftToRight</enum>
        </property>
        <property name="controlsLocation" stdset="0">
-        <enum>PCDSSymbolBase::Bottom</enum>
+        <enum>PCDSSymbolBase::Top</enum>
        </property>
        <property name="channelsPrefix" stdset="0">
         <string>ca://MBES:ROUGH:VRC:02</string>
        </property>
        <property name="iconSize" stdset="0">
-        <number>50</number>
+        <number>26</number>
        </property>
        <property name="rotateIcon" stdset="0">
         <bool>false</bool>
@@ -4503,8 +4406,8 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="QLabel" name="label_67">
        <property name="geometry">
         <rect>
-         <x>610</x>
-         <y>1410</y>
+         <x>530</x>
+         <y>980</y>
          <width>101</width>
          <height>31</height>
         </rect>
@@ -4533,9 +4436,9 @@ IonPump[state=&quot;FAULT&quot;] #icon {
        <property name="geometry">
         <rect>
          <x>740</x>
-         <y>1160</y>
-         <width>181</width>
-         <height>91</height>
+         <y>950</y>
+         <width>131</width>
+         <height>61</height>
         </rect>
        </property>
        <property name="toolTip">
@@ -4551,7 +4454,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <string>ca://MBES:ROUGH:VRC:05</string>
        </property>
        <property name="iconSize" stdset="0">
-        <number>50</number>
+        <number>26</number>
        </property>
        <property name="rotateIcon" stdset="0">
         <bool>true</bool>
@@ -4567,9 +4470,9 @@ IonPump[state=&quot;FAULT&quot;] #icon {
        <property name="geometry">
         <rect>
          <x>750</x>
-         <y>1140</y>
-         <width>101</width>
-         <height>31</height>
+         <y>1010</y>
+         <width>91</width>
+         <height>41</height>
         </rect>
        </property>
        <property name="font">
@@ -4595,10 +4498,10 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="PneumaticValve" name="MBES_ROUGH_VRC_06">
        <property name="geometry">
         <rect>
-         <x>920</x>
-         <y>1050</y>
-         <width>181</width>
-         <height>91</height>
+         <x>940</x>
+         <y>900</y>
+         <width>101</width>
+         <height>61</height>
         </rect>
        </property>
        <property name="toolTip">
@@ -4614,7 +4517,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <string>ca://MBES:ROUGH:VRC:06</string>
        </property>
        <property name="iconSize" stdset="0">
-        <number>50</number>
+        <number>26</number>
        </property>
        <property name="rotateIcon" stdset="0">
         <bool>true</bool>
@@ -4629,8 +4532,8 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="QLabel" name="label_69">
        <property name="geometry">
         <rect>
-         <x>990</x>
-         <y>1030</y>
+         <x>950</x>
+         <y>880</y>
          <width>101</width>
          <height>31</height>
         </rect>
@@ -4659,8 +4562,8 @@ IonPump[state=&quot;FAULT&quot;] #icon {
        <property name="geometry">
         <rect>
          <x>950</x>
-         <y>1160</y>
-         <width>161</width>
+         <y>970</y>
+         <width>101</width>
          <height>21</height>
         </rect>
        </property>
@@ -4674,7 +4577,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <enum>QFrame::Plain</enum>
        </property>
        <property name="lineWidth">
-        <number>3</number>
+        <number>1</number>
        </property>
        <property name="orientation">
         <enum>Qt::Horizontal</enum>
@@ -4683,17 +4586,17 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="Line" name="line_101">
        <property name="geometry">
         <rect>
-         <x>1100</x>
-         <y>820</y>
+         <x>1040</x>
+         <y>670</y>
          <width>21</width>
-         <height>351</height>
+         <height>311</height>
         </rect>
        </property>
        <property name="frameShadow">
         <enum>QFrame::Plain</enum>
        </property>
        <property name="lineWidth">
-        <number>3</number>
+        <number>1</number>
        </property>
        <property name="orientation">
         <enum>Qt::Vertical</enum>
@@ -4702,10 +4605,10 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="PneumaticValve" name="USER">
        <property name="geometry">
         <rect>
-         <x>990</x>
-         <y>860</y>
-         <width>151</width>
-         <height>81</height>
+         <x>960</x>
+         <y>720</y>
+         <width>101</width>
+         <height>61</height>
         </rect>
        </property>
        <property name="toolTip">
@@ -4721,7 +4624,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <string>ca://USER</string>
        </property>
        <property name="iconSize" stdset="0">
-        <number>50</number>
+        <number>25</number>
        </property>
        <property name="rotateIcon" stdset="0">
         <bool>true</bool>
@@ -4736,10 +4639,10 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="QLabel" name="label_70">
        <property name="geometry">
         <rect>
-         <x>1000</x>
-         <y>840</y>
-         <width>81</width>
-         <height>41</height>
+         <x>960</x>
+         <y>700</y>
+         <width>71</width>
+         <height>31</height>
         </rect>
        </property>
        <property name="font">
@@ -4762,20 +4665,101 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <bool>true</bool>
        </property>
       </widget>
+      <widget class="TurboPump" name="MBES_GJ2_PTM_04">
+       <property name="geometry">
+        <rect>
+         <x>740</x>
+         <y>490</y>
+         <width>81</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="accessibleName">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;LAMP&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="layoutDirection">
+        <enum>Qt::RightToLeft</enum>
+       </property>
+       <property name="controlsLocation" stdset="0">
+        <enum>PCDSSymbolBase::Bottom</enum>
+       </property>
+       <property name="channelsPrefix" stdset="0">
+        <string>ca://MBES:GJ2:PTM:04</string>
+       </property>
+       <property name="iconSize" stdset="0">
+        <number>26</number>
+       </property>
+       <property name="rotateIcon" stdset="0">
+        <bool>true</bool>
+       </property>
+       <property name="controlButtonHorizontal" stdset="0">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_59">
+       <property name="geometry">
+        <rect>
+         <x>740</x>
+         <y>580</y>
+         <width>81</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>9</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="lineWidth">
+        <number>1</number>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;MBES:GJ2:&lt;br/&gt;PTM:04&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="Line" name="line_102">
+       <property name="geometry">
+        <rect>
+         <x>820</x>
+         <y>410</y>
+         <width>21</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Plain</enum>
+       </property>
+       <property name="lineWidth">
+        <number>1</number>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+      </widget>
+      <zorder>line_89</zorder>
+      <zorder>line_67</zorder>
       <zorder>line_101</zorder>
       <zorder>line_100</zorder>
       <zorder>line_99</zorder>
       <zorder>line_85</zorder>
       <zorder>line_97</zorder>
-      <zorder>line_79</zorder>
       <zorder>line_78</zorder>
       <zorder>line_77</zorder>
       <zorder>line_76</zorder>
       <zorder>line_96</zorder>
       <zorder>line_95</zorder>
-      <zorder>line_71</zorder>
       <zorder>line_90</zorder>
-      <zorder>line_73</zorder>
       <zorder>line_70</zorder>
       <zorder>PyDMDrawingRectangle_3</zorder>
       <zorder>line_92</zorder>
@@ -4786,8 +4770,6 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <zorder>PyDMDrawingRectangle</zorder>
       <zorder>line_69</zorder>
       <zorder>line_66</zorder>
-      <zorder>line_67</zorder>
-      <zorder>line_68</zorder>
       <zorder>line_91</zorder>
       <zorder>PyDMDrawingRectangle_10</zorder>
       <zorder>PyDMDrawingRectangle_9</zorder>
@@ -4843,7 +4825,6 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <zorder>label_53</zorder>
       <zorder>PA1K0_label_11</zorder>
       <zorder>MBES_GJ1_PTM_01</zorder>
-      <zorder>line_89</zorder>
       <zorder>MBES_GJ1_GCC_01</zorder>
       <zorder>label_54</zorder>
       <zorder>PyDMDrawingArc_4</zorder>
@@ -4862,7 +4843,6 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <zorder>label_57</zorder>
       <zorder>label_58</zorder>
       <zorder>MBES_GJ2_GCC_01</zorder>
-      <zorder>MBES_GJ2_GPI_01</zorder>
       <zorder>line_81</zorder>
       <zorder>MBES_GJ2_GPI_2</zorder>
       <zorder>label_60</zorder>
@@ -4897,6 +4877,10 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <zorder>line_80</zorder>
       <zorder>USER</zorder>
       <zorder>label_70</zorder>
+      <zorder>MBES_GJ2_PTM_04</zorder>
+      <zorder>label_59</zorder>
+      <zorder>line_102</zorder>
+      <zorder>MBES_GJ2_GPI_01</zorder>
      </widget>
     </widget>
    </item>
