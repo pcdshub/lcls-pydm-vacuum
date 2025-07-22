@@ -781,7 +781,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       </property>
       <property name="geometry">
        <rect>
-        <x>0</x>
+        <x>-32</x>
         <y>0</y>
         <width>1300</width>
         <height>1600</height>
@@ -3948,7 +3948,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
          <x>330</x>
          <y>950</y>
          <width>21</width>
-         <height>311</height>
+         <height>411</height>
         </rect>
        </property>
        <property name="frameShadow">
@@ -4794,6 +4794,172 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <enum>Qt::Vertical</enum>
        </property>
       </widget>
+      <widget class="ScrollPump" name="ScrollPump">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>1330</y>
+         <width>71</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="controlsLocation" stdset="0">
+        <enum>PCDSSymbolBase::Hidden</enum>
+       </property>
+      </widget>
+      <widget class="PneumaticValve" name="TMO_ROUGH1_VFV_01">
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>1320</y>
+         <width>121</width>
+         <height>81</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="layoutDirection">
+        <enum>Qt::LeftToRight</enum>
+       </property>
+       <property name="controlsLocation" stdset="0">
+        <enum>PCDSSymbolBase::Right</enum>
+       </property>
+       <property name="channelsPrefix" stdset="0">
+        <string>ca://TMO:ROUGH1:VFV:01</string>
+       </property>
+       <property name="iconSize" stdset="0">
+        <number>26</number>
+       </property>
+       <property name="rotateIcon" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="expertOphydClass" stdset="0">
+        <string>pcdsdevices.valve.VFV</string>
+       </property>
+       <property name="controlButtonHorizontal" stdset="0">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="Line" name="line_105">
+       <property name="geometry">
+        <rect>
+         <x>130</x>
+         <y>1350</y>
+         <width>261</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+         <horstretch>10</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Plain</enum>
+       </property>
+       <property name="lineWidth">
+        <number>1</number>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_71">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>1300</y>
+         <width>101</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>9</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="lineWidth">
+        <number>1</number>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;TMO:ROUGH1:&lt;br/&gt;VFV:01&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_72">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>1340</y>
+         <width>101</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>9</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="lineWidth">
+        <number>1</number>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;SCROLL PUMP 1&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_73">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>1410</y>
+         <width>101</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>9</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="lineWidth">
+        <number>1</number>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;SCROLL PUMP 2&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <zorder>line_105</zorder>
       <zorder>line_89</zorder>
       <zorder>line_67</zorder>
       <zorder>line_101</zorder>
@@ -4930,6 +5096,11 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <zorder>MBES_GJ2_GPI_01</zorder>
       <zorder>line_103</zorder>
       <zorder>line_104</zorder>
+      <zorder>ScrollPump</zorder>
+      <zorder>TMO_ROUGH1_VFV_01</zorder>
+      <zorder>label_71</zorder>
+      <zorder>label_72</zorder>
+      <zorder>label_73</zorder>
      </widget>
     </widget>
    </item>
@@ -4985,6 +5156,11 @@ IonPump[state=&quot;FAULT&quot;] #icon {
    <class>RoughGauge</class>
    <extends>PCDSSymbolBase</extends>
    <header>pcdswidgets.vacuum.gauges</header>
+  </customwidget>
+  <customwidget>
+   <class>ScrollPump</class>
+   <extends>PCDSSymbolBase</extends>
+   <header>pcdswidgets.vacuum.pumps</header>
   </customwidget>
   <customwidget>
    <class>PCDSSymbolBase</class>
