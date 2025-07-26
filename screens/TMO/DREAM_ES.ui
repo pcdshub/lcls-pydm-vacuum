@@ -4386,7 +4386,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
         <number>2</number>
        </property>
        <property name="text">
-        <string>8.447 lpm</string>
+        <string>8.467 lpm</string>
        </property>
        <property name="precision" stdset="0">
         <number>3</number>
@@ -7355,10 +7355,10 @@ Controller</string>
         <number>2</number>
        </property>
        <property name="text">
-        <string>1.00e-05</string>
+        <string>1.0e-05</string>
        </property>
        <property name="precision" stdset="0">
-        <number>2</number>
+        <number>1</number>
        </property>
        <property name="showUnits" stdset="0">
         <bool>true</bool>
