@@ -740,11 +740,11 @@ IonPump[state=&quot;FAULT&quot;] #icon {
          </property>
          <property name="commands" stdset="0">
           <stringlist>
-           <string>pydm vacuumscreens/screens/hxrVac.ui</string>
+           <string>pydm vacuumscreens/screens/hxrVac-v2.ui</string>
           </stringlist>
          </property>
          <property name="command" stdset="0">
-          <string>pydm vacuumscreens/screens/hxrVac.ui</string>
+          <string>pydm vacuumscreens/screens/hxrVac-v2.ui</string>
          </property>
         </widget>
         <widget class="IonPump" name="TV5L0_PIP_03">
