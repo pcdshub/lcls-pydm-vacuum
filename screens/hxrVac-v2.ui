@@ -457,7 +457,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
        <widget class="QWidget" name="scrollAreaWidgetContents">
         <property name="geometry">
          <rect>
-          <x>-1950</x>
+          <x>0</x>
           <y>0</y>
           <width>3650</width>
           <height>620</height>
@@ -1403,8 +1403,13 @@ EM2L0-GEM</string>
          <property name="allowMultipleExecutions" stdset="0">
           <bool>false</bool>
          </property>
+         <property name="commands" stdset="0">
+          <stringlist>
+           <string>pydm /reg/g/pcds/epics-dev/screens/pydm/lfe/AT1L0.ui</string>
+          </stringlist>
+         </property>
          <property name="command" stdset="0">
-          <string>pydm gas-atten.ui</string>
+          <string>pydm /reg/g/pcds/epics-dev/screens/pydm/lfe/AT1L0.ui</string>
          </property>
         </widget>
         <widget class="IonPump" name="PA1L0_PIN_1">

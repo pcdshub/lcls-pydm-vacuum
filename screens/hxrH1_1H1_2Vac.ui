@@ -760,7 +760,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
           <string/>
          </property>
          <property name="channelsPrefix" stdset="0">
-          <string>ca://TV5L0:PIP:03</string>
+          <string>ca://TV6L0:PIP:01</string>
          </property>
          <property name="controlButtonHorizontal" stdset="0">
           <bool>false</bool>
@@ -833,7 +833,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
           <enum>PCDSSymbolBase::Left</enum>
          </property>
          <property name="channelsPrefix" stdset="0">
-          <string>ca://TV5L0:GCC:03</string>
+          <string>ca://TV6L0:GCC:01</string>
          </property>
          <property name="controlButtonHorizontal" stdset="0">
           <bool>false</bool>
@@ -1036,14 +1036,14 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <widget class="QLabel" name="label_19">
          <property name="geometry">
           <rect>
-           <x>1020</x>
-           <y>476</y>
+           <x>1039</x>
+           <y>479</y>
            <width>101</width>
            <height>20</height>
           </rect>
          </property>
          <property name="text">
-          <string>TV5L0-PIP-03</string>
+          <string>TV6L0-PIP-01</string>
          </property>
         </widget>
         <widget class="QLabel" name="label_20">
@@ -1056,7 +1056,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
           </rect>
          </property>
          <property name="text">
-          <string>TV5L0-GCC-03</string>
+          <string>TV6L0-GCC-01</string>
          </property>
         </widget>
         <widget class="PyDMShellCommand" name="PyDMShellCommand_FEE_2">
@@ -1145,7 +1145,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
           <enum>QFrame::Plain</enum>
          </property>
          <property name="text">
-          <string>1.50e-09 Torr</string>
+          <string>1.40e-09 Torr</string>
          </property>
          <property name="textFormat">
           <enum>Qt::PlainText</enum>
