@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1593</width>
+    <width>660</width>
     <height>641</height>
    </rect>
   </property>
@@ -378,7 +378,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         </property>
         <property name="geometry">
          <rect>
-          <x>0</x>
+          <x>-1212</x>
           <y>0</y>
           <width>1850</width>
           <height>580</height>
@@ -411,7 +411,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
           <rect>
            <x>136</x>
            <y>270</y>
-           <width>1631</width>
+           <width>1691</width>
            <height>20</height>
           </rect>
          </property>
@@ -1116,8 +1116,8 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <widget class="QLabel" name="label_21">
          <property name="geometry">
           <rect>
-           <x>1630</x>
-           <y>185</y>
+           <x>1670</x>
+           <y>350</y>
            <width>151</width>
            <height>16</height>
           </rect>
@@ -1129,8 +1129,8 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <widget class="PyDMLabel" name="PyDMLabel">
          <property name="geometry">
           <rect>
-           <x>1660</x>
-           <y>205</y>
+           <x>1700</x>
+           <y>370</y>
            <width>96</width>
            <height>16</height>
           </rect>
@@ -1145,7 +1145,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
           <enum>QFrame::Plain</enum>
          </property>
          <property name="text">
-          <string>1.40e-09 Torr</string>
+          <string>2.50e-08 Torr</string>
          </property>
          <property name="textFormat">
           <enum>Qt::PlainText</enum>
@@ -1441,6 +1441,25 @@ IonPump[state=&quot;FAULT&quot;] #icon {
           <number>12</number>
          </property>
         </widget>
+        <widget class="ColdCathodeGauge" name="ColdCathodeGauge">
+         <property name="geometry">
+          <rect>
+           <x>1640</x>
+           <y>130</y>
+           <width>121</width>
+           <height>99</height>
+          </rect>
+         </property>
+         <property name="toolTip">
+          <string/>
+         </property>
+         <property name="channelsPrefix" stdset="0">
+          <string>ca://TV8L0:UM6:GCC:01</string>
+         </property>
+         <property name="controlButtonHorizontal" stdset="0">
+          <bool>true</bool>
+         </property>
+        </widget>
         <zorder>TV5L0_02</zorder>
         <zorder>TV4L0_01</zorder>
         <zorder>TV4L0_02</zorder>
@@ -1493,6 +1512,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <zorder>TV4L0_3</zorder>
         <zorder>TV4L0_4</zorder>
         <zorder>TV6L0_VGC_2</zorder>
+        <zorder>ColdCathodeGauge</zorder>
        </widget>
       </widget>
      </item>
