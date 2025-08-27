@@ -1145,7 +1145,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
           <enum>QFrame::Plain</enum>
          </property>
          <property name="text">
-          <string>2.50e-08 Torr</string>
+          <string>2.30e-08 Torr</string>
          </property>
          <property name="textFormat">
           <enum>Qt::PlainText</enum>
@@ -1342,7 +1342,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
          <property name="geometry">
           <rect>
            <x>1640</x>
-           <y>80</y>
+           <y>60</y>
            <width>67</width>
            <height>51</height>
           </rect>
@@ -1460,6 +1460,19 @@ IonPump[state=&quot;FAULT&quot;] #icon {
           <bool>true</bool>
          </property>
         </widget>
+        <widget class="QLabel" name="label_22">
+         <property name="geometry">
+          <rect>
+           <x>1640</x>
+           <y>110</y>
+           <width>151</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>TV8L0:UM6:GCC:01</string>
+         </property>
+        </widget>
         <zorder>TV5L0_02</zorder>
         <zorder>TV4L0_01</zorder>
         <zorder>TV4L0_02</zorder>
@@ -1513,6 +1526,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <zorder>TV4L0_4</zorder>
         <zorder>TV6L0_VGC_2</zorder>
         <zorder>ColdCathodeGauge</zorder>
+        <zorder>label_22</zorder>
        </widget>
       </widget>
      </item>
