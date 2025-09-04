@@ -3822,7 +3822,7 @@ PPM</string>
        </property>
        <property name="commands" stdset="0">
         <stringlist>
-         <string>pydm /cds/group/pcds/epics-dev/screens/pydm/vacuumscreens/screens/TMO/lamp_mbes_Vac.ui</string>
+         <string>pydm /cds/group/pcds/epics-dev/screens/pydm/vacuumscreens/screens/TMO/mrcoVacSSChamber.ui</string>
         </stringlist>
        </property>
       </widget>
@@ -4224,7 +4224,7 @@ PPM</string>
         <string/>
        </property>
        <property name="text">
-        <string/>
+        <string>MRCO</string>
        </property>
        <property name="channel" stdset="0">
         <string>ca://TMO:IP1:PLC:NAME_RBV</string>
@@ -7913,6 +7913,7 @@ p, li { white-space: pre-wrap; }
    <class>PyDMEmbeddedDisplay</class>
    <extends>QFrame</extends>
    <header>pydm.widgets.embedded_display</header>
+   <container>1</container>
   </customwidget>
   <customwidget>
    <class>PyDMEnumComboBox</class>
