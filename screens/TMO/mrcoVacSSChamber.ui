@@ -1215,7 +1215,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
        <property name="geometry">
         <rect>
          <x>770</x>
-         <y>1045</y>
+         <y>1046</y>
          <width>100</width>
          <height>82</height>
         </rect>
@@ -1248,8 +1248,8 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="RoughGauge" name="MRCO_ROUGH_GPI_03">
        <property name="geometry">
         <rect>
-         <x>875</x>
-         <y>925</y>
+         <x>825</x>
+         <y>930</y>
          <width>70</width>
          <height>60</height>
         </rect>
@@ -1541,7 +1541,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
        <property name="geometry">
         <rect>
          <x>1160</x>
-         <y>790</y>
+         <y>670</y>
          <width>70</width>
          <height>60</height>
         </rect>
@@ -1566,7 +1566,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
        <property name="geometry">
         <rect>
          <x>1150</x>
-         <y>800</y>
+         <y>680</y>
          <width>46</width>
          <height>20</height>
         </rect>
@@ -1764,8 +1764,8 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="RoughGauge" name="MRCO_ROUGH_GPI_04">
        <property name="geometry">
         <rect>
-         <x>959</x>
-         <y>810</y>
+         <x>1020</x>
+         <y>857</y>
          <width>81</width>
          <height>60</height>
         </rect>
@@ -1836,7 +1836,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="Line" name="line_84">
        <property name="geometry">
         <rect>
-         <x>945</x>
+         <x>970</x>
          <y>720</y>
          <width>20</width>
          <height>226</height>
@@ -1887,8 +1887,8 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="QLabel" name="label_25">
        <property name="geometry">
         <rect>
-         <x>660</x>
-         <y>770</y>
+         <x>685</x>
+         <y>772</y>
          <width>121</width>
          <height>41</height>
         </rect>
@@ -1916,7 +1916,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="QLabel" name="label_26">
        <property name="geometry">
         <rect>
-         <x>1035</x>
+         <x>877</x>
          <y>905</y>
          <width>111</width>
          <height>31</height>
@@ -2091,8 +2091,8 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="QLabel" name="label_32">
        <property name="geometry">
         <rect>
-         <x>820</x>
-         <y>910</y>
+         <x>810</x>
+         <y>990</y>
          <width>100</width>
          <height>30</height>
         </rect>
@@ -2239,7 +2239,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <rect>
          <x>955</x>
          <y>820</y>
-         <width>46</width>
+         <width>171</width>
          <height>21</height>
         </rect>
        </property>
@@ -2256,8 +2256,8 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="QLabel" name="label_38">
        <property name="geometry">
         <rect>
-         <x>1020</x>
-         <y>810</y>
+         <x>1012</x>
+         <y>920</y>
          <width>100</width>
          <height>30</height>
         </rect>
@@ -2324,7 +2324,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
        <property name="geometry">
         <rect>
          <x>1150</x>
-         <y>750</y>
+         <y>630</y>
          <width>101</width>
          <height>41</height>
         </rect>
@@ -3268,8 +3268,8 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="PneumaticValve" name="PneumaticValve_3">
        <property name="geometry">
         <rect>
-         <x>940</x>
-         <y>870</y>
+         <x>897</x>
+         <y>827</y>
          <width>101</width>
          <height>86</height>
         </rect>
@@ -3278,7 +3278,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <string/>
        </property>
        <property name="controlsLocation" stdset="0">
-        <enum>PCDSSymbolBase::Right</enum>
+        <enum>PCDSSymbolBase::Left</enum>
        </property>
        <property name="channelsPrefix" stdset="0">
         <string>ca://MRCO:ROUGH:VRC:03</string>
@@ -3356,8 +3356,8 @@ IonPump[state=&quot;FAULT&quot;] #icon {
        <property name="geometry">
         <rect>
          <x>780</x>
-         <y>930</y>
-         <width>176</width>
+         <y>931</y>
+         <width>201</width>
          <height>31</height>
         </rect>
        </property>
@@ -3524,7 +3524,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <rect>
          <x>675</x>
          <y>710</y>
-         <width>281</width>
+         <width>305</width>
          <height>20</height>
         </rect>
        </property>
@@ -3670,8 +3670,8 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="QLabel" name="label_51">
        <property name="geometry">
         <rect>
-         <x>1030</x>
-         <y>750</y>
+         <x>861</x>
+         <y>754</y>
          <width>111</width>
          <height>31</height>
         </rect>
@@ -3699,8 +3699,8 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="PneumaticValve" name="PneumaticValve_6">
        <property name="geometry">
         <rect>
-         <x>940</x>
-         <y>715</y>
+         <x>965</x>
+         <y>722</y>
          <width>101</width>
          <height>91</height>
         </rect>
@@ -3733,10 +3733,10 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="QLabel" name="label_52">
        <property name="geometry">
         <rect>
-         <x>775</x>
-         <y>730</y>
-         <width>111</width>
-         <height>31</height>
+         <x>750</x>
+         <y>669</y>
+         <width>110</width>
+         <height>30</height>
         </rect>
        </property>
        <property name="font">
@@ -3762,7 +3762,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="RoughGauge" name="MRCO_ROUGH_GPI_4">
        <property name="geometry">
         <rect>
-         <x>959</x>
+         <x>984</x>
          <y>639</y>
          <width>81</width>
          <height>71</height>
@@ -3793,7 +3793,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="QLabel" name="label_53">
        <property name="geometry">
         <rect>
-         <x>1020</x>
+         <x>1045</x>
          <y>680</y>
          <width>100</width>
          <height>30</height>
@@ -3822,7 +3822,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="Line" name="line_70">
        <property name="geometry">
         <rect>
-         <x>955</x>
+         <x>980</x>
          <y>685</y>
          <width>46</width>
          <height>21</height>
@@ -3841,7 +3841,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="Line" name="line_86">
        <property name="geometry">
         <rect>
-         <x>945</x>
+         <x>970</x>
          <y>695</y>
          <width>20</width>
          <height>26</height>
@@ -3883,9 +3883,9 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="PneumaticValveNO" name="PneumaticValveNO">
        <property name="geometry">
         <rect>
-         <x>680</x>
+         <x>670</x>
          <y>810</y>
-         <width>180</width>
+         <width>151</width>
          <height>82</height>
         </rect>
        </property>
@@ -3899,10 +3899,10 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="PneumaticValveNO" name="PneumaticValveNO_2">
        <property name="geometry">
         <rect>
-         <x>760</x>
+         <x>740</x>
          <y>700</y>
-         <width>180</width>
-         <height>82</height>
+         <width>121</width>
+         <height>81</height>
         </rect>
        </property>
        <property name="toolTip">
@@ -3929,6 +3929,191 @@ p, li { white-space: pre-wrap; }
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;FORCE OPEN. Do not CLOSE VALVE&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
       </widget>
+      <widget class="PneumaticValve" name="PneumaticValve_7">
+       <property name="geometry">
+        <rect>
+         <x>1160</x>
+         <y>810</y>
+         <width>121</width>
+         <height>81</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="controlsLocation" stdset="0">
+        <enum>PCDSSymbolBase::Bottom</enum>
+       </property>
+       <property name="channelsPrefix" stdset="0">
+        <string>ca://MRCO:ROUGH:VRC:06</string>
+       </property>
+       <property name="showStatusTooltip" stdset="0">
+        <bool>true</bool>
+       </property>
+       <property name="iconSize" stdset="0">
+        <number>32</number>
+       </property>
+       <property name="rotateIcon" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="expertOphydClass" stdset="0">
+        <string>pcdsdevices.valve.VRC</string>
+       </property>
+       <property name="controlButtonHorizontal" stdset="0">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_55">
+       <property name="geometry">
+        <rect>
+         <x>1160</x>
+         <y>771</y>
+         <width>111</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>9</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="lineWidth">
+        <number>1</number>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;MRCO:ROUGH:&lt;br/&gt;VRC:06&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="Line" name="line_59">
+       <property name="geometry">
+        <rect>
+         <x>515</x>
+         <y>210</y>
+         <width>501</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+         <horstretch>10</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+      <widget class="PyDMDrawingArc" name="PyDMDrawingArc_2">
+       <property name="geometry">
+        <rect>
+         <x>1125</x>
+         <y>805</y>
+         <width>50</width>
+         <height>50</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="penJoinStyle" stdset="0">
+        <enum>Qt::MiterJoin</enum>
+       </property>
+       <property name="rotation" stdset="0">
+        <double>0.000000000000000</double>
+       </property>
+       <property name="startAngle" stdset="0">
+        <double>0.000000000000000</double>
+       </property>
+       <property name="spanAngle" stdset="0">
+        <double>180.000000000000000</double>
+       </property>
+      </widget>
+      <widget class="Line" name="line_79">
+       <property name="geometry">
+        <rect>
+         <x>1174</x>
+         <y>820</y>
+         <width>91</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+         <horstretch>10</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+      <widget class="Line" name="line_89">
+       <property name="geometry">
+        <rect>
+         <x>1256</x>
+         <y>408</y>
+         <width>20</width>
+         <height>421</height>
+        </rect>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+      </widget>
+      <widget class="Line" name="line_90">
+       <property name="geometry">
+        <rect>
+         <x>1015</x>
+         <y>399</y>
+         <width>250</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+         <horstretch>10</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+      <widget class="Line" name="line_91">
+       <property name="geometry">
+        <rect>
+         <x>1002</x>
+         <y>220</y>
+         <width>31</width>
+         <height>189</height>
+        </rect>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+      </widget>
+      <widget class="Line" name="line_92">
+       <property name="geometry">
+        <rect>
+         <x>1051</x>
+         <y>828</y>
+         <width>20</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+      </widget>
+      <zorder>line_92</zorder>
       <zorder>line_86</zorder>
       <zorder>line_70</zorder>
       <zorder>line_78</zorder>
@@ -4050,8 +4235,16 @@ p, li { white-space: pre-wrap; }
       <zorder>label_53</zorder>
       <zorder>label_54</zorder>
       <zorder>PneumaticValveNO</zorder>
-      <zorder>PneumaticValveNO_2</zorder>
       <zorder>textEdit</zorder>
+      <zorder>PneumaticValveNO_2</zorder>
+      <zorder>label_55</zorder>
+      <zorder>line_59</zorder>
+      <zorder>PyDMDrawingArc_2</zorder>
+      <zorder>line_79</zorder>
+      <zorder>line_89</zorder>
+      <zorder>line_90</zorder>
+      <zorder>line_91</zorder>
+      <zorder>PneumaticValve_7</zorder>
      </widget>
     </widget>
    </item>
