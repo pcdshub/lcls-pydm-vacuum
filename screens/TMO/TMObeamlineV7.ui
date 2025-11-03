@@ -798,7 +798,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
         <verstretch>0</verstretch>
        </sizepolicy>
       </property>
-      <widget class="PneumaticValve" name="PneumaticValve_2">
+      <widget class="PneumaticValve" name="PneumaticValve_2" native="true">
        <property name="geometry">
         <rect>
          <x>100</x>
@@ -837,7 +837,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
         <bool>false</bool>
        </property>
       </widget>
-      <widget class="PyDMDrawingRectangle" name="IM1K0_box">
+      <widget class="PyDMDrawingRectangle" name="IM1K0_box" native="true">
        <property name="geometry">
         <rect>
          <x>100</x>
@@ -857,9 +857,6 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
           <blue>0</blue>
          </color>
         </brush>
-       </property>
-       <property name="penStyle" stdset="0">
-        <enum>Qt::DashLine</enum>
        </property>
        <property name="penWidth" stdset="0">
         <double>1.000000000000000</double>
@@ -960,7 +957,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
         <string>&lt;-- Check this box to enable override mode</string>
        </property>
       </widget>
-      <widget class="FastShutter" name="FastShutter">
+      <widget class="FastShutter" name="FastShutter" native="true">
        <property name="geometry">
         <rect>
          <x>440</x>
@@ -1057,7 +1054,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
         <set>Qt::AlignCenter</set>
        </property>
       </widget>
-      <widget class="PneumaticValve" name="PneumaticValve_3">
+      <widget class="PneumaticValve" name="PneumaticValve_3" native="true">
        <property name="geometry">
         <rect>
          <x>365</x>
@@ -1158,7 +1155,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
         <enum>Qt::Vertical</enum>
        </property>
       </widget>
-      <widget class="PyDMDrawingRectangle" name="IM1K0_box_3">
+      <widget class="PyDMDrawingRectangle" name="IM1K0_box_3" native="true">
        <property name="geometry">
         <rect>
          <x>530</x>
@@ -1178,9 +1175,6 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
           <blue>0</blue>
          </color>
         </brush>
-       </property>
-       <property name="penStyle" stdset="0">
-        <enum>Qt::DashLine</enum>
        </property>
        <property name="penWidth" stdset="0">
         <double>1.000000000000000</double>
@@ -1209,7 +1203,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
         <set>Qt::AlignCenter</set>
        </property>
       </widget>
-      <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_2">
+      <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_2" native="true">
        <property name="geometry">
         <rect>
          <x>570</x>
@@ -1229,9 +1223,6 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
           <blue>239</blue>
          </color>
         </brush>
-       </property>
-       <property name="penStyle" stdset="0">
-        <enum>Qt::SolidLine</enum>
        </property>
        <property name="penWidth" stdset="0">
         <double>2.000000000000000</double>
@@ -1317,7 +1308,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
         <set>Qt::AlignCenter</set>
        </property>
       </widget>
-      <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_5">
+      <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_5" native="true">
        <property name="geometry">
         <rect>
          <x>175</x>
@@ -1337,9 +1328,6 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
           <blue>239</blue>
          </color>
         </brush>
-       </property>
-       <property name="penStyle" stdset="0">
-        <enum>Qt::SolidLine</enum>
        </property>
        <property name="penWidth" stdset="0">
         <double>2.000000000000000</double>
@@ -1384,7 +1372,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
         <set>Qt::AlignCenter</set>
        </property>
       </widget>
-      <widget class="IonPump" name="IonPump">
+      <widget class="IonPump" name="IonPump" native="true">
        <property name="geometry">
         <rect>
          <x>180</x>
@@ -1422,7 +1410,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
         <string>vacuumscreens/templates/GCC_GPI.ui</string>
        </property>
       </widget>
-      <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_6">
+      <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_6" native="true">
        <property name="geometry">
         <rect>
          <x>6</x>
@@ -1442,9 +1430,6 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
           <blue>239</blue>
          </color>
         </brush>
-       </property>
-       <property name="penStyle" stdset="0">
-        <enum>Qt::SolidLine</enum>
        </property>
        <property name="penColor" stdset="0">
         <color>
@@ -1697,7 +1682,7 @@ PPM</string>
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="RGA" name="RGA">
+      <widget class="RGA" name="RGA" native="true">
        <property name="geometry">
         <rect>
          <x>290</x>
@@ -1752,7 +1737,7 @@ PPM</string>
         <enum>Qt::Vertical</enum>
        </property>
       </widget>
-      <widget class="PyDMDrawingRectangle" name="IM1K0_box_2">
+      <widget class="PyDMDrawingRectangle" name="IM1K0_box_2" native="true">
        <property name="geometry">
         <rect>
          <x>360</x>
@@ -1773,14 +1758,11 @@ PPM</string>
          </color>
         </brush>
        </property>
-       <property name="penStyle" stdset="0">
-        <enum>Qt::DashLine</enum>
-       </property>
        <property name="penWidth" stdset="0">
         <double>1.000000000000000</double>
        </property>
       </widget>
-      <widget class="TurboPump" name="TurboPump">
+      <widget class="TurboPump" name="TurboPump" native="true">
        <property name="geometry">
         <rect>
          <x>530</x>
@@ -1792,9 +1774,6 @@ PPM</string>
        <property name="toolTip">
         <string/>
        </property>
-       <property name="controlsLocation" stdset="0">
-        <enum>PCDSSymbolBase::Left</enum>
-       </property>
        <property name="channelsPrefix" stdset="0">
         <string>ca://PA1K4:IP1:PTM:01</string>
        </property>
@@ -1802,7 +1781,7 @@ PPM</string>
         <bool>false</bool>
        </property>
       </widget>
-      <widget class="TurboPump" name="TurboPump_2">
+      <widget class="TurboPump" name="TurboPump_2" native="true">
        <property name="geometry">
         <rect>
          <x>655</x>
@@ -1813,9 +1792,6 @@ PPM</string>
        </property>
        <property name="toolTip">
         <string/>
-       </property>
-       <property name="controlsLocation" stdset="0">
-        <enum>PCDSSymbolBase::Right</enum>
        </property>
        <property name="channelsPrefix" stdset="0">
         <string>ca://PA1K4:IP1:PTM:02</string>
@@ -1950,7 +1926,7 @@ PPM</string>
         <enum>Qt::Vertical</enum>
        </property>
       </widget>
-      <widget class="TurboPump" name="TurboPump_3">
+      <widget class="TurboPump" name="TurboPump_3" native="true">
        <property name="geometry">
         <rect>
          <x>625</x>
@@ -1961,9 +1937,6 @@ PPM</string>
        </property>
        <property name="toolTip">
         <string/>
-       </property>
-       <property name="controlsLocation" stdset="0">
-        <enum>PCDSSymbolBase::Right</enum>
        </property>
        <property name="channelsPrefix" stdset="0">
         <string>ca://PA1K4:IP1:PTM:03</string>
@@ -2039,7 +2012,7 @@ PPM</string>
         <enum>Qt::Vertical</enum>
        </property>
       </widget>
-      <widget class="TurboPump" name="TurboPump_4">
+      <widget class="TurboPump" name="TurboPump_4" native="true">
        <property name="geometry">
         <rect>
          <x>797</x>
@@ -2050,9 +2023,6 @@ PPM</string>
        </property>
        <property name="toolTip">
         <string/>
-       </property>
-       <property name="controlsLocation" stdset="0">
-        <enum>PCDSSymbolBase::Left</enum>
        </property>
        <property name="channelsPrefix" stdset="0">
         <string>ca://IM4K4:PPM:PTM:01</string>
@@ -2100,7 +2070,7 @@ PPM</string>
         <set>Qt::AlignCenter</set>
        </property>
       </widget>
-      <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_3">
+      <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_3" native="true">
        <property name="geometry">
         <rect>
          <x>790</x>
@@ -2121,9 +2091,6 @@ PPM</string>
          </color>
         </brush>
        </property>
-       <property name="penStyle" stdset="0">
-        <enum>Qt::SolidLine</enum>
-       </property>
        <property name="penColor" stdset="0">
         <color>
          <red>255</red>
@@ -2135,7 +2102,7 @@ PPM</string>
         <double>4.000000000000000</double>
        </property>
       </widget>
-      <widget class="ColdCathodeGauge" name="ColdCathodeGauge">
+      <widget class="ColdCathodeGauge" name="ColdCathodeGauge" native="true">
        <property name="geometry">
         <rect>
          <x>770</x>
@@ -2147,9 +2114,6 @@ PPM</string>
        <property name="toolTip">
         <string/>
        </property>
-       <property name="controlsLocation" stdset="0">
-        <enum>PCDSSymbolBase::Left</enum>
-       </property>
        <property name="channelsPrefix" stdset="0">
         <string>ca://IM4K4:PPM:GCC:01</string>
        </property>
@@ -2157,7 +2121,7 @@ PPM</string>
         <bool>false</bool>
        </property>
       </widget>
-      <widget class="PyDMDrawingRectangle" name="IM1K0_box_4">
+      <widget class="PyDMDrawingRectangle" name="IM1K0_box_4" native="true">
        <property name="geometry">
         <rect>
          <x>770</x>
@@ -2177,9 +2141,6 @@ PPM</string>
           <blue>0</blue>
          </color>
         </brush>
-       </property>
-       <property name="penStyle" stdset="0">
-        <enum>Qt::DashLine</enum>
        </property>
        <property name="penWidth" stdset="0">
         <double>1.000000000000000</double>
@@ -2266,7 +2227,7 @@ PPM</string>
         <set>Qt::AlignCenter</set>
        </property>
       </widget>
-      <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_8">
+      <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_8" native="true">
        <property name="geometry">
         <rect>
          <x>975</x>
@@ -2287,14 +2248,11 @@ PPM</string>
          </color>
         </brush>
        </property>
-       <property name="penStyle" stdset="0">
-        <enum>Qt::SolidLine</enum>
-       </property>
        <property name="penWidth" stdset="0">
         <double>2.000000000000000</double>
        </property>
       </widget>
-      <widget class="ColdCathodeGauge" name="ColdCathodeGauge_2">
+      <widget class="ColdCathodeGauge" name="ColdCathodeGauge_2" native="true">
        <property name="geometry">
         <rect>
          <x>1163</x>
@@ -2306,9 +2264,6 @@ PPM</string>
        <property name="toolTip">
         <string/>
        </property>
-       <property name="controlsLocation" stdset="0">
-        <enum>PCDSSymbolBase::Left</enum>
-       </property>
        <property name="channelsPrefix" stdset="0">
         <string>ca://LI2K4:IP1:GFS:01</string>
        </property>
@@ -2316,7 +2271,7 @@ PPM</string>
         <bool>false</bool>
        </property>
       </widget>
-      <widget class="TurboPump" name="TurboPump_5">
+      <widget class="TurboPump" name="TurboPump_5" native="true">
        <property name="geometry">
         <rect>
          <x>962</x>
@@ -2328,9 +2283,6 @@ PPM</string>
        <property name="toolTip">
         <string/>
        </property>
-       <property name="controlsLocation" stdset="0">
-        <enum>PCDSSymbolBase::Left</enum>
-       </property>
        <property name="channelsPrefix" stdset="0">
         <string>ca://LI1K4:IP1:PTM:01</string>
        </property>
@@ -2338,7 +2290,7 @@ PPM</string>
         <bool>false</bool>
        </property>
       </widget>
-      <widget class="PyDMDrawingRectangle" name="IM1K0_box_6">
+      <widget class="PyDMDrawingRectangle" name="IM1K0_box_6" native="true">
        <property name="geometry">
         <rect>
          <x>960</x>
@@ -2359,9 +2311,6 @@ PPM</string>
          </color>
         </brush>
        </property>
-       <property name="penStyle" stdset="0">
-        <enum>Qt::DashLine</enum>
-       </property>
        <property name="penWidth" stdset="0">
         <double>1.000000000000000</double>
        </property>
@@ -2379,7 +2328,7 @@ PPM</string>
         <enum>Qt::Vertical</enum>
        </property>
       </widget>
-      <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_9">
+      <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_9" native="true">
        <property name="geometry">
         <rect>
          <x>1140</x>
@@ -2399,9 +2348,6 @@ PPM</string>
           <blue>239</blue>
          </color>
         </brush>
-       </property>
-       <property name="penStyle" stdset="0">
-        <enum>Qt::SolidLine</enum>
        </property>
        <property name="penWidth" stdset="0">
         <double>2.000000000000000</double>
@@ -2446,7 +2392,7 @@ PPM</string>
         <set>Qt::AlignCenter</set>
        </property>
       </widget>
-      <widget class="PyDMDrawingRectangle" name="IM1K0_box_7">
+      <widget class="PyDMDrawingRectangle" name="IM1K0_box_7" native="true">
        <property name="geometry">
         <rect>
          <x>1130</x>
@@ -2466,9 +2412,6 @@ PPM</string>
           <blue>0</blue>
          </color>
         </brush>
-       </property>
-       <property name="penStyle" stdset="0">
-        <enum>Qt::DashLine</enum>
        </property>
        <property name="penWidth" stdset="0">
         <double>1.000000000000000</double>
@@ -2499,7 +2442,7 @@ PPM</string>
         <enum>Qt::Horizontal</enum>
        </property>
       </widget>
-      <widget class="ScrollPump" name="ScrollPump">
+      <widget class="ScrollPump" name="ScrollPump" native="true">
        <property name="geometry">
         <rect>
          <x>690</x>
@@ -2510,9 +2453,6 @@ PPM</string>
        </property>
        <property name="toolTip">
         <string/>
-       </property>
-       <property name="controlsLocation" stdset="0">
-        <enum>PCDSSymbolBase::Hidden</enum>
        </property>
        <property name="controlButtonHorizontal" stdset="0">
         <bool>false</bool>
@@ -2547,7 +2487,7 @@ PPM</string>
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="PneumaticValve" name="PneumaticValve">
+      <widget class="PneumaticValve" name="PneumaticValve" native="true">
        <property name="geometry">
         <rect>
          <x>780</x>
@@ -2559,14 +2499,11 @@ PPM</string>
        <property name="toolTip">
         <string/>
        </property>
-       <property name="controlsLocation" stdset="0">
-        <enum>PCDSSymbolBase::Hidden</enum>
-       </property>
        <property name="iconSize" stdset="0">
         <number>25</number>
        </property>
       </widget>
-      <widget class="RoughGauge" name="RoughGauge">
+      <widget class="RoughGauge" name="RoughGauge" native="true">
        <property name="geometry">
         <rect>
          <x>1060</x>
@@ -2577,9 +2514,6 @@ PPM</string>
        </property>
        <property name="toolTip">
         <string/>
-       </property>
-       <property name="controlsLocation" stdset="0">
-        <enum>PCDSSymbolBase::Left</enum>
        </property>
        <property name="channelsPrefix" stdset="0">
         <string>ca://TMO:ROUGH1:GPI:02</string>
@@ -2607,7 +2541,7 @@ PPM</string>
         <enum>Qt::Vertical</enum>
        </property>
       </widget>
-      <widget class="PneumaticValve" name="PneumaticValve_4">
+      <widget class="PneumaticValve" name="PneumaticValve_4" native="true">
        <property name="geometry">
         <rect>
          <x>1210</x>
@@ -2621,9 +2555,6 @@ PPM</string>
        </property>
        <property name="layoutDirection">
         <enum>Qt::LeftToRight</enum>
-       </property>
-       <property name="controlsLocation" stdset="0">
-        <enum>PCDSSymbolBase::Right</enum>
        </property>
        <property name="channelsPrefix" stdset="0">
         <string>ca://TMO:ROUGH1:VRC:01</string>
@@ -2694,7 +2625,7 @@ PPM</string>
         <enum>Qt::Vertical</enum>
        </property>
       </widget>
-      <widget class="PneumaticValve" name="PneumaticValve_5">
+      <widget class="PneumaticValve" name="PneumaticValve_5" native="true">
        <property name="geometry">
         <rect>
          <x>1600</x>
@@ -2708,9 +2639,6 @@ PPM</string>
        </property>
        <property name="layoutDirection">
         <enum>Qt::LeftToRight</enum>
-       </property>
-       <property name="controlsLocation" stdset="0">
-        <enum>PCDSSymbolBase::Right</enum>
        </property>
        <property name="channelsPrefix" stdset="0">
         <string>ca://TMO:ROUGH1:VRC:02</string>
@@ -2768,7 +2696,7 @@ PPM</string>
         <enum>Qt::Horizontal</enum>
        </property>
       </widget>
-      <widget class="RoughGauge" name="RoughGauge_2">
+      <widget class="RoughGauge" name="RoughGauge_2" native="true">
        <property name="geometry">
         <rect>
          <x>1710</x>
@@ -2784,7 +2712,7 @@ PPM</string>
         <string>ca://TMO:ROUGH1:GPI:03</string>
        </property>
       </widget>
-      <widget class="PneumaticValve" name="PneumaticValve_6">
+      <widget class="PneumaticValve" name="PneumaticValve_6" native="true">
        <property name="geometry">
         <rect>
          <x>1450</x>
@@ -2874,7 +2802,7 @@ PPM</string>
         <enum>Qt::Vertical</enum>
        </property>
       </widget>
-      <widget class="TurboPump" name="TurboPump_11">
+      <widget class="TurboPump" name="TurboPump_11" native="true">
        <property name="geometry">
         <rect>
          <x>1527</x>
@@ -2886,9 +2814,6 @@ PPM</string>
        <property name="toolTip">
         <string/>
        </property>
-       <property name="controlsLocation" stdset="0">
-        <enum>PCDSSymbolBase::Left</enum>
-       </property>
        <property name="channelsPrefix" stdset="0">
         <string>ca://LI3K4:IP1:OUT:PTM:01</string>
        </property>
@@ -2896,7 +2821,7 @@ PPM</string>
         <bool>false</bool>
        </property>
       </widget>
-      <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_16">
+      <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_16" native="true">
        <property name="geometry">
         <rect>
          <x>1515</x>
@@ -2917,14 +2842,11 @@ PPM</string>
          </color>
         </brush>
        </property>
-       <property name="penStyle" stdset="0">
-        <enum>Qt::SolidLine</enum>
-       </property>
        <property name="penWidth" stdset="0">
         <double>2.000000000000000</double>
        </property>
       </widget>
-      <widget class="PyDMDrawingRectangle" name="IM1K0_box_13">
+      <widget class="PyDMDrawingRectangle" name="IM1K0_box_13" native="true">
        <property name="geometry">
         <rect>
          <x>1445</x>
@@ -2944,9 +2866,6 @@ PPM</string>
           <blue>0</blue>
          </color>
         </brush>
-       </property>
-       <property name="penStyle" stdset="0">
-        <enum>Qt::DashLine</enum>
        </property>
        <property name="penWidth" stdset="0">
         <double>1.000000000000000</double>
@@ -3010,7 +2929,7 @@ PPM</string>
         <enum>Qt::Vertical</enum>
        </property>
       </widget>
-      <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_25">
+      <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_25" native="true">
        <property name="geometry">
         <rect>
          <x>1695</x>
@@ -3031,14 +2950,11 @@ PPM</string>
          </color>
         </brush>
        </property>
-       <property name="penStyle" stdset="0">
-        <enum>Qt::SolidLine</enum>
-       </property>
        <property name="penWidth" stdset="0">
         <double>2.000000000000000</double>
        </property>
       </widget>
-      <widget class="TurboPump" name="TurboPump_18">
+      <widget class="TurboPump" name="TurboPump_18" native="true">
        <property name="geometry">
         <rect>
          <x>1698</x>
@@ -3050,9 +2966,6 @@ PPM</string>
        <property name="toolTip">
         <string/>
        </property>
-       <property name="controlsLocation" stdset="0">
-        <enum>PCDSSymbolBase::Left</enum>
-       </property>
        <property name="channelsPrefix" stdset="0">
         <string>ca://TM1K4:PTM:01</string>
        </property>
@@ -3060,7 +2973,7 @@ PPM</string>
         <bool>false</bool>
        </property>
       </widget>
-      <widget class="PyDMDrawingRectangle" name="IM1K0_box_21">
+      <widget class="PyDMDrawingRectangle" name="IM1K0_box_21" native="true">
        <property name="geometry">
         <rect>
          <x>1670</x>
@@ -3080,9 +2993,6 @@ PPM</string>
           <blue>0</blue>
          </color>
         </brush>
-       </property>
-       <property name="penStyle" stdset="0">
-        <enum>Qt::DashLine</enum>
        </property>
        <property name="penWidth" stdset="0">
         <double>1.000000000000000</double>
@@ -3127,7 +3037,7 @@ PPM</string>
         <set>Qt::AlignCenter</set>
        </property>
       </widget>
-      <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_26">
+      <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_26" native="true">
        <property name="geometry">
         <rect>
          <x>2039</x>
@@ -3148,9 +3058,6 @@ PPM</string>
          </color>
         </brush>
        </property>
-       <property name="penStyle" stdset="0">
-        <enum>Qt::SolidLine</enum>
-       </property>
        <property name="penColor" stdset="0">
         <color>
          <red>255</red>
@@ -3162,7 +3069,7 @@ PPM</string>
         <double>4.000000000000000</double>
        </property>
       </widget>
-      <widget class="PyDMDrawingRectangle" name="IM1K0_box_22">
+      <widget class="PyDMDrawingRectangle" name="IM1K0_box_22" native="true">
        <property name="geometry">
         <rect>
          <x>2035</x>
@@ -3183,14 +3090,11 @@ PPM</string>
          </color>
         </brush>
        </property>
-       <property name="penStyle" stdset="0">
-        <enum>Qt::DashLine</enum>
-       </property>
        <property name="penWidth" stdset="0">
         <double>1.000000000000000</double>
        </property>
       </widget>
-      <widget class="TurboPump" name="TurboPump_19">
+      <widget class="TurboPump" name="TurboPump_19" native="true">
        <property name="geometry">
         <rect>
          <x>2075</x>
@@ -3201,9 +3105,6 @@ PPM</string>
        </property>
        <property name="toolTip">
         <string/>
-       </property>
-       <property name="controlsLocation" stdset="0">
-        <enum>PCDSSymbolBase::Left</enum>
        </property>
        <property name="channelsPrefix" stdset="0">
         <string>ca://IM5K4:PPM:PTM:01</string>
@@ -3270,7 +3171,7 @@ PPM</string>
         <set>Qt::AlignCenter</set>
        </property>
       </widget>
-      <widget class="PneumaticValve" name="PneumaticValve_19">
+      <widget class="PneumaticValve" name="PneumaticValve_19" native="true">
        <property name="geometry">
         <rect>
          <x>2391</x>
@@ -3312,7 +3213,7 @@ PPM</string>
         <bool>false</bool>
        </property>
       </widget>
-      <widget class="PyDMDrawingRectangle" name="IM1K0_box_23">
+      <widget class="PyDMDrawingRectangle" name="IM1K0_box_23" native="true">
        <property name="geometry">
         <rect>
          <x>2465</x>
@@ -3332,9 +3233,6 @@ PPM</string>
           <blue>0</blue>
          </color>
         </brush>
-       </property>
-       <property name="penStyle" stdset="0">
-        <enum>Qt::DashLine</enum>
        </property>
        <property name="penWidth" stdset="0">
         <double>1.000000000000000</double>
@@ -3382,7 +3280,7 @@ PPM</string>
         <string>[]</string>
        </property>
       </widget>
-      <widget class="RoughGauge" name="RoughGauge_3">
+      <widget class="RoughGauge" name="RoughGauge_3" native="true">
        <property name="geometry">
         <rect>
          <x>961</x>
@@ -3433,7 +3331,7 @@ PPM</string>
         <string>vacuumscreens/templates/GCC_GPI.ui</string>
        </property>
       </widget>
-      <widget class="IonPump" name="IonPump_2">
+      <widget class="IonPump" name="IonPump_2" native="true">
        <property name="geometry">
         <rect>
          <x>2540</x>
@@ -3567,7 +3465,7 @@ PPM</string>
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="ScrollPump" name="ScrollPump_2">
+      <widget class="ScrollPump" name="ScrollPump_2" native="true">
        <property name="geometry">
         <rect>
          <x>690</x>
@@ -3579,14 +3477,11 @@ PPM</string>
        <property name="toolTip">
         <string/>
        </property>
-       <property name="controlsLocation" stdset="0">
-        <enum>PCDSSymbolBase::Hidden</enum>
-       </property>
        <property name="controlButtonHorizontal" stdset="0">
         <bool>false</bool>
        </property>
       </widget>
-      <widget class="PneumaticValve" name="TMO_ROUGH2_VRC_01">
+      <widget class="PneumaticValve" name="TMO_ROUGH2_VRC_01" native="true">
        <property name="geometry">
         <rect>
          <x>1390</x>
@@ -3600,9 +3495,6 @@ PPM</string>
        </property>
        <property name="layoutDirection">
         <enum>Qt::LeftToRight</enum>
-       </property>
-       <property name="controlsLocation" stdset="0">
-        <enum>PCDSSymbolBase::Right</enum>
        </property>
        <property name="channelsPrefix" stdset="0">
         <string>ca://TMO:ROUGH2:VRC:01</string>
@@ -3638,7 +3530,7 @@ PPM</string>
         <bool>false</bool>
        </property>
       </widget>
-      <widget class="PneumaticValve" name="PneumaticValve_7">
+      <widget class="PneumaticValve" name="PneumaticValve_7" native="true">
        <property name="geometry">
         <rect>
          <x>780</x>
@@ -3650,14 +3542,11 @@ PPM</string>
        <property name="toolTip">
         <string/>
        </property>
-       <property name="controlsLocation" stdset="0">
-        <enum>PCDSSymbolBase::Hidden</enum>
-       </property>
        <property name="iconSize" stdset="0">
         <number>25</number>
        </property>
       </widget>
-      <widget class="RoughGauge" name="TMO_ROUGH2_GPI_01">
+      <widget class="RoughGauge" name="TMO_ROUGH2_GPI_01" native="true">
        <property name="geometry">
         <rect>
          <x>962</x>
@@ -3682,7 +3571,7 @@ PPM</string>
         <number>28</number>
        </property>
       </widget>
-      <widget class="RoughGauge" name="TMO_ROUGH2_GPI_02">
+      <widget class="RoughGauge" name="TMO_ROUGH2_GPI_02" native="true">
        <property name="geometry">
         <rect>
          <x>1370</x>
@@ -3732,7 +3621,7 @@ PPM</string>
         <enum>Qt::Horizontal</enum>
        </property>
       </widget>
-      <widget class="PyDMDrawingArc" name="PyDMDrawingArc">
+      <widget class="PyDMDrawingArc" name="PyDMDrawingArc" native="true">
        <property name="geometry">
         <rect>
          <x>1388</x>
@@ -3822,7 +3711,7 @@ PPM</string>
        </property>
        <property name="commands" stdset="0">
         <stringlist>
-         <string>pydm /cds/group/pcds/epics-dev/screens/pydm/vacuumscreens/screens/TMO/lamp_mbes_Vac_V3.ui</string>
+         <string>pydm /cds/group/pcds/epics-dev/screens/pydm/vacuumscreens/screens/TMO/mrcoVacSSChamber.ui</string>
         </stringlist>
        </property>
       </widget>
@@ -4095,7 +3984,7 @@ PPM</string>
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_27">
+      <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_27" native="true">
        <property name="geometry">
         <rect>
          <x>2490</x>
@@ -4115,9 +4004,6 @@ PPM</string>
           <blue>239</blue>
          </color>
         </brush>
-       </property>
-       <property name="penStyle" stdset="0">
-        <enum>Qt::SolidLine</enum>
        </property>
        <property name="penWidth" stdset="0">
         <double>2.000000000000000</double>
@@ -4165,7 +4051,7 @@ PPM</string>
         <string>[]</string>
        </property>
       </widget>
-      <widget class="PyDMByteIndicator" name="PyDMByteIndicator_2">
+      <widget class="PyDMByteIndicator" name="PyDMByteIndicator_2" native="true">
        <property name="geometry">
         <rect>
          <x>1310</x>
@@ -4193,12 +4079,6 @@ PPM</string>
          <green>170</green>
          <blue>0</blue>
         </color>
-       </property>
-       <property name="orientation" stdset="0">
-        <enum>Qt::Horizontal</enum>
-       </property>
-       <property name="labelPosition" stdset="0">
-        <enum>QTabWidget::South</enum>
        </property>
        <property name="labels" stdset="0">
         <stringlist>
@@ -4229,11 +4109,8 @@ PPM</string>
        <property name="channel" stdset="0">
         <string>ca://TMO:IP1:PLC:NAME_RBV</string>
        </property>
-       <property name="displayFormat" stdset="0">
-        <enum>PyDMLabel::String</enum>
-       </property>
       </widget>
-      <widget class="ColdCathodeGauge" name="ColdCathodeGauge_3">
+      <widget class="ColdCathodeGauge" name="ColdCathodeGauge_3" native="true">
        <property name="geometry">
         <rect>
          <x>1313</x>
@@ -4244,9 +4121,6 @@ PPM</string>
        </property>
        <property name="toolTip">
         <string/>
-       </property>
-       <property name="controlsLocation" stdset="0">
-        <enum>PCDSSymbolBase::Right</enum>
        </property>
        <property name="channelsPrefix" stdset="0">
         <string>ca://TMO:IP1:MAIN:GAUGE</string>
@@ -4274,7 +4148,7 @@ PPM</string>
         <enum>Qt::Vertical</enum>
        </property>
       </widget>
-      <widget class="PyDMByteIndicator" name="PyDMByteIndicator_3">
+      <widget class="PyDMByteIndicator" name="PyDMByteIndicator_3" native="true">
        <property name="geometry">
         <rect>
          <x>1320</x>
@@ -4303,19 +4177,13 @@ PPM</string>
          <blue>0</blue>
         </color>
        </property>
-       <property name="orientation" stdset="0">
-        <enum>Qt::Horizontal</enum>
-       </property>
-       <property name="labelPosition" stdset="0">
-        <enum>QTabWidget::South</enum>
-       </property>
        <property name="labels" stdset="0">
         <stringlist>
          <string>All Turbos On</string>
         </stringlist>
        </property>
       </widget>
-      <widget class="PyDMByteIndicator" name="IP1_HV_Safety_Enable">
+      <widget class="PyDMByteIndicator" name="IP1_HV_Safety_Enable" native="true">
        <property name="geometry">
         <rect>
          <x>1320</x>
@@ -4344,19 +4212,13 @@ PPM</string>
          <blue>0</blue>
         </color>
        </property>
-       <property name="orientation" stdset="0">
-        <enum>Qt::Horizontal</enum>
-       </property>
-       <property name="labelPosition" stdset="0">
-        <enum>QTabWidget::South</enum>
-       </property>
        <property name="labels" stdset="0">
         <stringlist>
          <string>HV Enable</string>
         </stringlist>
        </property>
       </widget>
-      <widget class="PyDMByteIndicator" name="FIM_HV_Safety_Enable">
+      <widget class="PyDMByteIndicator" name="FIM_HV_Safety_Enable" native="true">
        <property name="geometry">
         <rect>
          <x>200</x>
@@ -4385,19 +4247,13 @@ PPM</string>
          <blue>0</blue>
         </color>
        </property>
-       <property name="orientation" stdset="0">
-        <enum>Qt::Horizontal</enum>
-       </property>
-       <property name="labelPosition" stdset="0">
-        <enum>QTabWidget::South</enum>
-       </property>
        <property name="labels" stdset="0">
         <stringlist>
          <string>FIM HV Enable</string>
         </stringlist>
        </property>
       </widget>
-      <widget class="PyDMDrawingRectangle" name="IM1K0_box_24">
+      <widget class="PyDMDrawingRectangle" name="IM1K0_box_24" native="true">
        <property name="geometry">
         <rect>
          <x>1860</x>
@@ -4418,14 +4274,11 @@ PPM</string>
          </color>
         </brush>
        </property>
-       <property name="penStyle" stdset="0">
-        <enum>Qt::DashLine</enum>
-       </property>
        <property name="penWidth" stdset="0">
         <double>1.000000000000000</double>
        </property>
       </widget>
-      <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_28">
+      <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_28" native="true">
        <property name="geometry">
         <rect>
          <x>1866</x>
@@ -4445,9 +4298,6 @@ PPM</string>
           <blue>239</blue>
          </color>
         </brush>
-       </property>
-       <property name="penStyle" stdset="0">
-        <enum>Qt::SolidLine</enum>
        </property>
        <property name="penColor" stdset="0">
         <color>
@@ -4799,7 +4649,7 @@ p, li { white-space: pre-wrap; }
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;- or TMO:ROUGH1:VRC:01 being open.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
       </widget>
-      <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_29">
+      <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_29" native="true">
        <property name="geometry">
         <rect>
          <x>1971</x>
@@ -4819,9 +4669,6 @@ p, li { white-space: pre-wrap; }
           <blue>239</blue>
          </color>
         </brush>
-       </property>
-       <property name="penStyle" stdset="0">
-        <enum>Qt::SolidLine</enum>
        </property>
        <property name="penColor" stdset="0">
         <color>
@@ -4873,7 +4720,7 @@ p, li { white-space: pre-wrap; }
         <set>Qt::AlignCenter</set>
        </property>
       </widget>
-      <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_30">
+      <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_30" native="true">
        <property name="geometry">
         <rect>
          <x>2250</x>
@@ -4893,9 +4740,6 @@ p, li { white-space: pre-wrap; }
           <blue>239</blue>
          </color>
         </brush>
-       </property>
-       <property name="penStyle" stdset="0">
-        <enum>Qt::SolidLine</enum>
        </property>
        <property name="penColor" stdset="0">
         <color>
@@ -4947,7 +4791,7 @@ p, li { white-space: pre-wrap; }
         <set>Qt::AlignCenter</set>
        </property>
       </widget>
-      <widget class="PyDMDrawingRectangle" name="IM1K0_box_25">
+      <widget class="PyDMDrawingRectangle" name="IM1K0_box_25" native="true">
        <property name="geometry">
         <rect>
          <x>2240</x>
@@ -4968,14 +4812,11 @@ p, li { white-space: pre-wrap; }
          </color>
         </brush>
        </property>
-       <property name="penStyle" stdset="0">
-        <enum>Qt::DashLine</enum>
-       </property>
        <property name="penWidth" stdset="0">
         <double>1.000000000000000</double>
        </property>
       </widget>
-      <widget class="PyDMDrawingRectangle" name="IM1K0_box_5">
+      <widget class="PyDMDrawingRectangle" name="IM1K0_box_5" native="true">
        <property name="geometry">
         <rect>
          <x>2670</x>
@@ -4996,14 +4837,11 @@ p, li { white-space: pre-wrap; }
          </color>
         </brush>
        </property>
-       <property name="penStyle" stdset="0">
-        <enum>Qt::DashLine</enum>
-       </property>
        <property name="penWidth" stdset="0">
         <double>1.000000000000000</double>
        </property>
       </widget>
-      <widget class="PneumaticValve" name="PneumaticValve_8">
+      <widget class="PneumaticValve" name="PneumaticValve_8" native="true">
        <property name="geometry">
         <rect>
          <x>2750</x>
@@ -5151,7 +4989,7 @@ p, li { white-space: pre-wrap; }
         <string>vacuumscreens/templates/GCC_GPI.ui</string>
        </property>
       </widget>
-      <widget class="FastShutter" name="FastShutter_2">
+      <widget class="FastShutter" name="FastShutter_2" native="true">
        <property name="geometry">
         <rect>
          <x>2680</x>
@@ -5266,7 +5104,7 @@ p, li { white-space: pre-wrap; }
         <set>Qt::AlignCenter</set>
        </property>
       </widget>
-      <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_10">
+      <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_10" native="true">
        <property name="geometry">
         <rect>
          <x>2830</x>
@@ -5287,14 +5125,11 @@ p, li { white-space: pre-wrap; }
          </color>
         </brush>
        </property>
-       <property name="penStyle" stdset="0">
-        <enum>Qt::SolidLine</enum>
-       </property>
        <property name="penWidth" stdset="0">
         <double>2.000000000000000</double>
        </property>
       </widget>
-      <widget class="PyDMByteIndicator" name="FIM_HV_Safety_Enable_3">
+      <widget class="PyDMByteIndicator" name="FIM_HV_Safety_Enable_3" native="true">
        <property name="geometry">
         <rect>
          <x>2850</x>
@@ -5322,12 +5157,6 @@ p, li { white-space: pre-wrap; }
          <green>0</green>
          <blue>0</blue>
         </color>
-       </property>
-       <property name="orientation" stdset="0">
-        <enum>Qt::Horizontal</enum>
-       </property>
-       <property name="labelPosition" stdset="0">
-        <enum>QTabWidget::South</enum>
        </property>
        <property name="labels" stdset="0">
         <stringlist>
@@ -5413,7 +5242,7 @@ p, li { white-space: pre-wrap; }
         <set>Qt::AlignCenter</set>
        </property>
       </widget>
-      <widget class="IonPump" name="IonPump_4">
+      <widget class="IonPump" name="IonPump_4" native="true">
        <property name="geometry">
         <rect>
          <x>2830</x>
@@ -5468,7 +5297,7 @@ p, li { white-space: pre-wrap; }
         <set>Qt::AlignCenter</set>
        </property>
       </widget>
-      <widget class="PneumaticValve" name="PneumaticValve_9">
+      <widget class="PneumaticValve" name="PneumaticValve_9" native="true">
        <property name="geometry">
         <rect>
          <x>3070</x>
@@ -5508,7 +5337,7 @@ p, li { white-space: pre-wrap; }
         <bool>false</bool>
        </property>
       </widget>
-      <widget class="PyDMDrawingRectangle" name="IM1K0_box_8">
+      <widget class="PyDMDrawingRectangle" name="IM1K0_box_8" native="true">
        <property name="geometry">
         <rect>
          <x>3030</x>
@@ -5528,9 +5357,6 @@ p, li { white-space: pre-wrap; }
           <blue>0</blue>
          </color>
         </brush>
-       </property>
-       <property name="penStyle" stdset="0">
-        <enum>Qt::DashLine</enum>
        </property>
        <property name="penWidth" stdset="0">
         <double>1.000000000000000</double>
@@ -5842,7 +5668,7 @@ p, li { white-space: pre-wrap; }
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="PneumaticValve" name="PneumaticValve_21">
+      <widget class="PneumaticValve" name="PneumaticValve_21" native="true">
        <property name="geometry">
         <rect>
          <x>3410</x>
@@ -5902,7 +5728,7 @@ p, li { white-space: pre-wrap; }
         <set>Qt::AlignCenter</set>
        </property>
       </widget>
-      <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_37">
+      <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_37" native="true">
        <property name="geometry">
         <rect>
          <x>3485</x>
@@ -5923,14 +5749,11 @@ p, li { white-space: pre-wrap; }
          </color>
         </brush>
        </property>
-       <property name="penStyle" stdset="0">
-        <enum>Qt::SolidLine</enum>
-       </property>
        <property name="penWidth" stdset="0">
         <double>2.000000000000000</double>
        </property>
       </widget>
-      <widget class="ColdCathodeGauge" name="ColdCathodeGauge_11">
+      <widget class="ColdCathodeGauge" name="ColdCathodeGauge_11" native="true">
        <property name="geometry">
         <rect>
          <x>3230</x>
@@ -5941,9 +5764,6 @@ p, li { white-space: pre-wrap; }
        </property>
        <property name="toolTip">
         <string/>
-       </property>
-       <property name="controlsLocation" stdset="0">
-        <enum>PCDSSymbolBase::Hidden</enum>
        </property>
        <property name="channelsPrefix" stdset="0">
         <string>ca://TMO:DREAM:MAIN:GAUGE</string>
@@ -6052,7 +5872,7 @@ p, li { white-space: pre-wrap; }
         <set>Qt::AlignCenter</set>
        </property>
       </widget>
-      <widget class="PyDMDrawingRectangle" name="IM1K0_box_31">
+      <widget class="PyDMDrawingRectangle" name="IM1K0_box_31" native="true">
        <property name="geometry">
         <rect>
          <x>3690</x>
@@ -6073,14 +5893,11 @@ p, li { white-space: pre-wrap; }
          </color>
         </brush>
        </property>
-       <property name="penStyle" stdset="0">
-        <enum>Qt::DashLine</enum>
-       </property>
        <property name="penWidth" stdset="0">
         <double>1.000000000000000</double>
        </property>
       </widget>
-      <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_38">
+      <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_38" native="true">
        <property name="geometry">
         <rect>
          <x>3710</x>
@@ -6100,9 +5917,6 @@ p, li { white-space: pre-wrap; }
           <blue>239</blue>
          </color>
         </brush>
-       </property>
-       <property name="penStyle" stdset="0">
-        <enum>Qt::SolidLine</enum>
        </property>
        <property name="penWidth" stdset="0">
         <double>2.000000000000000</double>
@@ -6147,7 +5961,7 @@ p, li { white-space: pre-wrap; }
         <set>Qt::AlignCenter</set>
        </property>
       </widget>
-      <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_18">
+      <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_18" native="true">
        <property name="geometry">
         <rect>
          <x>3920</x>
@@ -6168,9 +5982,6 @@ p, li { white-space: pre-wrap; }
          </color>
         </brush>
        </property>
-       <property name="penStyle" stdset="0">
-        <enum>Qt::SolidLine</enum>
-       </property>
        <property name="penColor" stdset="0">
         <color>
          <red>255</red>
@@ -6182,7 +5993,7 @@ p, li { white-space: pre-wrap; }
         <double>4.000000000000000</double>
        </property>
       </widget>
-      <widget class="PyDMDrawingRectangle" name="IM1K0_box_19">
+      <widget class="PyDMDrawingRectangle" name="IM1K0_box_19" native="true">
        <property name="geometry">
         <rect>
          <x>3910</x>
@@ -6202,9 +6013,6 @@ p, li { white-space: pre-wrap; }
           <blue>0</blue>
          </color>
         </brush>
-       </property>
-       <property name="penStyle" stdset="0">
-        <enum>Qt::DashLine</enum>
        </property>
        <property name="penWidth" stdset="0">
         <double>1.000000000000000</double>
@@ -6249,7 +6057,7 @@ p, li { white-space: pre-wrap; }
         <set>Qt::AlignCenter</set>
        </property>
       </widget>
-      <widget class="PyDMDrawingRectangle" name="IM1K0_box_20">
+      <widget class="PyDMDrawingRectangle" name="IM1K0_box_20" native="true">
        <property name="geometry">
         <rect>
          <x>4110</x>
@@ -6269,9 +6077,6 @@ p, li { white-space: pre-wrap; }
           <blue>0</blue>
          </color>
         </brush>
-       </property>
-       <property name="penStyle" stdset="0">
-        <enum>Qt::DashLine</enum>
        </property>
        <property name="penWidth" stdset="0">
         <double>1.000000000000000</double>
@@ -6316,7 +6121,7 @@ p, li { white-space: pre-wrap; }
         <set>Qt::AlignCenter</set>
        </property>
       </widget>
-      <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_19">
+      <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_19" native="true">
        <property name="geometry">
         <rect>
          <x>4120</x>
@@ -6336,9 +6141,6 @@ p, li { white-space: pre-wrap; }
           <blue>239</blue>
          </color>
         </brush>
-       </property>
-       <property name="penStyle" stdset="0">
-        <enum>Qt::SolidLine</enum>
        </property>
        <property name="penColor" stdset="0">
         <color>
@@ -6380,7 +6182,7 @@ p, li { white-space: pre-wrap; }
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;- or TMO:ROUGH1:VRC:01 being open.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
       </widget>
-      <widget class="ColdCathodeGauge" name="ColdCathodeGauge_9">
+      <widget class="ColdCathodeGauge" name="ColdCathodeGauge_9" native="true">
        <property name="geometry">
         <rect>
          <x>3705</x>
@@ -6392,9 +6194,6 @@ p, li { white-space: pre-wrap; }
        <property name="toolTip">
         <string/>
        </property>
-       <property name="controlsLocation" stdset="0">
-        <enum>PCDSSymbolBase::Left</enum>
-       </property>
        <property name="channelsPrefix" stdset="0">
         <string>ca://PF2K4:KBO:GCC:01</string>
        </property>
@@ -6402,7 +6201,7 @@ p, li { white-space: pre-wrap; }
         <bool>false</bool>
        </property>
       </widget>
-      <widget class="ColdCathodeGauge" name="ColdCathodeGauge_4">
+      <widget class="ColdCathodeGauge" name="ColdCathodeGauge_4" native="true">
        <property name="geometry">
         <rect>
          <x>1060</x>
@@ -6414,9 +6213,6 @@ p, li { white-space: pre-wrap; }
        <property name="toolTip">
         <string/>
        </property>
-       <property name="controlsLocation" stdset="0">
-        <enum>PCDSSymbolBase::Left</enum>
-       </property>
        <property name="channelsPrefix" stdset="0">
         <string>ca://LI2K4:IP1:GFS:02</string>
        </property>
@@ -6424,7 +6220,7 @@ p, li { white-space: pre-wrap; }
         <bool>false</bool>
        </property>
       </widget>
-      <widget class="ColdCathodeGauge" name="ColdCathodeGauge_5">
+      <widget class="ColdCathodeGauge" name="ColdCathodeGauge_5" native="true">
        <property name="geometry">
         <rect>
          <x>1220</x>
@@ -6435,9 +6231,6 @@ p, li { white-space: pre-wrap; }
        </property>
        <property name="toolTip">
         <string/>
-       </property>
-       <property name="controlsLocation" stdset="0">
-        <enum>PCDSSymbolBase::Left</enum>
        </property>
        <property name="channelsPrefix" stdset="0">
         <string>ca://LI2K4:IP1:GFS:03</string>
@@ -6618,7 +6411,7 @@ p, li { white-space: pre-wrap; }
         <set>Qt::AlignCenter</set>
        </property>
       </widget>
-      <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_31">
+      <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_31" native="true">
        <property name="geometry">
         <rect>
          <x>2000</x>
@@ -6639,9 +6432,6 @@ p, li { white-space: pre-wrap; }
          </color>
         </brush>
        </property>
-       <property name="penStyle" stdset="0">
-        <enum>Qt::SolidLine</enum>
-       </property>
        <property name="penColor" stdset="0">
         <color>
          <red>0</red>
@@ -6653,7 +6443,7 @@ p, li { white-space: pre-wrap; }
         <double>4.000000000000000</double>
        </property>
       </widget>
-      <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_32">
+      <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_32" native="true">
        <property name="geometry">
         <rect>
          <x>1995</x>
@@ -6673,9 +6463,6 @@ p, li { white-space: pre-wrap; }
           <blue>239</blue>
          </color>
         </brush>
-       </property>
-       <property name="penStyle" stdset="0">
-        <enum>Qt::SolidLine</enum>
        </property>
        <property name="penColor" stdset="0">
         <color>
@@ -6822,7 +6609,7 @@ p, li { white-space: pre-wrap; }
         <string>3</string>
        </property>
       </widget>
-      <widget class="NeedleValve" name="NeedleValve">
+      <widget class="NeedleValve" name="NeedleValve" native="true">
        <property name="geometry">
         <rect>
          <x>870</x>
@@ -6833,9 +6620,6 @@ p, li { white-space: pre-wrap; }
        </property>
        <property name="toolTip">
         <string/>
-       </property>
-       <property name="controlsLocation" stdset="0">
-        <enum>PCDSSymbolBase::Hidden</enum>
        </property>
        <property name="channelsPrefix" stdset="0">
         <string>ca://TMO:ROUGH1:VFV:01</string>
@@ -6902,7 +6686,7 @@ p, li { white-space: pre-wrap; }
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="NeedleValve" name="NeedleValve_2">
+      <widget class="NeedleValve" name="NeedleValve_2" native="true">
        <property name="geometry">
         <rect>
          <x>1150</x>
@@ -6914,9 +6698,6 @@ p, li { white-space: pre-wrap; }
        <property name="toolTip">
         <string/>
        </property>
-       <property name="controlsLocation" stdset="0">
-        <enum>PCDSSymbolBase::Hidden</enum>
-       </property>
        <property name="channelsPrefix" stdset="0">
         <string>ca://TMO:ROUGH1:VFV:02</string>
        </property>
@@ -6924,7 +6705,7 @@ p, li { white-space: pre-wrap; }
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="NeedleValve" name="NeedleValve_3">
+      <widget class="NeedleValve" name="NeedleValve_3" native="true">
        <property name="geometry">
         <rect>
          <x>1730</x>
@@ -6935,9 +6716,6 @@ p, li { white-space: pre-wrap; }
        </property>
        <property name="toolTip">
         <string/>
-       </property>
-       <property name="controlsLocation" stdset="0">
-        <enum>PCDSSymbolBase::Hidden</enum>
        </property>
        <property name="channelsPrefix" stdset="0">
         <string>ca://TMO:ROUGH1:VFV:03</string>
@@ -7004,7 +6782,7 @@ p, li { white-space: pre-wrap; }
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="NeedleValve" name="NeedleValve_4">
+      <widget class="NeedleValve" name="NeedleValve_4" native="true">
        <property name="geometry">
         <rect>
          <x>1440</x>
@@ -7015,9 +6793,6 @@ p, li { white-space: pre-wrap; }
        </property>
        <property name="toolTip">
         <string/>
-       </property>
-       <property name="controlsLocation" stdset="0">
-        <enum>PCDSSymbolBase::Hidden</enum>
        </property>
        <property name="channelsPrefix" stdset="0">
         <string>ca://TMO:ROUGH2:VFV:01</string>
@@ -7317,7 +7092,7 @@ p, li { white-space: pre-wrap; }
         <enum>Qt::Vertical</enum>
        </property>
       </widget>
-      <widget class="PyDMByteIndicator" name="PyDMByteIndicator_4">
+      <widget class="PyDMByteIndicator" name="PyDMByteIndicator_4" native="true">
        <property name="geometry">
         <rect>
          <x>3245</x>
@@ -7346,19 +7121,13 @@ p, li { white-space: pre-wrap; }
          <blue>0</blue>
         </color>
        </property>
-       <property name="orientation" stdset="0">
-        <enum>Qt::Horizontal</enum>
-       </property>
-       <property name="labelPosition" stdset="0">
-        <enum>QTabWidget::South</enum>
-       </property>
        <property name="labels" stdset="0">
         <stringlist>
          <string>All Turbos On</string>
         </stringlist>
        </property>
       </widget>
-      <widget class="PyDMByteIndicator" name="PyDMByteIndicator_5">
+      <widget class="PyDMByteIndicator" name="PyDMByteIndicator_5" native="true">
        <property name="geometry">
         <rect>
          <x>3240</x>
@@ -7387,19 +7156,13 @@ p, li { white-space: pre-wrap; }
          <blue>0</blue>
         </color>
        </property>
-       <property name="orientation" stdset="0">
-        <enum>Qt::Horizontal</enum>
-       </property>
-       <property name="labelPosition" stdset="0">
-        <enum>QTabWidget::South</enum>
-       </property>
        <property name="labels" stdset="0">
         <stringlist>
          <string>PLC Connected</string>
         </stringlist>
        </property>
       </widget>
-      <widget class="PyDMByteIndicator" name="IP2_HV_Safety_Enable">
+      <widget class="PyDMByteIndicator" name="IP2_HV_Safety_Enable" native="true">
        <property name="geometry">
         <rect>
          <x>3255</x>
@@ -7427,12 +7190,6 @@ p, li { white-space: pre-wrap; }
          <green>0</green>
          <blue>0</blue>
         </color>
-       </property>
-       <property name="orientation" stdset="0">
-        <enum>Qt::Horizontal</enum>
-       </property>
-       <property name="labelPosition" stdset="0">
-        <enum>QTabWidget::South</enum>
        </property>
        <property name="labels" stdset="0">
         <stringlist>
@@ -7463,9 +7220,6 @@ p, li { white-space: pre-wrap; }
        </property>
        <property name="channel" stdset="0">
         <string>ca://TMO:DREAM:MAIN:GAUGE:PRESS_RBV</string>
-       </property>
-       <property name="displayFormat" stdset="0">
-        <enum>PyDMLabel::Exponential</enum>
        </property>
       </widget>
       <widget class="PyDMLabel" name="TV2K0_label_16">
@@ -7507,7 +7261,7 @@ p, li { white-space: pre-wrap; }
         <set>Qt::AlignCenter</set>
        </property>
       </widget>
-      <widget class="PyDMDrawingRectangle" name="IM1K0_box_35">
+      <widget class="PyDMDrawingRectangle" name="IM1K0_box_35" native="true">
        <property name="geometry">
         <rect>
          <x>3400</x>
@@ -7527,9 +7281,6 @@ p, li { white-space: pre-wrap; }
           <blue>0</blue>
          </color>
         </brush>
-       </property>
-       <property name="penStyle" stdset="0">
-        <enum>Qt::DashLine</enum>
        </property>
        <property name="penWidth" stdset="0">
         <double>1.000000000000000</double>
@@ -7913,6 +7664,7 @@ p, li { white-space: pre-wrap; }
    <class>PyDMEmbeddedDisplay</class>
    <extends>QFrame</extends>
    <header>pydm.widgets.embedded_display</header>
+   <container>1</container>
   </customwidget>
   <customwidget>
    <class>PyDMEnumComboBox</class>
@@ -7928,6 +7680,16 @@ p, li { white-space: pre-wrap; }
    <class>PyDMShellCommand</class>
    <extends>QPushButton</extends>
    <header>pydm.widgets.shell_command</header>
+  </customwidget>
+  <customwidget>
+   <class>PCDSSymbolBase</class>
+   <extends>QWidget</extends>
+   <header>pcdswidgets.vacuum.base</header>
+  </customwidget>
+  <customwidget>
+   <class>TurboPump</class>
+   <extends>PCDSSymbolBase</extends>
+   <header>pcdswidgets.vacuum.pumps</header>
   </customwidget>
   <customwidget>
    <class>ColdCathodeGauge</class>
@@ -7966,16 +7728,6 @@ p, li { white-space: pre-wrap; }
   </customwidget>
   <customwidget>
    <class>ScrollPump</class>
-   <extends>PCDSSymbolBase</extends>
-   <header>pcdswidgets.vacuum.pumps</header>
-  </customwidget>
-  <customwidget>
-   <class>PCDSSymbolBase</class>
-   <extends>QWidget</extends>
-   <header>pcdswidgets.vacuum.base</header>
-  </customwidget>
-  <customwidget>
-   <class>TurboPump</class>
    <extends>PCDSSymbolBase</extends>
    <header>pcdswidgets.vacuum.pumps</header>
   </customwidget>

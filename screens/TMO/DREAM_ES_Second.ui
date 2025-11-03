@@ -4386,7 +4386,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
         <number>2</number>
        </property>
        <property name="text">
-        <string>8.068 lpm</string>
+        <string>8.238 lpm</string>
        </property>
        <property name="precision" stdset="0">
         <number>3</number>
@@ -6341,7 +6341,7 @@ Controller</string>
        <property name="geometry">
         <rect>
          <x>1205</x>
-         <y>725</y>
+         <y>730</y>
          <width>61</width>
          <height>21</height>
         </rect>
@@ -6357,7 +6357,7 @@ Controller</string>
        <property name="geometry">
         <rect>
          <x>1205</x>
-         <y>750</y>
+         <y>760</y>
          <width>61</width>
          <height>21</height>
         </rect>
@@ -6389,7 +6389,7 @@ Controller</string>
        <property name="geometry">
         <rect>
          <x>1210</x>
-         <y>645</y>
+         <y>640</y>
          <width>236</width>
          <height>26</height>
         </rect>
@@ -6445,7 +6445,7 @@ Controller</string>
        <property name="geometry">
         <rect>
          <x>1265</x>
-         <y>675</y>
+         <y>670</y>
          <width>71</width>
          <height>21</height>
         </rect>
@@ -6476,7 +6476,7 @@ Controller</string>
        <property name="geometry">
         <rect>
          <x>1265</x>
-         <y>725</y>
+         <y>730</y>
          <width>71</width>
          <height>21</height>
         </rect>
@@ -6507,7 +6507,7 @@ Controller</string>
        <property name="geometry">
         <rect>
          <x>1205</x>
-         <y>675</y>
+         <y>670</y>
          <width>61</width>
          <height>21</height>
         </rect>
@@ -6523,7 +6523,7 @@ Controller</string>
        <property name="geometry">
         <rect>
          <x>1265</x>
-         <y>750</y>
+         <y>760</y>
          <width>71</width>
          <height>21</height>
         </rect>
@@ -6556,7 +6556,7 @@ Controller</string>
          <x>1200</x>
          <y>640</y>
          <width>351</width>
-         <height>251</height>
+         <height>271</height>
         </rect>
        </property>
        <property name="toolTip">
@@ -6736,104 +6736,6 @@ Controller</string>
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QLabel" name="label_250">
-       <property name="geometry">
-        <rect>
-         <x>1345</x>
-         <y>675</y>
-         <width>141</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="lineWidth">
-        <number>0</number>
-       </property>
-       <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;SPEC. FEEDTHROUGH&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-       </property>
-       <property name="wordWrap">
-        <bool>true</bool>
-       </property>
-       <property name="textInteractionFlags">
-        <set>Qt::LinksAccessibleByMouse|Qt::TextEditable</set>
-       </property>
-      </widget>
-      <widget class="QLabel" name="label_251">
-       <property name="geometry">
-        <rect>
-         <x>1345</x>
-         <y>700</y>
-         <width>141</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="lineWidth">
-        <number>0</number>
-       </property>
-       <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;MC-PTM-02&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-       </property>
-       <property name="wordWrap">
-        <bool>true</bool>
-       </property>
-      </widget>
-      <widget class="QLabel" name="label_252">
-       <property name="geometry">
-        <rect>
-         <x>1345</x>
-         <y>725</y>
-         <width>156</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="lineWidth">
-        <number>0</number>
-       </property>
-       <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;MC-PTM-01&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-       </property>
-       <property name="wordWrap">
-        <bool>true</bool>
-       </property>
-      </widget>
-      <widget class="QLabel" name="label_253">
-       <property name="geometry">
-        <rect>
-         <x>1345</x>
-         <y>750</y>
-         <width>156</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="lineWidth">
-        <number>0</number>
-       </property>
-       <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;SAMPLE PADDLE DRIFT&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-       </property>
-       <property name="wordWrap">
-        <bool>true</bool>
-       </property>
-      </widget>
-      <widget class="QLabel" name="label_254">
-       <property name="geometry">
-        <rect>
-         <x>1345</x>
-         <y>870</y>
-         <width>171</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="lineWidth">
-        <number>0</number>
-       </property>
-       <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;SS-DET. FEEDTHROUGH&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-       </property>
-       <property name="wordWrap">
-        <bool>true</bool>
-       </property>
-      </widget>
       <widget class="PyDMLabel" name="PyDMLabel_54">
        <property name="geometry">
         <rect>
@@ -6869,7 +6771,7 @@ Controller</string>
        <property name="geometry">
         <rect>
          <x>1265</x>
-         <y>795</y>
+         <y>790</y>
          <width>71</width>
          <height>21</height>
         </rect>
@@ -6900,7 +6802,7 @@ Controller</string>
        <property name="geometry">
         <rect>
          <x>1205</x>
-         <y>845</y>
+         <y>850</y>
          <width>61</width>
          <height>21</height>
         </rect>
@@ -6928,49 +6830,11 @@ Controller</string>
         <string>TC 6:</string>
        </property>
       </widget>
-      <widget class="QLabel" name="label_255">
-       <property name="geometry">
-        <rect>
-         <x>1345</x>
-         <y>845</y>
-         <width>156</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="lineWidth">
-        <number>0</number>
-       </property>
-       <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;SS-DET. FLANGE&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-       </property>
-       <property name="wordWrap">
-        <bool>true</bool>
-       </property>
-      </widget>
-      <widget class="QLabel" name="label_256">
-       <property name="geometry">
-        <rect>
-         <x>1345</x>
-         <y>820</y>
-         <width>141</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="lineWidth">
-        <number>0</number>
-       </property>
-       <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;S-COIL WATER&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-       </property>
-       <property name="wordWrap">
-        <bool>true</bool>
-       </property>
-      </widget>
       <widget class="PyDMLabel" name="PyDMLabel_58">
        <property name="geometry">
         <rect>
          <x>1265</x>
-         <y>870</y>
+         <y>880</y>
          <width>71</width>
          <height>21</height>
         </rect>
@@ -7001,7 +6865,7 @@ Controller</string>
        <property name="geometry">
         <rect>
          <x>1205</x>
-         <y>795</y>
+         <y>790</y>
          <width>61</width>
          <height>21</height>
         </rect>
@@ -7017,7 +6881,7 @@ Controller</string>
        <property name="geometry">
         <rect>
          <x>1265</x>
-         <y>845</y>
+         <y>850</y>
          <width>71</width>
          <height>21</height>
         </rect>
@@ -7047,8 +6911,8 @@ Controller</string>
       <widget class="PyDMLabel" name="PyDMLabel_61">
        <property name="geometry">
         <rect>
-         <x>1205</x>
-         <y>870</y>
+         <x>1210</x>
+         <y>880</y>
          <width>61</width>
          <height>21</height>
         </rect>
@@ -7058,25 +6922,6 @@ Controller</string>
        </property>
        <property name="text">
         <string>TC 8:</string>
-       </property>
-      </widget>
-      <widget class="QLabel" name="label_257">
-       <property name="geometry">
-        <rect>
-         <x>1345</x>
-         <y>795</y>
-         <width>141</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="lineWidth">
-        <number>0</number>
-       </property>
-       <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;N-COIL WATER&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-       </property>
-       <property name="wordWrap">
-        <bool>true</bool>
        </property>
       </widget>
       <widget class="PyDMDrawingLine" name="PyDMDrawingLine_3">
@@ -7795,6 +7640,110 @@ Controller</string>
         <enum>Qt::Vertical</enum>
        </property>
       </widget>
+      <widget class="QLineEdit" name="lineEdit">
+       <property name="geometry">
+        <rect>
+         <x>1340</x>
+         <y>670</y>
+         <width>151</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>SPEC. FEEDTHROUGH</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_2">
+       <property name="geometry">
+        <rect>
+         <x>1340</x>
+         <y>700</y>
+         <width>113</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>MC-PTM-02</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_3">
+       <property name="geometry">
+        <rect>
+         <x>1340</x>
+         <y>730</y>
+         <width>113</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>MC-PTM-01</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_4">
+       <property name="geometry">
+        <rect>
+         <x>1340</x>
+         <y>760</y>
+         <width>151</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>SAMPLE PADDLE DRIFT</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_5">
+       <property name="geometry">
+        <rect>
+         <x>1340</x>
+         <y>790</y>
+         <width>111</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>N-COIL WATER</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_6">
+       <property name="geometry">
+        <rect>
+         <x>1340</x>
+         <y>820</y>
+         <width>113</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>S-COIL WATER</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_7">
+       <property name="geometry">
+        <rect>
+         <x>1340</x>
+         <y>880</y>
+         <width>161</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>SS-DET. FEEDTHROUGH</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_8">
+       <property name="geometry">
+        <rect>
+         <x>1340</x>
+         <y>850</y>
+         <width>113</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>SS-DET. FLANGE</string>
+       </property>
+      </widget>
       <zorder>line_164</zorder>
       <zorder>PyDMDrawingRectangle_22</zorder>
       <zorder>line_163</zorder>
@@ -8051,22 +8000,14 @@ Controller</string>
       <zorder>label_241</zorder>
       <zorder>label_248</zorder>
       <zorder>label_249</zorder>
-      <zorder>label_250</zorder>
-      <zorder>label_251</zorder>
-      <zorder>label_252</zorder>
-      <zorder>label_253</zorder>
-      <zorder>label_254</zorder>
       <zorder>PyDMLabel_54</zorder>
       <zorder>PyDMLabel_55</zorder>
       <zorder>PyDMLabel_56</zorder>
       <zorder>PyDMLabel_57</zorder>
-      <zorder>label_255</zorder>
-      <zorder>label_256</zorder>
       <zorder>PyDMLabel_58</zorder>
       <zorder>PyDMLabel_59</zorder>
       <zorder>PyDMLabel_60</zorder>
       <zorder>PyDMLabel_61</zorder>
-      <zorder>label_257</zorder>
       <zorder>PyDMDrawingLine_3</zorder>
       <zorder>PyDMDrawingLine_4</zorder>
       <zorder>HotCathodeGauge_23</zorder>
@@ -8094,6 +8035,14 @@ Controller</string>
       <zorder>PyDMDrawingRectangle_24</zorder>
       <zorder>label_159</zorder>
       <zorder>PyDMByteIndicator_6</zorder>
+      <zorder>lineEdit</zorder>
+      <zorder>lineEdit_2</zorder>
+      <zorder>lineEdit_3</zorder>
+      <zorder>lineEdit_4</zorder>
+      <zorder>lineEdit_5</zorder>
+      <zorder>lineEdit_6</zorder>
+      <zorder>lineEdit_7</zorder>
+      <zorder>lineEdit_8</zorder>
      </widget>
     </widget>
    </item>

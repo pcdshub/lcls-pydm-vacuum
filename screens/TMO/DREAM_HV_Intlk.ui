@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>528</width>
+    <height>269</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>70</y>
+     <width>421</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Plain</enum>
+   </property>
+   <property name="lineWidth">
+    <number>3</number>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_2">
+   <property name="geometry">
+    <rect>
+     <x>89</x>
+     <y>80</y>
+     <width>16</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Plain</enum>
+   </property>
+   <property name="lineWidth">
+    <number>3</number>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_3">
+   <property name="geometry">
+    <rect>
+     <x>97</x>
+     <y>161</y>
+     <width>321</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Plain</enum>
+   </property>
+   <property name="lineWidth">
+    <number>3</number>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_4">
+   <property name="geometry">
+    <rect>
+     <x>408</x>
+     <y>80</y>
+     <width>16</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Plain</enum>
+   </property>
+   <property name="lineWidth">
+    <number>3</number>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="PyDMDrawingCircle" name="PyDMDrawingCircle">
+   <property name="geometry">
+    <rect>
+     <x>18</x>
+     <y>52</y>
+     <width>51</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="brush" stdset="0">
+    <brush brushstyle="SolidPattern">
+     <color alpha="255">
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+     </color>
+    </brush>
+   </property>
+   <property name="penStyle" stdset="0">
+    <enum>Qt::SolidLine</enum>
+   </property>
+   <property name="penWidth" stdset="0">
+    <double>1.000000000000000</double>
+   </property>
+  </widget>
+  <widget class="PyDMLabel" name="PyDMLabel">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>70</y>
+     <width>61</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="text">
+    <string>START</string>
+   </property>
+  </widget>
+  <widget class="PyDMLabel" name="PyDMLabel_2">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>30</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="text">
+    <string>GHC_PRESS &lt; GHC HV SP?</string>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="PyDMByteIndicator" name="PyDMByteIndicator">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>60</y>
+     <width>71</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="channel" stdset="0">
+    <string>calc://my_var1?varA=ca://PLC:DREAM:HV_MAX_PRESS_SP&amp;varB=ca://DREAM:MC:GHC:GAUGE:01:PRESS_RBV&amp;expr=varB&lt;varA</string>
+   </property>
+   <property name="offColor" stdset="0">
+    <color>
+     <red>255</red>
+     <green>0</green>
+     <blue>0</blue>
+    </color>
+   </property>
+   <property name="showLabels" stdset="0">
+    <bool>false</bool>
+   </property>
+   <property name="circles" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="labels" stdset="0">
+    <stringlist>
+     <string></string>
+    </stringlist>
+   </property>
+  </widget>
+  <widget class="PyDMLabel" name="PyDMLabel_3">
+   <property name="geometry">
+    <rect>
+     <x>314</x>
+     <y>197</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="text">
+    <string>GPI_PRESS &lt; GPI HV SP?</string>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="PyDMLabel" name="PyDMLabel_4">
+   <property name="geometry">
+    <rect>
+     <x>214</x>
+     <y>191</y>
+     <width>71</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="text">
+    <string>MC Pumps Runing?</string>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="PyDMByteIndicator" name="PyDMByteIndicator_2">
+   <property name="geometry">
+    <rect>
+     <x>154</x>
+     <y>60</y>
+     <width>71</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="channel" stdset="0">
+    <string>calc://GHC_OK?varA=ca://DREAM:MC:GHC:GAUGE:01:PRESS_OK_RBV&amp;expr=(varA==1)</string>
+   </property>
+   <property name="offColor" stdset="0">
+    <color>
+     <red>255</red>
+     <green>0</green>
+     <blue>0</blue>
+    </color>
+   </property>
+   <property name="showLabels" stdset="0">
+    <bool>false</bool>
+   </property>
+   <property name="circles" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="labels" stdset="0">
+    <stringlist>
+     <string></string>
+    </stringlist>
+   </property>
+  </widget>
+  <widget class="PyDMLabel" name="PyDMLabel_5">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>40</y>
+     <width>111</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="text">
+    <string>GHC Press OK?</string>
+   </property>
+  </widget>
+  <widget class="PyDMByteIndicator" name="PyDMByteIndicator_3">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>150</y>
+     <width>71</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="channel" stdset="0">
+    <string>calc://GPI_OK?varA=ca://DREAM:MC:GPI:01:PRESS_OK_RBV&amp;expr=(varA==1)</string>
+   </property>
+   <property name="offColor" stdset="0">
+    <color>
+     <red>255</red>
+     <green>0</green>
+     <blue>0</blue>
+    </color>
+   </property>
+   <property name="showLabels" stdset="0">
+    <bool>false</bool>
+   </property>
+   <property name="circles" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="labels" stdset="0">
+    <stringlist>
+     <string></string>
+    </stringlist>
+   </property>
+  </widget>
+  <widget class="PyDMLabel" name="PyDMLabel_6">
+   <property name="geometry">
+    <rect>
+     <x>97</x>
+     <y>197</y>
+     <width>111</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="text">
+    <string>GPI Press OK?</string>
+   </property>
+  </widget>
+  <widget class="PyDMByteIndicator" name="PyDMByteIndicator_4">
+   <property name="geometry">
+    <rect>
+     <x>216</x>
+     <y>150</y>
+     <width>71</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="channel" stdset="0">
+    <string>calc://my_var2?varA=ca://DREAM:DP1:PTM:01:STATE_RBV&amp;varB=ca://DREAM:DP2:PTM:01:STATE_RBV&amp;varC=ca://DREAM:DP3:PTM:01:STATE_RBV&amp;varD=ca://DREAM:MC:PTM:01:STATE_RBV&amp;varE=ca://DREAM:MC:PTM:02:STATE_RBV&amp;varF=ca://DREAM:ROUGH2:PTM:01:STATE_RBV&amp;varG=ca://DREAM:ROUGH2:PTM:02:STATE_RBV&amp;expr=(varA==2)and(varB==2)and(varC==2)and(varD==2)and(varE==2)and(varF==2)and(varG==2)</string>
+   </property>
+   <property name="offColor" stdset="0">
+    <color>
+     <red>255</red>
+     <green>0</green>
+     <blue>0</blue>
+    </color>
+   </property>
+   <property name="showLabels" stdset="0">
+    <bool>false</bool>
+   </property>
+   <property name="circles" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="labels" stdset="0">
+    <stringlist>
+     <string></string>
+    </stringlist>
+   </property>
+  </widget>
+  <widget class="PyDMByteIndicator" name="PyDMByteIndicator_5">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>150</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="channel" stdset="0">
+    <string>calc://my_var4?varA=ca://HV:GPI:SP_RBV&amp;varB=ca://DREAM:MC:GPI:01:PRESS_RBV&amp;expr=varB&lt;varA</string>
+   </property>
+   <property name="offColor" stdset="0">
+    <color>
+     <red>255</red>
+     <green>0</green>
+     <blue>0</blue>
+    </color>
+   </property>
+   <property name="showLabels" stdset="0">
+    <bool>false</bool>
+   </property>
+   <property name="circles" stdset="0">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="PyDMLabel" name="PyDMLabel_7">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>110</y>
+     <width>71</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="text">
+    <string>HV Enable</string>
+   </property>
+  </widget>
+  <widget class="PyDMByteIndicator" name="PyDMByteIndicator_6">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>60</y>
+     <width>71</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="channel" stdset="0">
+    <string>ca://TMO:PLC:DREAM:VAC:HV_SAFETY_ENABLE_RBV</string>
+   </property>
+   <property name="offColor" stdset="0">
+    <color>
+     <red>255</red>
+     <green>0</green>
+     <blue>0</blue>
+    </color>
+   </property>
+   <property name="showLabels" stdset="0">
+    <bool>false</bool>
+   </property>
+   <property name="circles" stdset="0">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>PyDMLabel</class>
+   <extends>QLabel</extends>
+   <header>pydm.widgets.label</header>
+  </customwidget>
+  <customwidget>
+   <class>PyDMByteIndicator</class>
+   <extends>QWidget</extends>
+   <header>pydm.widgets.byte</header>
+  </customwidget>
+  <customwidget>
+   <class>PyDMDrawingCircle</class>
+   <extends>QWidget</extends>
+   <header>pydm.widgets.drawing</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
