@@ -2133,7 +2133,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <enum>PCDSSymbolBase::Top</enum>
        </property>
        <property name="channelsPrefix" stdset="0">
-        <string>ca//:MBES:MAIN:GPI:01</string>
+        <string>ca://MBES:MAIN:GPI:01</string>
        </property>
        <property name="showStatusTooltip" stdset="0">
         <bool>false</bool>
