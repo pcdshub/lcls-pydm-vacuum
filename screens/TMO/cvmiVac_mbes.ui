@@ -3473,8 +3473,8 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="ColdCathodeGauge" name="MBES_GJ2_GCC_01">
        <property name="geometry">
         <rect>
-         <x>820</x>
-         <y>350</y>
+         <x>819</x>
+         <y>349</y>
          <width>111</width>
          <height>111</height>
         </rect>
@@ -3539,7 +3539,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
        <property name="geometry">
         <rect>
          <x>780</x>
-         <y>380</y>
+         <y>391</y>
          <width>51</width>
          <height>21</height>
         </rect>
@@ -4677,9 +4677,9 @@ IonPump[state=&quot;FAULT&quot;] #icon {
        <property name="geometry">
         <rect>
          <x>820</x>
-         <y>390</y>
+         <y>400</y>
          <width>21</width>
-         <height>91</height>
+         <height>81</height>
         </rect>
        </property>
        <property name="frameShadow">
@@ -5327,7 +5327,6 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <zorder>label_56</zorder>
       <zorder>label_57</zorder>
       <zorder>label_58</zorder>
-      <zorder>MBES_GJ2_GCC_01</zorder>
       <zorder>line_81</zorder>
       <zorder>MBES_GJ2_GPI_2</zorder>
       <zorder>label_60</zorder>
@@ -5382,6 +5381,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <zorder>label_76</zorder>
       <zorder>label_77</zorder>
       <zorder>label_78</zorder>
+      <zorder>MBES_GJ2_GCC_01</zorder>
      </widget>
     </widget>
    </item>
