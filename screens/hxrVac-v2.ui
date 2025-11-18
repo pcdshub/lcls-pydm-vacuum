@@ -457,7 +457,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
        <widget class="QWidget" name="scrollAreaWidgetContents">
         <property name="geometry">
          <rect>
-          <x>-1950</x>
+          <x>-1791</x>
           <y>0</y>
           <width>3650</width>
           <height>620</height>
@@ -2619,14 +2619,14 @@ EM2L0-GEM</string>
         <widget class="QLabel" name="label_33">
          <property name="geometry">
           <rect>
-           <x>2731</x>
-           <y>523</y>
-           <width>81</width>
+           <x>2890</x>
+           <y>522</y>
+           <width>121</width>
            <height>16</height>
           </rect>
          </property>
          <property name="text">
-          <string>TV3L0-PIP-01</string>
+          <string>PF2L0-GBS-PIP-01</string>
          </property>
         </widget>
         <widget class="QLabel" name="label_41">
@@ -3588,7 +3588,7 @@ EM2L0-GEM</string>
         <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_14">
          <property name="geometry">
           <rect>
-           <x>2799</x>
+           <x>2750</x>
            <y>204</y>
            <width>200</width>
            <height>140</height>
@@ -3610,7 +3610,7 @@ EM2L0-GEM</string>
         <widget class="Line" name="line_46">
          <property name="geometry">
           <rect>
-           <x>2920</x>
+           <x>2870</x>
            <y>273</y>
            <width>20</width>
            <height>61</height>
@@ -3626,7 +3626,7 @@ EM2L0-GEM</string>
         <widget class="QLabel" name="label_36">
          <property name="geometry">
           <rect>
-           <x>2915</x>
+           <x>2863</x>
            <y>239</y>
            <width>121</width>
            <height>16</height>
@@ -3639,7 +3639,7 @@ EM2L0-GEM</string>
         <widget class="QLabel" name="label_37">
          <property name="geometry">
           <rect>
-           <x>2802</x>
+           <x>2750</x>
            <y>239</y>
            <width>121</width>
            <height>16</height>
@@ -3649,8 +3649,74 @@ EM2L0-GEM</string>
           <string>TV3L0-GCC-01</string>
          </property>
         </widget>
-        <zorder>line_40</zorder>
+        <widget class="IonPump" name="TV3L0_PIP_2">
+         <property name="geometry">
+          <rect>
+           <x>2910</x>
+           <y>460</y>
+           <width>60</width>
+           <height>150</height>
+          </rect>
+         </property>
+         <property name="toolTip">
+          <string/>
+         </property>
+         <property name="controlsLocation" stdset="0">
+          <enum>PCDSSymbolBase::Bottom</enum>
+         </property>
+         <property name="channelsPrefix" stdset="0">
+          <string>ca://PF2L0:GBS:PIP:01</string>
+         </property>
+         <property name="controlButtonHorizontal" stdset="0">
+          <bool>false</bool>
+         </property>
+        </widget>
+        <widget class="Line" name="line_47">
+         <property name="geometry">
+          <rect>
+           <x>2930</x>
+           <y>330</y>
+           <width>20</width>
+           <height>130</height>
+          </rect>
+         </property>
+         <property name="lineWidth">
+          <number>2</number>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_38">
+         <property name="geometry">
+          <rect>
+           <x>2730</x>
+           <y>520</y>
+           <width>81</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>TV3L0-PIP-01</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_39">
+         <property name="geometry">
+          <rect>
+           <x>2890</x>
+           <y>600</y>
+           <width>121</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>NOT INSTALLED</string>
+         </property>
+        </widget>
+        <zorder>line_47</zorder>
         <zorder>line_46</zorder>
+        <zorder>PyDMEmbeddedDisplay_14</zorder>
+        <zorder>line_40</zorder>
         <zorder>line_31</zorder>
         <zorder>line_83</zorder>
         <zorder>line_45</zorder>
@@ -3813,9 +3879,11 @@ EM2L0-GEM</string>
         <zorder>label_26</zorder>
         <zorder>PA2L0_PIN_01_Label</zorder>
         <zorder>PA2L0_PIN_01</zorder>
-        <zorder>PyDMEmbeddedDisplay_14</zorder>
         <zorder>label_36</zorder>
         <zorder>label_37</zorder>
+        <zorder>TV3L0_PIP_2</zorder>
+        <zorder>label_38</zorder>
+        <zorder>label_39</zorder>
        </widget>
       </widget>
      </item>
