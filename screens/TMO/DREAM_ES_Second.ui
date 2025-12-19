@@ -2438,8 +2438,14 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
        <property name="controlsLocation" stdset="0">
         <enum>PCDSSymbolBase::Hidden</enum>
        </property>
+       <property name="channelsPrefix" stdset="0">
+        <string>ca://DREAM:ROUGH1:VRC:00</string>
+       </property>
        <property name="iconSize" stdset="0">
         <number>25</number>
+       </property>
+       <property name="expertOphydClass" stdset="0">
+        <string>pcdsdevices.valve.VRC</string>
        </property>
       </widget>
       <widget class="QLabel" name="label_137">
@@ -2505,8 +2511,14 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
        <property name="controlsLocation" stdset="0">
         <enum>PCDSSymbolBase::Hidden</enum>
        </property>
+       <property name="channelsPrefix" stdset="0">
+        <string>ca://DREAM:ROUGH2:VRC:00</string>
+       </property>
        <property name="iconSize" stdset="0">
         <number>25</number>
+       </property>
+       <property name="expertOphydClass" stdset="0">
+        <string>pcdsdevices.valve.VRC</string>
        </property>
       </widget>
       <widget class="Line" name="line_200">
@@ -4386,7 +4398,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
         <number>2</number>
        </property>
        <property name="text">
-        <string>8.238 lpm</string>
+        <string>8.267 lpm</string>
        </property>
        <property name="precision" stdset="0">
         <number>3</number>
@@ -7640,108 +7652,182 @@ Controller</string>
         <enum>Qt::Vertical</enum>
        </property>
       </widget>
-      <widget class="QLineEdit" name="lineEdit">
+      <widget class="PyDMLineEdit" name="PyDMLineEdit">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
        <property name="geometry">
         <rect>
          <x>1340</x>
-         <y>670</y>
-         <width>151</width>
+         <y>669</y>
+         <width>160</width>
          <height>23</height>
         </rect>
        </property>
-       <property name="text">
-        <string>SPEC. FEEDTHROUGH</string>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="channel" stdset="0">
+        <string>ca://DREAM:STC:01:DESC.DESC</string>
        </property>
       </widget>
-      <widget class="QLineEdit" name="lineEdit_2">
+      <widget class="PyDMLineEdit" name="PyDMLineEdit_4">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
        <property name="geometry">
         <rect>
-         <x>1340</x>
+         <x>1341</x>
          <y>700</y>
-         <width>113</width>
+         <width>160</width>
          <height>23</height>
         </rect>
        </property>
-       <property name="text">
-        <string>MC-PTM-02</string>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="channel" stdset="0">
+        <string>ca://DREAM:STC:02:DESC.DESC</string>
        </property>
       </widget>
-      <widget class="QLineEdit" name="lineEdit_3">
+      <widget class="PyDMLineEdit" name="PyDMLineEdit_5">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
        <property name="geometry">
         <rect>
-         <x>1340</x>
-         <y>730</y>
-         <width>113</width>
+         <x>1341</x>
+         <y>729</y>
+         <width>160</width>
          <height>23</height>
         </rect>
        </property>
-       <property name="text">
-        <string>MC-PTM-01</string>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="channel" stdset="0">
+        <string>ca://DREAM:STC:03:DESC.DESC</string>
        </property>
       </widget>
-      <widget class="QLineEdit" name="lineEdit_4">
+      <widget class="PyDMLineEdit" name="PyDMLineEdit_6">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
        <property name="geometry">
         <rect>
-         <x>1340</x>
-         <y>760</y>
-         <width>151</width>
+         <x>1341</x>
+         <y>759</y>
+         <width>160</width>
          <height>23</height>
         </rect>
        </property>
-       <property name="text">
-        <string>SAMPLE PADDLE DRIFT</string>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="channel" stdset="0">
+        <string>ca://DREAM:STC:04:DESC.DESC</string>
        </property>
       </widget>
-      <widget class="QLineEdit" name="lineEdit_5">
+      <widget class="PyDMLineEdit" name="PyDMLineEdit_7">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
        <property name="geometry">
         <rect>
-         <x>1340</x>
-         <y>790</y>
-         <width>111</width>
+         <x>1341</x>
+         <y>789</y>
+         <width>160</width>
          <height>23</height>
         </rect>
        </property>
-       <property name="text">
-        <string>N-COIL WATER</string>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="channel" stdset="0">
+        <string>ca://DREAM:STC:05:DESC.DESC</string>
        </property>
       </widget>
-      <widget class="QLineEdit" name="lineEdit_6">
+      <widget class="PyDMLineEdit" name="PyDMLineEdit_8">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
        <property name="geometry">
         <rect>
-         <x>1340</x>
-         <y>820</y>
-         <width>113</width>
+         <x>1341</x>
+         <y>819</y>
+         <width>160</width>
          <height>23</height>
         </rect>
        </property>
-       <property name="text">
-        <string>S-COIL WATER</string>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="channel" stdset="0">
+        <string>ca://DREAM:STC:06:DESC.DESC</string>
        </property>
       </widget>
-      <widget class="QLineEdit" name="lineEdit_7">
+      <widget class="PyDMLineEdit" name="PyDMLineEdit_9">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
        <property name="geometry">
         <rect>
-         <x>1340</x>
-         <y>880</y>
-         <width>161</width>
+         <x>1341</x>
+         <y>849</y>
+         <width>160</width>
          <height>23</height>
         </rect>
        </property>
-       <property name="text">
-        <string>SS-DET. FEEDTHROUGH</string>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="channel" stdset="0">
+        <string>ca://DREAM:STC:07:DESC.DESC</string>
        </property>
       </widget>
-      <widget class="QLineEdit" name="lineEdit_8">
+      <widget class="PyDMLineEdit" name="PyDMLineEdit_10">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
        <property name="geometry">
         <rect>
-         <x>1340</x>
-         <y>850</y>
-         <width>113</width>
+         <x>1341</x>
+         <y>879</y>
+         <width>160</width>
          <height>23</height>
         </rect>
        </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="channel" stdset="0">
+        <string>ca://DREAM:STC:08:DESC.DESC</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label">
+       <property name="geometry">
+        <rect>
+         <x>1303</x>
+         <y>265</y>
+         <width>70</width>
+         <height>16</height>
+        </rect>
+       </property>
        <property name="text">
-        <string>SS-DET. FLANGE</string>
+        <string>&lt;b&gt;&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;RBK Only&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;&lt;/b&gt;</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_2">
+       <property name="geometry">
+        <rect>
+         <x>1302</x>
+         <y>485</y>
+         <width>70</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>&lt;b&gt;&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;RBK Only&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;&lt;/b&gt;</string>
        </property>
       </widget>
       <zorder>line_164</zorder>
@@ -8035,14 +8121,16 @@ Controller</string>
       <zorder>PyDMDrawingRectangle_24</zorder>
       <zorder>label_159</zorder>
       <zorder>PyDMByteIndicator_6</zorder>
-      <zorder>lineEdit</zorder>
-      <zorder>lineEdit_2</zorder>
-      <zorder>lineEdit_3</zorder>
-      <zorder>lineEdit_4</zorder>
-      <zorder>lineEdit_5</zorder>
-      <zorder>lineEdit_6</zorder>
-      <zorder>lineEdit_7</zorder>
-      <zorder>lineEdit_8</zorder>
+      <zorder>PyDMLineEdit</zorder>
+      <zorder>PyDMLineEdit_4</zorder>
+      <zorder>PyDMLineEdit_5</zorder>
+      <zorder>PyDMLineEdit_6</zorder>
+      <zorder>PyDMLineEdit_7</zorder>
+      <zorder>PyDMLineEdit_8</zorder>
+      <zorder>PyDMLineEdit_9</zorder>
+      <zorder>PyDMLineEdit_10</zorder>
+      <zorder>label</zorder>
+      <zorder>label_2</zorder>
      </widget>
     </widget>
    </item>
