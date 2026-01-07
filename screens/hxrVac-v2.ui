@@ -457,7 +457,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
        <widget class="QWidget" name="scrollAreaWidgetContents">
         <property name="geometry">
          <rect>
-          <x>-1791</x>
+          <x>-1939</x>
           <y>0</y>
           <width>3650</width>
           <height>620</height>
@@ -3377,7 +3377,7 @@ EM2L0-GEM</string>
           <enum>PCDSSymbolBase::Top</enum>
          </property>
          <property name="channelsPrefix" stdset="0">
-          <string>ca://TXI:PC2L1:PIP:01:STATE_RBV</string>
+          <string>ca://PC2L1:L2SI:PIP:01</string>
          </property>
          <property name="controlButtonHorizontal" stdset="0">
           <bool>true</bool>
@@ -3424,7 +3424,7 @@ EM2L0-GEM</string>
           <number>0</number>
          </property>
          <property name="macros" stdset="0">
-          <string>{&quot;GCC&quot;: &quot;TXI:ST1L1:GCC:01&quot; , &quot;GPI&quot;:&quot;TXI:ST1L1:GPI:01&quot;}</string>
+          <string>{&quot;GCC&quot;: &quot;ST1L1:PPS:GCC:01&quot; , &quot;GPI&quot;:&quot;ST1L1:PPS:GPI:01&quot;}</string>
          </property>
          <property name="filename" stdset="0">
           <string>vacuumscreens/templates/GCC_GPI.ui</string>
@@ -3475,7 +3475,7 @@ EM2L0-GEM</string>
           <enum>PCDSSymbolBase::Bottom</enum>
          </property>
          <property name="channelsPrefix" stdset="0">
-          <string>ca://TXI:ST1L1:PIP:01:STATE_RBV</string>
+          <string>ca://ST1L1:PPS:PIP:01</string>
          </property>
          <property name="controlButtonHorizontal" stdset="0">
           <bool>true</bool>
@@ -3650,6 +3650,9 @@ EM2L0-GEM</string>
          </property>
         </widget>
         <widget class="IonPump" name="TV3L0_PIP_2">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
          <property name="geometry">
           <rect>
            <x>2910</x>
@@ -3703,14 +3706,14 @@ EM2L0-GEM</string>
         <widget class="QLabel" name="label_39">
          <property name="geometry">
           <rect>
-           <x>2890</x>
+           <x>2870</x>
            <y>600</y>
-           <width>121</width>
+           <width>131</width>
            <height>16</height>
           </rect>
          </property>
          <property name="text">
-          <string>NOT INSTALLED</string>
+          <string>Cable not connected</string>
          </property>
         </widget>
         <zorder>line_47</zorder>
