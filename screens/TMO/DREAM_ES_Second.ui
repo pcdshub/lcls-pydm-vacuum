@@ -4398,7 +4398,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
         <number>2</number>
        </property>
        <property name="text">
-        <string>8.267 lpm</string>
+        <string>8.245 lpm</string>
        </property>
        <property name="precision" stdset="0">
         <number>3</number>
@@ -7830,6 +7830,43 @@ Controller</string>
         <string>&lt;b&gt;&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;RBK Only&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;&lt;/b&gt;</string>
        </property>
       </widget>
+      <widget class="PyDMLineEdit" name="PyDMLineEdit_11">
+       <property name="geometry">
+        <rect>
+         <x>540</x>
+         <y>40</y>
+         <width>221</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="precision" stdset="0">
+        <number>0</number>
+       </property>
+       <property name="showUnits" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="precisionFromPV" stdset="0">
+        <bool>true</bool>
+       </property>
+       <property name="alarmSensitiveContent" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="alarmSensitiveBorder" stdset="0">
+        <bool>true</bool>
+       </property>
+       <property name="PyDMToolTip" stdset="0">
+        <string/>
+       </property>
+       <property name="monitorDisp" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="channel" stdset="0">
+        <string>DREAM:VAC:NOTES</string>
+       </property>
+      </widget>
       <zorder>line_164</zorder>
       <zorder>PyDMDrawingRectangle_22</zorder>
       <zorder>line_163</zorder>
@@ -8131,6 +8168,7 @@ Controller</string>
       <zorder>PyDMLineEdit_10</zorder>
       <zorder>label</zorder>
       <zorder>label_2</zorder>
+      <zorder>PyDMLineEdit_11</zorder>
      </widget>
     </widget>
    </item>
