@@ -9,8 +9,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1125</width>
-    <height>450</height>
+    <width>870</width>
+    <height>350</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -777,15 +777,15 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
        <rect>
         <x>0</x>
         <y>0</y>
-        <width>1982</width>
-        <height>450</height>
+        <width>870</width>
+        <height>350</height>
        </rect>
       </property>
       <widget class="PneumaticValve" name="PneumaticValve_2">
        <property name="geometry">
         <rect>
-         <x>152</x>
-         <y>228</y>
+         <x>12</x>
+         <y>144</y>
          <width>85</width>
          <height>113</height>
         </rect>
@@ -818,8 +818,8 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       <widget class="IonPump" name="IonPump_7">
        <property name="geometry">
         <rect>
-         <x>688</x>
-         <y>288</y>
+         <x>472</x>
+         <y>204</y>
          <width>93</width>
          <height>101</height>
         </rect>
@@ -840,8 +840,8 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       <widget class="Line" name="line_34">
        <property name="geometry">
         <rect>
-         <x>364</x>
-         <y>152</y>
+         <x>224</x>
+         <y>68</y>
          <width>20</width>
          <height>157</height>
         </rect>
@@ -853,9 +853,9 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       <widget class="Line" name="line_23">
        <property name="geometry">
         <rect>
-         <x>-4</x>
-         <y>240</y>
-         <width>1124</width>
+         <x>-144</x>
+         <y>156</y>
+         <width>1000</width>
          <height>16</height>
         </rect>
        </property>
@@ -872,15 +872,15 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       <widget class="QLabel" name="label_2">
        <property name="geometry">
         <rect>
-         <x>132</x>
-         <y>200</y>
+         <x>-8</x>
+         <y>116</y>
          <width>85</width>
          <height>29</height>
         </rect>
        </property>
        <property name="font">
         <font>
-         <pointsize>11</pointsize>
+         <pointsize>9</pointsize>
          <weight>50</weight>
          <bold>false</bold>
         </font>
@@ -895,8 +895,8 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       <widget class="FastShutter" name="FastShutter">
        <property name="geometry">
         <rect>
-         <x>232</x>
-         <y>220</y>
+         <x>92</x>
+         <y>136</y>
          <width>81</width>
          <height>131</height>
         </rect>
@@ -929,15 +929,15 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       <widget class="QLabel" name="label_3">
        <property name="geometry">
         <rect>
-         <x>200</x>
-         <y>208</y>
+         <x>60</x>
+         <y>124</y>
          <width>85</width>
          <height>15</height>
         </rect>
        </property>
        <property name="font">
         <font>
-         <pointsize>11</pointsize>
+         <pointsize>9</pointsize>
          <weight>50</weight>
          <bold>false</bold>
         </font>
@@ -955,15 +955,15 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       <widget class="QLabel" name="label_4">
        <property name="geometry">
         <rect>
-         <x>260</x>
-         <y>88</y>
+         <x>120</x>
+         <y>4</y>
          <width>120</width>
          <height>15</height>
         </rect>
        </property>
        <property name="font">
         <font>
-         <pointsize>11</pointsize>
+         <pointsize>9</pointsize>
          <weight>50</weight>
          <bold>false</bold>
         </font>
@@ -978,15 +978,15 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       <widget class="QLabel" name="label_5">
        <property name="geometry">
         <rect>
-         <x>308</x>
-         <y>112</y>
+         <x>168</x>
+         <y>28</y>
          <width>165</width>
          <height>16</height>
         </rect>
        </property>
        <property name="font">
         <font>
-         <pointsize>11</pointsize>
+         <pointsize>9</pointsize>
          <weight>50</weight>
          <bold>false</bold>
         </font>
@@ -998,50 +998,11 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
         <set>Qt::AlignCenter</set>
        </property>
       </widget>
-      <widget class="PyDMLabel" name="TV2K0_label_2">
-       <property name="geometry">
-        <rect>
-         <x>336</x>
-         <y>236</y>
-         <width>69</width>
-         <height>25</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <pointsize>11</pointsize>
-         <weight>75</weight>
-         <bold>true</bold>
-         <kerning>true</kerning>
-        </font>
-       </property>
-       <property name="toolTip">
-        <string/>
-       </property>
-       <property name="frameShape">
-        <enum>QFrame::NoFrame</enum>
-       </property>
-       <property name="frameShadow">
-        <enum>QFrame::Plain</enum>
-       </property>
-       <property name="lineWidth">
-        <number>1</number>
-       </property>
-       <property name="midLineWidth">
-        <number>0</number>
-       </property>
-       <property name="text">
-        <string>TV1K4</string>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
-       </property>
-      </widget>
       <widget class="PneumaticValve" name="PneumaticValve_3">
        <property name="geometry">
         <rect>
-         <x>504</x>
-         <y>228</y>
+         <x>328</x>
+         <y>144</y>
          <width>85</width>
          <height>109</height>
         </rect>
@@ -1077,15 +1038,15 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       <widget class="QLabel" name="label_6">
        <property name="geometry">
         <rect>
-         <x>504</x>
-         <y>204</y>
+         <x>328</x>
+         <y>120</y>
          <width>85</width>
          <height>15</height>
         </rect>
        </property>
        <property name="font">
         <font>
-         <pointsize>11</pointsize>
+         <pointsize>9</pointsize>
          <weight>50</weight>
          <bold>false</bold>
         </font>
@@ -1097,85 +1058,18 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
         <set>Qt::AlignCenter</set>
        </property>
       </widget>
-      <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle">
-       <property name="geometry">
-        <rect>
-         <x>672</x>
-         <y>228</y>
-         <width>125</width>
-         <height>40</height>
-        </rect>
-       </property>
-       <property name="toolTip">
-        <string/>
-       </property>
-       <property name="brush" stdset="0">
-        <brush brushstyle="SolidPattern">
-         <color alpha="255">
-          <red>239</red>
-          <green>239</green>
-          <blue>239</blue>
-         </color>
-        </brush>
-       </property>
-       <property name="penStyle" stdset="0">
-        <enum>Qt::SolidLine</enum>
-       </property>
-       <property name="penWidth" stdset="0">
-        <double>2.000000000000000</double>
-       </property>
-      </widget>
-      <widget class="PyDMLabel" name="PA1K0_label_2">
-       <property name="geometry">
-        <rect>
-         <x>664</x>
-         <y>236</y>
-         <width>140</width>
-         <height>25</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <pointsize>11</pointsize>
-         <weight>75</weight>
-         <bold>true</bold>
-         <kerning>true</kerning>
-        </font>
-       </property>
-       <property name="toolTip">
-        <string/>
-       </property>
-       <property name="frameShape">
-        <enum>QFrame::NoFrame</enum>
-       </property>
-       <property name="frameShadow">
-        <enum>QFrame::Plain</enum>
-       </property>
-       <property name="lineWidth">
-        <number>1</number>
-       </property>
-       <property name="midLineWidth">
-        <number>0</number>
-       </property>
-       <property name="text">
-        <string>ST1K4:TEST</string>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
-       </property>
-      </widget>
       <widget class="QLabel" name="label_7">
        <property name="geometry">
         <rect>
-         <x>696</x>
-         <y>124</y>
+         <x>480</x>
+         <y>40</y>
          <width>120</width>
          <height>15</height>
         </rect>
        </property>
        <property name="font">
         <font>
-         <pointsize>12</pointsize>
+         <pointsize>9</pointsize>
          <weight>50</weight>
          <bold>false</bold>
         </font>
@@ -1190,8 +1084,8 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       <widget class="Line" name="line_35">
        <property name="geometry">
         <rect>
-         <x>720</x>
-         <y>156</y>
+         <x>508</x>
+         <y>72</y>
          <width>20</width>
          <height>157</height>
         </rect>
@@ -1203,15 +1097,15 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       <widget class="QLabel" name="label_8">
        <property name="geometry">
         <rect>
-         <x>636</x>
-         <y>92</y>
+         <x>420</x>
+         <y>8</y>
          <width>101</width>
          <height>20</height>
         </rect>
        </property>
        <property name="font">
         <font>
-         <pointsize>12</pointsize>
+         <pointsize>9</pointsize>
          <weight>50</weight>
          <bold>false</bold>
         </font>
@@ -1226,15 +1120,15 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       <widget class="QLabel" name="label_9">
        <property name="geometry">
         <rect>
-         <x>716</x>
-         <y>296</y>
+         <x>500</x>
+         <y>212</y>
          <width>120</width>
          <height>15</height>
         </rect>
        </property>
        <property name="font">
         <font>
-         <pointsize>11</pointsize>
+         <pointsize>9</pointsize>
          <weight>50</weight>
          <bold>false</bold>
         </font>
@@ -1249,15 +1143,15 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       <widget class="QLabel" name="label_10">
        <property name="geometry">
         <rect>
-         <x>808</x>
-         <y>92</y>
+         <x>588</x>
+         <y>8</y>
          <width>120</width>
          <height>15</height>
         </rect>
        </property>
        <property name="font">
         <font>
-         <pointsize>11</pointsize>
+         <pointsize>9</pointsize>
          <weight>50</weight>
          <bold>false</bold>
         </font>
@@ -1272,15 +1166,15 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       <widget class="QLabel" name="label_11">
        <property name="geometry">
         <rect>
-         <x>872</x>
-         <y>296</y>
+         <x>652</x>
+         <y>212</y>
          <width>120</width>
          <height>15</height>
         </rect>
        </property>
        <property name="font">
         <font>
-         <pointsize>11</pointsize>
+         <pointsize>9</pointsize>
          <weight>50</weight>
          <bold>false</bold>
         </font>
@@ -1295,8 +1189,8 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       <widget class="Line" name="line_36">
        <property name="geometry">
         <rect>
-         <x>872</x>
-         <y>160</y>
+         <x>652</x>
+         <y>76</y>
          <width>20</width>
          <height>141</height>
         </rect>
@@ -1308,11 +1202,14 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       <widget class="IonPump" name="IonPump_10">
        <property name="geometry">
         <rect>
-         <x>844</x>
-         <y>288</y>
+         <x>624</x>
+         <y>204</y>
          <width>93</width>
          <height>97</height>
         </rect>
+       </property>
+       <property name="font">
+        <font/>
        </property>
        <property name="toolTip">
         <string/>
@@ -1330,15 +1227,15 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       <widget class="QLabel" name="label_12">
        <property name="geometry">
         <rect>
-         <x>872</x>
-         <y>120</y>
+         <x>652</x>
+         <y>36</y>
          <width>120</width>
          <height>15</height>
         </rect>
        </property>
        <property name="font">
         <font>
-         <pointsize>11</pointsize>
+         <pointsize>9</pointsize>
          <weight>50</weight>
          <bold>false</bold>
         </font>
@@ -1350,78 +1247,11 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
         <set>Qt::AlignCenter</set>
        </property>
       </widget>
-      <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_2">
-       <property name="geometry">
-        <rect>
-         <x>820</x>
-         <y>228</y>
-         <width>117</width>
-         <height>40</height>
-        </rect>
-       </property>
-       <property name="toolTip">
-        <string/>
-       </property>
-       <property name="brush" stdset="0">
-        <brush brushstyle="SolidPattern">
-         <color alpha="255">
-          <red>239</red>
-          <green>239</green>
-          <blue>239</blue>
-         </color>
-        </brush>
-       </property>
-       <property name="penStyle" stdset="0">
-        <enum>Qt::SolidLine</enum>
-       </property>
-       <property name="penWidth" stdset="0">
-        <double>2.000000000000000</double>
-       </property>
-      </widget>
-      <widget class="PyDMLabel" name="PA1K0_label_4">
-       <property name="geometry">
-        <rect>
-         <x>808</x>
-         <y>236</y>
-         <width>140</width>
-         <height>25</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <pointsize>11</pointsize>
-         <weight>75</weight>
-         <bold>true</bold>
-         <kerning>true</kerning>
-        </font>
-       </property>
-       <property name="toolTip">
-        <string/>
-       </property>
-       <property name="frameShape">
-        <enum>QFrame::NoFrame</enum>
-       </property>
-       <property name="frameShadow">
-        <enum>QFrame::Plain</enum>
-       </property>
-       <property name="lineWidth">
-        <number>1</number>
-       </property>
-       <property name="midLineWidth">
-        <number>0</number>
-       </property>
-       <property name="text">
-        <string>ST2K4:BCS</string>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
-       </property>
-      </widget>
       <widget class="IonPump" name="IonPump_11">
        <property name="geometry">
         <rect>
-         <x>992</x>
-         <y>288</y>
+         <x>736</x>
+         <y>204</y>
          <width>97</width>
          <height>97</height>
         </rect>
@@ -1442,15 +1272,15 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       <widget class="QLabel" name="label_13">
        <property name="geometry">
         <rect>
-         <x>1024</x>
-         <y>296</y>
+         <x>768</x>
+         <y>212</y>
          <width>120</width>
          <height>15</height>
         </rect>
        </property>
        <property name="font">
         <font>
-         <pointsize>11</pointsize>
+         <pointsize>9</pointsize>
          <weight>50</weight>
          <bold>false</bold>
         </font>
@@ -1462,201 +1292,13 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
         <set>Qt::AlignCenter</set>
        </property>
       </widget>
-      <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_3">
-       <property name="geometry">
-        <rect>
-         <x>972</x>
-         <y>228</y>
-         <width>121</width>
-         <height>40</height>
-        </rect>
-       </property>
-       <property name="toolTip">
-        <string/>
-       </property>
-       <property name="brush" stdset="0">
-        <brush brushstyle="SolidPattern">
-         <color alpha="255">
-          <red>239</red>
-          <green>239</green>
-          <blue>239</blue>
-         </color>
-        </brush>
-       </property>
-       <property name="penStyle" stdset="0">
-        <enum>Qt::SolidLine</enum>
-       </property>
-       <property name="penWidth" stdset="0">
-        <double>2.000000000000000</double>
-       </property>
-      </widget>
       <widget class="Line" name="line_37">
        <property name="geometry">
         <rect>
-         <x>1024</x>
-         <y>248</y>
+         <x>768</x>
+         <y>164</y>
          <width>20</width>
          <height>51</height>
-        </rect>
-       </property>
-       <property name="orientation">
-        <enum>Qt::Vertical</enum>
-       </property>
-      </widget>
-      <widget class="PyDMLabel" name="PA1K0_label_5">
-       <property name="geometry">
-        <rect>
-         <x>964</x>
-         <y>236</y>
-         <width>140</width>
-         <height>25</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <pointsize>11</pointsize>
-         <weight>75</weight>
-         <bold>true</bold>
-         <kerning>true</kerning>
-        </font>
-       </property>
-       <property name="toolTip">
-        <string/>
-       </property>
-       <property name="frameShape">
-        <enum>QFrame::NoFrame</enum>
-       </property>
-       <property name="frameShadow">
-        <enum>QFrame::Plain</enum>
-       </property>
-       <property name="lineWidth">
-        <number>1</number>
-       </property>
-       <property name="midLineWidth">
-        <number>0</number>
-       </property>
-       <property name="text">
-        <string>ST3K4:PPS</string>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
-       </property>
-      </widget>
-      <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_5">
-       <property name="geometry">
-        <rect>
-         <x>0</x>
-         <y>228</y>
-         <width>129</width>
-         <height>41</height>
-        </rect>
-       </property>
-       <property name="toolTip">
-        <string/>
-       </property>
-       <property name="brush" stdset="0">
-        <brush brushstyle="SolidPattern">
-         <color alpha="255">
-          <red>239</red>
-          <green>239</green>
-          <blue>239</blue>
-         </color>
-        </brush>
-       </property>
-       <property name="penStyle" stdset="0">
-        <enum>Qt::SolidLine</enum>
-       </property>
-       <property name="penWidth" stdset="0">
-        <double>2.000000000000000</double>
-       </property>
-      </widget>
-      <widget class="PyDMLabel" name="PA1K0_label_7">
-       <property name="geometry">
-        <rect>
-         <x>0</x>
-         <y>236</y>
-         <width>129</width>
-         <height>25</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <family>Sans Serif</family>
-         <pointsize>11</pointsize>
-         <weight>75</weight>
-         <bold>true</bold>
-         <kerning>true</kerning>
-        </font>
-       </property>
-       <property name="toolTip">
-        <string/>
-       </property>
-       <property name="frameShape">
-        <enum>QFrame::NoFrame</enum>
-       </property>
-       <property name="frameShadow">
-        <enum>QFrame::Plain</enum>
-       </property>
-       <property name="lineWidth">
-        <number>1</number>
-       </property>
-       <property name="midLineWidth">
-        <number>0</number>
-       </property>
-       <property name="text">
-        <string>MR1K4:SOMS</string>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
-       </property>
-       <property name="precision" stdset="0">
-        <number>0</number>
-       </property>
-       <property name="showUnits" stdset="0">
-        <bool>false</bool>
-       </property>
-       <property name="precisionFromPV" stdset="0">
-        <bool>true</bool>
-       </property>
-       <property name="alarmSensitiveContent" stdset="0">
-        <bool>false</bool>
-       </property>
-       <property name="alarmSensitiveBorder" stdset="0">
-        <bool>true</bool>
-       </property>
-       <property name="PyDMToolTip" stdset="0">
-        <string/>
-       </property>
-       <property name="channel" stdset="0">
-        <string/>
-       </property>
-       <property name="enableRichText" stdset="0">
-        <bool>false</bool>
-       </property>
-      </widget>
-      <widget class="IonPump" name="IonPump">
-       <property name="geometry">
-        <rect>
-         <x>16</x>
-         <y>300</y>
-         <width>93</width>
-         <height>101</height>
-        </rect>
-       </property>
-       <property name="toolTip">
-        <string/>
-       </property>
-       <property name="channelsPrefix" stdset="0">
-        <string>ca://MR1K4:SOMS:PIP:01</string>
-       </property>
-      </widget>
-      <widget class="Line" name="line_39">
-       <property name="geometry">
-        <rect>
-         <x>52</x>
-         <y>248</y>
-         <width>20</width>
-         <height>61</height>
         </rect>
        </property>
        <property name="orientation">
@@ -1666,8 +1308,8 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_6">
        <property name="geometry">
         <rect>
-         <x>268</x>
-         <y>104</y>
+         <x>128</x>
+         <y>20</y>
          <width>161</width>
          <height>113</height>
         </rect>
@@ -1688,8 +1330,8 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_7">
        <property name="geometry">
         <rect>
-         <x>624</x>
-         <y>108</y>
+         <x>408</x>
+         <y>24</y>
          <width>201</width>
          <height>105</height>
         </rect>
@@ -1710,11 +1352,14 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_8">
        <property name="geometry">
         <rect>
-         <x>800</x>
-         <y>108</y>
+         <x>580</x>
+         <y>24</y>
          <width>221</width>
          <height>140</height>
         </rect>
+       </property>
+       <property name="font">
+        <font/>
        </property>
        <property name="toolTip">
         <string/>
@@ -1732,8 +1377,8 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       <widget class="IonPump" name="IonPump_8">
        <property name="geometry">
         <rect>
-         <x>324</x>
-         <y>300</y>
+         <x>184</x>
+         <y>216</y>
          <width>101</width>
          <height>97</height>
         </rect>
@@ -1754,15 +1399,15 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       <widget class="QLabel" name="label_17">
        <property name="geometry">
         <rect>
-         <x>360</x>
-         <y>308</y>
+         <x>220</x>
+         <y>224</y>
          <width>120</width>
          <height>15</height>
         </rect>
        </property>
        <property name="font">
         <font>
-         <pointsize>12</pointsize>
+         <pointsize>9</pointsize>
          <weight>50</weight>
          <bold>false</bold>
         </font>
@@ -1774,72 +1419,45 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
         <set>Qt::AlignCenter</set>
        </property>
       </widget>
-      <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_12">
+      <widget class="QLabel" name="RTDSL0_YAGXRAY_4">
        <property name="geometry">
         <rect>
-         <x>424</x>
-         <y>228</y>
-         <width>73</width>
-         <height>40</height>
-        </rect>
-       </property>
-       <property name="toolTip">
-        <string/>
-       </property>
-       <property name="brush" stdset="0">
-        <brush brushstyle="SolidPattern">
-         <color alpha="255">
-          <red>239</red>
-          <green>239</green>
-          <blue>239</blue>
-         </color>
-        </brush>
-       </property>
-       <property name="penStyle" stdset="0">
-        <enum>Qt::SolidLine</enum>
-       </property>
-       <property name="penColor" stdset="0">
-        <color>
-         <red>170</red>
-         <green>0</green>
-         <blue>255</blue>
-        </color>
-       </property>
-       <property name="penWidth" stdset="0">
-        <double>2.000000000000000</double>
-       </property>
-      </widget>
-      <widget class="PyDMLabel" name="PA1K0_label_16">
-       <property name="geometry">
-        <rect>
-         <x>432</x>
-         <y>236</y>
+         <x>208</x>
+         <y>148</y>
          <width>57</width>
-         <height>25</height>
+         <height>33</height>
         </rect>
        </property>
-       <property name="font">
-        <font>
-         <pointsize>11</pointsize>
-         <weight>75</weight>
-         <bold>true</bold>
-         <kerning>true</kerning>
-        </font>
-       </property>
-       <property name="toolTip">
-        <string/>
+       <property name="autoFillBackground">
+        <bool>true</bool>
        </property>
        <property name="frameShape">
-        <enum>QFrame::NoFrame</enum>
+        <enum>QFrame::Box</enum>
        </property>
-       <property name="frameShadow">
-        <enum>QFrame::Plain</enum>
+       <property name="text">
+        <string>TV1K4</string>
        </property>
-       <property name="lineWidth">
-        <number>1</number>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
        </property>
-       <property name="midLineWidth">
-        <number>0</number>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="RTDSL0_YAGXRAY_5">
+       <property name="geometry">
+        <rect>
+         <x>276</x>
+         <y>148</y>
+         <width>57</width>
+         <height>33</height>
+        </rect>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
        </property>
        <property name="text">
         <string>AT1K4</string>
@@ -1847,38 +1465,24 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
        <property name="alignment">
         <set>Qt::AlignCenter</set>
        </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
       </widget>
-      <widget class="PyDMLabel" name="PA1K0_label_17">
+      <widget class="QLabel" name="RTDSL0_YAGXRAY_6">
        <property name="geometry">
         <rect>
-         <x>588</x>
-         <y>236</y>
-         <width>71</width>
-         <height>25</height>
+         <x>404</x>
+         <y>148</y>
+         <width>57</width>
+         <height>33</height>
         </rect>
        </property>
-       <property name="font">
-        <font>
-         <pointsize>11</pointsize>
-         <weight>75</weight>
-         <bold>true</bold>
-         <kerning>true</kerning>
-        </font>
-       </property>
-       <property name="toolTip">
-        <string/>
+       <property name="autoFillBackground">
+        <bool>true</bool>
        </property>
        <property name="frameShape">
-        <enum>QFrame::NoFrame</enum>
-       </property>
-       <property name="frameShadow">
-        <enum>QFrame::Plain</enum>
-       </property>
-       <property name="lineWidth">
-        <number>1</number>
-       </property>
-       <property name="midLineWidth">
-        <number>0</number>
+        <enum>QFrame::Box</enum>
        </property>
        <property name="text">
         <string>IM1K4</string>
@@ -1886,185 +1490,88 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
        <property name="alignment">
         <set>Qt::AlignCenter</set>
        </property>
-      </widget>
-      <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_13">
-       <property name="geometry">
-        <rect>
-         <x>588</x>
-         <y>228</y>
-         <width>69</width>
-         <height>41</height>
-        </rect>
-       </property>
-       <property name="toolTip">
-        <string/>
-       </property>
-       <property name="brush" stdset="0">
-        <brush brushstyle="SolidPattern">
-         <color alpha="255">
-          <red>239</red>
-          <green>239</green>
-          <blue>239</blue>
-         </color>
-        </brush>
-       </property>
-       <property name="penStyle" stdset="0">
-        <enum>Qt::SolidLine</enum>
-       </property>
-       <property name="penColor" stdset="0">
-        <color>
-         <red>255</red>
-         <green>0</green>
-         <blue>0</blue>
-        </color>
-       </property>
-       <property name="penWidth" stdset="0">
-        <double>2.000000000000000</double>
+       <property name="wordWrap">
+        <bool>true</bool>
        </property>
       </widget>
-      <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_6">
+      <widget class="QLabel" name="RTDSL0_YAGXRAY_7">
        <property name="geometry">
         <rect>
-         <x>332</x>
-         <y>228</y>
-         <width>80</width>
-         <height>41</height>
+         <x>488</x>
+         <y>148</y>
+         <width>57</width>
+         <height>33</height>
         </rect>
        </property>
-       <property name="font">
-        <font>
-         <pointsize>11</pointsize>
-        </font>
+       <property name="autoFillBackground">
+        <bool>true</bool>
        </property>
-       <property name="toolTip">
-        <string/>
-       </property>
-       <property name="brush" stdset="0">
-        <brush brushstyle="SolidPattern">
-         <color alpha="255">
-          <red>239</red>
-          <green>239</green>
-          <blue>239</blue>
-         </color>
-        </brush>
-       </property>
-       <property name="penStyle" stdset="0">
-        <enum>Qt::SolidLine</enum>
-       </property>
-       <property name="penWidth" stdset="0">
-        <double>2.000000000000000</double>
-       </property>
-      </widget>
-      <widget class="QLabel" name="label_18">
-       <property name="geometry">
-        <rect>
-         <x>48</x>
-         <y>308</y>
-         <width>120</width>
-         <height>15</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <pointsize>12</pointsize>
-         <weight>50</weight>
-         <bold>false</bold>
-        </font>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
        </property>
        <property name="text">
-        <string>PIP:01</string>
+        <string>ST1K4-TEST</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignCenter</set>
-       </property>
-      </widget>
-      <widget class="PyDMLabel" name="PyDMLabel_2">
-       <property name="geometry">
-        <rect>
-         <x>20</x>
-         <y>20</y>
-         <width>106</width>
-         <height>41</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <family>Sans Serif</family>
-         <pointsize>9</pointsize>
-         <weight>50</weight>
-         <bold>false</bold>
-         <underline>false</underline>
-        </font>
-       </property>
-       <property name="toolTip">
-        <string/>
-       </property>
-       <property name="text">
-        <string>KFE VACUUM OVERRIDE</string>
        </property>
        <property name="wordWrap">
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="PyDMEnumButton" name="PyDMEnumButton_2">
-       <property name="enabled">
-        <bool>false</bool>
-       </property>
+      <widget class="QLabel" name="RTDSL0_YAGXRAY_8">
        <property name="geometry">
         <rect>
-         <x>16</x>
-         <y>60</y>
-         <width>81</width>
-         <height>57</height>
+         <x>632</x>
+         <y>148</y>
+         <width>57</width>
+         <height>33</height>
         </rect>
        </property>
-       <property name="font">
-        <font>
-         <pointsize>9</pointsize>
-        </font>
+       <property name="autoFillBackground">
+        <bool>true</bool>
        </property>
-       <property name="toolTip">
-        <string/>
-       </property>
-       <property name="channel" stdset="0">
-        <string>ca://PLC:KFE:VAC:K0:SYSOVERRIDE</string>
-       </property>
-       <property name="items" stdset="0">
-        <stringlist>
-         <string>FALSE</string>
-         <string>TRUE</string>
-        </stringlist>
-       </property>
-      </widget>
-      <widget class="QLabel" name="label_14">
-       <property name="geometry">
-        <rect>
-         <x>264</x>
-         <y>12</y>
-         <width>405</width>
-         <height>25</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <pointsize>18</pointsize>
-         <weight>75</weight>
-         <bold>true</bold>
-        </font>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
        </property>
        <property name="text">
-        <string>KFE Beamline Vacuum Control</string>
+        <string>ST2K4-BCS</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignCenter</set>
        </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="RTDSL0_YAGXRAY_9">
+       <property name="geometry">
+        <rect>
+         <x>748</x>
+         <y>148</y>
+         <width>57</width>
+         <height>33</height>
+        </rect>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
+       <property name="text">
+        <string>ST3K4-PPS</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
       </widget>
       <zorder>line_34</zorder>
       <zorder>line_23</zorder>
-      <zorder>PyDMDrawingRectangle_6</zorder>
-      <zorder>line_39</zorder>
       <zorder>line_37</zorder>
-      <zorder>PyDMDrawingRectangle_3</zorder>
       <zorder>line_35</zorder>
       <zorder>PneumaticValve_2</zorder>
       <zorder>IonPump_7</zorder>
@@ -2072,41 +1579,30 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       <zorder>FastShutter</zorder>
       <zorder>label_3</zorder>
       <zorder>label_4</zorder>
-      <zorder>label_5</zorder>
       <zorder>PneumaticValve_3</zorder>
       <zorder>label_6</zorder>
-      <zorder>PyDMDrawingRectangle</zorder>
-      <zorder>PA1K0_label_2</zorder>
-      <zorder>label_7</zorder>
       <zorder>label_8</zorder>
       <zorder>label_9</zorder>
       <zorder>label_10</zorder>
-      <zorder>label_11</zorder>
       <zorder>line_36</zorder>
       <zorder>IonPump_10</zorder>
-      <zorder>label_12</zorder>
-      <zorder>PyDMDrawingRectangle_2</zorder>
-      <zorder>PA1K0_label_4</zorder>
       <zorder>IonPump_11</zorder>
       <zorder>label_13</zorder>
-      <zorder>PA1K0_label_5</zorder>
-      <zorder>PyDMDrawingRectangle_5</zorder>
-      <zorder>PA1K0_label_7</zorder>
-      <zorder>IonPump</zorder>
       <zorder>PyDMEmbeddedDisplay_6</zorder>
       <zorder>PyDMEmbeddedDisplay_7</zorder>
       <zorder>PyDMEmbeddedDisplay_8</zorder>
       <zorder>IonPump_8</zorder>
-      <zorder>TV2K0_label_2</zorder>
       <zorder>label_17</zorder>
-      <zorder>PyDMDrawingRectangle_13</zorder>
-      <zorder>PyDMDrawingRectangle_12</zorder>
-      <zorder>PA1K0_label_16</zorder>
-      <zorder>PA1K0_label_17</zorder>
-      <zorder>label_18</zorder>
-      <zorder>PyDMLabel_2</zorder>
-      <zorder>PyDMEnumButton_2</zorder>
-      <zorder>label_14</zorder>
+      <zorder>label_5</zorder>
+      <zorder>label_7</zorder>
+      <zorder>RTDSL0_YAGXRAY_4</zorder>
+      <zorder>RTDSL0_YAGXRAY_5</zorder>
+      <zorder>RTDSL0_YAGXRAY_6</zorder>
+      <zorder>RTDSL0_YAGXRAY_7</zorder>
+      <zorder>RTDSL0_YAGXRAY_8</zorder>
+      <zorder>label_11</zorder>
+      <zorder>label_12</zorder>
+      <zorder>RTDSL0_YAGXRAY_9</zorder>
      </widget>
     </widget>
    </item>
@@ -2114,24 +1610,9 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
  </widget>
  <customwidgets>
   <customwidget>
-   <class>PyDMLabel</class>
-   <extends>QLabel</extends>
-   <header>pydm.widgets.label</header>
-  </customwidget>
-  <customwidget>
-   <class>PyDMDrawingRectangle</class>
-   <extends>QWidget</extends>
-   <header>pydm.widgets.drawing</header>
-  </customwidget>
-  <customwidget>
    <class>PyDMEmbeddedDisplay</class>
    <extends>QFrame</extends>
    <header>pydm.widgets.embedded_display</header>
-  </customwidget>
-  <customwidget>
-   <class>PyDMEnumButton</class>
-   <extends>QWidget</extends>
-   <header>pydm.widgets.enum_button</header>
   </customwidget>
   <customwidget>
    <class>FastShutter</class>

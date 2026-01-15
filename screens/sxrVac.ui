@@ -9,8 +9,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1600</width>
-    <height>630</height>
+    <width>1900</width>
+    <height>650</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -493,9 +493,9 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       </property>
       <property name="geometry">
        <rect>
-        <x>-1334</x>
+        <x>-2020</x>
         <y>0</y>
-        <width>2900</width>
+        <width>3900</width>
         <height>610</height>
        </rect>
       </property>
@@ -1040,9 +1040,9 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       <widget class="Line" name="line_20">
        <property name="geometry">
         <rect>
-         <x>2244</x>
+         <x>2260</x>
          <y>116</y>
-         <width>560</width>
+         <width>1420</width>
          <height>3</height>
         </rect>
        </property>
@@ -1078,9 +1078,9 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       <widget class="Line" name="line_23">
        <property name="geometry">
         <rect>
-         <x>2280</x>
+         <x>2290</x>
          <y>500</y>
-         <width>520</width>
+         <width>1390</width>
          <height>3</height>
         </rect>
        </property>
@@ -2017,7 +2017,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       <widget class="PyDMDrawingTriangle" name="PyDMDrawingTriangle_6">
        <property name="geometry">
         <rect>
-         <x>2794</x>
+         <x>3664</x>
          <y>108</y>
          <width>21</width>
          <height>21</height>
@@ -2033,7 +2033,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       <widget class="PyDMDrawingTriangle" name="PyDMDrawingTriangle_7">
        <property name="geometry">
         <rect>
-         <x>2792</x>
+         <x>3664</x>
          <y>300</y>
          <width>21</width>
          <height>21</height>
@@ -2049,7 +2049,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       <widget class="PyDMDrawingTriangle" name="PyDMDrawingTriangle_8">
        <property name="geometry">
         <rect>
-         <x>2792</x>
+         <x>3664</x>
          <y>492</y>
          <width>21</width>
          <height>21</height>
@@ -2065,8 +2065,8 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       <widget class="QLabel" name="RTDSL0_YAGXRAY_7">
        <property name="geometry">
         <rect>
-         <x>2824</x>
-         <y>108</y>
+         <x>3688</x>
+         <y>104</y>
          <width>71</width>
          <height>21</height>
         </rect>
@@ -2280,7 +2280,7 @@ GMD</string>
        </property>
        <property name="icon">
         <iconset theme="None">
-         <normaloff>../../../../../../../../../../../../../neh/home/adpai/.designer/backup</normaloff>../../../../../../../../../../../../../neh/home/adpai/.designer/backup</iconset>
+         <normaloff>../../../../../../../../../../../../../../../neh/home/adpai/.designer/backup</normaloff>../../../../../../../../../../../../../../../neh/home/adpai/.designer/backup</iconset>
        </property>
        <property name="commands" stdset="0">
         <stringlist>
@@ -2314,7 +2314,7 @@ Vacuum</string>
        </property>
        <property name="icon">
         <iconset theme="None">
-         <normaloff>../../../../../../../../../../../../../neh/home/adpai/.designer/backup</normaloff>../../../../../../../../../../../../../neh/home/adpai/.designer/backup</iconset>
+         <normaloff>../../../../../../../../../../../../../../../neh/home/adpai/.designer/backup</normaloff>../../../../../../../../../../../../../../../neh/home/adpai/.designer/backup</iconset>
        </property>
        <property name="commands" stdset="0">
         <stringlist>
@@ -2348,7 +2348,7 @@ XGMD</string>
        </property>
        <property name="icon">
         <iconset theme="None">
-         <normaloff>../../../../../../../../../../../../../neh/home/adpai/.designer/backup</normaloff>../../../../../../../../../../../../../neh/home/adpai/.designer/backup</iconset>
+         <normaloff>../../../../../../../../../../../../../../../neh/home/adpai/.designer/backup</normaloff>../../../../../../../../../../../../../../../neh/home/adpai/.designer/backup</iconset>
        </property>
        <property name="commands" stdset="0">
         <stringlist>
@@ -2362,8 +2362,8 @@ XGMD</string>
       <widget class="PyDMShellCommand" name="H1Button_4">
        <property name="geometry">
         <rect>
-         <x>2824</x>
-         <y>108</y>
+         <x>3688</x>
+         <y>104</y>
          <width>71</width>
          <height>24</height>
         </rect>
@@ -2376,7 +2376,7 @@ XGMD</string>
        </property>
        <property name="icon">
         <iconset theme="None">
-         <normaloff>../../../../../../../../../../../../../neh/home/adpai/.designer/backup</normaloff>../../../../../../../../../../../../../neh/home/adpai/.designer/backup</iconset>
+         <normaloff>../../../../../../../../../../../../../../../neh/home/adpai/.designer/backup</normaloff>../../../../../../../../../../../../../../../neh/home/adpai/.designer/backup</iconset>
        </property>
        <property name="commands" stdset="0">
         <stringlist>
@@ -2390,7 +2390,7 @@ XGMD</string>
       <widget class="PyDMShellCommand" name="H1Button_5">
        <property name="geometry">
         <rect>
-         <x>2820</x>
+         <x>3688</x>
          <y>296</y>
          <width>71</width>
          <height>24</height>
@@ -2400,11 +2400,11 @@ XGMD</string>
         <string/>
        </property>
        <property name="text">
-        <string notr="true">K4 Section</string>
+        <string notr="true">TMO</string>
        </property>
        <property name="icon">
         <iconset theme="None">
-         <normaloff>../../../../../../../../../../../../../neh/home/adpai/.designer/backup</normaloff>../../../../../../../../../../../../../neh/home/adpai/.designer/backup</iconset>
+         <normaloff>../../../../../../../../../../../../../../../neh/home/adpai/.designer/backup</normaloff>../../../../../../../../../../../../../../../neh/home/adpai/.designer/backup</iconset>
        </property>
        <property name="alarmSensitiveContent" stdset="0">
         <bool>false</bool>
@@ -2559,7 +2559,7 @@ XGMD</string>
        </property>
        <property name="icon">
         <iconset theme="None">
-         <normaloff>../../../../../../../../../../../../../neh/home/adpai/.designer/backup</normaloff>../../../../../../../../../../../../../neh/home/adpai/.designer/backup</iconset>
+         <normaloff>../../../../../../../../../../../../../../../neh/home/adpai/.designer/backup</normaloff>../../../../../../../../../../../../../../../neh/home/adpai/.designer/backup</iconset>
        </property>
        <property name="commands" stdset="0">
         <stringlist>
@@ -2587,7 +2587,7 @@ XGMD</string>
        </property>
        <property name="icon">
         <iconset theme="None">
-         <normaloff>../../../../../../../../../../../../../neh/home/adpai/.designer/backup</normaloff>../../../../../../../../../../../../../neh/home/adpai/.designer/backup</iconset>
+         <normaloff>../../../../../../../../../../../../../../../neh/home/adpai/.designer/backup</normaloff>../../../../../../../../../../../../../../../neh/home/adpai/.designer/backup</iconset>
        </property>
        <property name="commands" stdset="0">
         <stringlist>
@@ -2601,7 +2601,7 @@ XGMD</string>
       <widget class="PyDMShellCommand" name="H1Button_8">
        <property name="geometry">
         <rect>
-         <x>2816</x>
+         <x>3688</x>
          <y>488</y>
          <width>71</width>
          <height>24</height>
@@ -2615,7 +2615,7 @@ XGMD</string>
        </property>
        <property name="icon">
         <iconset theme="None">
-         <normaloff>../../../../../../../../../../../../../neh/home/adpai/.designer/backup</normaloff>../../../../../../../../../../../../../neh/home/adpai/.designer/backup</iconset>
+         <normaloff>../../../../../../../../../../../../../../../neh/home/adpai/.designer/backup</normaloff>../../../../../../../../../../../../../../../neh/home/adpai/.designer/backup</iconset>
        </property>
        <property name="commands" stdset="0">
         <stringlist>
@@ -3105,7 +3105,7 @@ XGMD</string>
         <rect>
          <x>2244</x>
          <y>308</y>
-         <width>560</width>
+         <width>1430</width>
          <height>3</height>
         </rect>
        </property>
@@ -3142,7 +3142,7 @@ Vacuum</string>
        </property>
        <property name="icon">
         <iconset theme="None">
-         <normaloff>../../../../../../../../../../../../../neh/home/adpai/.designer/backup</normaloff>../../../../../../../../../../../../../neh/home/adpai/.designer/backup</iconset>
+         <normaloff>../../../../../../../../../../../../../../../neh/home/adpai/.designer/backup</normaloff>../../../../../../../../../../../../../../../neh/home/adpai/.designer/backup</iconset>
        </property>
        <property name="commands" stdset="0">
         <stringlist>
@@ -3176,7 +3176,7 @@ Vacuum</string>
        </property>
        <property name="icon">
         <iconset theme="None">
-         <normaloff>../../../../../../../../../../../../../neh/home/adpai/.designer/backup</normaloff>../../../../../../../../../../../../../neh/home/adpai/.designer/backup</iconset>
+         <normaloff>../../../../../../../../../../../../../../../neh/home/adpai/.designer/backup</normaloff>../../../../../../../../../../../../../../../neh/home/adpai/.designer/backup</iconset>
        </property>
        <property name="commands" stdset="0">
         <stringlist>
@@ -3217,6 +3217,89 @@ Vacuum</string>
        </property>
        <property name="text">
         <string>TV3K0-PIP-1</string>
+       </property>
+      </widget>
+      <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay">
+       <property name="geometry">
+        <rect>
+         <x>2772</x>
+         <y>135</y>
+         <width>869</width>
+         <height>293</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="macros" stdset="0">
+        <string>{}</string>
+       </property>
+       <property name="filename" stdset="0">
+        <string>vacuumscreens/screens/common/FEE_K4_Vac.ui</string>
+       </property>
+       <property name="loadWhenShown" stdset="0">
+        <bool>true</bool>
+       </property>
+       <property name="disconnectWhenHidden" stdset="0">
+        <bool>true</bool>
+       </property>
+       <property name="followSymlinks" stdset="0">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="PyDMLabel" name="PyDMLabel_3">
+       <property name="geometry">
+        <rect>
+         <x>3528</x>
+         <y>512</y>
+         <width>106</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Sans Serif</family>
+         <pointsize>9</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+         <underline>false</underline>
+        </font>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="text">
+        <string>KFE VACUUM OVERRIDE</string>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="PyDMEnumButton" name="PyDMEnumButton_3">
+       <property name="geometry">
+        <rect>
+         <x>3528</x>
+         <y>552</y>
+         <width>81</width>
+         <height>57</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>9</pointsize>
+        </font>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="channel" stdset="0">
+        <string>ca://PLC:KFE:VAC:K0:SYSOVERRIDE</string>
+       </property>
+       <property name="items" stdset="0">
+        <stringlist>
+         <string>FALSE</string>
+         <string>TRUE</string>
+        </stringlist>
        </property>
       </widget>
       <zorder>H1Button_9</zorder>
@@ -3355,6 +3438,9 @@ Vacuum</string>
       <zorder>label_64</zorder>
       <zorder>H1Button</zorder>
       <zorder>H1Button_3</zorder>
+      <zorder>PyDMEmbeddedDisplay</zorder>
+      <zorder>PyDMLabel_3</zorder>
+      <zorder>PyDMEnumButton_3</zorder>
      </widget>
     </widget>
    </item>

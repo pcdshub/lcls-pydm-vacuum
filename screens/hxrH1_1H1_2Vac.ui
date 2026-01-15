@@ -1091,7 +1091,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
           <enum>QFrame::Plain</enum>
          </property>
          <property name="text">
-          <string>3.40e-09 Torr</string>
+          <string>3.20e-09 Torr</string>
          </property>
          <property name="textFormat">
           <enum>Qt::PlainText</enum>
@@ -1318,7 +1318,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <widget class="PyDMEmbeddedDisplay" name="TV4L0_3">
          <property name="geometry">
           <rect>
-           <x>1640</x>
+           <x>1628</x>
            <y>100</y>
            <width>191</width>
            <height>461</height>
@@ -1616,7 +1616,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <widget class="PneumaticValve" name="PneumaticValve_12">
          <property name="geometry">
           <rect>
-           <x>1760</x>
+           <x>1768</x>
            <y>260</y>
            <width>89</width>
            <height>77</height>
@@ -1656,7 +1656,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <widget class="QLabel" name="TV6L0_VGC_01_Label_4">
          <property name="geometry">
           <rect>
-           <x>1770</x>
+           <x>1772</x>
            <y>240</y>
            <width>101</width>
            <height>20</height>
@@ -1669,7 +1669,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <widget class="PneumaticValve" name="PneumaticValve_11">
          <property name="geometry">
           <rect>
-           <x>1600</x>
+           <x>1612</x>
            <y>260</y>
            <width>97</width>
            <height>77</height>
@@ -1703,7 +1703,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <widget class="QLabel" name="TV6L0_VGC_01_Label_5">
          <property name="geometry">
           <rect>
-           <x>1600</x>
+           <x>1612</x>
            <y>240</y>
            <width>101</width>
            <height>20</height>
@@ -1716,7 +1716,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <widget class="PyDMEmbeddedDisplay" name="TV4L0_5">
          <property name="geometry">
           <rect>
-           <x>1430</x>
+           <x>1468</x>
            <y>100</y>
            <width>191</width>
            <height>461</height>
@@ -1740,7 +1740,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
           <rect>
            <x>1500</x>
            <y>230</y>
-           <width>371</width>
+           <width>365</width>
            <height>121</height>
           </rect>
          </property>
@@ -1845,8 +1845,8 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <widget class="QLabel" name="label_14">
          <property name="geometry">
           <rect>
-           <x>1510</x>
-           <y>90</y>
+           <x>1556</x>
+           <y>108</y>
            <width>71</width>
            <height>20</height>
           </rect>
@@ -1858,8 +1858,8 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <widget class="QLabel" name="label_23">
          <property name="geometry">
           <rect>
-           <x>1720</x>
-           <y>100</y>
+           <x>1712</x>
+           <y>108</y>
            <width>71</width>
            <height>20</height>
           </rect>
@@ -1956,6 +1956,34 @@ IonPump[state=&quot;FAULT&quot;] #icon {
           <string>RP Shield</string>
          </property>
         </widget>
+        <widget class="PyDMShellCommand" name="PyDMShellCommand_FEE_3">
+         <property name="geometry">
+          <rect>
+           <x>1468</x>
+           <y>64</y>
+           <width>69</width>
+           <height>24</height>
+          </rect>
+         </property>
+         <property name="toolTip">
+          <string/>
+         </property>
+         <property name="text">
+          <string>XPP Home</string>
+         </property>
+         <property name="icon">
+          <iconset theme="None">
+           <normaloff>.</normaloff>.</iconset>
+         </property>
+         <property name="commands" stdset="0">
+          <stringlist>
+           <string>pydm /reg/g/pcds/epics-dev/screens/pydm/xpp/XPPVac.ui</string>
+          </stringlist>
+         </property>
+         <property name="command" stdset="0">
+          <string>pydm /reg/g/pcds/epics-dev/screens/pydm/xpp/XPPVac.ui</string>
+         </property>
+        </widget>
         <zorder>line_3</zorder>
         <zorder>TV4L0_3</zorder>
         <zorder>TV4L0_5</zorder>
@@ -2031,6 +2059,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <zorder>SL1L0_POWER_4</zorder>
         <zorder>PyDMDrawingRectangle_2</zorder>
         <zorder>TV6L0_VGC_01_Label_7</zorder>
+        <zorder>PyDMShellCommand_FEE_3</zorder>
        </widget>
       </widget>
      </item>
