@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>243</width>
-    <height>162</height>
+    <width>171</width>
+    <height>113</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -18,8 +18,8 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>191</width>
-     <height>141</height>
+     <width>170</width>
+     <height>112</height>
     </rect>
    </property>
    <property name="frameShape">
@@ -34,10 +34,10 @@
    <widget class="ColdCathodeGauge" name="GCC">
     <property name="geometry">
      <rect>
-      <x>6</x>
-      <y>4</y>
-      <width>111</width>
-      <height>131</height>
+      <x>0</x>
+      <y>0</y>
+      <width>97</width>
+      <height>105</height>
      </rect>
     </property>
     <property name="toolTip">
@@ -49,6 +49,9 @@
     <property name="channelsPrefix" stdset="0">
      <string>ca://${GCC}</string>
     </property>
+    <property name="iconSize" stdset="0">
+     <number>30</number>
+    </property>
     <property name="controlButtonHorizontal" stdset="0">
      <bool>false</bool>
     </property>
@@ -57,8 +60,8 @@
     <property name="geometry">
      <rect>
       <x>85</x>
-      <y>62</y>
-      <width>72</width>
+      <y>44</y>
+      <width>37</width>
       <height>16</height>
      </rect>
     </property>
@@ -72,8 +75,8 @@
    <widget class="RoughGauge" name="GPI">
     <property name="geometry">
      <rect>
-      <x>110</x>
-      <y>50</y>
+      <x>84</x>
+      <y>32</y>
       <width>81</width>
       <height>71</height>
      </rect>
@@ -84,6 +87,9 @@
     <property name="channelsPrefix" stdset="0">
      <string>ca://${GPI}</string>
     </property>
+    <property name="iconSize" stdset="0">
+     <number>30</number>
+    </property>
    </widget>
    <zorder>line_1</zorder>
    <zorder>GCC</zorder>
@@ -92,9 +98,9 @@
  </widget>
  <customwidgets>
   <customwidget>
-   <class>PCDSSymbolBase</class>
-   <extends>QWidget</extends>
-   <header>pcdswidgets.vacuum.base</header>
+   <class>ColdCathodeGauge</class>
+   <extends>PCDSSymbolBase</extends>
+   <header>pcdswidgets.vacuum.gauges</header>
   </customwidget>
   <customwidget>
    <class>RoughGauge</class>
@@ -102,9 +108,9 @@
    <header>pcdswidgets.vacuum.gauges</header>
   </customwidget>
   <customwidget>
-   <class>ColdCathodeGauge</class>
-   <extends>PCDSSymbolBase</extends>
-   <header>pcdswidgets.vacuum.gauges</header>
+   <class>PCDSSymbolBase</class>
+   <extends>QWidget</extends>
+   <header>pcdswidgets.vacuum.base</header>
   </customwidget>
  </customwidgets>
  <resources/>
