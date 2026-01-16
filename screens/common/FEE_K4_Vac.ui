@@ -818,8 +818,8 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       <widget class="IonPump" name="IonPump_7">
        <property name="geometry">
         <rect>
-         <x>472</x>
-         <y>204</y>
+         <x>468</x>
+         <y>200</y>
          <width>93</width>
          <height>101</height>
         </rect>
@@ -1084,7 +1084,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       <widget class="Line" name="line_35">
        <property name="geometry">
         <rect>
-         <x>508</x>
+         <x>504</x>
          <y>72</y>
          <width>20</width>
          <height>157</height>
@@ -1120,8 +1120,8 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       <widget class="QLabel" name="label_9">
        <property name="geometry">
         <rect>
-         <x>500</x>
-         <y>212</y>
+         <x>496</x>
+         <y>208</y>
          <width>120</width>
          <height>15</height>
         </rect>
@@ -1166,8 +1166,8 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       <widget class="QLabel" name="label_11">
        <property name="geometry">
         <rect>
-         <x>652</x>
-         <y>212</y>
+         <x>640</x>
+         <y>208</y>
          <width>120</width>
          <height>15</height>
         </rect>
@@ -1202,8 +1202,8 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       <widget class="IonPump" name="IonPump_10">
        <property name="geometry">
         <rect>
-         <x>624</x>
-         <y>204</y>
+         <x>612</x>
+         <y>200</y>
          <width>93</width>
          <height>97</height>
         </rect>
@@ -1250,8 +1250,8 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       <widget class="IonPump" name="IonPump_11">
        <property name="geometry">
         <rect>
-         <x>736</x>
-         <y>204</y>
+         <x>728</x>
+         <y>200</y>
          <width>97</width>
          <height>97</height>
         </rect>
@@ -1272,8 +1272,8 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       <widget class="QLabel" name="label_13">
        <property name="geometry">
         <rect>
-         <x>768</x>
-         <y>212</y>
+         <x>760</x>
+         <y>208</y>
          <width>120</width>
          <height>15</height>
         </rect>
@@ -1378,7 +1378,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
        <property name="geometry">
         <rect>
          <x>184</x>
-         <y>216</y>
+         <y>200</y>
          <width>101</width>
          <height>97</height>
         </rect>
@@ -1400,7 +1400,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
        <property name="geometry">
         <rect>
          <x>220</x>
-         <y>224</y>
+         <y>208</y>
          <width>120</width>
          <height>15</height>
         </rect>
