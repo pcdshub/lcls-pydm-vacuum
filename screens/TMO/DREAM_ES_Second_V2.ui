@@ -4398,7 +4398,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
         <number>2</number>
        </property>
        <property name="text">
-        <string>8.429 lpm</string>
+        <string>8.262 lpm</string>
        </property>
        <property name="precision" stdset="0">
         <number>3</number>
@@ -5660,7 +5660,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
          <x>950</x>
          <y>43</y>
          <width>566</width>
-         <height>126</height>
+         <height>221</height>
         </rect>
        </property>
        <property name="toolTip">
@@ -7620,7 +7620,7 @@ Controller</string>
        <property name="geometry">
         <rect>
          <x>910</x>
-         <y>8</y>
+         <y>6</y>
          <width>511</width>
          <height>31</height>
         </rect>
@@ -7919,10 +7919,10 @@ Controller</string>
       <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_49">
        <property name="geometry">
         <rect>
-         <x>530</x>
+         <x>520</x>
          <y>43</y>
-         <width>411</width>
-         <height>201</height>
+         <width>421</width>
+         <height>221</height>
         </rect>
        </property>
        <property name="toolTip">
@@ -7948,7 +7948,7 @@ Controller</string>
        <property name="geometry">
         <rect>
          <x>540</x>
-         <y>50</y>
+         <y>48</y>
          <width>381</width>
          <height>26</height>
         </rect>
@@ -7963,7 +7963,7 @@ Controller</string>
         <number>0</number>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;NOZZLE CHAMBER AUTOMATION CONTROL&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;NOZZLE CHAMBER AUTOMATION&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
        <property name="wordWrap">
         <bool>true</bool>
@@ -7973,7 +7973,7 @@ Controller</string>
        <property name="geometry">
         <rect>
          <x>874</x>
-         <y>82</y>
+         <y>79</y>
          <width>26</width>
          <height>26</height>
         </rect>
@@ -8025,7 +8025,7 @@ Controller</string>
        <property name="geometry">
         <rect>
          <x>780</x>
-         <y>83</y>
+         <y>80</y>
          <width>91</width>
          <height>26</height>
         </rect>
@@ -8042,8 +8042,8 @@ Controller</string>
       <widget class="PyDMShellCommand" name="PyDMShellCommand_7">
        <property name="geometry">
         <rect>
-         <x>539</x>
-         <y>80</y>
+         <x>534</x>
+         <y>77</y>
          <width>111</width>
          <height>31</height>
         </rect>
@@ -8073,7 +8073,7 @@ Controller</string>
        <property name="geometry">
         <rect>
          <x>779</x>
-         <y>114</y>
+         <y>111</y>
          <width>41</width>
          <height>26</height>
         </rect>
@@ -8091,7 +8091,7 @@ Controller</string>
        <property name="geometry">
         <rect>
          <x>830</x>
-         <y>113</y>
+         <y>110</y>
          <width>26</width>
          <height>26</height>
         </rect>
@@ -8145,8 +8145,8 @@ Controller</string>
        </property>
        <property name="geometry">
         <rect>
-         <x>582</x>
-         <y>116</y>
+         <x>577</x>
+         <y>113</y>
          <width>191</width>
          <height>26</height>
         </rect>
@@ -8205,8 +8205,8 @@ Controller</string>
       <widget class="QLabel" name="ValveControlText_15">
        <property name="geometry">
         <rect>
-         <x>541</x>
-         <y>115</y>
+         <x>536</x>
+         <y>112</y>
          <width>51</width>
          <height>26</height>
         </rect>
@@ -8224,7 +8224,7 @@ Controller</string>
        <property name="geometry">
         <rect>
          <x>867</x>
-         <y>113</y>
+         <y>110</y>
          <width>61</width>
          <height>27</height>
         </rect>
@@ -8248,8 +8248,8 @@ Controller</string>
        </property>
        <property name="geometry">
         <rect>
-         <x>655</x>
-         <y>80</y>
+         <x>650</x>
+         <y>77</y>
          <width>111</width>
          <height>31</height>
         </rect>
@@ -8271,7 +8271,7 @@ Controller</string>
        <property name="geometry">
         <rect>
          <x>540</x>
-         <y>142</y>
+         <y>138</y>
          <width>391</width>
          <height>20</height>
         </rect>
@@ -8289,8 +8289,8 @@ Controller</string>
       <widget class="PyDMShellCommand" name="PyDMShellCommand_8">
        <property name="geometry">
         <rect>
-         <x>540</x>
-         <y>161</y>
+         <x>533</x>
+         <y>159</y>
          <width>111</width>
          <height>31</height>
         </rect>
@@ -8324,8 +8324,8 @@ Controller</string>
       <widget class="QLabel" name="ValveControlText_16">
        <property name="geometry">
         <rect>
-         <x>542</x>
-         <y>196</y>
+         <x>537</x>
+         <y>195</y>
          <width>51</width>
          <height>26</height>
         </rect>
@@ -8342,8 +8342,8 @@ Controller</string>
       <widget class="QLabel" name="ValveControlText_17">
        <property name="geometry">
         <rect>
-         <x>781</x>
-         <y>164</y>
+         <x>776</x>
+         <y>198</y>
          <width>91</width>
          <height>26</height>
         </rect>
@@ -8361,7 +8361,7 @@ Controller</string>
        <property name="geometry">
         <rect>
          <x>831</x>
-         <y>194</y>
+         <y>230</y>
          <width>26</width>
          <height>26</height>
         </rect>
@@ -8415,8 +8415,8 @@ Controller</string>
        </property>
        <property name="geometry">
         <rect>
-         <x>583</x>
-         <y>197</y>
+         <x>575</x>
+         <y>196</y>
          <width>191</width>
          <height>26</height>
         </rect>
@@ -8478,8 +8478,8 @@ Controller</string>
        </property>
        <property name="geometry">
         <rect>
-         <x>656</x>
-         <y>161</y>
+         <x>649</x>
+         <y>159</y>
          <width>111</width>
          <height>31</height>
         </rect>
@@ -8505,8 +8505,8 @@ Controller</string>
       <widget class="PyDMPushButton" name="PyDMPushButton_4">
        <property name="geometry">
         <rect>
-         <x>868</x>
-         <y>194</y>
+         <x>867</x>
+         <y>230</y>
          <width>61</width>
          <height>27</height>
         </rect>
@@ -8527,8 +8527,8 @@ Controller</string>
       <widget class="PyDMByteIndicator" name="PyDMByteIndicator_19">
        <property name="geometry">
         <rect>
-         <x>875</x>
-         <y>163</y>
+         <x>873</x>
+         <y>197</y>
          <width>26</width>
          <height>26</height>
         </rect>
@@ -8579,8 +8579,8 @@ Controller</string>
       <widget class="QLabel" name="ValveControlText_18">
        <property name="geometry">
         <rect>
-         <x>780</x>
-         <y>195</y>
+         <x>777</x>
+         <y>231</y>
          <width>41</width>
          <height>26</height>
         </rect>
@@ -8592,6 +8592,498 @@ Controller</string>
        </property>
        <property name="text">
         <string>Error:</string>
+       </property>
+      </widget>
+      <widget class="PyDMShellCommand" name="PyDMShellCommand_9">
+       <property name="geometry">
+        <rect>
+         <x>769</x>
+         <y>159</y>
+         <width>81</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>9</pointsize>
+        </font>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="text">
+        <string>APPLY SP</string>
+       </property>
+       <property name="showIcon" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="stdout" stdset="0">
+        <enum>PyDMShellCommand::SHOW</enum>
+       </property>
+       <property name="stderr" stdset="0">
+        <enum>PyDMShellCommand::SHOW</enum>
+       </property>
+       <property name="commands" stdset="0">
+        <stringlist>
+         <string>/reg/g/pcds/epics-dev/tparas/scripts/repos/tmo-dream-gas-nozzle-automation/setpoints/apply_dream_nc_pump_setpoints.sh</string>
+        </stringlist>
+       </property>
+      </widget>
+      <widget class="PyDMShellCommand" name="PyDMShellCommand_10">
+       <property name="geometry">
+        <rect>
+         <x>853</x>
+         <y>159</y>
+         <width>81</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>9</pointsize>
+        </font>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="text">
+        <string>RESET SP</string>
+       </property>
+       <property name="showIcon" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="stdout" stdset="0">
+        <enum>PyDMShellCommand::SHOW</enum>
+       </property>
+       <property name="stderr" stdset="0">
+        <enum>PyDMShellCommand::SHOW</enum>
+       </property>
+       <property name="commands" stdset="0">
+        <stringlist>
+         <string>/reg/g/pcds/epics-dev/tparas/scripts/repos/tmo-dream-gas-nozzle-automation/setpoints/reset_dream_nc_pump_setpoints.sh</string>
+        </stringlist>
+       </property>
+      </widget>
+      <widget class="Line" name="line_166">
+       <property name="geometry">
+        <rect>
+         <x>963</x>
+         <y>159</y>
+         <width>541</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Plain</enum>
+       </property>
+       <property name="lineWidth">
+        <number>1</number>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+      <widget class="PyDMPushButton" name="PyDMPushButton_5">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>1206</x>
+         <y>178</y>
+         <width>111</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>7</pointsize>
+        </font>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="text">
+        <string>STOP PUMPING</string>
+       </property>
+       <property name="channel" stdset="0">
+        <string>ca://TMO:DREAM:MC:PUMP:PROCEDURE:RUN</string>
+       </property>
+       <property name="pressValue" stdset="0">
+        <string>0</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="ValveControlText_19">
+       <property name="geometry">
+        <rect>
+         <x>1210</x>
+         <y>220</y>
+         <width>91</width>
+         <height>26</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <kerning>false</kerning>
+        </font>
+       </property>
+       <property name="text">
+        <string>Run Status:</string>
+       </property>
+      </widget>
+      <widget class="PyDMByteIndicator" name="PyDMByteIndicator_20">
+       <property name="geometry">
+        <rect>
+         <x>1392</x>
+         <y>219</y>
+         <width>26</width>
+         <height>26</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="alarmSensitiveContent" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="alarmSensitiveBorder" stdset="0">
+        <bool>true</bool>
+       </property>
+       <property name="PyDMToolTip" stdset="0">
+        <string/>
+       </property>
+       <property name="channel" stdset="0">
+        <string>ca://TMO:DREAM:MC:PUMP:PROCEDURE:ERROR</string>
+       </property>
+       <property name="onColor" stdset="0">
+        <color>
+         <red>255</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </property>
+       <property name="showLabels" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="bigEndian" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="circles" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="numBits" stdset="0">
+        <number>1</number>
+       </property>
+       <property name="shift" stdset="0">
+        <number>0</number>
+       </property>
+       <property name="labels" stdset="0">
+        <stringlist>
+         <string>Bit 0</string>
+        </stringlist>
+       </property>
+      </widget>
+      <widget class="PyDMPushButton" name="PyDMPushButton_6">
+       <property name="geometry">
+        <rect>
+         <x>1428</x>
+         <y>219</y>
+         <width>61</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="text">
+        <string>RESET</string>
+       </property>
+       <property name="channel" stdset="0">
+        <string>ca://TMO:DREAM:MC:PUMP:PROCEDURE:ERROR</string>
+       </property>
+       <property name="pressValue" stdset="0">
+        <string>0</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="ValveControlText_20">
+       <property name="geometry">
+        <rect>
+         <x>962</x>
+         <y>219</y>
+         <width>51</width>
+         <height>26</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <kerning>false</kerning>
+        </font>
+       </property>
+       <property name="text">
+        <string>Step:</string>
+       </property>
+      </widget>
+      <widget class="PyDMShellCommand" name="PyDMShellCommand_11">
+       <property name="geometry">
+        <rect>
+         <x>1330</x>
+         <y>178</y>
+         <width>81</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>9</pointsize>
+        </font>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="text">
+        <string>APPLY SP</string>
+       </property>
+       <property name="showIcon" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="stdout" stdset="0">
+        <enum>PyDMShellCommand::SHOW</enum>
+       </property>
+       <property name="stderr" stdset="0">
+        <enum>PyDMShellCommand::SHOW</enum>
+       </property>
+       <property name="commands" stdset="0">
+        <stringlist>
+         <string>/reg/g/pcds/epics-dev/tparas/scripts/repos/tmo-dream-gas-nozzle-automation/setpoints/apply_dream_mc_pump_setpoints.sh</string>
+        </stringlist>
+       </property>
+      </widget>
+      <widget class="PyDMShellCommand" name="PyDMShellCommand_12">
+       <property name="geometry">
+        <rect>
+         <x>1420</x>
+         <y>178</y>
+         <width>81</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>9</pointsize>
+        </font>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="text">
+        <string>RESET SP</string>
+       </property>
+       <property name="showIcon" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="stdout" stdset="0">
+        <enum>PyDMShellCommand::SHOW</enum>
+       </property>
+       <property name="stderr" stdset="0">
+        <enum>PyDMShellCommand::SHOW</enum>
+       </property>
+       <property name="commands" stdset="0">
+        <stringlist>
+         <string>/reg/g/pcds/epics-dev/tparas/scripts/repos/tmo-dream-gas-nozzle-automation/setpoints/reset_dream_mc_pump_setpoints.sh</string>
+        </stringlist>
+       </property>
+      </widget>
+      <widget class="PyDMShellCommand" name="PyDMShellCommand_13">
+       <property name="geometry">
+        <rect>
+         <x>1090</x>
+         <y>178</y>
+         <width>111</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>7</pointsize>
+        </font>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="text">
+        <string>START PUMPING</string>
+       </property>
+       <property name="showIcon" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="stdout" stdset="0">
+        <enum>PyDMShellCommand::SHOW</enum>
+       </property>
+       <property name="stderr" stdset="0">
+        <enum>PyDMShellCommand::SHOW</enum>
+       </property>
+       <property name="commands" stdset="0">
+        <stringlist>
+         <string>/reg/g/pcds/epics-dev/tparas/scripts/repos/tmo-dream-gas-nozzle-automation/run_mc_pump.sh</string>
+        </stringlist>
+       </property>
+      </widget>
+      <widget class="QLabel" name="ValveControlText_21">
+       <property name="geometry">
+        <rect>
+         <x>1350</x>
+         <y>220</y>
+         <width>41</width>
+         <height>26</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <kerning>false</kerning>
+        </font>
+       </property>
+       <property name="text">
+        <string>Error:</string>
+       </property>
+      </widget>
+      <widget class="PyDMLabel" name="ValveControlMode_RBV_12">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>1000</x>
+         <y>220</y>
+         <width>191</width>
+         <height>26</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <kerning>false</kerning>
+        </font>
+       </property>
+       <property name="contextMenuPolicy">
+        <enum>Qt::PreventContextMenu</enum>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Sunken</enum>
+       </property>
+       <property name="lineWidth">
+        <number>1</number>
+       </property>
+       <property name="text">
+        <string>ca://TMO:DREAM:MC:PUMP:PROCEDURE:STEP</string>
+       </property>
+       <property name="precision" stdset="0">
+        <number>2</number>
+       </property>
+       <property name="showUnits" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="precisionFromPV" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="alarmSensitiveContent" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="alarmSensitiveBorder" stdset="0">
+        <bool>true</bool>
+       </property>
+       <property name="PyDMToolTip" stdset="0">
+        <string/>
+       </property>
+       <property name="channel" stdset="0">
+        <string>ca://TMO:DREAM:MC:PUMP:PROCEDURE:STEP</string>
+       </property>
+       <property name="enableRichText" stdset="0">
+        <bool>true</bool>
+       </property>
+       <property name="displayFormat" stdset="0">
+        <enum>PyDMLabel::String</enum>
+       </property>
+      </widget>
+      <widget class="PyDMByteIndicator" name="PyDMByteIndicator_21">
+       <property name="geometry">
+        <rect>
+         <x>1290</x>
+         <y>219</y>
+         <width>26</width>
+         <height>26</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="alarmSensitiveContent" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="alarmSensitiveBorder" stdset="0">
+        <bool>true</bool>
+       </property>
+       <property name="PyDMToolTip" stdset="0">
+        <string/>
+       </property>
+       <property name="channel" stdset="0">
+        <string>ca://TMO:DREAM:MC:PUMP:PROCEDURE:RUN</string>
+       </property>
+       <property name="onColor" stdset="0">
+        <color>
+         <red>0</red>
+         <green>255</green>
+         <blue>0</blue>
+        </color>
+       </property>
+       <property name="showLabels" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="bigEndian" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="circles" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="numBits" stdset="0">
+        <number>1</number>
+       </property>
+       <property name="shift" stdset="0">
+        <number>0</number>
+       </property>
+       <property name="labels" stdset="0">
+        <stringlist>
+         <string>Bit 0</string>
+        </stringlist>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_159">
+       <property name="geometry">
+        <rect>
+         <x>960</x>
+         <y>180</y>
+         <width>121</width>
+         <height>26</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="lineWidth">
+        <number>0</number>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;MAIN CHAMBER&lt;br/&gt;AUTOMATION&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
        </property>
       </widget>
       <zorder>line_119</zorder>
@@ -8917,6 +9409,21 @@ Controller</string>
       <zorder>PyDMPushButton_4</zorder>
       <zorder>PyDMByteIndicator_19</zorder>
       <zorder>ValveControlText_18</zorder>
+      <zorder>PyDMShellCommand_9</zorder>
+      <zorder>PyDMShellCommand_10</zorder>
+      <zorder>line_166</zorder>
+      <zorder>PyDMPushButton_5</zorder>
+      <zorder>ValveControlText_19</zorder>
+      <zorder>PyDMByteIndicator_20</zorder>
+      <zorder>PyDMPushButton_6</zorder>
+      <zorder>ValveControlText_20</zorder>
+      <zorder>PyDMShellCommand_11</zorder>
+      <zorder>PyDMShellCommand_12</zorder>
+      <zorder>PyDMShellCommand_13</zorder>
+      <zorder>ValveControlText_21</zorder>
+      <zorder>ValveControlMode_RBV_12</zorder>
+      <zorder>PyDMByteIndicator_21</zorder>
+      <zorder>label_159</zorder>
      </widget>
     </widget>
    </item>
