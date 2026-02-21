@@ -4398,7 +4398,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
         <number>2</number>
        </property>
        <property name="text">
-        <string>8.262 lpm</string>
+        <string>8.315 lpm</string>
        </property>
        <property name="precision" stdset="0">
         <number>3</number>
@@ -8205,7 +8205,7 @@ Controller</string>
       <widget class="QLabel" name="ValveControlText_15">
        <property name="geometry">
         <rect>
-         <x>536</x>
+         <x>535</x>
          <y>112</y>
          <width>51</width>
          <height>26</height>
@@ -8244,7 +8244,7 @@ Controller</string>
       </widget>
       <widget class="PyDMPushButton" name="PyDMPushButton_2">
        <property name="enabled">
-        <bool>true</bool>
+        <bool>false</bool>
        </property>
        <property name="geometry">
         <rect>
@@ -8324,7 +8324,7 @@ Controller</string>
       <widget class="QLabel" name="ValveControlText_16">
        <property name="geometry">
         <rect>
-         <x>537</x>
+         <x>533</x>
          <y>195</y>
          <width>51</width>
          <height>26</height>
@@ -8415,7 +8415,7 @@ Controller</string>
        </property>
        <property name="geometry">
         <rect>
-         <x>575</x>
+         <x>576</x>
          <y>196</y>
          <width>191</width>
          <height>26</height>
@@ -8474,7 +8474,7 @@ Controller</string>
       </widget>
       <widget class="PyDMPushButton" name="PyDMPushButton_3">
        <property name="enabled">
-        <bool>true</bool>
+        <bool>false</bool>
        </property>
        <property name="geometry">
         <rect>
@@ -8716,8 +8716,8 @@ Controller</string>
       <widget class="QLabel" name="ValveControlText_19">
        <property name="geometry">
         <rect>
-         <x>1210</x>
-         <y>220</y>
+         <x>1204</x>
+         <y>227</y>
          <width>91</width>
          <height>26</height>
         </rect>
@@ -8734,8 +8734,8 @@ Controller</string>
       <widget class="PyDMByteIndicator" name="PyDMByteIndicator_20">
        <property name="geometry">
         <rect>
-         <x>1392</x>
-         <y>219</y>
+         <x>1398</x>
+         <y>226</y>
          <width>26</width>
          <height>26</height>
         </rect>
@@ -8786,8 +8786,8 @@ Controller</string>
       <widget class="PyDMPushButton" name="PyDMPushButton_6">
        <property name="geometry">
         <rect>
-         <x>1428</x>
-         <y>219</y>
+         <x>1439</x>
+         <y>226</y>
          <width>61</width>
          <height>27</height>
         </rect>
@@ -8809,7 +8809,7 @@ Controller</string>
        <property name="geometry">
         <rect>
          <x>962</x>
-         <y>219</y>
+         <y>226</y>
          <width>51</width>
          <height>26</height>
         </rect>
@@ -8931,8 +8931,8 @@ Controller</string>
       <widget class="QLabel" name="ValveControlText_21">
        <property name="geometry">
         <rect>
-         <x>1350</x>
-         <y>220</y>
+         <x>1344</x>
+         <y>227</y>
          <width>41</width>
          <height>26</height>
         </rect>
@@ -8953,7 +8953,7 @@ Controller</string>
        <property name="geometry">
         <rect>
          <x>1000</x>
-         <y>220</y>
+         <y>227</y>
          <width>191</width>
          <height>26</height>
         </rect>
@@ -9012,8 +9012,8 @@ Controller</string>
       <widget class="PyDMByteIndicator" name="PyDMByteIndicator_21">
        <property name="geometry">
         <rect>
-         <x>1290</x>
-         <y>219</y>
+         <x>1294</x>
+         <y>226</y>
          <width>26</width>
          <height>26</height>
         </rect>
@@ -9065,9 +9065,9 @@ Controller</string>
        <property name="geometry">
         <rect>
          <x>960</x>
-         <y>180</y>
+         <y>177</y>
          <width>121</width>
-         <height>26</height>
+         <height>51</height>
         </rect>
        </property>
        <property name="font">

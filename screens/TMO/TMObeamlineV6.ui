@@ -2562,6 +2562,9 @@ PPM</string>
        <property name="controlsLocation" stdset="0">
         <enum>PCDSSymbolBase::Hidden</enum>
        </property>
+       <property name="channelsPrefix" stdset="0">
+        <string>ca://TMO:ROUGH1:VRC:00</string>
+       </property>
        <property name="iconSize" stdset="0">
         <number>25</number>
        </property>
@@ -3643,8 +3646,8 @@ PPM</string>
         <rect>
          <x>780</x>
          <y>757</y>
-         <width>91</width>
-         <height>82</height>
+         <width>101</width>
+         <height>81</height>
         </rect>
        </property>
        <property name="toolTip">
@@ -3652,6 +3655,9 @@ PPM</string>
        </property>
        <property name="controlsLocation" stdset="0">
         <enum>PCDSSymbolBase::Hidden</enum>
+       </property>
+       <property name="channelsPrefix" stdset="0">
+        <string>ca://TMO:ROUGH2:VRC:00</string>
        </property>
        <property name="iconSize" stdset="0">
         <number>25</number>
@@ -7683,6 +7689,38 @@ p, li { white-space: pre-wrap; }
         <enum>Qt::Vertical</enum>
        </property>
       </widget>
+      <widget class="PyDMLabel" name="PyDMLabel_7">
+       <property name="geometry">
+        <rect>
+         <x>790</x>
+         <y>700</y>
+         <width>71</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="text">
+        <string>RBK Only</string>
+       </property>
+      </widget>
+      <widget class="PyDMLabel" name="PyDMLabel_8">
+       <property name="geometry">
+        <rect>
+         <x>800</x>
+         <y>810</y>
+         <width>71</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="text">
+        <string>RBK Only</string>
+       </property>
+      </widget>
       <zorder>IM1K0_box_22</zorder>
       <zorder>line_92</zorder>
       <zorder>IM1K0_box_31</zorder>
@@ -7923,6 +7961,8 @@ p, li { white-space: pre-wrap; }
       <zorder>TV2K0_label_16</zorder>
       <zorder>TV2K0_label_17</zorder>
       <zorder>PyDMEmbeddedDisplay_13</zorder>
+      <zorder>PyDMLabel_7</zorder>
+      <zorder>PyDMLabel_8</zorder>
      </widget>
     </widget>
    </item>
