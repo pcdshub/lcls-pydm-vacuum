@@ -4398,7 +4398,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
         <number>2</number>
        </property>
        <property name="text">
-        <string>8.341 lpm</string>
+        <string>8.240 lpm</string>
        </property>
        <property name="precision" stdset="0">
         <number>3</number>
@@ -8552,14 +8552,14 @@ Controller</string>
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>7</pointsize>
         </font>
        </property>
        <property name="toolTip">
         <string/>
        </property>
        <property name="text">
-        <string>APPLY SP</string>
+        <string>VENTING SP</string>
        </property>
        <property name="showIcon" stdset="0">
         <bool>false</bool>
@@ -8572,7 +8572,7 @@ Controller</string>
        </property>
        <property name="commands" stdset="0">
         <stringlist>
-         <string>/reg/g/pcds/epics-dev/tparas/scripts/repos/tmo-dream-gas-nozzle-automation/setpoints/apply_dream_nc_pump_setpoints.sh</string>
+         <string>/reg/g/pcds/epics-dev/tparas/scripts/repos/tmo-dream-gas-nozzle-automation/setpoints/venting_dream_nc_pump_setpoints.sh</string>
         </stringlist>
        </property>
       </widget>
@@ -8587,14 +8587,14 @@ Controller</string>
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>7</pointsize>
         </font>
        </property>
        <property name="toolTip">
         <string/>
        </property>
        <property name="text">
-        <string>RESET SP</string>
+        <string>AT VAC SP</string>
        </property>
        <property name="showIcon" stdset="0">
         <bool>false</bool>
@@ -8607,7 +8607,7 @@ Controller</string>
        </property>
        <property name="commands" stdset="0">
         <stringlist>
-         <string>/reg/g/pcds/epics-dev/tparas/scripts/repos/tmo-dream-gas-nozzle-automation/setpoints/reset_dream_nc_pump_setpoints.sh</string>
+         <string>/reg/g/pcds/epics-dev/tparas/scripts/repos/tmo-dream-gas-nozzle-automation/setpoints/at_vac_dream_nc_pump_setpoints.sh</string>
         </stringlist>
        </property>
       </widget>
@@ -8781,14 +8781,14 @@ Controller</string>
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>7</pointsize>
         </font>
        </property>
        <property name="toolTip">
         <string/>
        </property>
        <property name="text">
-        <string>APPLY SP</string>
+        <string>VENTING SP</string>
        </property>
        <property name="showIcon" stdset="0">
         <bool>false</bool>
@@ -8801,7 +8801,7 @@ Controller</string>
        </property>
        <property name="commands" stdset="0">
         <stringlist>
-         <string>/reg/g/pcds/epics-dev/tparas/scripts/repos/tmo-dream-gas-nozzle-automation/setpoints/apply_dream_mc_pump_setpoints.sh</string>
+         <string>/reg/g/pcds/epics-dev/tparas/scripts/repos/tmo-dream-gas-nozzle-automation/setpoints/venting_dream_mc_pump_setpoints.sh</string>
         </stringlist>
        </property>
       </widget>
@@ -8816,14 +8816,14 @@ Controller</string>
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>7</pointsize>
         </font>
        </property>
        <property name="toolTip">
         <string/>
        </property>
        <property name="text">
-        <string>RESET SP</string>
+        <string>AT VAC SP</string>
        </property>
        <property name="showIcon" stdset="0">
         <bool>false</bool>
@@ -8836,7 +8836,7 @@ Controller</string>
        </property>
        <property name="commands" stdset="0">
         <stringlist>
-         <string>/reg/g/pcds/epics-dev/tparas/scripts/repos/tmo-dream-gas-nozzle-automation/setpoints/reset_dream_mc_pump_setpoints.sh</string>
+         <string>/reg/g/pcds/epics-dev/tparas/scripts/repos/tmo-dream-gas-nozzle-automation/setpoints/at_vac_dream_mc_pump_setpoints.sh</string>
         </stringlist>
        </property>
       </widget>
