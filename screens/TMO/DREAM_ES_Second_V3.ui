@@ -4398,7 +4398,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
         <number>2</number>
        </property>
        <property name="text">
-        <string>8.233 lpm</string>
+        <string>8.275 lpm</string>
        </property>
        <property name="precision" stdset="0">
         <number>3</number>
@@ -7684,8 +7684,8 @@ Controller</string>
       <widget class="QLabel" name="label_207">
        <property name="geometry">
         <rect>
-         <x>680</x>
-         <y>486</y>
+         <x>811</x>
+         <y>452</y>
          <width>151</width>
          <height>51</height>
         </rect>
@@ -9064,8 +9064,8 @@ Controller</string>
       <widget class="PneumaticValve" name="PneumaticValve_25">
        <property name="geometry">
         <rect>
-         <x>780</x>
-         <y>500</y>
+         <x>818</x>
+         <y>470</y>
          <width>111</width>
          <height>111</height>
         </rect>
@@ -9074,10 +9074,13 @@ Controller</string>
         <string/>
        </property>
        <property name="controlsLocation" stdset="0">
-        <enum>PCDSSymbolBase::Bottom</enum>
+        <enum>PCDSSymbolBase::Right</enum>
        </property>
        <property name="channelsPrefix" stdset="0">
         <string>ca://DREAM:ROUGH1:VGC:02</string>
+       </property>
+       <property name="rotateIcon" stdset="0">
+        <bool>true</bool>
        </property>
        <property name="expertOphydClass" stdset="0">
         <string>pcdsdevices.valve.VGC</string>
@@ -9163,7 +9166,7 @@ Controller</string>
       </widget>
       <widget class="PyDMByteIndicator" name="PyDMByteIndicator_22">
        <property name="enabled">
-        <bool>false</bool>
+        <bool>true</bool>
        </property>
        <property name="geometry">
         <rect>
@@ -9225,7 +9228,7 @@ Controller</string>
       </widget>
       <widget class="PyDMByteIndicator" name="PyDMByteIndicator_23">
        <property name="enabled">
-        <bool>false</bool>
+        <bool>true</bool>
        </property>
        <property name="geometry">
         <rect>
@@ -9287,7 +9290,7 @@ Controller</string>
       </widget>
       <widget class="PyDMByteIndicator" name="PyDMByteIndicator_24">
        <property name="enabled">
-        <bool>false</bool>
+        <bool>true</bool>
        </property>
        <property name="geometry">
         <rect>
@@ -9349,7 +9352,7 @@ Controller</string>
       </widget>
       <widget class="PyDMByteIndicator" name="PyDMByteIndicator_25">
        <property name="enabled">
-        <bool>false</bool>
+        <bool>true</bool>
        </property>
        <property name="geometry">
         <rect>
@@ -9411,7 +9414,7 @@ Controller</string>
       </widget>
       <widget class="PyDMByteIndicator" name="PyDMByteIndicator_26">
        <property name="enabled">
-        <bool>false</bool>
+        <bool>true</bool>
        </property>
        <property name="geometry">
         <rect>
@@ -9473,7 +9476,7 @@ Controller</string>
       </widget>
       <widget class="PyDMByteIndicator" name="PyDMByteIndicator_27">
        <property name="enabled">
-        <bool>false</bool>
+        <bool>true</bool>
        </property>
        <property name="geometry">
         <rect>
@@ -9535,7 +9538,7 @@ Controller</string>
       </widget>
       <widget class="PyDMByteIndicator" name="PyDMByteIndicator_28">
        <property name="enabled">
-        <bool>false</bool>
+        <bool>true</bool>
        </property>
        <property name="geometry">
         <rect>
@@ -9597,7 +9600,7 @@ Controller</string>
       </widget>
       <widget class="PyDMByteIndicator" name="PyDMByteIndicator_29">
        <property name="enabled">
-        <bool>false</bool>
+        <bool>true</bool>
        </property>
        <property name="geometry">
         <rect>
