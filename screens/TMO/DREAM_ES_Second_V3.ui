@@ -4398,7 +4398,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
         <number>2</number>
        </property>
        <property name="text">
-        <string>8.275 lpm</string>
+        <string>8.267 lpm</string>
        </property>
        <property name="precision" stdset="0">
         <number>3</number>
@@ -6162,8 +6162,8 @@ Controller</string>
       <widget class="QLabel" name="label_166">
        <property name="geometry">
         <rect>
-         <x>240</x>
-         <y>290</y>
+         <x>150</x>
+         <y>245</y>
          <width>101</width>
          <height>51</height>
         </rect>
@@ -6190,8 +6190,8 @@ Controller</string>
       <widget class="QLabel" name="label_167">
        <property name="geometry">
         <rect>
-         <x>320</x>
-         <y>320</y>
+         <x>240</x>
+         <y>270</y>
          <width>101</width>
          <height>51</height>
         </rect>
@@ -8389,7 +8389,7 @@ Controller</string>
         <number>1</number>
        </property>
        <property name="text">
-        <string/>
+        <string>EXIT</string>
        </property>
        <property name="precision" stdset="0">
         <number>2</number>
@@ -9089,44 +9089,10 @@ Controller</string>
         <bool>false</bool>
        </property>
       </widget>
-      <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_11">
-       <property name="geometry">
-        <rect>
-         <x>220</x>
-         <y>180</y>
-         <width>201</width>
-         <height>120</height>
-        </rect>
-       </property>
-       <property name="toolTip">
-        <string/>
-       </property>
-       <property name="lineWidth">
-        <number>0</number>
-       </property>
-       <property name="rules" stdset="0">
-        <string>[]</string>
-       </property>
-       <property name="macros" stdset="0">
-        <string>{&quot;GCC&quot;: &quot;DREAM:NC:GCC:02&quot;, &quot;GPI&quot;: &quot;DREAM:NC:GCC:02&quot;}</string>
-       </property>
-       <property name="filename" stdset="0">
-        <string>vacuumscreens/templates/GCC_GPI.ui</string>
-       </property>
-       <property name="loadWhenShown" stdset="0">
-        <bool>true</bool>
-       </property>
-       <property name="disconnectWhenHidden" stdset="0">
-        <bool>true</bool>
-       </property>
-       <property name="followSymlinks" stdset="0">
-        <bool>false</bool>
-       </property>
-      </widget>
       <widget class="QLabel" name="label_174">
        <property name="geometry">
         <rect>
-         <x>370</x>
+         <x>360</x>
          <y>200</y>
          <width>101</width>
          <height>51</height>
@@ -9142,7 +9108,7 @@ Controller</string>
         <number>0</number>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;DREAM:NC:&lt;br/&gt;GCC:02(combo)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;DREAM:NC:&lt;br/&gt;GCC:02&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignCenter</set>
@@ -9660,6 +9626,25 @@ Controller</string>
         </stringlist>
        </property>
       </widget>
+      <widget class="ColdCathodeComboGauge" name="ColdCathodeComboGauge_2">
+       <property name="geometry">
+        <rect>
+         <x>294</x>
+         <y>197</y>
+         <width>70</width>
+         <height>70</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="controlsLocation" stdset="0">
+        <enum>PCDSSymbolBase::Top</enum>
+       </property>
+       <property name="channelsPrefix" stdset="0">
+        <string>ca://DREAM:NC:GCC:02</string>
+       </property>
+      </widget>
       <zorder>line_119</zorder>
       <zorder>line_161</zorder>
       <zorder>label_247</zorder>
@@ -9997,7 +9982,6 @@ Controller</string>
       <zorder>label_159</zorder>
       <zorder>PneumaticValve_24</zorder>
       <zorder>PneumaticValve_25</zorder>
-      <zorder>PyDMEmbeddedDisplay_11</zorder>
       <zorder>label_174</zorder>
       <zorder>line_126</zorder>
       <zorder>PyDMByteIndicator_22</zorder>
@@ -10009,6 +9993,7 @@ Controller</string>
       <zorder>PyDMByteIndicator_27</zorder>
       <zorder>PyDMByteIndicator_28</zorder>
       <zorder>PyDMByteIndicator_29</zorder>
+      <zorder>ColdCathodeComboGauge_2</zorder>
      </widget>
     </widget>
    </item>
@@ -10114,6 +10099,11 @@ Controller</string>
    <class>TurboPump</class>
    <extends>PCDSSymbolBase</extends>
    <header>pcdswidgets.vacuum.pumps</header>
+  </customwidget>
+  <customwidget>
+   <class>ColdCathodeComboGauge</class>
+   <extends>PCDSSymbolBase</extends>
+   <header>pcdswidgets.vacuum.gauges</header>
   </customwidget>
  </customwidgets>
  <resources/>
