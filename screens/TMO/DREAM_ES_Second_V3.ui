@@ -4398,7 +4398,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
         <number>2</number>
        </property>
        <property name="text">
-        <string>8.267 lpm</string>
+        <string>8.225 lpm</string>
        </property>
        <property name="precision" stdset="0">
         <number>3</number>
@@ -7672,7 +7672,7 @@ Controller</string>
         <number>0</number>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600; color:#00aaff;&quot;&gt;DREAM:ROUGH2:&lt;/span&gt;&lt;span style=&quot; font-weight:600; color:#0000ff;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;span style=&quot; font-weight:600; color:#000000;&quot;&gt;VRC&lt;/span&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;:03&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600; color:#00aaff;&quot;&gt;DREAM:ROUGH2:&lt;/span&gt;&lt;span style=&quot; font-weight:600; color:#0000ff;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;span style=&quot; font-weight:600; color:#000000;&quot;&gt;VGC&lt;/span&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;:03&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignCenter</set>
@@ -7700,7 +7700,7 @@ Controller</string>
         <number>0</number>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600; color:#0000ff;&quot;&gt;DREAM:ROUGH1:&lt;br/&gt;&lt;/span&gt;&lt;span style=&quot; font-weight:600; color:#000000;&quot;&gt;VRC&lt;/span&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;:02&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600; color:#0000ff;&quot;&gt;DREAM:ROUGH1:&lt;br/&gt;&lt;/span&gt;&lt;span style=&quot; font-weight:600; color:#000000;&quot;&gt;VGC&lt;/span&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;:02&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignCenter</set>
