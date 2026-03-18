@@ -786,7 +786,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       </property>
       <property name="geometry">
        <rect>
-        <x>0</x>
+        <x>-109</x>
         <y>0</y>
         <width>4500</width>
         <height>928</height>
@@ -7811,6 +7811,138 @@ p, li { white-space: pre-wrap; }
         <bool>true</bool>
        </property>
       </widget>
+      <widget class="PyDMShellCommand" name="PyDMShellCommand_4">
+       <property name="geometry">
+        <rect>
+         <x>290</x>
+         <y>710</y>
+         <width>131</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="text">
+        <string>Pump down SP</string>
+       </property>
+       <property name="alarmSensitiveContent" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="alarmSensitiveBorder" stdset="0">
+        <bool>true</bool>
+       </property>
+       <property name="PyDMToolTip" stdset="0">
+        <string/>
+       </property>
+       <property name="channel" stdset="0">
+        <string/>
+       </property>
+       <property name="PyDMIcon" stdset="0">
+        <string/>
+       </property>
+       <property name="showConfirmDialog" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="runCommandsInFullShell" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="confirmMessage" stdset="0">
+        <string>Are you sure you want to proceed?</string>
+       </property>
+       <property name="environmentVariables" stdset="0">
+        <string/>
+       </property>
+       <property name="showIcon" stdset="0">
+        <bool>true</bool>
+       </property>
+       <property name="allowMultipleExecutions" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="titles" stdset="0">
+        <stringlist/>
+       </property>
+       <property name="commands" stdset="0">
+        <stringlist>
+         <string>/reg/g/pcds/epics-dev/tongju/scripts/test_script/vacuum_test_sp_t1.sh</string>
+        </stringlist>
+       </property>
+       <property name="passwordProtected" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="password" stdset="0">
+        <string/>
+       </property>
+       <property name="protectedPassword" stdset="0">
+        <string/>
+       </property>
+      </widget>
+      <widget class="PyDMShellCommand" name="PyDMShellCommand_5">
+       <property name="geometry">
+        <rect>
+         <x>460</x>
+         <y>710</y>
+         <width>131</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="text">
+        <string>Venting SP</string>
+       </property>
+       <property name="alarmSensitiveContent" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="alarmSensitiveBorder" stdset="0">
+        <bool>true</bool>
+       </property>
+       <property name="PyDMToolTip" stdset="0">
+        <string/>
+       </property>
+       <property name="channel" stdset="0">
+        <string/>
+       </property>
+       <property name="PyDMIcon" stdset="0">
+        <string/>
+       </property>
+       <property name="showConfirmDialog" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="runCommandsInFullShell" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="confirmMessage" stdset="0">
+        <string>Are you sure you want to proceed?</string>
+       </property>
+       <property name="environmentVariables" stdset="0">
+        <string/>
+       </property>
+       <property name="showIcon" stdset="0">
+        <bool>true</bool>
+       </property>
+       <property name="allowMultipleExecutions" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="titles" stdset="0">
+        <stringlist/>
+       </property>
+       <property name="commands" stdset="0">
+        <stringlist>
+         <string>/reg/g/pcds/epics-dev/tongju/scripts/test_script/vacuum_test_sp_t1.sh</string>
+        </stringlist>
+       </property>
+       <property name="passwordProtected" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="password" stdset="0">
+        <string/>
+       </property>
+       <property name="protectedPassword" stdset="0">
+        <string/>
+       </property>
+      </widget>
       <zorder>IM1K0_box_22</zorder>
       <zorder>line_92</zorder>
       <zorder>IM1K0_box_31</zorder>
@@ -8058,6 +8190,8 @@ p, li { white-space: pre-wrap; }
       <zorder>PyDMDrawingLine</zorder>
       <zorder>label_9</zorder>
       <zorder>label_45</zorder>
+      <zorder>PyDMShellCommand_4</zorder>
+      <zorder>PyDMShellCommand_5</zorder>
      </widget>
     </widget>
    </item>
