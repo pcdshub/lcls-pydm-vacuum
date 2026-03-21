@@ -1079,7 +1079,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
          <x>1199</x>
          <y>1180</y>
          <width>81</width>
-         <height>51</height>
+         <height>61</height>
         </rect>
        </property>
        <property name="toolTip">
@@ -1098,7 +1098,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <bool>false</bool>
        </property>
        <property name="iconSize" stdset="0">
-        <number>25</number>
+        <number>32</number>
        </property>
        <property name="rotateIcon" stdset="0">
         <bool>false</bool>
@@ -1268,7 +1268,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
          <x>1169</x>
          <y>1011</y>
          <width>91</width>
-         <height>61</height>
+         <height>71</height>
         </rect>
        </property>
        <property name="toolTip">
@@ -1460,7 +1460,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
        <property name="geometry">
         <rect>
          <x>1189</x>
-         <y>1230</y>
+         <y>1237</y>
          <width>100</width>
          <height>41</height>
         </rect>
@@ -2543,7 +2543,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="QLabel" name="label_53">
        <property name="geometry">
         <rect>
-         <x>807</x>
+         <x>766</x>
          <y>630</y>
          <width>81</width>
          <height>41</height>
@@ -2572,7 +2572,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="PyDMLabel" name="PA1K0_label_11">
        <property name="geometry">
         <rect>
-         <x>925</x>
+         <x>914</x>
          <y>666</y>
          <width>121</width>
          <height>41</height>
@@ -2645,7 +2645,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="Line" name="line_89">
        <property name="geometry">
         <rect>
-         <x>929</x>
+         <x>898</x>
          <y>630</y>
          <width>20</width>
          <height>131</height>
@@ -2664,9 +2664,9 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="ColdCathodeGauge" name="MBES_GJ1_GCC_01">
        <property name="geometry">
         <rect>
-         <x>899</x>
-         <y>740</y>
-         <width>81</width>
+         <x>893</x>
+         <y>710</y>
+         <width>111</width>
          <height>111</height>
         </rect>
        </property>
@@ -2677,7 +2677,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <enum>Qt::LeftToRight</enum>
        </property>
        <property name="controlsLocation" stdset="0">
-        <enum>PCDSSymbolBase::Bottom</enum>
+        <enum>PCDSSymbolBase::Right</enum>
        </property>
        <property name="channelsPrefix" stdset="0">
         <string>ca://MBES:GJ1:GCC:01</string>
@@ -2698,8 +2698,8 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="QLabel" name="label_54">
        <property name="geometry">
         <rect>
-         <x>949</x>
-         <y>720</y>
+         <x>857</x>
+         <y>784</y>
          <width>81</width>
          <height>41</height>
         </rect>
@@ -2853,7 +2853,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="PneumaticValve" name="MBES_GJ1_VRC_01">
        <property name="geometry">
         <rect>
-         <x>809</x>
+         <x>768</x>
          <y>669</y>
          <width>81</width>
          <height>111</height>
@@ -2878,7 +2878,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <bool>false</bool>
        </property>
        <property name="expertOphydClass" stdset="0">
-        <string>pcdsdevices.valve.VRC</string>
+        <string>pcdsdevices.valve.VRCDA</string>
        </property>
        <property name="controlButtonHorizontal" stdset="0">
         <bool>false</bool>
@@ -2957,9 +2957,9 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_3">
        <property name="geometry">
         <rect>
-         <x>915</x>
+         <x>885</x>
          <y>656</y>
-         <width>141</width>
+         <width>171</width>
          <height>61</height>
         </rect>
        </property>
@@ -3095,9 +3095,9 @@ IonPump[state=&quot;FAULT&quot;] #icon {
        <property name="geometry">
         <rect>
          <x>759</x>
-         <y>481</y>
+         <y>472</y>
          <width>111</width>
-         <height>71</height>
+         <height>81</height>
         </rect>
        </property>
        <property name="toolTip">
@@ -3172,7 +3172,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <string/>
        </property>
        <property name="accessibleName">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;LAMP&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;MBES&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
        <property name="layoutDirection">
         <enum>Qt::RightToLeft</enum>
@@ -3406,7 +3406,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
        <property name="geometry">
         <rect>
          <x>1027</x>
-         <y>359</y>
+         <y>344</y>
          <width>71</width>
          <height>71</height>
         </rect>
@@ -4449,9 +4449,9 @@ IonPump[state=&quot;FAULT&quot;] #icon {
        <property name="geometry">
         <rect>
          <x>889</x>
-         <y>481</y>
+         <y>472</y>
          <width>111</width>
-         <height>71</height>
+         <height>81</height>
         </rect>
        </property>
        <property name="toolTip">
@@ -5367,7 +5367,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="RoughGauge" name="MBES_GJ2_GPI_3">
        <property name="geometry">
         <rect>
-         <x>899</x>
+         <x>867</x>
          <y>560</y>
          <width>81</width>
          <height>81</height>
@@ -5398,7 +5398,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="QLabel" name="label_38">
        <property name="geometry">
         <rect>
-         <x>938</x>
+         <x>906</x>
          <y>604</y>
          <width>91</width>
          <height>31</height>
@@ -5996,6 +5996,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <bool>true</bool>
        </property>
       </widget>
+      <zorder>NeedleValve_3</zorder>
       <zorder>line_111</zorder>
       <zorder>line_152</zorder>
       <zorder>line_73</zorder>
@@ -6145,7 +6146,6 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <zorder>NeedleValve</zorder>
       <zorder>line_104</zorder>
       <zorder>NeedleValve_2</zorder>
-      <zorder>NeedleValve_3</zorder>
       <zorder>line_56</zorder>
       <zorder>MBES_MAIN_PTM_01</zorder>
       <zorder>MBES_MAIN_PTM_4</zorder>
