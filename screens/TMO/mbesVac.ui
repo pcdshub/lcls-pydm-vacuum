@@ -4218,7 +4218,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
          <x>946</x>
          <y>990</y>
          <width>111</width>
-         <height>71</height>
+         <height>81</height>
         </rect>
        </property>
        <property name="toolTip">
@@ -4401,7 +4401,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <enum>PCDSSymbolBase::Left</enum>
        </property>
        <property name="channelsPrefix" stdset="0">
-        <string>ca://MBES:VCN:01</string>
+        <string>ca://MBES:GJ1:VRC:02</string>
        </property>
        <property name="iconSize" stdset="0">
         <number>32</number>
@@ -4419,10 +4419,10 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="QLabel" name="label_70">
        <property name="geometry">
         <rect>
-         <x>1249</x>
-         <y>740</y>
-         <width>71</width>
-         <height>31</height>
+         <x>1227</x>
+         <y>701</y>
+         <width>111</width>
+         <height>51</height>
         </rect>
        </property>
        <property name="font">
@@ -4436,7 +4436,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <number>1</number>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;USER&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;USER /&lt;br/&gt;GJ1:VRC:02&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignCenter</set>
