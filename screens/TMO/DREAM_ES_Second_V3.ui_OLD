@@ -4398,7 +4398,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
         <number>2</number>
        </property>
        <property name="text">
-        <string>8.297 lpm</string>
+        <string>8.414 lpm</string>
        </property>
        <property name="precision" stdset="0">
         <number>3</number>
@@ -5781,6 +5781,382 @@ Controller</string>
        </property>
        <property name="protectedPassword" stdset="0">
         <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="ValveControlText">
+       <property name="geometry">
+        <rect>
+         <x>855</x>
+         <y>73</y>
+         <width>131</width>
+         <height>26</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <kerning>false</kerning>
+        </font>
+       </property>
+       <property name="text">
+        <string>Operation State</string>
+       </property>
+      </widget>
+      <widget class="PyDMLabel" name="ValveControlMode_RBV">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>1140</x>
+         <y>73</y>
+         <width>131</width>
+         <height>26</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <kerning>false</kerning>
+        </font>
+       </property>
+       <property name="contextMenuPolicy">
+        <enum>Qt::PreventContextMenu</enum>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Sunken</enum>
+       </property>
+       <property name="lineWidth">
+        <number>1</number>
+       </property>
+       <property name="text">
+        <string>STANDBY</string>
+       </property>
+       <property name="precision" stdset="0">
+        <number>2</number>
+       </property>
+       <property name="showUnits" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="precisionFromPV" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="channel" stdset="0">
+        <string>ca://PLC:DREAM:OPERATION_RBV</string>
+       </property>
+      </widget>
+      <widget class="PyDMEnumComboBox" name="ValveControlMode">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>990</x>
+         <y>73</y>
+         <width>146</width>
+         <height>26</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <kerning>false</kerning>
+        </font>
+       </property>
+       <property name="contextMenuPolicy">
+        <enum>Qt::DefaultContextMenu</enum>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="channel" stdset="0">
+        <string>ca://PLC:DREAM:OPERATION</string>
+       </property>
+      </widget>
+      <widget class="PyDMPushButton" name="ZeroButton">
+       <property name="geometry">
+        <rect>
+         <x>990</x>
+         <y>103</y>
+         <width>106</width>
+         <height>26</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <kerning>false</kerning>
+        </font>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="text">
+        <string>RESET ERROR</string>
+       </property>
+       <property name="channel" stdset="0">
+        <string>ca://PLC:DREAM:OPERATION:RESET_ERROR</string>
+       </property>
+       <property name="pressValue" stdset="0">
+        <string>1</string>
+       </property>
+      </widget>
+      <widget class="PyDMPushButton" name="ZeroButton_2">
+       <property name="geometry">
+        <rect>
+         <x>1275</x>
+         <y>73</y>
+         <width>131</width>
+         <height>26</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <kerning>false</kerning>
+        </font>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="text">
+        <string>CANCEL OP</string>
+       </property>
+       <property name="channel" stdset="0">
+        <string>ca://PLC:DREAM:OPERATION:CANCEL</string>
+       </property>
+       <property name="pressValue" stdset="0">
+        <string>1</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="ValveControlText_2">
+       <property name="geometry">
+        <rect>
+         <x>855</x>
+         <y>133</y>
+         <width>131</width>
+         <height>26</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <kerning>false</kerning>
+        </font>
+       </property>
+       <property name="text">
+        <string>Last Message</string>
+       </property>
+      </widget>
+      <widget class="PyDMLabel" name="ValveControlMode_RBV_2">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>955</x>
+         <y>133</y>
+         <width>451</width>
+         <height>26</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <kerning>false</kerning>
+        </font>
+       </property>
+       <property name="contextMenuPolicy">
+        <enum>Qt::PreventContextMenu</enum>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Sunken</enum>
+       </property>
+       <property name="lineWidth">
+        <number>1</number>
+       </property>
+       <property name="text">
+        <string>Initialization completed</string>
+       </property>
+       <property name="precision" stdset="0">
+        <number>2</number>
+       </property>
+       <property name="showUnits" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="precisionFromPV" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="alarmSensitiveContent" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="alarmSensitiveBorder" stdset="0">
+        <bool>true</bool>
+       </property>
+       <property name="PyDMToolTip" stdset="0">
+        <string/>
+       </property>
+       <property name="channel" stdset="0">
+        <string>ca://PLC:DREAM:OPERATION:MESSAGE_RBV</string>
+       </property>
+       <property name="enableRichText" stdset="0">
+        <bool>true</bool>
+       </property>
+       <property name="displayFormat" stdset="0">
+        <enum>PyDMLabel::String</enum>
+       </property>
+      </widget>
+      <widget class="PyDMByteIndicator" name="PyDMByteIndicator_5">
+       <property name="geometry">
+        <rect>
+         <x>955</x>
+         <y>103</y>
+         <width>26</width>
+         <height>26</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="alarmSensitiveContent" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="alarmSensitiveBorder" stdset="0">
+        <bool>true</bool>
+       </property>
+       <property name="PyDMToolTip" stdset="0">
+        <string/>
+       </property>
+       <property name="channel" stdset="0">
+        <string>ca://PLC:DREAM:OPERATION:ERROR_RBV</string>
+       </property>
+       <property name="onColor" stdset="0">
+        <color>
+         <red>255</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </property>
+       <property name="showLabels" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="bigEndian" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="circles" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="numBits" stdset="0">
+        <number>1</number>
+       </property>
+       <property name="shift" stdset="0">
+        <number>0</number>
+       </property>
+       <property name="labels" stdset="0">
+        <stringlist>
+         <string>Bit 0</string>
+        </stringlist>
+       </property>
+      </widget>
+      <widget class="QLabel" name="ValveControlText_3">
+       <property name="geometry">
+        <rect>
+         <x>855</x>
+         <y>103</y>
+         <width>101</width>
+         <height>26</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <kerning>false</kerning>
+        </font>
+       </property>
+       <property name="text">
+        <string>Error Status</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="ValveControlText_7">
+       <property name="geometry">
+        <rect>
+         <x>1190</x>
+         <y>103</y>
+         <width>86</width>
+         <height>26</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <kerning>false</kerning>
+        </font>
+       </property>
+       <property name="text">
+        <string>Busy Status</string>
+       </property>
+      </widget>
+      <widget class="PyDMLabel" name="ValveControlMode_RBV_5">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>1275</x>
+         <y>103</y>
+         <width>131</width>
+         <height>26</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <kerning>false</kerning>
+        </font>
+       </property>
+       <property name="contextMenuPolicy">
+        <enum>Qt::PreventContextMenu</enum>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Sunken</enum>
+       </property>
+       <property name="lineWidth">
+        <number>1</number>
+       </property>
+       <property name="text">
+        <string>NOT_BUSY</string>
+       </property>
+       <property name="precision" stdset="0">
+        <number>2</number>
+       </property>
+       <property name="showUnits" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="precisionFromPV" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="alarmSensitiveContent" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="alarmSensitiveBorder" stdset="0">
+        <bool>true</bool>
+       </property>
+       <property name="PyDMToolTip" stdset="0">
+        <string/>
+       </property>
+       <property name="channel" stdset="0">
+        <string>ca://PLC:DREAM:OPERATION:BUSY_RBV</string>
+       </property>
+       <property name="enableRichText" stdset="0">
+        <bool>false</bool>
        </property>
       </widget>
       <widget class="QLabel" name="label_166">
@@ -9830,264 +10206,6 @@ Controller</string>
         </stringlist>
        </property>
       </widget>
-      <widget class="QLabel" name="ValveControlText_2">
-       <property name="geometry">
-        <rect>
-         <x>856</x>
-         <y>116</y>
-         <width>131</width>
-         <height>26</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <kerning>false</kerning>
-        </font>
-       </property>
-       <property name="text">
-        <string>Last Message</string>
-       </property>
-      </widget>
-      <widget class="PyDMCheckbox" name="PyDMCheckbox_2">
-       <property name="geometry">
-        <rect>
-         <x>916</x>
-         <y>80</y>
-         <width>50</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="sizePolicy">
-        <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
-         <horstretch>0</horstretch>
-         <verstretch>0</verstretch>
-        </sizepolicy>
-       </property>
-       <property name="minimumSize">
-        <size>
-         <width>0</width>
-         <height>0</height>
-        </size>
-       </property>
-       <property name="sizeIncrement">
-        <size>
-         <width>10</width>
-         <height>10</height>
-        </size>
-       </property>
-       <property name="baseSize">
-        <size>
-         <width>20</width>
-         <height>20</height>
-        </size>
-       </property>
-       <property name="font">
-        <font>
-         <pointsize>12</pointsize>
-        </font>
-       </property>
-       <property name="toolTip">
-        <string/>
-       </property>
-       <property name="iconSize">
-        <size>
-         <width>25</width>
-         <height>25</height>
-        </size>
-       </property>
-       <property name="channel" stdset="0">
-        <string>ca://DREAM:PLC:AUTO:CANCEL</string>
-       </property>
-      </widget>
-      <widget class="PyDMPushButton" name="ZeroButton">
-       <property name="geometry">
-        <rect>
-         <x>1080</x>
-         <y>80</y>
-         <width>73</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <kerning>false</kerning>
-        </font>
-       </property>
-       <property name="toolTip">
-        <string/>
-       </property>
-       <property name="text">
-        <string>RESET</string>
-       </property>
-       <property name="channel" stdset="0">
-        <string>ca:DREAM:PLC:AUTO:RESET</string>
-       </property>
-       <property name="pressValue" stdset="0">
-        <string>1</string>
-       </property>
-      </widget>
-      <widget class="PyDMCheckbox" name="PyDMCheckbox_3">
-       <property name="geometry">
-        <rect>
-         <x>1016</x>
-         <y>80</y>
-         <width>50</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="sizePolicy">
-        <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
-         <horstretch>0</horstretch>
-         <verstretch>0</verstretch>
-        </sizepolicy>
-       </property>
-       <property name="minimumSize">
-        <size>
-         <width>0</width>
-         <height>0</height>
-        </size>
-       </property>
-       <property name="sizeIncrement">
-        <size>
-         <width>10</width>
-         <height>10</height>
-        </size>
-       </property>
-       <property name="baseSize">
-        <size>
-         <width>20</width>
-         <height>20</height>
-        </size>
-       </property>
-       <property name="font">
-        <font>
-         <pointsize>12</pointsize>
-        </font>
-       </property>
-       <property name="toolTip">
-        <string/>
-       </property>
-       <property name="iconSize">
-        <size>
-         <width>25</width>
-         <height>25</height>
-        </size>
-       </property>
-       <property name="alarmSensitiveContent" stdset="0">
-        <bool>false</bool>
-       </property>
-       <property name="alarmSensitiveBorder" stdset="0">
-        <bool>true</bool>
-       </property>
-       <property name="PyDMToolTip" stdset="0">
-        <string/>
-       </property>
-       <property name="monitorDisp" stdset="0">
-        <bool>false</bool>
-       </property>
-       <property name="channel" stdset="0">
-        <string>ca://DREAM:PLC:AUTO:ONHOLD</string>
-       </property>
-      </widget>
-      <widget class="PyDMLabel" name="ValveControlMode_RBV_2">
-       <property name="enabled">
-        <bool>true</bool>
-       </property>
-       <property name="geometry">
-        <rect>
-         <x>944</x>
-         <y>116</y>
-         <width>451</width>
-         <height>26</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <kerning>false</kerning>
-        </font>
-       </property>
-       <property name="contextMenuPolicy">
-        <enum>Qt::PreventContextMenu</enum>
-       </property>
-       <property name="toolTip">
-        <string/>
-       </property>
-       <property name="frameShape">
-        <enum>QFrame::Box</enum>
-       </property>
-       <property name="frameShadow">
-        <enum>QFrame::Sunken</enum>
-       </property>
-       <property name="lineWidth">
-        <number>1</number>
-       </property>
-       <property name="text">
-        <string>10: &lt;1e-10 Monitor turbos</string>
-       </property>
-       <property name="precision" stdset="0">
-        <number>2</number>
-       </property>
-       <property name="showUnits" stdset="0">
-        <bool>false</bool>
-       </property>
-       <property name="precisionFromPV" stdset="0">
-        <bool>false</bool>
-       </property>
-       <property name="alarmSensitiveContent" stdset="0">
-        <bool>false</bool>
-       </property>
-       <property name="alarmSensitiveBorder" stdset="0">
-        <bool>true</bool>
-       </property>
-       <property name="PyDMToolTip" stdset="0">
-        <string/>
-       </property>
-       <property name="channel" stdset="0">
-        <string>ca://DREAM:PLC:AUTO:MSG_RBV</string>
-       </property>
-       <property name="enableRichText" stdset="0">
-        <bool>true</bool>
-       </property>
-       <property name="displayFormat" stdset="0">
-        <enum>PyDMLabel::String</enum>
-       </property>
-      </widget>
-      <widget class="QLabel" name="ValveControlText_3">
-       <property name="geometry">
-        <rect>
-         <x>856</x>
-         <y>76</y>
-         <width>53</width>
-         <height>26</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <kerning>false</kerning>
-        </font>
-       </property>
-       <property name="text">
-        <string>CANCEL</string>
-       </property>
-      </widget>
-      <widget class="QLabel" name="ValveControlText_4">
-       <property name="geometry">
-        <rect>
-         <x>968</x>
-         <y>76</y>
-         <width>53</width>
-         <height>26</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <kerning>false</kerning>
-        </font>
-       </property>
-       <property name="text">
-        <string>PAUSE</string>
-       </property>
-      </widget>
       <zorder>PyDMDrawingRectangle_50</zorder>
       <zorder>label_347</zorder>
       <zorder>line_119</zorder>
@@ -10307,6 +10425,17 @@ Controller</string>
       <zorder>label_245</zorder>
       <zorder>PyDMDrawingRectangle_13</zorder>
       <zorder>PyDMShellCommand_3</zorder>
+      <zorder>ValveControlText</zorder>
+      <zorder>ValveControlMode_RBV</zorder>
+      <zorder>ValveControlMode</zorder>
+      <zorder>ZeroButton</zorder>
+      <zorder>ZeroButton_2</zorder>
+      <zorder>ValveControlText_2</zorder>
+      <zorder>ValveControlMode_RBV_2</zorder>
+      <zorder>PyDMByteIndicator_5</zorder>
+      <zorder>ValveControlText_3</zorder>
+      <zorder>ValveControlText_7</zorder>
+      <zorder>ValveControlMode_RBV_5</zorder>
       <zorder>label_151</zorder>
       <zorder>label_166</zorder>
       <zorder>label_167</zorder>
@@ -10446,13 +10575,6 @@ Controller</string>
       <zorder>ValveControlText_63</zorder>
       <zorder>PyDMByteIndicator_64</zorder>
       <zorder>PyDMByteIndicator_65</zorder>
-      <zorder>ValveControlText_2</zorder>
-      <zorder>PyDMCheckbox_2</zorder>
-      <zorder>ZeroButton</zorder>
-      <zorder>PyDMCheckbox_3</zorder>
-      <zorder>ValveControlMode_RBV_2</zorder>
-      <zorder>ValveControlText_3</zorder>
-      <zorder>ValveControlText_4</zorder>
      </widget>
     </widget>
    </item>
@@ -10488,6 +10610,11 @@ Controller</string>
    <class>PyDMEmbeddedDisplay</class>
    <extends>QFrame</extends>
    <header>pydm.widgets.embedded_display</header>
+  </customwidget>
+  <customwidget>
+   <class>PyDMEnumComboBox</class>
+   <extends>QComboBox</extends>
+   <header>pydm.widgets.enum_combo_box</header>
   </customwidget>
   <customwidget>
    <class>PyDMLineEdit</class>
