@@ -4398,7 +4398,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
         <number>2</number>
        </property>
        <property name="text">
-        <string>8.231 lpm</string>
+        <string>8.075 lpm</string>
        </property>
        <property name="precision" stdset="0">
         <number>3</number>
@@ -10178,6 +10178,45 @@ Controller</string>
         <string>Next Step:</string>
        </property>
       </widget>
+      <widget class="PyDMShellCommand" name="PyDMShellCommand_2">
+       <property name="geometry">
+        <rect>
+         <x>1323</x>
+         <y>67</y>
+         <width>51</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="showIcon" stdset="0">
+        <bool>true</bool>
+       </property>
+       <property name="commands" stdset="0">
+        <stringlist>
+         <string>pydm /reg/g/pcds/epics-dev/screens/pydm/vacuum/screens/TMO/DREAM_MC_Automation_support.ui</string>
+        </stringlist>
+       </property>
+      </widget>
+      <widget class="QLabel" name="ValveControlText_28">
+       <property name="geometry">
+        <rect>
+         <x>1230</x>
+         <y>70</y>
+         <width>91</width>
+         <height>26</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <kerning>false</kerning>
+        </font>
+       </property>
+       <property name="text">
+        <string>Flow Chart:</string>
+       </property>
+      </widget>
       <zorder>PyDMDrawingRectangle_50</zorder>
       <zorder>label_347</zorder>
       <zorder>line_119</zorder>
@@ -10545,6 +10584,8 @@ Controller</string>
       <zorder>ValveControlText_4</zorder>
       <zorder>ValveControlMode_RBV_3</zorder>
       <zorder>ValveControlText_5</zorder>
+      <zorder>PyDMShellCommand_2</zorder>
+      <zorder>ValveControlText_28</zorder>
      </widget>
     </widget>
    </item>
