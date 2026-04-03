@@ -2853,10 +2853,10 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="PneumaticValve" name="MBES_GJ1_VRC_01">
        <property name="geometry">
         <rect>
-         <x>768</x>
-         <y>669</y>
+         <x>764</x>
+         <y>657</y>
          <width>81</width>
-         <height>111</height>
+         <height>51</height>
         </rect>
        </property>
        <property name="toolTip">
@@ -2866,7 +2866,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <enum>Qt::LeftToRight</enum>
        </property>
        <property name="controlsLocation" stdset="0">
-        <enum>PCDSSymbolBase::Bottom</enum>
+        <enum>PCDSSymbolBase::Hidden</enum>
        </property>
        <property name="channelsPrefix" stdset="0">
         <string>ca://MBES:GJ1:VRC:01</string>
@@ -5996,6 +5996,35 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <bool>true</bool>
        </property>
       </widget>
+      <widget class="QLabel" name="label_81">
+       <property name="geometry">
+        <rect>
+         <x>739</x>
+         <y>699</y>
+         <width>131</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>9</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="lineWidth">
+        <number>1</number>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Note: DA valve&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
       <zorder>NeedleValve_3</zorder>
       <zorder>line_111</zorder>
       <zorder>line_152</zorder>
@@ -6178,6 +6207,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <zorder>MBES_ROUGH_GPI_3</zorder>
       <zorder>label_40</zorder>
       <zorder>MBES_MAIN_GHC_2</zorder>
+      <zorder>label_81</zorder>
      </widget>
     </widget>
    </item>

@@ -7856,6 +7856,12 @@ p, li { white-space: pre-wrap; }
        <property name="showIcon" stdset="0">
         <bool>true</bool>
        </property>
+       <property name="stdout" stdset="0">
+        <enum>PyDMShellCommand::SHOW</enum>
+       </property>
+       <property name="stderr" stdset="0">
+        <enum>PyDMShellCommand::SHOW</enum>
+       </property>
        <property name="allowMultipleExecutions" stdset="0">
         <bool>false</bool>
        </property>
