@@ -7968,7 +7968,7 @@ p, li { white-space: pre-wrap; }
         <string/>
        </property>
        <property name="channel" stdset="0">
-        <string>ca://TMO:PUMPDOWN:SYSTEM:STATUS:ALL_PVS_OK</string>
+        <string>ca://TMO:PUMPDOWN:SYSTEM:STATUS:SUCCESS</string>
        </property>
       </widget>
       <widget class="PyDMLabel" name="PyDMLabel_9">
@@ -8006,6 +8006,54 @@ p, li { white-space: pre-wrap; }
        </property>
        <property name="enableRichText" stdset="0">
         <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="PyDMByteIndicator" name="PyDMByteIndicator_6">
+       <property name="geometry">
+        <rect>
+         <x>370</x>
+         <y>760</y>
+         <width>48</width>
+         <height>15</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="channel" stdset="0">
+        <string>ca://TMO:PUMPDOWN:SYSTEM:STATUS:FAIL</string>
+       </property>
+      </widget>
+      <widget class="PyDMByteIndicator" name="PyDMByteIndicator_7">
+       <property name="geometry">
+        <rect>
+         <x>520</x>
+         <y>740</y>
+         <width>48</width>
+         <height>15</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="channel" stdset="0">
+        <string>ca://TMO:VENT:SYSTEM:STATUS:SUCCESS</string>
+       </property>
+      </widget>
+      <widget class="PyDMByteIndicator" name="PyDMByteIndicator_8">
+       <property name="geometry">
+        <rect>
+         <x>520</x>
+         <y>760</y>
+         <width>48</width>
+         <height>15</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="channel" stdset="0">
+        <string>ca://TMO:VENT:SYSTEM:STATUS:FAIL</string>
        </property>
       </widget>
       <zorder>IM1K0_box_22</zorder>
@@ -8259,6 +8307,9 @@ p, li { white-space: pre-wrap; }
       <zorder>PyDMShellCommand_5</zorder>
       <zorder>PyDMByteIndicator</zorder>
       <zorder>PyDMLabel_9</zorder>
+      <zorder>PyDMByteIndicator_6</zorder>
+      <zorder>PyDMByteIndicator_7</zorder>
+      <zorder>PyDMByteIndicator_8</zorder>
      </widget>
     </widget>
    </item>
