@@ -4398,7 +4398,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
         <number>2</number>
        </property>
        <property name="text">
-        <string>8.346 lpm</string>
+        <string>8.271 lpm</string>
        </property>
        <property name="precision" stdset="0">
         <number>3</number>
@@ -10031,7 +10031,7 @@ Controller</string>
         <number>1</number>
        </property>
        <property name="text">
-        <string>300:Complete, wait for reset</string>
+        <string>82:wait for turbo spindown</string>
        </property>
        <property name="precision" stdset="0">
         <number>2</number>
@@ -10130,7 +10130,7 @@ Controller</string>
         <number>1</number>
        </property>
        <property name="text">
-        <string/>
+        <string>Open VFVs</string>
        </property>
        <property name="precision" stdset="0">
         <number>2</number>
