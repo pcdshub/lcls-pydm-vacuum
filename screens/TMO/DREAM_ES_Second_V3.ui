@@ -4398,7 +4398,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
         <number>2</number>
        </property>
        <property name="text">
-        <string>8.271 lpm</string>
+        <string>8.471 lpm</string>
        </property>
        <property name="precision" stdset="0">
         <number>3</number>
@@ -8176,14 +8176,15 @@ Controller</string>
        </property>
        <property name="font">
         <font>
-         <pointsize>7</pointsize>
+         <pointsize>6</pointsize>
         </font>
        </property>
        <property name="toolTip">
         <string/>
        </property>
        <property name="text">
-        <string>VENTING SP</string>
+        <string>PRE-PUMP
+DOWN SP</string>
        </property>
        <property name="flat">
         <bool>false</bool>
@@ -8408,14 +8409,15 @@ Controller</string>
        </property>
        <property name="font">
         <font>
-         <pointsize>7</pointsize>
+         <pointsize>6</pointsize>
         </font>
        </property>
        <property name="toolTip">
         <string/>
        </property>
        <property name="text">
-        <string>VENTING SP</string>
+        <string>PRE-PUMP
+DOWN SP</string>
        </property>
        <property name="showIcon" stdset="0">
         <bool>false</bool>
@@ -8553,7 +8555,7 @@ Controller</string>
         <number>1</number>
        </property>
        <property name="text">
-        <string/>
+        <string>EXIT</string>
        </property>
        <property name="precision" stdset="0">
         <number>2</number>
@@ -8640,7 +8642,7 @@ Controller</string>
         <rect>
          <x>855</x>
          <y>206</y>
-         <width>211</width>
+         <width>141</width>
          <height>31</height>
         </rect>
        </property>
@@ -10031,7 +10033,7 @@ Controller</string>
         <number>1</number>
        </property>
        <property name="text">
-        <string>82:wait for turbo spindown</string>
+        <string>0:idle</string>
        </property>
        <property name="precision" stdset="0">
         <number>2</number>
@@ -10130,7 +10132,7 @@ Controller</string>
         <number>1</number>
        </property>
        <property name="text">
-        <string>Open VFVs</string>
+        <string>Monitor turbos</string>
        </property>
        <property name="precision" stdset="0">
         <number>2</number>
@@ -10220,7 +10222,7 @@ Controller</string>
       <widget class="QLabel" name="ValveControlText_29">
        <property name="geometry">
         <rect>
-         <x>860</x>
+         <x>1007</x>
          <y>72</y>
          <width>91</width>
          <height>26</height>
@@ -10232,13 +10234,13 @@ Controller</string>
         </font>
        </property>
        <property name="text">
-        <string>Run Status:</string>
+        <string>Monitoring:</string>
        </property>
       </widget>
       <widget class="PyDMByteIndicator" name="PyDMByteIndicator_32">
        <property name="geometry">
         <rect>
-         <x>1052</x>
+         <x>1204</x>
          <y>71</y>
          <width>26</width>
          <height>26</height>
@@ -10290,7 +10292,7 @@ Controller</string>
       <widget class="PyDMByteIndicator" name="PyDMByteIndicator_33">
        <property name="geometry">
         <rect>
-         <x>948</x>
+         <x>1095</x>
          <y>71</y>
          <width>26</width>
          <height>26</height>
@@ -10342,7 +10344,7 @@ Controller</string>
       <widget class="QLabel" name="ValveControlText_30">
        <property name="geometry">
         <rect>
-         <x>998</x>
+         <x>1150</x>
          <y>72</y>
          <width>41</width>
          <height>26</height>
@@ -10355,6 +10357,76 @@ Controller</string>
        </property>
        <property name="text">
         <string>Error:</string>
+       </property>
+      </widget>
+      <widget class="PyDMByteIndicator" name="PyDMByteIndicator_34">
+       <property name="geometry">
+        <rect>
+         <x>940</x>
+         <y>72</y>
+         <width>26</width>
+         <height>26</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="alarmSensitiveContent" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="alarmSensitiveBorder" stdset="0">
+        <bool>true</bool>
+       </property>
+       <property name="PyDMToolTip" stdset="0">
+        <string/>
+       </property>
+       <property name="channel" stdset="0">
+        <string>ca://DREAM:PLC:AUTO:ACTIVE:PROCEDURE</string>
+       </property>
+       <property name="onColor" stdset="0">
+        <color>
+         <red>0</red>
+         <green>255</green>
+         <blue>0</blue>
+        </color>
+       </property>
+       <property name="showLabels" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="bigEndian" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="circles" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="numBits" stdset="0">
+        <number>1</number>
+       </property>
+       <property name="shift" stdset="0">
+        <number>0</number>
+       </property>
+       <property name="labels" stdset="0">
+        <stringlist>
+         <string>Bit 0</string>
+        </stringlist>
+       </property>
+      </widget>
+      <widget class="QLabel" name="ValveControlText_31">
+       <property name="geometry">
+        <rect>
+         <x>866</x>
+         <y>71</y>
+         <width>81</width>
+         <height>26</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <kerning>false</kerning>
+        </font>
+       </property>
+       <property name="text">
+        <string>Venting:</string>
        </property>
       </widget>
       <zorder>PyDMDrawingRectangle_50</zorder>
@@ -10730,6 +10802,8 @@ Controller</string>
       <zorder>PyDMByteIndicator_32</zorder>
       <zorder>PyDMByteIndicator_33</zorder>
       <zorder>ValveControlText_30</zorder>
+      <zorder>PyDMByteIndicator_34</zorder>
+      <zorder>ValveControlText_31</zorder>
      </widget>
     </widget>
    </item>
