@@ -4398,7 +4398,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
         <number>2</number>
        </property>
        <property name="text">
-        <string>8.432 lpm</string>
+        <string>8.352 lpm</string>
        </property>
        <property name="precision" stdset="0">
         <number>3</number>
@@ -10033,7 +10033,7 @@ DOWN SP</string>
         <number>1</number>
        </property>
        <property name="text">
-        <string>50:close ROUGH2-VRC01,02 IN 30 SEC</string>
+        <string>10: less than 1e-10 Monitor turbos</string>
        </property>
        <property name="precision" stdset="0">
         <number>2</number>
@@ -10132,7 +10132,7 @@ DOWN SP</string>
         <number>1</number>
        </property>
        <property name="text">
-        <string>Verify rough lines are closed</string>
+        <string/>
        </property>
        <property name="precision" stdset="0">
         <number>2</number>
@@ -10222,7 +10222,7 @@ DOWN SP</string>
       <widget class="QLabel" name="ValveControlText_29">
        <property name="geometry">
         <rect>
-         <x>1007</x>
+         <x>860</x>
          <y>72</y>
          <width>91</width>
          <height>26</height>
@@ -10259,7 +10259,7 @@ DOWN SP</string>
         <string/>
        </property>
        <property name="channel" stdset="0">
-        <string>ca://DREAM:PLC:AUTO:ERROR</string>
+        <string>ca://DREAM:PLC:AUTO:ERROR_RBV</string>
        </property>
        <property name="onColor" stdset="0">
         <color>
@@ -10311,7 +10311,7 @@ DOWN SP</string>
         <string/>
        </property>
        <property name="channel" stdset="0">
-        <string>ca://DREAM:PLC:AUTO:BEGIN:PROCEDURE</string>
+        <string>ca://DREAM:PLC:AUTO:BEGIN:PROCEDURE_RBV</string>
        </property>
        <property name="onColor" stdset="0">
         <color>
@@ -10362,7 +10362,7 @@ DOWN SP</string>
       <widget class="PyDMByteIndicator" name="PyDMByteIndicator_34">
        <property name="geometry">
         <rect>
-         <x>940</x>
+         <x>950</x>
          <y>72</y>
          <width>26</width>
          <height>26</height>
@@ -10381,7 +10381,7 @@ DOWN SP</string>
         <string/>
        </property>
        <property name="channel" stdset="0">
-        <string>ca://DREAM:PLC:AUTO:ACTIVE:PROCEDURE</string>
+        <string>ca://DREAM:PLC:AUTO:ACTIVE:PROCEDURE_RBV</string>
        </property>
        <property name="onColor" stdset="0">
         <color>
@@ -10414,7 +10414,7 @@ DOWN SP</string>
       <widget class="QLabel" name="ValveControlText_31">
        <property name="geometry">
         <rect>
-         <x>866</x>
+         <x>1020</x>
          <y>71</y>
          <width>81</width>
          <height>26</height>
