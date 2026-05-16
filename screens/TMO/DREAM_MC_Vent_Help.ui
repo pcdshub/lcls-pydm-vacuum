@@ -1,233 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
  <class>Form</class>
- <widget class="PyDMFrame" name="Form">
+ <widget class="QWidget" name="Form">
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1462</width>
-    <height>1201</height>
+    <width>1400</width>
+    <height>1200</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Form</string>
   </property>
-  <property name="frameShape">
-   <enum>QFrame::NoFrame</enum>
-  </property>
-  <widget class="PyDMDrawingLine" name="PyDMDrawingLine_17">
-   <property name="geometry">
-    <rect>
-     <x>247</x>
-     <y>1090</y>
-     <width>100</width>
-     <height>51</height>
-    </rect>
-   </property>
-   <property name="toolTip">
-    <string/>
-   </property>
-   <property name="rotation" stdset="0">
-    <double>270.000000000000000</double>
-   </property>
-   <property name="arrowEndPoint" stdset="0">
-    <bool>false</bool>
-   </property>
-  </widget>
-  <widget class="PyDMDrawingCircle" name="PyDMDrawingCircle_5">
-   <property name="geometry">
-    <rect>
-     <x>251</x>
-     <y>690</y>
-     <width>91</width>
-     <height>91</height>
-    </rect>
-   </property>
-   <property name="toolTip">
-    <string/>
-   </property>
-   <property name="brush" stdset="0">
-    <brush brushstyle="SolidPattern">
-     <color alpha="0">
-      <red>0</red>
-      <green>0</green>
-      <blue>0</blue>
-     </color>
-    </brush>
-   </property>
-   <property name="penStyle" stdset="0">
-    <enum>Qt::SolidLine</enum>
-   </property>
-  </widget>
-  <widget class="PyDMDrawingLine" name="PyDMDrawingLine_28">
-   <property name="geometry">
-    <rect>
-     <x>690</x>
-     <y>95</y>
-     <width>41</width>
-     <height>51</height>
-    </rect>
-   </property>
-   <property name="toolTip">
-    <string/>
-   </property>
-   <property name="penCapStyle" stdset="0">
-    <enum>Qt::SquareCap</enum>
-   </property>
-   <property name="rotation" stdset="0">
-    <double>180.000000000000000</double>
-   </property>
-   <property name="arrowEndPoint" stdset="0">
-    <bool>false</bool>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_4">
-   <property name="geometry">
-    <rect>
-     <x>279</x>
-     <y>171</y>
-     <width>221</width>
-     <height>51</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;MC pressure less than&lt;br/&gt;1e-10 torr?&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignCenter</set>
-   </property>
-  </widget>
-  <widget class="PyDMDrawingLine" name="PyDMDrawingLine_11">
-   <property name="geometry">
-    <rect>
-     <x>246</x>
-     <y>785</y>
-     <width>100</width>
-     <height>51</height>
-    </rect>
-   </property>
-   <property name="toolTip">
-    <string/>
-   </property>
-   <property name="rotation" stdset="0">
-    <double>270.000000000000000</double>
-   </property>
-   <property name="arrowEndPoint" stdset="0">
-    <bool>true</bool>
-   </property>
-  </widget>
-  <widget class="PyDMDrawingLine" name="PyDMDrawingLine_24">
-   <property name="geometry">
-    <rect>
-     <x>735</x>
-     <y>308</y>
-     <width>100</width>
-     <height>71</height>
-    </rect>
-   </property>
-   <property name="toolTip">
-    <string/>
-   </property>
-   <property name="rotation" stdset="0">
-    <double>90.000000000000000</double>
-   </property>
-   <property name="arrowEndPoint" stdset="0">
-    <bool>true</bool>
-   </property>
-  </widget>
-  <widget class="PyDMDrawingLine" name="PyDMDrawingLine_23">
-   <property name="geometry">
-    <rect>
-     <x>736</x>
-     <y>485</y>
-     <width>100</width>
-     <height>51</height>
-    </rect>
-   </property>
-   <property name="toolTip">
-    <string/>
-   </property>
-   <property name="rotation" stdset="0">
-    <double>90.000000000000000</double>
-   </property>
-   <property name="arrowEndPoint" stdset="0">
-    <bool>true</bool>
-   </property>
-  </widget>
-  <widget class="PyDMDrawingCircle" name="PyDMDrawingCircle_4">
-   <property name="geometry">
-    <rect>
-     <x>251</x>
-     <y>540</y>
-     <width>91</width>
-     <height>91</height>
-    </rect>
-   </property>
-   <property name="toolTip">
-    <string/>
-   </property>
-   <property name="brush" stdset="0">
-    <brush brushstyle="SolidPattern">
-     <color alpha="0">
-      <red>0</red>
-      <green>0</green>
-      <blue>0</blue>
-     </color>
-    </brush>
-   </property>
-   <property name="penStyle" stdset="0">
-    <enum>Qt::SolidLine</enum>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_32">
-   <property name="geometry">
-    <rect>
-     <x>821</x>
-     <y>211</y>
-     <width>211</width>
-     <height>81</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>- Open ROUGH2-VFV-02
-- Open ROUGH2-VFV-03
-- To respective cracking pos</string>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignCenter</set>
-   </property>
-  </widget>
-  <widget class="PyDMDrawingCircle" name="PyDMDrawingCircle_13">
-   <property name="geometry">
-    <rect>
-     <x>742</x>
-     <y>543</y>
-     <width>91</width>
-     <height>91</height>
-    </rect>
-   </property>
-   <property name="toolTip">
-    <string/>
-   </property>
-   <property name="brush" stdset="0">
-    <brush brushstyle="SolidPattern">
-     <color alpha="0">
-      <red>0</red>
-      <green>0</green>
-      <blue>0</blue>
-     </color>
-    </brush>
-   </property>
-   <property name="penStyle" stdset="0">
-    <enum>Qt::SolidLine</enum>
-   </property>
-  </widget>
   <widget class="QLabel" name="label_6">
    <property name="geometry">
     <rect>
-     <x>790</x>
-     <y>296</y>
+     <x>808</x>
+     <y>310</y>
      <width>181</width>
      <height>101</height>
     </rect>
@@ -239,169 +29,11 @@
     <set>Qt::AlignCenter</set>
    </property>
   </widget>
-  <widget class="QLabel" name="label_17">
-   <property name="geometry">
-    <rect>
-     <x>251</x>
-     <y>852</y>
-     <width>91</width>
-     <height>61</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Step 30:
-DP1 to
-ROUGH2</string>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignCenter</set>
-   </property>
-  </widget>
-  <widget class="PyDMDrawingCircle" name="PyDMDrawingCircle">
-   <property name="geometry">
-    <rect>
-     <x>250</x>
-     <y>86</y>
-     <width>91</width>
-     <height>81</height>
-    </rect>
-   </property>
-   <property name="toolTip">
-    <string/>
-   </property>
-   <property name="brush" stdset="0">
-    <brush brushstyle="SolidPattern">
-     <color alpha="0">
-      <red>0</red>
-      <green>0</green>
-      <blue>0</blue>
-     </color>
-    </brush>
-   </property>
-   <property name="penStyle" stdset="0">
-    <enum>Qt::SolidLine</enum>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_29">
-   <property name="geometry">
-    <rect>
-     <x>742</x>
-     <y>552</y>
-     <width>91</width>
-     <height>71</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Step 60:
-Turn off
-Gauges</string>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignCenter</set>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_10">
-   <property name="geometry">
-    <rect>
-     <x>81</x>
-     <y>560</y>
-     <width>171</width>
-     <height>31</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Turbos regain speed?</string>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignCenter</set>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_12">
-   <property name="geometry">
-    <rect>
-     <x>252</x>
-     <y>699</y>
-     <width>91</width>
-     <height>71</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Step 22:
-Check
-Isolation</string>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignCenter</set>
-   </property>
-  </widget>
-  <widget class="PyDMDrawingCircle" name="PyDMDrawingCircle_3">
-   <property name="geometry">
-    <rect>
-     <x>249</x>
-     <y>385</y>
-     <width>91</width>
-     <height>91</height>
-    </rect>
-   </property>
-   <property name="toolTip">
-    <string/>
-   </property>
-   <property name="brush" stdset="0">
-    <brush brushstyle="SolidPattern">
-     <color alpha="0">
-      <red>0</red>
-      <green>0</green>
-      <blue>0</blue>
-     </color>
-    </brush>
-   </property>
-   <property name="penStyle" stdset="0">
-    <enum>Qt::SolidLine</enum>
-   </property>
-  </widget>
-  <widget class="PyDMDrawingLine" name="PyDMDrawingLine_31">
-   <property name="geometry">
-    <rect>
-     <x>1117</x>
-     <y>588</y>
-     <width>100</width>
-     <height>51</height>
-    </rect>
-   </property>
-   <property name="toolTip">
-    <string/>
-   </property>
-   <property name="rotation" stdset="0">
-    <double>270.000000000000000</double>
-   </property>
-   <property name="arrowEndPoint" stdset="0">
-    <bool>true</bool>
-   </property>
-  </widget>
-  <widget class="PyDMDrawingLine" name="PyDMDrawingLine_7">
-   <property name="geometry">
-    <rect>
-     <x>247</x>
-     <y>635</y>
-     <width>100</width>
-     <height>51</height>
-    </rect>
-   </property>
-   <property name="toolTip">
-    <string/>
-   </property>
-   <property name="rotation" stdset="0">
-    <double>270.000000000000000</double>
-   </property>
-   <property name="arrowEndPoint" stdset="0">
-    <bool>true</bool>
-   </property>
-  </widget>
   <widget class="PyDMDrawingLine" name="PyDMDrawingLine_6">
    <property name="geometry">
     <rect>
-     <x>96</x>
-     <y>409</y>
+     <x>114</x>
+     <y>423</y>
      <width>141</width>
      <height>51</height>
     </rect>
@@ -419,11 +51,85 @@ Isolation</string>
     <bool>true</bool>
    </property>
   </widget>
-  <widget class="PyDMDrawingCircle" name="PyDMDrawingCircle_18">
+  <widget class="QLabel" name="label_9">
    <property name="geometry">
     <rect>
-     <x>1110</x>
-     <y>237</y>
+     <x>106</x>
+     <y>415</y>
+     <width>171</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Turbos regain speed?</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="PyDMDrawingLine" name="PyDMDrawingLine_31">
+   <property name="geometry">
+    <rect>
+     <x>1135</x>
+     <y>602</y>
+     <width>100</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="rotation" stdset="0">
+    <double>270.000000000000000</double>
+   </property>
+   <property name="arrowEndPoint" stdset="0">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_37">
+   <property name="geometry">
+    <rect>
+     <x>1129</x>
+     <y>260</y>
+     <width>91</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Step 300:
+Complete</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="PyDMDrawingLine" name="PyDMDrawingLine_12">
+   <property name="geometry">
+    <rect>
+     <x>119</x>
+     <y>874</y>
+     <width>141</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="penCapStyle" stdset="0">
+    <enum>Qt::SquareCap</enum>
+   </property>
+   <property name="rotation" stdset="0">
+    <double>180.000000000000000</double>
+   </property>
+   <property name="arrowEndPoint" stdset="0">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="PyDMDrawingCircle" name="PyDMDrawingCircle_20">
+   <property name="geometry">
+    <rect>
+     <x>1140</x>
+     <y>501</y>
      <width>91</width>
      <height>91</height>
     </rect>
@@ -444,11 +150,270 @@ Isolation</string>
     <enum>Qt::SolidLine</enum>
    </property>
   </widget>
-  <widget class="PyDMDrawingLine" name="PyDMDrawingLine_2">
+  <widget class="PyDMDrawingLine" name="PyDMDrawingLine_4">
    <property name="geometry">
     <rect>
-     <x>246</x>
-     <y>324</y>
+     <x>59</x>
+     <y>133</y>
+     <width>100</width>
+     <height>931</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="penWidth" stdset="0">
+    <double>1.000000000000000</double>
+   </property>
+   <property name="rotation" stdset="0">
+    <double>90.000000000000000</double>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>115</y>
+     <width>71</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Step 0:
+Idle</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="PyDMDrawingCircle" name="PyDMDrawingCircle_5">
+   <property name="geometry">
+    <rect>
+     <x>269</x>
+     <y>704</y>
+     <width>91</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="brush" stdset="0">
+    <brush brushstyle="SolidPattern">
+     <color alpha="0">
+      <red>0</red>
+      <green>0</green>
+      <blue>0</blue>
+     </color>
+    </brush>
+   </property>
+   <property name="penStyle" stdset="0">
+    <enum>Qt::SolidLine</enum>
+   </property>
+  </widget>
+  <widget class="PyDMDrawingCircle" name="PyDMDrawingCircle_2">
+   <property name="geometry">
+    <rect>
+     <x>268</x>
+     <y>245</y>
+     <width>91</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="brush" stdset="0">
+    <brush brushstyle="SolidPattern">
+     <color alpha="0">
+      <red>0</red>
+      <green>0</green>
+      <blue>0</blue>
+     </color>
+    </brush>
+   </property>
+   <property name="penStyle" stdset="0">
+    <enum>Qt::SolidLine</enum>
+   </property>
+  </widget>
+  <widget class="PyDMDrawingLine" name="PyDMDrawingLine_29">
+   <property name="geometry">
+    <rect>
+     <x>867</x>
+     <y>110</y>
+     <width>241</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="penCapStyle" stdset="0">
+    <enum>Qt::SquareCap</enum>
+   </property>
+   <property name="rotation" stdset="0">
+    <double>0.000000000000000</double>
+   </property>
+   <property name="arrowEndPoint" stdset="0">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>278</x>
+     <y>417</y>
+     <width>71</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>10min timer</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="PyDMDrawingLine" name="PyDMDrawingLine_3">
+   <property name="geometry">
+    <rect>
+     <x>108</x>
+     <y>110</y>
+     <width>151</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="rotation" stdset="0">
+    <double>0.000000000000000</double>
+   </property>
+   <property name="arrowEndPoint" stdset="0">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_32">
+   <property name="geometry">
+    <rect>
+     <x>839</x>
+     <y>225</y>
+     <width>211</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>- Open ROUGH2-VFV-02
+- Open ROUGH2-VFV-03
+- To respective cracking pos</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_15">
+   <property name="geometry">
+    <rect>
+     <x>99</x>
+     <y>714</y>
+     <width>171</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Turbos regain speed?</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="PyDMDrawingLine" name="PyDMDrawingLine_20">
+   <property name="geometry">
+    <rect>
+     <x>755</x>
+     <y>804</y>
+     <width>100</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="rotation" stdset="0">
+    <double>90.000000000000000</double>
+   </property>
+   <property name="arrowEndPoint" stdset="0">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>99</x>
+     <y>574</y>
+     <width>171</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Turbos regain speed?</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="PyDMDrawingLine" name="PyDMDrawingLine_28">
+   <property name="geometry">
+    <rect>
+     <x>708</x>
+     <y>109</y>
+     <width>41</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="penCapStyle" stdset="0">
+    <enum>Qt::SquareCap</enum>
+   </property>
+   <property name="rotation" stdset="0">
+    <double>180.000000000000000</double>
+   </property>
+   <property name="arrowEndPoint" stdset="0">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="PyDMDrawingCircle" name="PyDMDrawingCircle_8">
+   <property name="geometry">
+    <rect>
+     <x>269</x>
+     <y>1008</y>
+     <width>91</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="brush" stdset="0">
+    <brush brushstyle="SolidPattern">
+     <color alpha="0">
+      <red>0</red>
+      <green>0</green>
+      <blue>0</blue>
+     </color>
+    </brush>
+   </property>
+   <property name="penStyle" stdset="0">
+    <enum>Qt::SolidLine</enum>
+   </property>
+  </widget>
+  <widget class="PyDMDrawingLine" name="PyDMDrawingLine_5">
+   <property name="geometry">
+    <rect>
+     <x>265</x>
+     <y>498</y>
      <width>100</width>
      <height>51</height>
     </rect>
@@ -463,44 +428,190 @@ Isolation</string>
     <bool>true</bool>
    </property>
   </widget>
-  <widget class="QLabel" name="label">
+  <widget class="PyDMDrawingLine" name="PyDMDrawingLine_7">
    <property name="geometry">
     <rect>
-     <x>262</x>
-     <y>101</y>
-     <width>71</width>
+     <x>265</x>
+     <y>649</y>
+     <width>100</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="rotation" stdset="0">
+    <double>270.000000000000000</double>
+   </property>
+   <property name="arrowEndPoint" stdset="0">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="PyDMDrawingLine" name="PyDMDrawingLine_2">
+   <property name="geometry">
+    <rect>
+     <x>264</x>
+     <y>338</y>
+     <width>100</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="rotation" stdset="0">
+    <double>270.000000000000000</double>
+   </property>
+   <property name="arrowEndPoint" stdset="0">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="PyDMDrawingLine" name="PyDMDrawingLine_11">
+   <property name="geometry">
+    <rect>
+     <x>264</x>
+     <y>799</y>
+     <width>100</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="rotation" stdset="0">
+    <double>270.000000000000000</double>
+   </property>
+   <property name="arrowEndPoint" stdset="0">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_30">
+   <property name="geometry">
+    <rect>
+     <x>759</x>
+     <y>412</y>
+     <width>91</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Step 80:
+Turbo
+Spin Down</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="PyDMDrawingLine" name="PyDMDrawingLine_17">
+   <property name="geometry">
+    <rect>
+     <x>265</x>
+     <y>1104</y>
+     <width>100</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="rotation" stdset="0">
+    <double>270.000000000000000</double>
+   </property>
+   <property name="arrowEndPoint" stdset="0">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="PyDMDrawingCircle" name="PyDMDrawingCircle_14">
+   <property name="geometry">
+    <rect>
+     <x>759</x>
+     <y>404</y>
+     <width>91</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="brush" stdset="0">
+    <brush brushstyle="SolidPattern">
+     <color alpha="0">
+      <red>0</red>
+      <green>0</green>
+      <blue>0</blue>
+     </color>
+    </brush>
+   </property>
+   <property name="penStyle" stdset="0">
+    <enum>Qt::SolidLine</enum>
+   </property>
+  </widget>
+  <widget class="PyDMDrawingCircle" name="PyDMDrawingCircle_4">
+   <property name="geometry">
+    <rect>
+     <x>269</x>
+     <y>554</y>
+     <width>91</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="brush" stdset="0">
+    <brush brushstyle="SolidPattern">
+     <color alpha="0">
+      <red>0</red>
+      <green>0</green>
+      <blue>0</blue>
+     </color>
+    </brush>
+   </property>
+   <property name="penStyle" stdset="0">
+    <enum>Qt::SolidLine</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_13">
+   <property name="geometry">
+    <rect>
+     <x>374</x>
+     <y>582</y>
+     <width>361</width>
      <height>51</height>
     </rect>
    </property>
    <property name="text">
-    <string>Step 0:
-Idle</string>
+    <string>- CAT valve is optional
+(procedure continues if it does not isolate)</string>
    </property>
    <property name="alignment">
-    <set>Qt::AlignCenter</set>
+    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
    </property>
   </widget>
-  <widget class="QLabel" name="label_18">
+  <widget class="QLabel" name="label_24">
    <property name="geometry">
     <rect>
-     <x>84</x>
-     <y>851</y>
-     <width>171</width>
-     <height>31</height>
+     <x>760</x>
+     <y>1028</y>
+     <width>91</width>
+     <height>61</height>
     </rect>
    </property>
    <property name="text">
-    <string>Turbos regain speed?</string>
+    <string>Step 40:
+Turn off
+Turbos</string>
    </property>
    <property name="alignment">
     <set>Qt::AlignCenter</set>
    </property>
   </widget>
-  <widget class="PyDMDrawingCircle" name="PyDMDrawingCircle_20">
+  <widget class="PyDMDrawingCircle" name="PyDMDrawingCircle_16">
    <property name="geometry">
     <rect>
-     <x>1122</x>
-     <y>487</y>
+     <x>756</x>
+     <y>91</y>
      <width>91</width>
      <height>91</height>
     </rect>
@@ -524,827 +635,8 @@ Idle</string>
   <widget class="PyDMDrawingLine" name="PyDMDrawingLine_8">
    <property name="geometry">
     <rect>
-     <x>98</x>
-     <y>569</y>
-     <width>141</width>
-     <height>51</height>
-    </rect>
-   </property>
-   <property name="toolTip">
-    <string/>
-   </property>
-   <property name="penCapStyle" stdset="0">
-    <enum>Qt::SquareCap</enum>
-   </property>
-   <property name="rotation" stdset="0">
-    <double>180.000000000000000</double>
-   </property>
-   <property name="arrowEndPoint" stdset="0">
-    <bool>true</bool>
-   </property>
-  </widget>
-  <widget class="PyDMDrawingCircle" name="PyDMDrawingCircle_12">
-   <property name="geometry">
-    <rect>
-     <x>742</x>
-     <y>695</y>
-     <width>91</width>
-     <height>91</height>
-    </rect>
-   </property>
-   <property name="toolTip">
-    <string/>
-   </property>
-   <property name="brush" stdset="0">
-    <brush brushstyle="SolidPattern">
-     <color alpha="0">
-      <red>0</red>
-      <green>0</green>
-      <blue>0</blue>
-     </color>
-    </brush>
-   </property>
-   <property name="penStyle" stdset="0">
-    <enum>Qt::SolidLine</enum>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_35">
-   <property name="geometry">
-    <rect>
-     <x>851</x>
-     <y>76</y>
-     <width>211</width>
-     <height>51</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;VFVs at 100% ?&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignCenter</set>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_30">
-   <property name="geometry">
-    <rect>
-     <x>741</x>
-     <y>398</y>
-     <width>91</width>
-     <height>71</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Step 80:
-Turbo
-Spin Down</string>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignCenter</set>
-   </property>
-  </widget>
-  <widget class="PyDMDrawingLine" name="PyDMDrawingLine_4">
-   <property name="geometry">
-    <rect>
-     <x>41</x>
-     <y>119</y>
-     <width>100</width>
-     <height>931</height>
-    </rect>
-   </property>
-   <property name="toolTip">
-    <string/>
-   </property>
-   <property name="penWidth" stdset="0">
-    <double>1.000000000000000</double>
-   </property>
-   <property name="rotation" stdset="0">
-    <double>90.000000000000000</double>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_33">
-   <property name="geometry">
-    <rect>
-     <x>739</x>
-     <y>86</y>
-     <width>91</width>
-     <height>71</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Step 92:
-Increment
-by 10%</string>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignCenter</set>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_19">
-   <property name="geometry">
-    <rect>
-     <x>331</x>
-     <y>862</y>
-     <width>211</width>
-     <height>51</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>- Closes ROUGH1-VRC-02
-- Opens ROUGH2-VRC-03</string>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignCenter</set>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_5">
-   <property name="geometry">
-    <rect>
-     <x>260</x>
-     <y>403</y>
-     <width>71</width>
-     <height>51</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>10min timer</string>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignCenter</set>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_25">
-   <property name="geometry">
-    <rect>
-     <x>742</x>
-     <y>859</y>
-     <width>91</width>
-     <height>61</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Step 50:
-Close
-Roughing</string>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignCenter</set>
-   </property>
-  </widget>
-  <widget class="PyDMDrawingCircle" name="PyDMDrawingCircle_17">
-   <property name="geometry">
-    <rect>
-     <x>1110</x>
-     <y>76</y>
-     <width>91</width>
-     <height>91</height>
-    </rect>
-   </property>
-   <property name="toolTip">
-    <string/>
-   </property>
-   <property name="brush" stdset="0">
-    <brush brushstyle="SolidPattern">
-     <color alpha="0">
-      <red>0</red>
-      <green>0</green>
-      <blue>0</blue>
-     </color>
-    </brush>
-   </property>
-   <property name="penStyle" stdset="0">
-    <enum>Qt::SolidLine</enum>
-   </property>
-  </widget>
-  <widget class="PyDMDrawingLine" name="PyDMDrawingLine_19">
-   <property name="geometry">
-    <rect>
-     <x>737</x>
-     <y>942</y>
-     <width>100</width>
-     <height>51</height>
-    </rect>
-   </property>
-   <property name="toolTip">
-    <string/>
-   </property>
-   <property name="rotation" stdset="0">
-    <double>90.000000000000000</double>
-   </property>
-   <property name="arrowEndPoint" stdset="0">
-    <bool>true</bool>
-   </property>
-  </widget>
-  <widget class="PyDMDrawingCircle" name="PyDMDrawingCircle_14">
-   <property name="geometry">
-    <rect>
-     <x>741</x>
-     <y>390</y>
-     <width>91</width>
-     <height>91</height>
-    </rect>
-   </property>
-   <property name="toolTip">
-    <string/>
-   </property>
-   <property name="brush" stdset="0">
-    <brush brushstyle="SolidPattern">
-     <color alpha="0">
-      <red>0</red>
-      <green>0</green>
-      <blue>0</blue>
-     </color>
-    </brush>
-   </property>
-   <property name="penStyle" stdset="0">
-    <enum>Qt::SolidLine</enum>
-   </property>
-  </widget>
-  <widget class="PyDMDrawingCircle" name="PyDMDrawingCircle_16">
-   <property name="geometry">
-    <rect>
-     <x>738</x>
-     <y>77</y>
-     <width>91</width>
-     <height>91</height>
-    </rect>
-   </property>
-   <property name="toolTip">
-    <string/>
-   </property>
-   <property name="brush" stdset="0">
-    <brush brushstyle="SolidPattern">
-     <color alpha="0">
-      <red>0</red>
-      <green>0</green>
-      <blue>0</blue>
-     </color>
-    </brush>
-   </property>
-   <property name="penStyle" stdset="0">
-    <enum>Qt::SolidLine</enum>
-   </property>
-  </widget>
-  <widget class="PyDMDrawingCircle" name="PyDMDrawingCircle_15">
-   <property name="geometry">
-    <rect>
-     <x>739</x>
-     <y>208</y>
-     <width>91</width>
-     <height>91</height>
-    </rect>
-   </property>
-   <property name="toolTip">
-    <string/>
-   </property>
-   <property name="brush" stdset="0">
-    <brush brushstyle="SolidPattern">
-     <color alpha="0">
-      <red>0</red>
-      <green>0</green>
-      <blue>0</blue>
-     </color>
-    </brush>
-   </property>
-   <property name="penStyle" stdset="0">
-    <enum>Qt::SolidLine</enum>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_3">
-   <property name="geometry">
-    <rect>
-     <x>255</x>
-     <y>249</y>
-     <width>81</width>
-     <height>51</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Step 10:
-Monitor
-Turbos</string>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignCenter</set>
-   </property>
-  </widget>
-  <widget class="PyDMDrawingLine" name="PyDMDrawingLine_5">
-   <property name="geometry">
-    <rect>
-     <x>247</x>
-     <y>484</y>
-     <width>100</width>
-     <height>51</height>
-    </rect>
-   </property>
-   <property name="toolTip">
-    <string/>
-   </property>
-   <property name="rotation" stdset="0">
-    <double>270.000000000000000</double>
-   </property>
-   <property name="arrowEndPoint" stdset="0">
-    <bool>true</bool>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_9">
-   <property name="geometry">
-    <rect>
-     <x>88</x>
-     <y>401</y>
-     <width>171</width>
-     <height>31</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Turbos regain speed?</string>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignCenter</set>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_11">
-   <property name="geometry">
-    <rect>
-     <x>312</x>
-     <y>540</y>
-     <width>361</width>
-     <height>51</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>- Closes M45K4, TM2K4, DP1, and CAT valves</string>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignCenter</set>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_36">
-   <property name="geometry">
-    <rect>
-     <x>1111</x>
-     <y>85</y>
-     <width>91</width>
-     <height>71</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Step 200:
-Check at
-Vac</string>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignCenter</set>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_13">
-   <property name="geometry">
-    <rect>
-     <x>356</x>
-     <y>568</y>
-     <width>361</width>
-     <height>51</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>- CAT valve is optional
-(procedure continues if it does not isolate)</string>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-   </property>
-  </widget>
-  <widget class="PyDMDrawingLine" name="PyDMDrawingLine_29">
-   <property name="geometry">
-    <rect>
-     <x>849</x>
-     <y>96</y>
-     <width>241</width>
-     <height>51</height>
-    </rect>
-   </property>
-   <property name="toolTip">
-    <string/>
-   </property>
-   <property name="penCapStyle" stdset="0">
-    <enum>Qt::SquareCap</enum>
-   </property>
-   <property name="rotation" stdset="0">
-    <double>0.000000000000000</double>
-   </property>
-   <property name="arrowEndPoint" stdset="0">
-    <bool>true</bool>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_34">
-   <property name="geometry">
-    <rect>
-     <x>787</x>
-     <y>169</y>
-     <width>141</width>
-     <height>41</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;2 min timer&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignCenter</set>
-   </property>
-  </widget>
-  <widget class="PyDMDrawingLine" name="PyDMDrawingLine_22">
-   <property name="geometry">
-    <rect>
-     <x>737</x>
-     <y>638</y>
-     <width>100</width>
-     <height>51</height>
-    </rect>
-   </property>
-   <property name="toolTip">
-    <string/>
-   </property>
-   <property name="rotation" stdset="0">
-    <double>90.000000000000000</double>
-   </property>
-   <property name="arrowEndPoint" stdset="0">
-    <bool>true</bool>
-   </property>
-  </widget>
-  <widget class="PyDMDrawingCircle" name="PyDMDrawingCircle_2">
-   <property name="geometry">
-    <rect>
-     <x>250</x>
-     <y>231</y>
-     <width>91</width>
-     <height>81</height>
-    </rect>
-   </property>
-   <property name="toolTip">
-    <string/>
-   </property>
-   <property name="brush" stdset="0">
-    <brush brushstyle="SolidPattern">
-     <color alpha="0">
-      <red>0</red>
-      <green>0</green>
-      <blue>0</blue>
-     </color>
-    </brush>
-   </property>
-   <property name="penStyle" stdset="0">
-    <enum>Qt::SolidLine</enum>
-   </property>
-  </widget>
-  <widget class="PyDMDrawingLine" name="PyDMDrawingLine_18">
-   <property name="geometry">
-    <rect>
-     <x>740</x>
-     <y>1090</y>
-     <width>100</width>
-     <height>51</height>
-    </rect>
-   </property>
-   <property name="toolTip">
-    <string/>
-   </property>
-   <property name="rotation" stdset="0">
-    <double>90.000000000000000</double>
-   </property>
-   <property name="arrowEndPoint" stdset="0">
-    <bool>true</bool>
-   </property>
-  </widget>
-  <widget class="PyDMDrawingLine" name="PyDMDrawingLine_26">
-   <property name="geometry">
-    <rect>
-     <x>690</x>
-     <y>224</y>
-     <width>41</width>
-     <height>51</height>
-    </rect>
-   </property>
-   <property name="toolTip">
-    <string/>
-   </property>
-   <property name="penCapStyle" stdset="0">
-    <enum>Qt::SquareCap</enum>
-   </property>
-   <property name="rotation" stdset="0">
-    <double>0.000000000000000</double>
-   </property>
-   <property name="arrowEndPoint" stdset="0">
-    <bool>true</bool>
-   </property>
-  </widget>
-  <widget class="PyDMDrawingLine" name="PyDMDrawingLine_12">
-   <property name="geometry">
-    <rect>
-     <x>101</x>
-     <y>860</y>
-     <width>141</width>
-     <height>51</height>
-    </rect>
-   </property>
-   <property name="toolTip">
-    <string/>
-   </property>
-   <property name="penCapStyle" stdset="0">
-    <enum>Qt::SquareCap</enum>
-   </property>
-   <property name="rotation" stdset="0">
-    <double>180.000000000000000</double>
-   </property>
-   <property name="arrowEndPoint" stdset="0">
-    <bool>true</bool>
-   </property>
-  </widget>
-  <widget class="PyDMDrawingLine" name="PyDMDrawingLine_13">
-   <property name="geometry">
-    <rect>
-     <x>245</x>
-     <y>935</y>
-     <width>100</width>
-     <height>51</height>
-    </rect>
-   </property>
-   <property name="toolTip">
-    <string/>
-   </property>
-   <property name="rotation" stdset="0">
-    <double>270.000000000000000</double>
-   </property>
-   <property name="arrowEndPoint" stdset="0">
-    <bool>true</bool>
-   </property>
-  </widget>
-  <widget class="PyDMDrawingCircle" name="PyDMDrawingCircle_11">
-   <property name="geometry">
-    <rect>
-     <x>742</x>
-     <y>847</y>
-     <width>91</width>
-     <height>91</height>
-    </rect>
-   </property>
-   <property name="toolTip">
-    <string/>
-   </property>
-   <property name="brush" stdset="0">
-    <brush brushstyle="SolidPattern">
-     <color alpha="0">
-      <red>0</red>
-      <green>0</green>
-      <blue>0</blue>
-     </color>
-    </brush>
-   </property>
-   <property name="penStyle" stdset="0">
-    <enum>Qt::SolidLine</enum>
-   </property>
-  </widget>
-  <widget class="PyDMDrawingLine" name="PyDMDrawingLine">
-   <property name="geometry">
-    <rect>
-     <x>246</x>
-     <y>175</y>
-     <width>100</width>
-     <height>51</height>
-    </rect>
-   </property>
-   <property name="toolTip">
-    <string/>
-   </property>
-   <property name="rotation" stdset="0">
-    <double>270.000000000000000</double>
-   </property>
-   <property name="arrowEndPoint" stdset="0">
-    <bool>true</bool>
-   </property>
-  </widget>
-  <widget class="PyDMLabel" name="PyDMLabel">
-   <property name="geometry">
-    <rect>
-     <x>81</x>
-     <y>36</y>
-     <width>231</width>
-     <height>31</height>
-    </rect>
-   </property>
-   <property name="toolTip">
-    <string/>
-   </property>
-   <property name="text">
-    <string>AUTOMATION PROCEDURE</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_26">
-   <property name="geometry">
-    <rect>
-     <x>742</x>
-     <y>707</y>
-     <width>91</width>
-     <height>61</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Step 52:
-Check
-Positions</string>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignCenter</set>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_38">
-   <property name="geometry">
-    <rect>
-     <x>1191</x>
-     <y>96</y>
-     <width>211</width>
-     <height>51</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>- 40 minute timeout if not</string>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignCenter</set>
-   </property>
-  </widget>
-  <widget class="PyDMDrawingCircle" name="PyDMDrawingCircle_19">
-   <property name="geometry">
-    <rect>
-     <x>1121</x>
-     <y>646</y>
-     <width>91</width>
-     <height>91</height>
-    </rect>
-   </property>
-   <property name="toolTip">
-    <string/>
-   </property>
-   <property name="brush" stdset="0">
-    <brush brushstyle="SolidPattern">
-     <color alpha="0">
-      <red>0</red>
-      <green>0</green>
-      <blue>0</blue>
-     </color>
-    </brush>
-   </property>
-   <property name="penStyle" stdset="0">
-    <enum>Qt::SolidLine</enum>
-   </property>
-  </widget>
-  <widget class="PyDMDrawingLine" name="PyDMDrawingLine_3">
-   <property name="geometry">
-    <rect>
-     <x>90</x>
-     <y>96</y>
-     <width>151</width>
-     <height>51</height>
-    </rect>
-   </property>
-   <property name="toolTip">
-    <string/>
-   </property>
-   <property name="rotation" stdset="0">
-    <double>0.000000000000000</double>
-   </property>
-   <property name="arrowEndPoint" stdset="0">
-    <bool>true</bool>
-   </property>
-  </widget>
-  <widget class="PyDMDrawingLine" name="PyDMDrawingLine_25">
-   <property name="geometry">
-    <rect>
-     <x>734</x>
-     <y>173</y>
-     <width>100</width>
-     <height>31</height>
-    </rect>
-   </property>
-   <property name="toolTip">
-    <string/>
-   </property>
-   <property name="rotation" stdset="0">
-    <double>90.000000000000000</double>
-   </property>
-   <property name="arrowEndPoint" stdset="0">
-    <bool>true</bool>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_37">
-   <property name="geometry">
-    <rect>
-     <x>1111</x>
-     <y>246</y>
-     <width>91</width>
-     <height>71</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Step 300:
-Complete</string>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignCenter</set>
-   </property>
-  </widget>
-  <widget class="PyDMDrawingLine" name="PyDMDrawingLine_20">
-   <property name="geometry">
-    <rect>
-     <x>737</x>
-     <y>790</y>
-     <width>100</width>
-     <height>51</height>
-    </rect>
-   </property>
-   <property name="toolTip">
-    <string/>
-   </property>
-   <property name="rotation" stdset="0">
-    <double>90.000000000000000</double>
-   </property>
-   <property name="arrowEndPoint" stdset="0">
-    <bool>true</bool>
-   </property>
-  </widget>
-  <widget class="PyDMDrawingLine" name="PyDMDrawingLine_16">
-   <property name="geometry">
-    <rect>
-     <x>298</x>
-     <y>1114</y>
-     <width>491</width>
-     <height>51</height>
-    </rect>
-   </property>
-   <property name="toolTip">
-    <string/>
-   </property>
-   <property name="rotation" stdset="0">
-    <double>0.000000000000000</double>
-   </property>
-   <property name="arrowEndPoint" stdset="0">
-    <bool>false</bool>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_39">
-   <property name="geometry">
-    <rect>
-     <x>1121</x>
-     <y>655</y>
-     <width>91</width>
-     <height>71</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Step 900:
-Cancel</string>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignCenter</set>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_14">
-   <property name="geometry">
-    <rect>
-     <x>1141</x>
-     <y>586</y>
-     <width>211</width>
-     <height>51</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;User Cancels?&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignCenter</set>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_8">
-   <property name="geometry">
-    <rect>
-     <x>252</x>
-     <y>549</y>
-     <width>91</width>
-     <height>71</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Step 20:
-Isolate MC
-+ CAT</string>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignCenter</set>
-   </property>
-  </widget>
-  <widget class="PyDMDrawingLine" name="PyDMDrawingLine_9">
-   <property name="geometry">
-    <rect>
-     <x>98</x>
-     <y>709</y>
+     <x>116</x>
+     <y>583</y>
      <width>141</width>
      <height>51</height>
     </rect>
@@ -1365,8 +657,8 @@ Isolate MC
   <widget class="QLabel" name="label_7">
    <property name="geometry">
     <rect>
-     <x>276</x>
-     <y>481</y>
+     <x>294</x>
+     <y>495</y>
      <width>211</width>
      <height>51</height>
     </rect>
@@ -1378,112 +670,135 @@ Isolate MC
     <set>Qt::AlignCenter</set>
    </property>
   </widget>
-  <widget class="QLabel" name="label_2">
+  <widget class="PyDMDrawingLine" name="PyDMDrawingLine_26">
    <property name="geometry">
     <rect>
-     <x>291</x>
-     <y>316</y>
-     <width>181</width>
+     <x>708</x>
+     <y>238</y>
+     <width>41</width>
      <height>51</height>
     </rect>
    </property>
-   <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;MC + CAT turbos&lt;br/&gt;not at speed?&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   <property name="toolTip">
+    <string/>
    </property>
-   <property name="alignment">
-    <set>Qt::AlignCenter</set>
+   <property name="penCapStyle" stdset="0">
+    <enum>Qt::SquareCap</enum>
+   </property>
+   <property name="rotation" stdset="0">
+    <double>0.000000000000000</double>
+   </property>
+   <property name="arrowEndPoint" stdset="0">
+    <bool>true</bool>
    </property>
   </widget>
-  <widget class="QLabel" name="label_31">
+  <widget class="QLabel" name="label_33">
    <property name="geometry">
     <rect>
-     <x>739</x>
-     <y>216</y>
+     <x>757</x>
+     <y>100</y>
      <width>91</width>
      <height>71</height>
     </rect>
    </property>
    <property name="text">
-    <string>Step 90:
-Vent</string>
+    <string>Step 92:
+Increment
+by 10%</string>
    </property>
    <property name="alignment">
     <set>Qt::AlignCenter</set>
    </property>
   </widget>
-  <widget class="QLabel" name="label_15">
+  <widget class="PyDMDrawingLine" name="PyDMDrawingLine_30">
    <property name="geometry">
     <rect>
-     <x>81</x>
-     <y>700</y>
-     <width>171</width>
-     <height>31</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Turbos regain speed?</string>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignCenter</set>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_40">
-   <property name="geometry">
-    <rect>
-     <x>1122</x>
-     <y>496</y>
-     <width>91</width>
-     <height>71</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Step:
-Any</string>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignCenter</set>
-   </property>
-  </widget>
-  <widget class="PyDMDrawingLine" name="PyDMDrawingLine_27">
-   <property name="geometry">
-    <rect>
-     <x>641</x>
-     <y>119</y>
+     <x>1124</x>
+     <y>193</y>
      <width>100</width>
-     <height>131</height>
+     <height>51</height>
     </rect>
    </property>
    <property name="toolTip">
     <string/>
    </property>
    <property name="rotation" stdset="0">
-    <double>90.000000000000000</double>
+    <double>270.000000000000000</double>
    </property>
    <property name="arrowEndPoint" stdset="0">
-    <bool>false</bool>
+    <bool>true</bool>
    </property>
   </widget>
-  <widget class="QLabel" name="label_21">
+  <widget class="QLabel" name="label_8">
    <property name="geometry">
     <rect>
-     <x>79</x>
-     <y>1011</y>
-     <width>171</width>
-     <height>31</height>
+     <x>270</x>
+     <y>563</y>
+     <width>91</width>
+     <height>71</height>
     </rect>
    </property>
    <property name="text">
-    <string>Turbos regain speed?</string>
+    <string>Step 20:
+Isolate MC
++ CAT</string>
    </property>
    <property name="alignment">
     <set>Qt::AlignCenter</set>
    </property>
   </widget>
-  <widget class="PyDMDrawingCircle" name="PyDMDrawingCircle_8">
+  <widget class="PyDMDrawingCircle" name="PyDMDrawingCircle_7">
    <property name="geometry">
     <rect>
-     <x>251</x>
-     <y>994</y>
+     <x>269</x>
+     <y>854</y>
+     <width>91</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="brush" stdset="0">
+    <brush brushstyle="SolidPattern">
+     <color alpha="0">
+      <red>0</red>
+      <green>0</green>
+      <blue>0</blue>
+     </color>
+    </brush>
+   </property>
+   <property name="penStyle" stdset="0">
+    <enum>Qt::SolidLine</enum>
+   </property>
+  </widget>
+  <widget class="PyDMDrawingLine" name="PyDMDrawingLine_9">
+   <property name="geometry">
+    <rect>
+     <x>116</x>
+     <y>723</y>
+     <width>141</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="penCapStyle" stdset="0">
+    <enum>Qt::SquareCap</enum>
+   </property>
+   <property name="rotation" stdset="0">
+    <double>180.000000000000000</double>
+   </property>
+   <property name="arrowEndPoint" stdset="0">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="PyDMDrawingCircle" name="PyDMDrawingCircle_18">
+   <property name="geometry">
+    <rect>
+     <x>1128</x>
+     <y>251</y>
      <width>91</width>
      <height>91</height>
     </rect>
@@ -1507,8 +822,375 @@ Any</string>
   <widget class="PyDMDrawingCircle" name="PyDMDrawingCircle_10">
    <property name="geometry">
     <rect>
-     <x>741</x>
-     <y>1000</y>
+     <x>759</x>
+     <y>1014</y>
+     <width>91</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="brush" stdset="0">
+    <brush brushstyle="SolidPattern">
+     <color alpha="0">
+      <red>0</red>
+      <green>0</green>
+      <blue>0</blue>
+     </color>
+    </brush>
+   </property>
+   <property name="penStyle" stdset="0">
+    <enum>Qt::SolidLine</enum>
+   </property>
+  </widget>
+  <widget class="PyDMDrawingLine" name="PyDMDrawingLine_24">
+   <property name="geometry">
+    <rect>
+     <x>753</x>
+     <y>322</y>
+     <width>100</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="rotation" stdset="0">
+    <double>90.000000000000000</double>
+   </property>
+   <property name="arrowEndPoint" stdset="0">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="PyDMDrawingCircle" name="PyDMDrawingCircle_19">
+   <property name="geometry">
+    <rect>
+     <x>1139</x>
+     <y>660</y>
+     <width>91</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="brush" stdset="0">
+    <brush brushstyle="SolidPattern">
+     <color alpha="0">
+      <red>0</red>
+      <green>0</green>
+      <blue>0</blue>
+     </color>
+    </brush>
+   </property>
+   <property name="penStyle" stdset="0">
+    <enum>Qt::SolidLine</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_31">
+   <property name="geometry">
+    <rect>
+     <x>757</x>
+     <y>230</y>
+     <width>91</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Step 90:
+Vent</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="PyDMDrawingCircle" name="PyDMDrawingCircle_13">
+   <property name="geometry">
+    <rect>
+     <x>760</x>
+     <y>557</y>
+     <width>91</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="brush" stdset="0">
+    <brush brushstyle="SolidPattern">
+     <color alpha="0">
+      <red>0</red>
+      <green>0</green>
+      <blue>0</blue>
+     </color>
+    </brush>
+   </property>
+   <property name="penStyle" stdset="0">
+    <enum>Qt::SolidLine</enum>
+   </property>
+  </widget>
+  <widget class="PyDMDrawingLine" name="PyDMDrawingLine_18">
+   <property name="geometry">
+    <rect>
+     <x>758</x>
+     <y>1104</y>
+     <width>100</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="rotation" stdset="0">
+    <double>90.000000000000000</double>
+   </property>
+   <property name="arrowEndPoint" stdset="0">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>273</x>
+     <y>263</y>
+     <width>81</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Step 10:
+Monitor
+Turbos</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_39">
+   <property name="geometry">
+    <rect>
+     <x>1139</x>
+     <y>669</y>
+     <width>91</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Step 900:
+Cancel</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="PyDMDrawingLine" name="PyDMDrawingLine_23">
+   <property name="geometry">
+    <rect>
+     <x>754</x>
+     <y>499</y>
+     <width>100</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="rotation" stdset="0">
+    <double>90.000000000000000</double>
+   </property>
+   <property name="arrowEndPoint" stdset="0">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="PyDMDrawingCircle" name="PyDMDrawingCircle_15">
+   <property name="geometry">
+    <rect>
+     <x>757</x>
+     <y>222</y>
+     <width>91</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="brush" stdset="0">
+    <brush brushstyle="SolidPattern">
+     <color alpha="0">
+      <red>0</red>
+      <green>0</green>
+      <blue>0</blue>
+     </color>
+    </brush>
+   </property>
+   <property name="penStyle" stdset="0">
+    <enum>Qt::SolidLine</enum>
+   </property>
+  </widget>
+  <widget class="PyDMDrawingLine" name="PyDMDrawingLine">
+   <property name="geometry">
+    <rect>
+     <x>264</x>
+     <y>189</y>
+     <width>100</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="rotation" stdset="0">
+    <double>270.000000000000000</double>
+   </property>
+   <property name="arrowEndPoint" stdset="0">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_36">
+   <property name="geometry">
+    <rect>
+     <x>1129</x>
+     <y>99</y>
+     <width>91</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Step 200:
+Check at
+Vac</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_12">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>713</y>
+     <width>91</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Step 22:
+Check
+Isolation</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_18">
+   <property name="geometry">
+    <rect>
+     <x>102</x>
+     <y>865</y>
+     <width>171</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Turbos regain speed?</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_20">
+   <property name="geometry">
+    <rect>
+     <x>269</x>
+     <y>1023</y>
+     <width>91</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Step 32:
+Check
+Positions</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>297</x>
+     <y>185</y>
+     <width>221</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;MC pressure less than&lt;br/&gt;1e-10 torr?&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_26">
+   <property name="geometry">
+    <rect>
+     <x>760</x>
+     <y>721</y>
+     <width>91</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Step 52:
+Check
+Positions</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="PyDMDrawingLine" name="PyDMDrawingLine_25">
+   <property name="geometry">
+    <rect>
+     <x>752</x>
+     <y>187</y>
+     <width>100</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="rotation" stdset="0">
+    <double>90.000000000000000</double>
+   </property>
+   <property name="arrowEndPoint" stdset="0">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_14">
+   <property name="geometry">
+    <rect>
+     <x>1159</x>
+     <y>600</y>
+     <width>211</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;User Cancels?&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="PyDMDrawingCircle" name="PyDMDrawingCircle_3">
+   <property name="geometry">
+    <rect>
+     <x>267</x>
+     <y>399</y>
      <width>91</width>
      <height>91</height>
     </rect>
@@ -1532,8 +1214,8 @@ Any</string>
   <widget class="QLabel" name="label_28">
    <property name="geometry">
     <rect>
-     <x>823</x>
-     <y>849</y>
+     <x>841</x>
+     <y>863</y>
      <width>211</width>
      <height>81</height>
     </rect>
@@ -1547,11 +1229,78 @@ Any</string>
     <set>Qt::AlignCenter</set>
    </property>
   </widget>
-  <widget class="PyDMDrawingLine" name="PyDMDrawingLine_30">
+  <widget class="QLabel" name="label_19">
    <property name="geometry">
     <rect>
-     <x>1106</x>
-     <y>179</y>
+     <x>349</x>
+     <y>876</y>
+     <width>211</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>- Closes ROUGH1-VRC-02
+- Opens ROUGH2-VRC-03</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>309</x>
+     <y>330</y>
+     <width>181</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;MC + CAT turbos&lt;br/&gt;not at speed?&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_38">
+   <property name="geometry">
+    <rect>
+     <x>1209</x>
+     <y>110</y>
+     <width>211</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>- 40 minute timeout if not</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_29">
+   <property name="geometry">
+    <rect>
+     <x>760</x>
+     <y>566</y>
+     <width>91</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Step 60:
+Turn off
+Gauges</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="PyDMDrawingLine" name="PyDMDrawingLine_19">
+   <property name="geometry">
+    <rect>
+     <x>755</x>
+     <y>956</y>
      <width>100</width>
      <height>51</height>
     </rect>
@@ -1560,17 +1309,52 @@ Any</string>
     <string/>
    </property>
    <property name="rotation" stdset="0">
-    <double>270.000000000000000</double>
+    <double>90.000000000000000</double>
    </property>
    <property name="arrowEndPoint" stdset="0">
     <bool>true</bool>
    </property>
   </widget>
-  <widget class="PyDMDrawingCircle" name="PyDMDrawingCircle_7">
+  <widget class="PyDMDrawingLine" name="PyDMDrawingLine_22">
    <property name="geometry">
     <rect>
-     <x>251</x>
-     <y>840</y>
+     <x>755</x>
+     <y>652</y>
+     <width>100</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="rotation" stdset="0">
+    <double>90.000000000000000</double>
+   </property>
+   <property name="arrowEndPoint" stdset="0">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="PyDMLabel" name="PyDMLabel">
+   <property name="geometry">
+    <rect>
+     <x>99</x>
+     <y>50</y>
+     <width>231</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="text">
+    <string>AUTOMATION PROCEDURE</string>
+   </property>
+  </widget>
+  <widget class="PyDMDrawingCircle" name="PyDMDrawingCircle_17">
+   <property name="geometry">
+    <rect>
+     <x>1128</x>
+     <y>90</y>
      <width>91</width>
      <height>91</height>
     </rect>
@@ -1591,11 +1375,244 @@ Any</string>
     <enum>Qt::SolidLine</enum>
    </property>
   </widget>
+  <widget class="PyDMDrawingLine" name="PyDMDrawingLine_16">
+   <property name="geometry">
+    <rect>
+     <x>316</x>
+     <y>1128</y>
+     <width>491</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="rotation" stdset="0">
+    <double>0.000000000000000</double>
+   </property>
+   <property name="arrowEndPoint" stdset="0">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_17">
+   <property name="geometry">
+    <rect>
+     <x>269</x>
+     <y>866</y>
+     <width>91</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Step 30:
+DP1 to
+ROUGH2</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="PyDMDrawingLine" name="PyDMDrawingLine_13">
+   <property name="geometry">
+    <rect>
+     <x>263</x>
+     <y>949</y>
+     <width>100</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="rotation" stdset="0">
+    <double>270.000000000000000</double>
+   </property>
+   <property name="arrowEndPoint" stdset="0">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_35">
+   <property name="geometry">
+    <rect>
+     <x>869</x>
+     <y>90</y>
+     <width>211</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;VFVs at 100% ?&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="PyDMDrawingCircle" name="PyDMDrawingCircle">
+   <property name="geometry">
+    <rect>
+     <x>268</x>
+     <y>100</y>
+     <width>91</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="brush" stdset="0">
+    <brush brushstyle="SolidPattern">
+     <color alpha="0">
+      <red>0</red>
+      <green>0</green>
+      <blue>0</blue>
+     </color>
+    </brush>
+   </property>
+   <property name="penStyle" stdset="0">
+    <enum>Qt::SolidLine</enum>
+   </property>
+  </widget>
+  <widget class="PyDMDrawingCircle" name="PyDMDrawingCircle_12">
+   <property name="geometry">
+    <rect>
+     <x>760</x>
+     <y>709</y>
+     <width>91</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="brush" stdset="0">
+    <brush brushstyle="SolidPattern">
+     <color alpha="0">
+      <red>0</red>
+      <green>0</green>
+      <blue>0</blue>
+     </color>
+    </brush>
+   </property>
+   <property name="penStyle" stdset="0">
+    <enum>Qt::SolidLine</enum>
+   </property>
+  </widget>
+  <widget class="PyDMDrawingCircle" name="PyDMDrawingCircle_11">
+   <property name="geometry">
+    <rect>
+     <x>760</x>
+     <y>861</y>
+     <width>91</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="brush" stdset="0">
+    <brush brushstyle="SolidPattern">
+     <color alpha="0">
+      <red>0</red>
+      <green>0</green>
+      <blue>0</blue>
+     </color>
+    </brush>
+   </property>
+   <property name="penStyle" stdset="0">
+    <enum>Qt::SolidLine</enum>
+   </property>
+  </widget>
+  <widget class="PyDMDrawingLine" name="PyDMDrawingLine_27">
+   <property name="geometry">
+    <rect>
+     <x>659</x>
+     <y>133</y>
+     <width>100</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="rotation" stdset="0">
+    <double>90.000000000000000</double>
+   </property>
+   <property name="arrowEndPoint" stdset="0">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_11">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>554</y>
+     <width>361</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>- Closes M45K4, TM2K4, DP1, and CAT valves</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_25">
+   <property name="geometry">
+    <rect>
+     <x>760</x>
+     <y>873</y>
+     <width>91</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Step 50:
+Close
+Roughing</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_34">
+   <property name="geometry">
+    <rect>
+     <x>805</x>
+     <y>183</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;2 min timer&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_40">
+   <property name="geometry">
+    <rect>
+     <x>1140</x>
+     <y>510</y>
+     <width>91</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Step:
+Any</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
   <widget class="PyDMDrawingLine" name="PyDMDrawingLine_14">
    <property name="geometry">
     <rect>
-     <x>96</x>
-     <y>1023</y>
+     <x>117</x>
+     <y>1037</y>
      <width>141</width>
      <height>51</height>
     </rect>
@@ -1611,42 +1628,6 @@ Any</string>
    </property>
    <property name="arrowEndPoint" stdset="0">
     <bool>true</bool>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_20">
-   <property name="geometry">
-    <rect>
-     <x>251</x>
-     <y>1009</y>
-     <width>91</width>
-     <height>61</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Step 32:
-Check
-Positions</string>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignCenter</set>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_24">
-   <property name="geometry">
-    <rect>
-     <x>742</x>
-     <y>1014</y>
-     <width>91</width>
-     <height>61</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Step 40:
-Turn off
-Turbos</string>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignCenter</set>
    </property>
   </widget>
  </widget>
@@ -1665,12 +1646,6 @@ Turbos</string>
    <class>PyDMDrawingLine</class>
    <extends>QWidget</extends>
    <header>pydm.widgets.drawing</header>
-  </customwidget>
-  <customwidget>
-   <class>PyDMFrame</class>
-   <extends>QFrame</extends>
-   <header>pydm.widgets.frame</header>
-   <container>1</container>
   </customwidget>
  </customwidgets>
  <resources/>

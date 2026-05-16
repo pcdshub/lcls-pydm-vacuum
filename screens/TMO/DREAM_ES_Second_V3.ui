@@ -4398,7 +4398,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
         <number>2</number>
        </property>
        <property name="text">
-        <string>8.352 lpm</string>
+        <string>8.388 lpm</string>
        </property>
        <property name="precision" stdset="0">
         <number>3</number>
@@ -10033,7 +10033,7 @@ DOWN SP</string>
         <number>1</number>
        </property>
        <property name="text">
-        <string>10: less than 1e-10 Monitor turbos</string>
+        <string>900:Cancelled by user OR error, closing VFVs</string>
        </property>
        <property name="precision" stdset="0">
         <number>2</number>
@@ -10183,29 +10183,32 @@ DOWN SP</string>
       <widget class="PyDMShellCommand" name="PyDMShellCommand_2">
        <property name="geometry">
         <rect>
-         <x>1342</x>
-         <y>59</y>
-         <width>51</width>
+         <x>1354</x>
+         <y>56</y>
+         <width>41</width>
          <height>31</height>
         </rect>
        </property>
        <property name="toolTip">
         <string/>
        </property>
+       <property name="PyDMIcon" stdset="0">
+        <string>SP_TitleBarContextHelpButton</string>
+       </property>
        <property name="showIcon" stdset="0">
         <bool>true</bool>
        </property>
        <property name="commands" stdset="0">
         <stringlist>
-         <string>pydm /reg/g/pcds/epics-dev/screens/pydm/vacuum/screens/TMO/DREAM_MC_Automation_support.ui</string>
+         <string>pydm /reg/g/pcds/epics-dev/screens/pydm/vacuum/screens/TMO/DREAM_MC_Vent_Help.ui</string>
         </stringlist>
        </property>
       </widget>
       <widget class="QLabel" name="ValveControlText_28">
        <property name="geometry">
         <rect>
-         <x>1249</x>
-         <y>63</y>
+         <x>1270</x>
+         <y>60</y>
          <width>91</width>
          <height>26</height>
         </rect>
@@ -10465,6 +10468,96 @@ DOWN SP</string>
        </property>
        <property name="text">
         <string>Start Timer:</string>
+       </property>
+      </widget>
+      <widget class="PyDMShellCommand" name="PyDMShellCommand_4">
+       <property name="geometry">
+        <rect>
+         <x>1354</x>
+         <y>206</y>
+         <width>41</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="PyDMIcon" stdset="0">
+        <string>SP_TitleBarContextHelpButton</string>
+       </property>
+       <property name="showIcon" stdset="0">
+        <bool>true</bool>
+       </property>
+       <property name="commands" stdset="0">
+        <stringlist>
+         <string>pydm /reg/g/pcds/epics-dev/screens/pydm/vacuum/screens/TMO/DREAM_MC_Pump_Help.ui</string>
+        </stringlist>
+       </property>
+      </widget>
+      <widget class="QLabel" name="ValveControlText_32">
+       <property name="geometry">
+        <rect>
+         <x>1270</x>
+         <y>210</y>
+         <width>91</width>
+         <height>26</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <kerning>false</kerning>
+        </font>
+       </property>
+       <property name="text">
+        <string>Flow Chart:</string>
+       </property>
+      </widget>
+      <widget class="PyDMShellCommand" name="PyDMShellCommand_5">
+       <property name="geometry">
+        <rect>
+         <x>791</x>
+         <y>53</y>
+         <width>41</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="PyDMIcon" stdset="0">
+        <string>SP_TitleBarContextHelpButton</string>
+       </property>
+       <property name="showIcon" stdset="0">
+        <bool>true</bool>
+       </property>
+       <property name="commands" stdset="0">
+        <stringlist>
+         <string>pydm /reg/g/pcds/epics-dev/screens/pydm/vacuum/screens/TMO/DREAM_NC_Vent_Help.ui</string>
+        </stringlist>
+       </property>
+      </widget>
+      <widget class="PyDMShellCommand" name="PyDMShellCommand_6">
+       <property name="geometry">
+        <rect>
+         <x>791</x>
+         <y>188</y>
+         <width>41</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="PyDMIcon" stdset="0">
+        <string>SP_TitleBarContextHelpButton</string>
+       </property>
+       <property name="showIcon" stdset="0">
+        <bool>true</bool>
+       </property>
+       <property name="commands" stdset="0">
+        <stringlist>
+         <string>pydm /reg/g/pcds/epics-dev/screens/pydm/vacuum/screens/TMO/DREAM_NC_Pump_Help.ui</string>
+        </stringlist>
        </property>
       </widget>
       <zorder>PyDMDrawingRectangle_50</zorder>
@@ -10844,6 +10937,10 @@ DOWN SP</string>
       <zorder>ValveControlText_31</zorder>
       <zorder>PyDMLabel_69</zorder>
       <zorder>PyDMLabel_70</zorder>
+      <zorder>PyDMShellCommand_4</zorder>
+      <zorder>ValveControlText_32</zorder>
+      <zorder>PyDMShellCommand_5</zorder>
+      <zorder>PyDMShellCommand_6</zorder>
      </widget>
     </widget>
    </item>
