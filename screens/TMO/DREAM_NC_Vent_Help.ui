@@ -615,7 +615,7 @@ Off</string>
     <string/>
    </property>
    <property name="text">
-    <string>AUTOMATION PROCEDURE</string>
+    <string>Nozzle Chamber Venting Procedure</string>
    </property>
   </widget>
   <widget class="PyDMDrawingLine" name="PyDMDrawingLine_16">

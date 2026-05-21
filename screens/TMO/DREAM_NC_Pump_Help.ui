@@ -926,7 +926,7 @@ Turbos</string>
     <rect>
      <x>40</x>
      <y>20</y>
-     <width>231</width>
+     <width>321</width>
      <height>31</height>
     </rect>
    </property>
@@ -934,7 +934,7 @@ Turbos</string>
     <string/>
    </property>
    <property name="text">
-    <string>AUTOMATION PROCEDURE</string>
+    <string>Nozzle Chamber Pump Down Procedure</string>
    </property>
   </widget>
   <widget class="PyDMDrawingLine" name="PyDMDrawingLine_16">

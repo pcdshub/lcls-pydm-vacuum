@@ -1347,7 +1347,7 @@ Gauges</string>
     <string/>
    </property>
    <property name="text">
-    <string>AUTOMATION PROCEDURE</string>
+    <string>MC Venting Procedure</string>
    </property>
   </widget>
   <widget class="PyDMDrawingCircle" name="PyDMDrawingCircle_17">
