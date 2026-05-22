@@ -4398,7 +4398,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
         <number>2</number>
        </property>
        <property name="text">
-        <string>8.366 lpm</string>
+        <string>8.271 lpm</string>
        </property>
        <property name="precision" stdset="0">
         <number>3</number>
@@ -10011,7 +10011,7 @@ DOWN SP</string>
         <number>1</number>
        </property>
        <property name="text">
-        <string>900:Cancelled by user OR error, closing VFVs</string>
+        <string>10: less than 1e-10 Monitor turbos</string>
        </property>
        <property name="precision" stdset="0">
         <number>2</number>
@@ -10415,7 +10415,7 @@ DOWN SP</string>
         <rect>
          <x>946</x>
          <y>140</y>
-         <width>61</width>
+         <width>81</width>
          <height>20</height>
         </rect>
        </property>
@@ -10423,7 +10423,7 @@ DOWN SP</string>
         <string/>
        </property>
        <property name="text">
-        <string>T#0ms</string>
+        <string>T#10m</string>
        </property>
        <property name="channel" stdset="0">
         <string>ca://DREAM:PLC:TIMER:ET_RBV</string>
@@ -10567,7 +10567,7 @@ DOWN SP</string>
         <string/>
        </property>
        <property name="text">
-        <string>T#0ms</string>
+        <string>T#25m</string>
        </property>
        <property name="channel" stdset="0">
         <string>ca://DREAM:PLC:VENT:TIMER:ET_RBV</string>
@@ -10605,7 +10605,7 @@ DOWN SP</string>
         <string/>
        </property>
        <property name="text">
-        <string>T#30s</string>
+        <string>T#29s60ms</string>
        </property>
        <property name="channel" stdset="0">
         <string>ca://DREAM:PLC:STEP:TIMER:ET_RBV</string>
@@ -10619,7 +10619,7 @@ DOWN SP</string>
         <rect>
          <x>846</x>
          <y>45</y>
-         <width>2</width>
+         <width>4</width>
          <height>185</height>
         </rect>
        </property>
@@ -10656,9 +10656,9 @@ DOWN SP</string>
       <widget class="PyDMByteIndicator" name="PyDMByteIndicator_6">
        <property name="geometry">
         <rect>
-         <x>1408</x>
-         <y>45</y>
-         <width>2</width>
+         <x>1406</x>
+         <y>46</y>
+         <width>4</width>
          <height>185</height>
         </rect>
        </property>
@@ -10669,7 +10669,7 @@ DOWN SP</string>
         <bool>false</bool>
        </property>
        <property name="alarmSensitiveBorder" stdset="0">
-        <bool>false</bool>
+        <bool>true</bool>
        </property>
        <property name="channel" stdset="0">
         <string>ca://DREAM:PLC:AUTO:BEGIN:PROCEDURE_RBV</string>
@@ -10698,7 +10698,7 @@ DOWN SP</string>
          <x>847</x>
          <y>44</y>
          <width>562</width>
-         <height>2</height>
+         <height>4</height>
         </rect>
        </property>
        <property name="toolTip">
@@ -10737,7 +10737,7 @@ DOWN SP</string>
          <x>847</x>
          <y>230</y>
          <width>562</width>
-         <height>2</height>
+         <height>4</height>
         </rect>
        </property>
        <property name="toolTip">
