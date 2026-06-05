@@ -4398,7 +4398,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
         <number>2</number>
        </property>
        <property name="text">
-        <string>8.271 lpm</string>
+        <string>8.332 lpm</string>
        </property>
        <property name="precision" stdset="0">
         <number>3</number>
@@ -7639,7 +7639,7 @@ Controller</string>
        </property>
        <property name="commands" stdset="0">
         <stringlist>
-         <string>/reg/g/pcds/epics-dev/tparas/scripts/repos/tmo-dream-gas-nozzle-automation/run_nc_vent.sh</string>
+         <string>/cds/home/opr/tmoopr/bin/tmo-dream-automation/run_nc_vent.sh</string>
         </stringlist>
        </property>
       </widget>
@@ -7891,7 +7891,7 @@ Controller</string>
        </property>
        <property name="commands" stdset="0">
         <stringlist>
-         <string>/reg/g/pcds/epics-dev/tparas/scripts/repos/tmo-dream-gas-nozzle-automation/run_nc_pump.sh</string>
+         <string>/cds/home/opr/tmoopr/bin/tmo-dream-automation/run_nc_pump.sh</string>
         </stringlist>
        </property>
       </widget>
@@ -8503,7 +8503,7 @@ DOWN SP</string>
        </property>
        <property name="commands" stdset="0">
         <stringlist>
-         <string>/reg/g/pcds/epics-dev/tparas/scripts/repos/tmo-dream-gas-nozzle-automation/run_mc_pump.sh</string>
+         <string>/cds/home/opr/tmoopr/bin/tmo-dream-automation/run_mc_pump.sh</string>
         </stringlist>
        </property>
       </widget>
@@ -10011,7 +10011,7 @@ DOWN SP</string>
         <number>1</number>
        </property>
        <property name="text">
-        <string>10: less than 1e-10 Monitor turbos</string>
+        <string>0:idle</string>
        </property>
        <property name="precision" stdset="0">
         <number>2</number>
@@ -10110,7 +10110,7 @@ DOWN SP</string>
         <number>1</number>
        </property>
        <property name="text">
-        <string/>
+        <string>Monitor turbos</string>
        </property>
        <property name="precision" stdset="0">
         <number>2</number>
@@ -10605,7 +10605,7 @@ DOWN SP</string>
         <string/>
        </property>
        <property name="text">
-        <string>T#29s60ms</string>
+        <string>T#30s</string>
        </property>
        <property name="channel" stdset="0">
         <string>ca://DREAM:PLC:STEP:TIMER:ET_RBV</string>
