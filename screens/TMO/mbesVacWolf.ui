@@ -3608,40 +3608,6 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="PneumaticValve" name="MBES_ROUGH_VRC_02">
-       <property name="geometry">
-        <rect>
-         <x>739</x>
-         <y>1061</y>
-         <width>81</width>
-         <height>121</height>
-        </rect>
-       </property>
-       <property name="toolTip">
-        <string/>
-       </property>
-       <property name="layoutDirection">
-        <enum>Qt::LeftToRight</enum>
-       </property>
-       <property name="controlsLocation" stdset="0">
-        <enum>PCDSSymbolBase::Bottom</enum>
-       </property>
-       <property name="channelsPrefix" stdset="0">
-        <string>ca://MBES:ROUGH:VRC:02</string>
-       </property>
-       <property name="iconSize" stdset="0">
-        <number>32</number>
-       </property>
-       <property name="rotateIcon" stdset="0">
-        <bool>false</bool>
-       </property>
-       <property name="expertOphydClass" stdset="0">
-        <string>pcdsdevices.valve.VRCNO</string>
-       </property>
-       <property name="controlButtonHorizontal" stdset="0">
-        <bool>false</bool>
-       </property>
-      </widget>
       <widget class="QLabel" name="label_67">
        <property name="geometry">
         <rect>
@@ -3732,40 +3698,6 @@ IonPump[state=&quot;FAULT&quot;] #icon {
        </property>
        <property name="wordWrap">
         <bool>true</bool>
-       </property>
-      </widget>
-      <widget class="PneumaticValve" name="MBES_ROUGH_VRC_06">
-       <property name="geometry">
-        <rect>
-         <x>1129</x>
-         <y>883</y>
-         <width>101</width>
-         <height>81</height>
-        </rect>
-       </property>
-       <property name="toolTip">
-        <string/>
-       </property>
-       <property name="layoutDirection">
-        <enum>Qt::LeftToRight</enum>
-       </property>
-       <property name="controlsLocation" stdset="0">
-        <enum>PCDSSymbolBase::Right</enum>
-       </property>
-       <property name="channelsPrefix" stdset="0">
-        <string>ca://MBES:ROUGH:VRC:06</string>
-       </property>
-       <property name="iconSize" stdset="0">
-        <number>32</number>
-       </property>
-       <property name="rotateIcon" stdset="0">
-        <bool>true</bool>
-       </property>
-       <property name="expertOphydClass" stdset="0">
-        <string>pcdsdevices.valve.VRCNO</string>
-       </property>
-       <property name="controlButtonHorizontal" stdset="0">
-        <bool>false</bool>
        </property>
       </widget>
       <widget class="QLabel" name="label_69">
@@ -5389,6 +5321,59 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <bool>false</bool>
        </property>
       </widget>
+      <widget class="PneumaticValveNO" name="PneumaticValveNO">
+       <property name="geometry">
+        <rect>
+         <x>730</x>
+         <y>1060</y>
+         <width>81</width>
+         <height>111</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="channelsPrefix" stdset="0">
+        <string>ca://MBES:ROUGH:VRC:02</string>
+       </property>
+       <property name="expertOphydClass" stdset="0">
+        <string>pcdsdevices.valve.VRCNO</string>
+       </property>
+       <property name="controlButtonHorizontal" stdset="0">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="PneumaticValveNO" name="PneumaticValveNO_2">
+       <property name="geometry">
+        <rect>
+         <x>1126</x>
+         <y>885</y>
+         <width>111</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="controlsLocation" stdset="0">
+        <enum>PCDSSymbolBase::Right</enum>
+       </property>
+       <property name="textLocation" stdset="0">
+        <enum>PCDSSymbolBase::Top</enum>
+       </property>
+       <property name="channelsPrefix" stdset="0">
+        <string>ca://MBES:ROUGH:VRC:06</string>
+       </property>
+       <property name="rotateIcon" stdset="0">
+        <bool>true</bool>
+       </property>
+       <property name="expertOphydClass" stdset="0">
+        <string>pcdsdevices.valve.VRCNO</string>
+       </property>
+       <property name="controlButtonHorizontal" stdset="0">
+        <bool>false</bool>
+       </property>
+      </widget>
       <zorder>line_61</zorder>
       <zorder>MBES_ROUGH_GPI_05</zorder>
       <zorder>NeedleValve_3</zorder>
@@ -5489,11 +5474,9 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <zorder>label_65</zorder>
       <zorder>TMO_ROUGH2_VRC_01</zorder>
       <zorder>label_66</zorder>
-      <zorder>MBES_ROUGH_VRC_02</zorder>
       <zorder>label_67</zorder>
       <zorder>MBES_ROUGH_VRC_05</zorder>
       <zorder>label_68</zorder>
-      <zorder>MBES_ROUGH_VRC_06</zorder>
       <zorder>label_69</zorder>
       <zorder>MBES_GJ2_PTM_04</zorder>
       <zorder>label_59</zorder>
@@ -5552,6 +5535,8 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <zorder>label_144</zorder>
       <zorder>PyDMCheckbox_2</zorder>
       <zorder>PyDMByteIndicator_4</zorder>
+      <zorder>PneumaticValveNO</zorder>
+      <zorder>PneumaticValveNO_2</zorder>
      </widget>
     </widget>
    </item>
@@ -5605,6 +5590,11 @@ IonPump[state=&quot;FAULT&quot;] #icon {
   </customwidget>
   <customwidget>
    <class>PneumaticValve</class>
+   <extends>PCDSSymbolBase</extends>
+   <header>pcdswidgets.vacuum.valves</header>
+  </customwidget>
+  <customwidget>
+   <class>PneumaticValveNO</class>
    <extends>PCDSSymbolBase</extends>
    <header>pcdswidgets.vacuum.valves</header>
   </customwidget>
