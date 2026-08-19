@@ -1046,19 +1046,6 @@ IonPump[state=&quot;FAULT&quot;] #icon {
           <enum>Qt::Vertical</enum>
          </property>
         </widget>
-        <widget class="TyphosSignalPanel" name="TyphosSignalPanel">
-         <property name="geometry">
-          <rect>
-           <x>190</x>
-           <y>315</y>
-           <width>18</width>
-           <height>18</height>
-          </rect>
-         </property>
-         <property name="toolTip">
-          <string/>
-         </property>
-        </widget>
         <widget class="QLabel" name="label_21">
          <property name="geometry">
           <rect>
@@ -1091,7 +1078,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
           <enum>QFrame::Plain</enum>
          </property>
          <property name="text">
-          <string>3.20e-09 Torr</string>
+          <string>ca://HXX:UM6:GCC:01:PMON</string>
          </property>
          <property name="textFormat">
           <enum>Qt::PlainText</enum>
@@ -1502,6 +1489,12 @@ IonPump[state=&quot;FAULT&quot;] #icon {
          <property name="channelsPrefix" stdset="0">
           <string>ca://SP1L2:LODCM:VGC:01</string>
          </property>
+         <property name="showName" stdset="0">
+          <bool>false</bool>
+         </property>
+         <property name="fontSize" stdset="0">
+          <number>10</number>
+         </property>
          <property name="ui_paths" stdset="0">
           <stringlist/>
          </property>
@@ -1513,12 +1506,6 @@ IonPump[state=&quot;FAULT&quot;] #icon {
          </property>
          <property name="controlButtonHorizontal" stdset="0">
           <bool>true</bool>
-         </property>
-         <property name="showName" stdset="0">
-          <bool>false</bool>
-         </property>
-         <property name="fontSize" stdset="0">
-          <number>10</number>
          </property>
         </widget>
         <widget class="QLabel" name="TV6L0_VGC_01_Label_2">
@@ -1581,6 +1568,12 @@ IonPump[state=&quot;FAULT&quot;] #icon {
          <property name="channelsPrefix" stdset="0">
           <string>ca://SP1L2:LODCM:VGC:02</string>
          </property>
+         <property name="showName" stdset="0">
+          <bool>false</bool>
+         </property>
+         <property name="fontSize" stdset="0">
+          <number>10</number>
+         </property>
          <property name="ui_paths" stdset="0">
           <stringlist/>
          </property>
@@ -1592,12 +1585,6 @@ IonPump[state=&quot;FAULT&quot;] #icon {
          </property>
          <property name="controlButtonHorizontal" stdset="0">
           <bool>true</bool>
-         </property>
-         <property name="showName" stdset="0">
-          <bool>false</bool>
-         </property>
-         <property name="fontSize" stdset="0">
-          <number>10</number>
          </property>
         </widget>
         <widget class="QLabel" name="TV6L0_VGC_01_Label_3">
@@ -1628,6 +1615,12 @@ IonPump[state=&quot;FAULT&quot;] #icon {
          <property name="channelsPrefix" stdset="0">
           <string>ca://TV8L0:VGC:01</string>
          </property>
+         <property name="showName" stdset="0">
+          <bool>false</bool>
+         </property>
+         <property name="fontSize" stdset="0">
+          <number>10</number>
+         </property>
          <property name="ui_paths" stdset="0">
           <stringlist>
            <string>/cds/group/pcds/epics-dev/screens/pydm/tmo_screens/vac_screens/interlock_screens/VGC_interlock.ui</string>
@@ -1645,12 +1638,6 @@ IonPump[state=&quot;FAULT&quot;] #icon {
          </property>
          <property name="controlButtonHorizontal" stdset="0">
           <bool>true</bool>
-         </property>
-         <property name="showName" stdset="0">
-          <bool>false</bool>
-         </property>
-         <property name="fontSize" stdset="0">
-          <number>10</number>
          </property>
         </widget>
         <widget class="QLabel" name="TV6L0_VGC_01_Label_4">
@@ -1681,6 +1668,12 @@ IonPump[state=&quot;FAULT&quot;] #icon {
          <property name="channelsPrefix" stdset="0">
           <string>ca://TV7L0:VGC:01</string>
          </property>
+         <property name="showName" stdset="0">
+          <bool>false</bool>
+         </property>
+         <property name="fontSize" stdset="0">
+          <number>10</number>
+         </property>
          <property name="ui_paths" stdset="0">
           <stringlist/>
          </property>
@@ -1692,12 +1685,6 @@ IonPump[state=&quot;FAULT&quot;] #icon {
          </property>
          <property name="controlButtonHorizontal" stdset="0">
           <bool>true</bool>
-         </property>
-         <property name="showName" stdset="0">
-          <bool>false</bool>
-         </property>
-         <property name="fontSize" stdset="0">
-          <number>10</number>
          </property>
         </widget>
         <widget class="QLabel" name="TV6L0_VGC_01_Label_5">
@@ -2024,7 +2011,6 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <zorder>label_20</zorder>
         <zorder>PyDMShellCommand_FEE_2</zorder>
         <zorder>line_4</zorder>
-        <zorder>TyphosSignalPanel</zorder>
         <zorder>label_21</zorder>
         <zorder>PyDMLabel</zorder>
         <zorder>line_34</zorder>
@@ -2112,11 +2098,6 @@ IonPump[state=&quot;FAULT&quot;] #icon {
    <class>PCDSSymbolBase</class>
    <extends>QWidget</extends>
    <header>pcdswidgets.vacuum.base</header>
-  </customwidget>
-  <customwidget>
-   <class>TyphosSignalPanel</class>
-   <extends>QWidget</extends>
-   <header>typhos.panel</header>
   </customwidget>
  </customwidgets>
  <resources/>
