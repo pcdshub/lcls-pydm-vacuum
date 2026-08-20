@@ -815,28 +815,6 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
         <bool>false</bool>
        </property>
       </widget>
-      <widget class="IonPump" name="IonPump_7">
-       <property name="geometry">
-        <rect>
-         <x>468</x>
-         <y>200</y>
-         <width>93</width>
-         <height>101</height>
-        </rect>
-       </property>
-       <property name="toolTip">
-        <string/>
-       </property>
-       <property name="controlsLocation" stdset="0">
-        <enum>PCDSSymbolBase::Bottom</enum>
-       </property>
-       <property name="channelsPrefix" stdset="0">
-        <string>ca://ST1K4:TEST:PIP:01</string>
-       </property>
-       <property name="controlButtonHorizontal" stdset="0">
-        <bool>true</bool>
-       </property>
-      </widget>
       <widget class="Line" name="line_34">
        <property name="geometry">
         <rect>
@@ -1023,7 +1001,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
        </property>
        <property name="ui_macros" stdset="0">
         <stringlist>
-         <string>VGC=TV1K4:VGC:02, USG=TV1K4:GCC:01, DSG=ST1K4:TEST:PIP:01</string>
+         <string>VGC=TV1K4:VGC:02, USG=TV1K4:GCC:01, DSG=IM1K4:PIP:01</string>
         </stringlist>
        </property>
        <property name="ui_titles" stdset="0">
@@ -1053,88 +1031,6 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
        </property>
        <property name="text">
         <string>VGC:02</string>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
-       </property>
-      </widget>
-      <widget class="QLabel" name="label_7">
-       <property name="geometry">
-        <rect>
-         <x>480</x>
-         <y>40</y>
-         <width>120</width>
-         <height>15</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <pointsize>9</pointsize>
-         <weight>50</weight>
-         <bold>false</bold>
-        </font>
-       </property>
-       <property name="text">
-        <string>GPI:01</string>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
-       </property>
-      </widget>
-      <widget class="Line" name="line_35">
-       <property name="geometry">
-        <rect>
-         <x>504</x>
-         <y>72</y>
-         <width>20</width>
-         <height>157</height>
-        </rect>
-       </property>
-       <property name="orientation">
-        <enum>Qt::Vertical</enum>
-       </property>
-      </widget>
-      <widget class="QLabel" name="label_8">
-       <property name="geometry">
-        <rect>
-         <x>420</x>
-         <y>8</y>
-         <width>101</width>
-         <height>20</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <pointsize>9</pointsize>
-         <weight>50</weight>
-         <bold>false</bold>
-        </font>
-       </property>
-       <property name="text">
-        <string>GCC:01</string>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
-       </property>
-      </widget>
-      <widget class="QLabel" name="label_9">
-       <property name="geometry">
-        <rect>
-         <x>496</x>
-         <y>208</y>
-         <width>120</width>
-         <height>15</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <pointsize>9</pointsize>
-         <weight>50</weight>
-         <bold>false</bold>
-        </font>
-       </property>
-       <property name="text">
-        <string>PIP:01</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignCenter</set>
@@ -1327,28 +1223,6 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
         <string>vacuumscreens/templates/GCC_GPI.ui</string>
        </property>
       </widget>
-      <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_7">
-       <property name="geometry">
-        <rect>
-         <x>408</x>
-         <y>24</y>
-         <width>201</width>
-         <height>105</height>
-        </rect>
-       </property>
-       <property name="toolTip">
-        <string/>
-       </property>
-       <property name="lineWidth">
-        <number>0</number>
-       </property>
-       <property name="macros" stdset="0">
-        <string>{&quot;GCC&quot;: &quot;ST1K4:TEST:GCC:01&quot; , &quot;GPI&quot;: &quot;ST1K4:TEST:GPI:01&quot;}</string>
-       </property>
-       <property name="filename" stdset="0">
-        <string>vacuumscreens/templates/GCC_GPI.ui</string>
-       </property>
-      </widget>
       <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_8">
        <property name="geometry">
         <rect>
@@ -1472,7 +1346,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
       <widget class="QLabel" name="RTDSL0_YAGXRAY_6">
        <property name="geometry">
         <rect>
-         <x>404</x>
+         <x>440</x>
          <y>148</y>
          <width>57</width>
          <height>33</height>
@@ -1486,31 +1360,6 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
        </property>
        <property name="text">
         <string>IM1K4</string>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
-       </property>
-       <property name="wordWrap">
-        <bool>true</bool>
-       </property>
-      </widget>
-      <widget class="QLabel" name="RTDSL0_YAGXRAY_7">
-       <property name="geometry">
-        <rect>
-         <x>488</x>
-         <y>148</y>
-         <width>57</width>
-         <height>33</height>
-        </rect>
-       </property>
-       <property name="autoFillBackground">
-        <bool>true</bool>
-       </property>
-       <property name="frameShape">
-        <enum>QFrame::Box</enum>
-       </property>
-       <property name="text">
-        <string>ST1K4-TEST</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignCenter</set>
@@ -1569,40 +1418,70 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
         <bool>true</bool>
        </property>
       </widget>
+      <widget class="IonPump" name="IonPump_9">
+       <property name="geometry">
+        <rect>
+         <x>420</x>
+         <y>210</y>
+         <width>101</width>
+         <height>97</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="controlsLocation" stdset="0">
+        <enum>PCDSSymbolBase::Bottom</enum>
+       </property>
+       <property name="channelsPrefix" stdset="0">
+        <string>ca://IM1K4:PIP:01</string>
+       </property>
+       <property name="controlButtonHorizontal" stdset="0">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="Line" name="line_35">
+       <property name="geometry">
+        <rect>
+         <x>460</x>
+         <y>170</y>
+         <width>20</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+      </widget>
+      <zorder>line_35</zorder>
       <zorder>line_34</zorder>
       <zorder>line_23</zorder>
       <zorder>line_37</zorder>
-      <zorder>line_35</zorder>
       <zorder>PneumaticValve_2</zorder>
-      <zorder>IonPump_7</zorder>
       <zorder>label_2</zorder>
       <zorder>FastShutter</zorder>
       <zorder>label_3</zorder>
       <zorder>label_4</zorder>
       <zorder>PneumaticValve_3</zorder>
       <zorder>label_6</zorder>
-      <zorder>label_8</zorder>
-      <zorder>label_9</zorder>
       <zorder>label_10</zorder>
       <zorder>line_36</zorder>
       <zorder>IonPump_10</zorder>
       <zorder>IonPump_11</zorder>
       <zorder>label_13</zorder>
       <zorder>PyDMEmbeddedDisplay_6</zorder>
-      <zorder>PyDMEmbeddedDisplay_7</zorder>
       <zorder>PyDMEmbeddedDisplay_8</zorder>
       <zorder>IonPump_8</zorder>
       <zorder>label_17</zorder>
       <zorder>label_5</zorder>
-      <zorder>label_7</zorder>
       <zorder>RTDSL0_YAGXRAY_4</zorder>
       <zorder>RTDSL0_YAGXRAY_5</zorder>
       <zorder>RTDSL0_YAGXRAY_6</zorder>
-      <zorder>RTDSL0_YAGXRAY_7</zorder>
       <zorder>RTDSL0_YAGXRAY_8</zorder>
       <zorder>label_11</zorder>
       <zorder>label_12</zorder>
       <zorder>RTDSL0_YAGXRAY_9</zorder>
+      <zorder>IonPump_9</zorder>
      </widget>
     </widget>
    </item>
