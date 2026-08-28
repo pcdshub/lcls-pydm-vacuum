@@ -3280,7 +3280,7 @@ Vacuum</string>
         <enum>QFrame::Box</enum>
        </property>
        <property name="text">
-        <string>ST1K4-TEST</string>
+        <string>ST1K0</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignCenter</set>
@@ -3305,7 +3305,7 @@ Vacuum</string>
         <number>0</number>
        </property>
        <property name="macros" stdset="0">
-        <string>{&quot;GCC&quot;: &quot;ST1K4:TEST:GCC:01&quot; , &quot;GPI&quot;: &quot;ST1K4:TEST:GPI:01&quot;}</string>
+        <string>{&quot;GCC&quot;: &quot;ST1K0:GCC:01&quot; , &quot;GPI&quot;: &quot;ST1K0:GPI:01&quot;}</string>
        </property>
        <property name="filename" stdset="0">
         <string>vacuumscreens/templates/GCC_GPI.ui</string>
@@ -3363,7 +3363,7 @@ Vacuum</string>
         <enum>PCDSSymbolBase::Bottom</enum>
        </property>
        <property name="channelsPrefix" stdset="0">
-        <string>ca://ST1K4:TEST:PIP:01</string>
+        <string>ca://ST1K0:PIP:01</string>
        </property>
        <property name="controlButtonHorizontal" stdset="0">
         <bool>true</bool>
