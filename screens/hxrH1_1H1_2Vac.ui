@@ -1078,7 +1078,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
           <enum>QFrame::Plain</enum>
          </property>
          <property name="text">
-          <string>ca://HXX:UM6:GCC:01:PMON</string>
+          <string>1.60e-09 Torr</string>
          </property>
          <property name="textFormat">
           <enum>Qt::PlainText</enum>
