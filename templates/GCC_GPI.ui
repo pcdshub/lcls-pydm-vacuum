@@ -75,7 +75,7 @@
    <widget class="RoughGauge" name="GPI">
     <property name="geometry">
      <rect>
-      <x>84</x>
+      <x>88</x>
       <y>32</y>
       <width>81</width>
       <height>71</height>
@@ -92,8 +92,8 @@
     </property>
    </widget>
    <zorder>line_1</zorder>
-   <zorder>GCC</zorder>
    <zorder>GPI</zorder>
+   <zorder>GCC</zorder>
   </widget>
  </widget>
  <customwidgets>

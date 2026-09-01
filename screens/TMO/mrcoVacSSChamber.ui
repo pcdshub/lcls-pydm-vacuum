@@ -9,7 +9,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1319</width>
+    <width>1225</width>
     <height>1219</height>
    </rect>
   </property>
@@ -771,7 +771,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <property name="geometry">
        <rect>
         <x>0</x>
-        <y>9</y>
+        <y>2</y>
         <width>1300</width>
         <height>1182</height>
        </rect>
@@ -2091,8 +2091,8 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="QLabel" name="label_32">
        <property name="geometry">
         <rect>
-         <x>810</x>
-         <y>990</y>
+         <x>790</x>
+         <y>900</y>
          <width>100</width>
          <height>30</height>
         </rect>
@@ -4113,6 +4113,141 @@ p, li { white-space: pre-wrap; }
         <enum>Qt::Vertical</enum>
        </property>
       </widget>
+      <widget class="NeedleValve" name="NeedleValve">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>860</y>
+         <width>180</width>
+         <height>82</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="channelsPrefix" stdset="0">
+        <string>ca://TMO:ROUGH1:VFV:02</string>
+       </property>
+      </widget>
+      <widget class="NeedleValve" name="NeedleValve_2">
+       <property name="geometry">
+        <rect>
+         <x>900</x>
+         <y>1000</y>
+         <width>180</width>
+         <height>82</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="channelsPrefix" stdset="0">
+        <string>ca://TMO:ROUGH2:VFV:01</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_56">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>830</y>
+         <width>100</width>
+         <height>30</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>9</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="lineWidth">
+        <number>1</number>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;TMO:ROUGH1:&lt;br/&gt;VFV:02&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="Line" name="line_93">
+       <property name="geometry">
+        <rect>
+         <x>260</x>
+         <y>890</y>
+         <width>31</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+      </widget>
+      <widget class="Line" name="line_60">
+       <property name="geometry">
+        <rect>
+         <x>780</x>
+         <y>950</y>
+         <width>201</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+         <horstretch>10</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+      <widget class="Line" name="line_94">
+       <property name="geometry">
+        <rect>
+         <x>970</x>
+         <y>960</y>
+         <width>31</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_57">
+       <property name="geometry">
+        <rect>
+         <x>930</x>
+         <y>970</y>
+         <width>100</width>
+         <height>30</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>9</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="lineWidth">
+        <number>1</number>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;TMO:ROUGH2:&lt;br/&gt;VFV:01&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
       <zorder>line_92</zorder>
       <zorder>line_86</zorder>
       <zorder>line_70</zorder>
@@ -4245,6 +4380,13 @@ p, li { white-space: pre-wrap; }
       <zorder>line_90</zorder>
       <zorder>line_91</zorder>
       <zorder>PneumaticValve_7</zorder>
+      <zorder>NeedleValve</zorder>
+      <zorder>NeedleValve_2</zorder>
+      <zorder>label_56</zorder>
+      <zorder>line_93</zorder>
+      <zorder>line_60</zorder>
+      <zorder>line_94</zorder>
+      <zorder>label_57</zorder>
      </widget>
     </widget>
    </item>
@@ -4295,6 +4437,11 @@ p, li { white-space: pre-wrap; }
    <class>HotCathodeGauge</class>
    <extends>PCDSSymbolBase</extends>
    <header>pcdswidgets.vacuum.gauges</header>
+  </customwidget>
+  <customwidget>
+   <class>NeedleValve</class>
+   <extends>PCDSSymbolBase</extends>
+   <header>pcdswidgets.vacuum.valves</header>
   </customwidget>
   <customwidget>
    <class>PneumaticValve</class>
