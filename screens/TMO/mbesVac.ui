@@ -799,44 +799,6 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <height>16777215</height>
        </size>
       </property>
-      <widget class="PyDMCheckbox" name="PyDMCheckbox">
-       <property name="geometry">
-        <rect>
-         <x>10</x>
-         <y>50</y>
-         <width>14</width>
-         <height>15</height>
-        </rect>
-       </property>
-       <property name="toolTip">
-        <string/>
-       </property>
-       <property name="checked">
-        <bool>false</bool>
-       </property>
-       <property name="alarmSensitiveContent" stdset="0">
-        <bool>false</bool>
-       </property>
-       <property name="alarmSensitiveBorder" stdset="0">
-        <bool>false</bool>
-       </property>
-       <property name="channel" stdset="0">
-        <string>ca://PLC:CVMI:VAC:OVRDON</string>
-       </property>
-      </widget>
-      <widget class="QLabel" name="label">
-       <property name="geometry">
-        <rect>
-         <x>30</x>
-         <y>40</y>
-         <width>141</width>
-         <height>51</height>
-        </rect>
-       </property>
-       <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&amp;lt;-- Check this box to&lt;br/&gt; disable interlocks&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-       </property>
-      </widget>
       <widget class="PyDMLabel" name="CVMI_VACUUM_LABEL">
        <property name="geometry">
         <rect>
@@ -1789,7 +1751,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <enum>Qt::Horizontal</enum>
        </property>
        <property name="labelPosition" stdset="0">
-        <enum>QTabWidget::South</enum>
+        <enum>QTabWidget::North</enum>
        </property>
        <property name="labels" stdset="0">
         <stringlist>
@@ -1830,7 +1792,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <enum>Qt::Horizontal</enum>
        </property>
        <property name="labelPosition" stdset="0">
-        <enum>QTabWidget::South</enum>
+        <enum>QTabWidget::North</enum>
        </property>
        <property name="labels" stdset="0">
         <stringlist>
@@ -1871,7 +1833,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <enum>Qt::Horizontal</enum>
        </property>
        <property name="labelPosition" stdset="0">
-        <enum>QTabWidget::South</enum>
+        <enum>QTabWidget::North</enum>
        </property>
        <property name="labels" stdset="0">
         <stringlist>
@@ -2420,7 +2382,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <widget class="TurboPump" name="MBES_MAIN_PTM_02">
        <property name="geometry">
         <rect>
-         <x>654</x>
+         <x>660</x>
          <y>50</y>
          <width>111</width>
          <height>81</height>
@@ -2602,7 +2564,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <number>0</number>
        </property>
        <property name="text">
-        <string>GJ1</string>
+        <string>GJ1 (LAMP)</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignCenter</set>
@@ -3085,7 +3047,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <number>0</number>
        </property>
        <property name="text">
-        <string>GJ2</string>
+        <string>GJ2 (cVMI)</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignCenter</set>
@@ -3504,14 +3466,14 @@ IonPump[state=&quot;FAULT&quot;] #icon {
        <property name="channelsPrefix" stdset="0">
         <string>ca://MBES:ROUGH:GPI:06</string>
        </property>
+       <property name="showName" stdset="0">
+        <bool>false</bool>
+       </property>
        <property name="showStatusTooltip" stdset="0">
         <bool>true</bool>
        </property>
        <property name="iconSize" stdset="0">
         <number>32</number>
-       </property>
-       <property name="showName" stdset="0">
-        <bool>false</bool>
        </property>
       </widget>
       <widget class="QLabel" name="label_37">
@@ -5385,14 +5347,14 @@ IonPump[state=&quot;FAULT&quot;] #icon {
        <property name="channelsPrefix" stdset="0">
         <string>ca://MBES:GJ1:GPI:01</string>
        </property>
+       <property name="showName" stdset="0">
+        <bool>false</bool>
+       </property>
        <property name="showStatusTooltip" stdset="0">
         <bool>true</bool>
        </property>
        <property name="iconSize" stdset="0">
         <number>32</number>
-       </property>
-       <property name="showName" stdset="0">
-        <bool>false</bool>
        </property>
       </widget>
       <widget class="QLabel" name="label_38">
@@ -6025,6 +5987,89 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <bool>true</bool>
        </property>
       </widget>
+      <widget class="PyDMByteIndicator" name="PyDMByteIndicator_4">
+       <property name="geometry">
+        <rect>
+         <x>215</x>
+         <y>105</y>
+         <width>26</width>
+         <height>26</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="channel" stdset="0">
+        <string>ca://PLC:MBES:VAC:OVRDON_RBV</string>
+       </property>
+       <property name="showLabels" stdset="0">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="PyDMCheckbox" name="PyDMCheckbox_2">
+       <property name="geometry">
+        <rect>
+         <x>15</x>
+         <y>103</y>
+         <width>21</width>
+         <height>26</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="channel" stdset="0">
+        <string>ca://PLC:MBES:VAC:OVRDON</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_144">
+       <property name="geometry">
+        <rect>
+         <x>35</x>
+         <y>103</y>
+         <width>171</width>
+         <height>26</height>
+        </rect>
+       </property>
+       <property name="lineWidth">
+        <number>0</number>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:8pt; font-weight:600;&quot;&gt;GLOBAL OVERRIDE BIT&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_12">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>100</y>
+         <width>241</width>
+         <height>36</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="brush" stdset="0">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>239</red>
+          <green>239</green>
+          <blue>239</blue>
+         </color>
+        </brush>
+       </property>
+       <property name="penStyle" stdset="0">
+        <enum>Qt::SolidLine</enum>
+       </property>
+       <property name="penWidth" stdset="0">
+        <double>2.000000000000000</double>
+       </property>
+      </widget>
+      <zorder>PyDMDrawingRectangle_12</zorder>
       <zorder>NeedleValve_3</zorder>
       <zorder>line_111</zorder>
       <zorder>line_152</zorder>
@@ -6062,8 +6107,6 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <zorder>line_91</zorder>
       <zorder>PyDMDrawingRectangle_10</zorder>
       <zorder>PyDMDrawingRectangle_9</zorder>
-      <zorder>PyDMCheckbox</zorder>
-      <zorder>label</zorder>
       <zorder>CVMI_VACUUM_LABEL</zorder>
       <zorder>MBES_ROUGH_GPI_02</zorder>
       <zorder>PA1K0_label_9</zorder>
@@ -6208,6 +6251,9 @@ IonPump[state=&quot;FAULT&quot;] #icon {
       <zorder>label_40</zorder>
       <zorder>MBES_MAIN_GHC_2</zorder>
       <zorder>label_81</zorder>
+      <zorder>PyDMByteIndicator_4</zorder>
+      <zorder>PyDMCheckbox_2</zorder>
+      <zorder>label_144</zorder>
      </widget>
     </widget>
    </item>
