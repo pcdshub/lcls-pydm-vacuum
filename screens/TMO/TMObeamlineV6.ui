@@ -935,7 +935,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
         <string/>
        </property>
        <property name="checked">
-        <bool>false</bool>
+        <bool>true</bool>
        </property>
        <property name="alarmSensitiveContent" stdset="0">
         <bool>false</bool>
@@ -3864,7 +3864,7 @@ PPM</string>
        </property>
        <property name="commands" stdset="0">
         <stringlist>
-         <string>pydm /cds/group/pcds/epics-dev/screens/pydm/vacuumscreens/screens/TMO/mrcoVacSSChamber.ui</string>
+         <string>pydm /reg/g/pcds/epics-dev/screens/pydm/vacuumscreens/screens/TMO/mbesVac.ui</string>
         </stringlist>
        </property>
        <property name="passwordProtected" stdset="0">
@@ -4275,7 +4275,7 @@ PPM</string>
         <string/>
        </property>
        <property name="text">
-        <string>MRCO</string>
+        <string>MBES</string>
        </property>
        <property name="channel" stdset="0">
         <string>ca://TMO:IP1:PLC:NAME_RBV</string>
