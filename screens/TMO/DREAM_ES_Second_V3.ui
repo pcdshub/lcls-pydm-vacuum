@@ -4398,7 +4398,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
         <number>2</number>
        </property>
        <property name="text">
-        <string>8.332 lpm</string>
+        <string>8.551 lpm</string>
        </property>
        <property name="precision" stdset="0">
         <number>3</number>
@@ -5672,9 +5672,9 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
        <property name="brush" stdset="0">
         <brush brushstyle="SolidPattern">
          <color alpha="255">
-          <red>239</red>
-          <green>239</green>
-          <blue>239</blue>
+          <red>230</red>
+          <green>227</green>
+          <blue>227</blue>
          </color>
         </brush>
        </property>
@@ -7505,9 +7505,9 @@ Controller</string>
        <property name="brush" stdset="0">
         <brush brushstyle="SolidPattern">
          <color alpha="255">
-          <red>239</red>
-          <green>239</green>
-          <blue>239</blue>
+          <red>198</red>
+          <green>203</green>
+          <blue>203</blue>
          </color>
         </brush>
        </property>
@@ -8203,7 +8203,7 @@ DOWN SP</string>
        </property>
        <property name="commands" stdset="0">
         <stringlist>
-         <string>/reg/g/pcds/epics-dev/tparas/scripts/repos/tmo-dream-gas-nozzle-automation/setpoints/venting_dream_nc_pump_setpoints.sh</string>
+         <string>/cds/home/opr/tmoopr/bin/tmo-dream-automation/setpoints/venting_dream_nc_pump_setpoints.sh</string>
         </stringlist>
        </property>
       </widget>
@@ -8238,7 +8238,7 @@ DOWN SP</string>
        </property>
        <property name="commands" stdset="0">
         <stringlist>
-         <string>/reg/g/pcds/epics-dev/tparas/scripts/repos/tmo-dream-gas-nozzle-automation/setpoints/at_vac_dream_nc_pump_setpoints.sh</string>
+         <string>/cds/home/opr/tmoopr/bin/tmo-dream-automation/setpoints/at_vac_dream_nc_pump_setpoints.sh</string>
         </stringlist>
        </property>
       </widget>
@@ -8433,7 +8433,7 @@ DOWN SP</string>
        </property>
        <property name="commands" stdset="0">
         <stringlist>
-         <string>/reg/g/pcds/epics-dev/tparas/scripts/repos/tmo-dream-gas-nozzle-automation/setpoints/venting_dream_mc_pump_setpoints.sh</string>
+         <string>/cds/home/opr/tmoopr/bin/tmo-dream-automation/setpoints/venting_dream_mc_pump_setpoints.sh</string>
         </stringlist>
        </property>
       </widget>
@@ -8468,7 +8468,7 @@ DOWN SP</string>
        </property>
        <property name="commands" stdset="0">
         <stringlist>
-         <string>/reg/g/pcds/epics-dev/tparas/scripts/repos/tmo-dream-gas-nozzle-automation/setpoints/at_vac_dream_mc_pump_setpoints.sh</string>
+         <string>/cds/home/opr/tmoopr/bin/tmo-dream-automation/setpoints/at_vac_dream_mc_pump_setpoints.sh</string>
         </stringlist>
        </property>
       </widget>
@@ -8558,7 +8558,7 @@ DOWN SP</string>
         <number>1</number>
        </property>
        <property name="text">
-        <string>EXIT</string>
+        <string>WAIT_FOR_5e_MINUS_4</string>
        </property>
        <property name="precision" stdset="0">
         <number>2</number>
@@ -10011,7 +10011,7 @@ DOWN SP</string>
         <number>1</number>
        </property>
        <property name="text">
-        <string>0:idle</string>
+        <string>900:Cancelled by user OR error, closing VFVs</string>
        </property>
        <property name="precision" stdset="0">
         <number>2</number>
@@ -10110,7 +10110,7 @@ DOWN SP</string>
         <number>1</number>
        </property>
        <property name="text">
-        <string>Monitor turbos</string>
+        <string/>
        </property>
        <property name="precision" stdset="0">
         <number>2</number>
@@ -10423,7 +10423,7 @@ DOWN SP</string>
         <string/>
        </property>
        <property name="text">
-        <string>T#10m</string>
+        <string>T#0ms</string>
        </property>
        <property name="channel" stdset="0">
         <string>ca://DREAM:PLC:TIMER:ET_RBV</string>
@@ -10567,7 +10567,7 @@ DOWN SP</string>
         <string/>
        </property>
        <property name="text">
-        <string>T#25m</string>
+        <string>T#0ms</string>
        </property>
        <property name="channel" stdset="0">
         <string>ca://DREAM:PLC:VENT:TIMER:ET_RBV</string>
