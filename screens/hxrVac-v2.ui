@@ -457,7 +457,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
        <widget class="QWidget" name="scrollAreaWidgetContents">
         <property name="geometry">
          <rect>
-          <x>-1950</x>
+          <x>0</x>
           <y>0</y>
           <width>3650</width>
           <height>620</height>
@@ -3638,7 +3638,7 @@ EM2L0-GEM</string>
         </widget>
         <widget class="IonPump" name="TV3L0_PIP_2">
          <property name="enabled">
-          <bool>false</bool>
+          <bool>true</bool>
          </property>
          <property name="geometry">
           <rect>
@@ -3688,19 +3688,6 @@ EM2L0-GEM</string>
          </property>
          <property name="text">
           <string>TV3L0-PIP-01</string>
-         </property>
-        </widget>
-        <widget class="QLabel" name="label_39">
-         <property name="geometry">
-          <rect>
-           <x>2870</x>
-           <y>600</y>
-           <width>131</width>
-           <height>16</height>
-          </rect>
-         </property>
-         <property name="text">
-          <string>Cable not connected</string>
          </property>
         </widget>
         <widget class="QLabel" name="SL1L0_POWER_2">
@@ -3947,7 +3934,6 @@ EM2L0-GEM</string>
         <zorder>label_36</zorder>
         <zorder>TV3L0_PIP_2</zorder>
         <zorder>label_38</zorder>
-        <zorder>label_39</zorder>
         <zorder>SL1L0_POWER_2</zorder>
         <zorder>SL1L0_POWER_3</zorder>
         <zorder>SL1L0_POWER_4</zorder>
