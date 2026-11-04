@@ -4249,7 +4249,7 @@ PPM</string>
         <enum>Qt::Horizontal</enum>
        </property>
        <property name="labelPosition" stdset="0">
-        <enum>QTabWidget::South</enum>
+        <enum>QTabWidget::North</enum>
        </property>
        <property name="labels" stdset="0">
         <stringlist>
@@ -4358,7 +4358,7 @@ PPM</string>
         <enum>Qt::Horizontal</enum>
        </property>
        <property name="labelPosition" stdset="0">
-        <enum>QTabWidget::South</enum>
+        <enum>QTabWidget::North</enum>
        </property>
        <property name="labels" stdset="0">
         <stringlist>
@@ -4399,7 +4399,7 @@ PPM</string>
         <enum>Qt::Horizontal</enum>
        </property>
        <property name="labelPosition" stdset="0">
-        <enum>QTabWidget::South</enum>
+        <enum>QTabWidget::North</enum>
        </property>
        <property name="labels" stdset="0">
         <stringlist>
@@ -4440,7 +4440,7 @@ PPM</string>
         <enum>Qt::Horizontal</enum>
        </property>
        <property name="labelPosition" stdset="0">
-        <enum>QTabWidget::South</enum>
+        <enum>QTabWidget::North</enum>
        </property>
        <property name="labels" stdset="0">
         <stringlist>
@@ -5378,7 +5378,7 @@ p, li { white-space: pre-wrap; }
         <enum>Qt::Horizontal</enum>
        </property>
        <property name="labelPosition" stdset="0">
-        <enum>QTabWidget::South</enum>
+        <enum>QTabWidget::North</enum>
        </property>
        <property name="labels" stdset="0">
         <stringlist>
@@ -7401,7 +7401,7 @@ p, li { white-space: pre-wrap; }
         <enum>Qt::Horizontal</enum>
        </property>
        <property name="labelPosition" stdset="0">
-        <enum>QTabWidget::South</enum>
+        <enum>QTabWidget::North</enum>
        </property>
        <property name="labels" stdset="0">
         <stringlist>
@@ -7442,7 +7442,7 @@ p, li { white-space: pre-wrap; }
         <enum>Qt::Horizontal</enum>
        </property>
        <property name="labelPosition" stdset="0">
-        <enum>QTabWidget::South</enum>
+        <enum>QTabWidget::North</enum>
        </property>
        <property name="labels" stdset="0">
         <stringlist>
@@ -7483,7 +7483,7 @@ p, li { white-space: pre-wrap; }
         <enum>Qt::Horizontal</enum>
        </property>
        <property name="labelPosition" stdset="0">
-        <enum>QTabWidget::South</enum>
+        <enum>QTabWidget::North</enum>
        </property>
        <property name="labels" stdset="0">
         <stringlist>
@@ -8083,6 +8083,48 @@ p, li { white-space: pre-wrap; }
         <string>   Fail</string>
        </property>
       </widget>
+      <widget class="PyDMShellCommand" name="PyDMShellCommand_6">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>660</y>
+         <width>181</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="text">
+        <string>Start Vacuum Watchdog</string>
+       </property>
+       <property name="commands" stdset="0">
+        <stringlist>
+         <string>/sdf/home/t/tmoopr/bin/start_vacuum_watchdog.sh</string>
+        </stringlist>
+       </property>
+      </widget>
+      <widget class="PyDMShellCommand" name="PyDMShellCommand_7">
+       <property name="geometry">
+        <rect>
+         <x>47</x>
+         <y>710</y>
+         <width>181</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="text">
+        <string>Stop Vacuum Watchdog</string>
+       </property>
+       <property name="commands" stdset="0">
+        <stringlist>
+         <string>/sdf/home/t/tmoopr/bin/stop_vacuum_watchdog.sh</string>
+        </stringlist>
+       </property>
+      </widget>
       <zorder>IM1K0_box_22</zorder>
       <zorder>line_92</zorder>
       <zorder>IM1K0_box_31</zorder>
@@ -8340,6 +8382,8 @@ p, li { white-space: pre-wrap; }
       <zorder>label_47</zorder>
       <zorder>label_48</zorder>
       <zorder>label_49</zorder>
+      <zorder>PyDMShellCommand_6</zorder>
+      <zorder>PyDMShellCommand_7</zorder>
      </widget>
     </widget>
    </item>
