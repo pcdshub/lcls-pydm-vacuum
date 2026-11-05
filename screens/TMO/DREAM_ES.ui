@@ -4386,7 +4386,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
         <number>2</number>
        </property>
        <property name="text">
-        <string>8.068 lpm</string>
+        <string>8.326 lpm</string>
        </property>
        <property name="precision" stdset="0">
         <number>3</number>
@@ -5925,7 +5925,7 @@ Controller</string>
       </widget>
       <widget class="PyDMLabel" name="ValveControlMode_RBV">
        <property name="enabled">
-        <bool>true</bool>
+        <bool>false</bool>
        </property>
        <property name="geometry">
         <rect>
@@ -5956,7 +5956,7 @@ Controller</string>
         <number>1</number>
        </property>
        <property name="text">
-        <string>STANDBY</string>
+        <string>ca://PLC:DREAM:OPERATION_RBV</string>
        </property>
        <property name="precision" stdset="0">
         <number>2</number>
@@ -6072,7 +6072,7 @@ Controller</string>
       </widget>
       <widget class="PyDMLabel" name="ValveControlMode_RBV_2">
        <property name="enabled">
-        <bool>true</bool>
+        <bool>false</bool>
        </property>
        <property name="geometry">
         <rect>
@@ -6103,7 +6103,7 @@ Controller</string>
         <number>1</number>
        </property>
        <property name="text">
-        <string>Initialization completed</string>
+        <string>ca://PLC:DREAM:OPERATION:MESSAGE_RBV</string>
        </property>
        <property name="precision" stdset="0">
         <number>2</number>
@@ -6223,7 +6223,7 @@ Controller</string>
       </widget>
       <widget class="PyDMLabel" name="ValveControlMode_RBV_5">
        <property name="enabled">
-        <bool>true</bool>
+        <bool>false</bool>
        </property>
        <property name="geometry">
         <rect>
@@ -6254,7 +6254,7 @@ Controller</string>
         <number>1</number>
        </property>
        <property name="text">
-        <string>NOT_BUSY</string>
+        <string>ca://PLC:DREAM:OPERATION:BUSY_RBV</string>
        </property>
        <property name="precision" stdset="0">
         <number>2</number>
@@ -7795,6 +7795,48 @@ Controller</string>
         <enum>Qt::Vertical</enum>
        </property>
       </widget>
+      <widget class="PyDMShellCommand" name="PyDMShellCommand_2">
+       <property name="geometry">
+        <rect>
+         <x>560</x>
+         <y>60</y>
+         <width>161</width>
+         <height>26</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="text">
+        <string>Start Watchdog</string>
+       </property>
+       <property name="commands" stdset="0">
+        <stringlist>
+         <string>/sdf/home/t/tmoopr/bin/start_dream_vacuum_watchdog.sh</string>
+        </stringlist>
+       </property>
+      </widget>
+      <widget class="PyDMShellCommand" name="PyDMShellCommand_4">
+       <property name="geometry">
+        <rect>
+         <x>760</x>
+         <y>60</y>
+         <width>161</width>
+         <height>26</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="text">
+        <string>Stop Watchdog</string>
+       </property>
+       <property name="commands" stdset="0">
+        <stringlist>
+         <string>/sdf/home/t/tmoopr/bin/stop_dream_vacuum_watchdog.sh</string>
+        </stringlist>
+       </property>
+      </widget>
       <zorder>line_164</zorder>
       <zorder>PyDMDrawingRectangle_22</zorder>
       <zorder>line_163</zorder>
@@ -8094,6 +8136,8 @@ Controller</string>
       <zorder>PyDMDrawingRectangle_24</zorder>
       <zorder>label_159</zorder>
       <zorder>PyDMByteIndicator_6</zorder>
+      <zorder>PyDMShellCommand_2</zorder>
+      <zorder>PyDMShellCommand_4</zorder>
      </widget>
     </widget>
    </item>
