@@ -2564,7 +2564,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
         <number>0</number>
        </property>
        <property name="text">
-        <string>GJ1 (LAMP)</string>
+        <string>GJ1 (MBES)</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignCenter</set>

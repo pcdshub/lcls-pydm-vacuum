@@ -8125,6 +8125,44 @@ p, li { white-space: pre-wrap; }
         </stringlist>
        </property>
       </widget>
+      <widget class="QLabel" name="label_50">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>100</y>
+         <width>361</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>&lt;-- Check this box for IP1 pipe replace</string>
+       </property>
+      </widget>
+      <widget class="PyDMCheckbox" name="PyDMCheckbox_3">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>100</y>
+         <width>14</width>
+         <height>15</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+       <property name="alarmSensitiveContent" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="alarmSensitiveBorder" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="channel" stdset="0">
+        <string>ca://Pipe:replace:IP1</string>
+       </property>
+      </widget>
       <zorder>IM1K0_box_22</zorder>
       <zorder>line_92</zorder>
       <zorder>IM1K0_box_31</zorder>
@@ -8384,6 +8422,8 @@ p, li { white-space: pre-wrap; }
       <zorder>label_49</zorder>
       <zorder>PyDMShellCommand_6</zorder>
       <zorder>PyDMShellCommand_7</zorder>
+      <zorder>label_50</zorder>
+      <zorder>PyDMCheckbox_3</zorder>
      </widget>
     </widget>
    </item>
