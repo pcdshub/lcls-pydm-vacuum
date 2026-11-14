@@ -4386,7 +4386,7 @@ FastShutter[error=&quot;Open Timeout&quot;] #icon {
         <number>2</number>
        </property>
        <property name="text">
-        <string>8.326 lpm</string>
+        <string>8.328 lpm</string>
        </property>
        <property name="precision" stdset="0">
         <number>3</number>
@@ -7799,8 +7799,8 @@ Controller</string>
        <property name="geometry">
         <rect>
          <x>560</x>
-         <y>60</y>
-         <width>161</width>
+         <y>50</y>
+         <width>131</width>
          <height>26</height>
         </rect>
        </property>
@@ -7819,9 +7819,9 @@ Controller</string>
       <widget class="PyDMShellCommand" name="PyDMShellCommand_4">
        <property name="geometry">
         <rect>
-         <x>760</x>
-         <y>60</y>
-         <width>161</width>
+         <x>730</x>
+         <y>50</y>
+         <width>131</width>
          <height>26</height>
         </rect>
        </property>
@@ -7834,6 +7834,27 @@ Controller</string>
        <property name="commands" stdset="0">
         <stringlist>
          <string>/sdf/home/t/tmoopr/bin/stop_dream_vacuum_watchdog.sh</string>
+        </stringlist>
+       </property>
+      </widget>
+      <widget class="PyDMByteIndicator" name="PyDMByteIndicator_7">
+       <property name="geometry">
+        <rect>
+         <x>640</x>
+         <y>90</y>
+         <width>141</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="channel" stdset="0">
+        <string>TMO:DREAM:VACUUM:WATCHDOG:RUNNING</string>
+       </property>
+       <property name="labels" stdset="0">
+        <stringlist>
+         <string>Watchdog Running</string>
         </stringlist>
        </property>
       </widget>
@@ -8138,6 +8159,7 @@ Controller</string>
       <zorder>PyDMByteIndicator_6</zorder>
       <zorder>PyDMShellCommand_2</zorder>
       <zorder>PyDMShellCommand_4</zorder>
+      <zorder>PyDMByteIndicator_7</zorder>
      </widget>
     </widget>
    </item>

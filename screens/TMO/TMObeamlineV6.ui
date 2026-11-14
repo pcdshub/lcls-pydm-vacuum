@@ -8163,6 +8163,27 @@ p, li { white-space: pre-wrap; }
         <string>ca://Pipe:replace:IP1</string>
        </property>
       </widget>
+      <widget class="PyDMByteIndicator" name="PyDMByteIndicator_9">
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>750</y>
+         <width>141</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="channel" stdset="0">
+        <string>TMO:VACUUM:WATCHDOG:RUNNING</string>
+       </property>
+       <property name="labels" stdset="0">
+        <stringlist>
+         <string>Watchdog Running</string>
+        </stringlist>
+       </property>
+      </widget>
       <zorder>IM1K0_box_22</zorder>
       <zorder>line_92</zorder>
       <zorder>IM1K0_box_31</zorder>
@@ -8424,6 +8445,7 @@ p, li { white-space: pre-wrap; }
       <zorder>PyDMShellCommand_7</zorder>
       <zorder>label_50</zorder>
       <zorder>PyDMCheckbox_3</zorder>
+      <zorder>PyDMByteIndicator_9</zorder>
      </widget>
     </widget>
    </item>
